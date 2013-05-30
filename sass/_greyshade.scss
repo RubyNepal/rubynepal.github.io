@@ -15,6 +15,10 @@ body {
   color: $color-background;
 }
 
+#page_about h1.title { display:none; }
+#page_about h1 { color: rgb(226, 56, 56); }
+#page_about hr{ margin: 30px 0px; border: none; }
+
 #header {
 	height: auto;
 	border-bottom: none;
@@ -200,7 +204,7 @@ body {
 				color: #4680AB;
 			}
 			a:hover {
-				color: $greyshade;
+				color: #e23838;
 			}
 			#sub-nav {
 				margin-top: 10px;
@@ -235,7 +239,7 @@ a {
 }
 
 a:hover {
-	color: $greyshade;
+	color: #e23838;
 }
 
 body {
