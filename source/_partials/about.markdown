@@ -15,7 +15,7 @@
 ## Join RubyNepal
 
 RubyNepal is a great way to meet and collaborate with other Ruby developers in Nepal.
-Joining Ruby Nepal is free. [Join!](/)
+Joining Ruby Nepal is free. [Join!](/join)
 
 ---
 
