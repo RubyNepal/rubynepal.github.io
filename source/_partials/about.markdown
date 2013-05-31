@@ -1,12 +1,3 @@
----
-layout: page
-title: "about"
-date: 2013-05-31 03:31
-comments: false
-sharing: false
-footer: true
----
-
 # We are Ruby community of Nepal.
 
 # The aim of this community is to support, encourage and spread the use and adoption of the Ruby programming language in Nepal, and to develop a vibrant community around the language and related technologies.
@@ -38,9 +29,9 @@ We run a [mailing list]() for discussion of Ruby-related topics. If you have a q
 
 Get notified about upcoming RubyNepal events and activities.
 
-[Follow @rubynepal](http://twitter.com/rubynepal)
+[Follow @ruby_nepal](http://twitter.com/ruby_nepal)
 
-
+---
 
 ## Contributing to the site
 

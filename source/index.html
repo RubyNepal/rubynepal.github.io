@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-
-{% render_partial ../about/index.markdown %}
+<div id="page_about"/>
+{% render_partial _partials/about.markdown %}
+</div>
 {% assign index = true %}
 <div itemscope itemtype="http://schema.org/Blog">
 {% for post in paginator.posts %}
