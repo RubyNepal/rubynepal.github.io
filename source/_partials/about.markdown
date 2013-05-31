@@ -8,7 +8,7 @@
 
 - Find out [why we love Ruby](/why_we_love_ruby).
 
-- Get started with ruby, [intsall](http://www.ruby-lang.org/en/downloads/) it or give it a [try](http://tryruby.org/).
+- Get started with ruby, [install](http://www.ruby-lang.org/en/downloads/) it or give it a [try](http://tryruby.org/).
 
 ---
 
