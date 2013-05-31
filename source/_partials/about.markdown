@@ -21,7 +21,7 @@ Joining Ruby Nepal is free. [Join!](/)
 
 ## Google Group
 
-We run a [mailing list]() for discussion of Ruby-related topics. If you have a question about Ruby (or Ruby on Rails), this group can probably figure it out.
+We run a [mailing list](https://groups.google.com/forum/ror-nepal) for discussion of Ruby-related topics. If you have a question about Ruby (or Ruby on Rails), this group can probably figure it out.
 
 ---
 
@@ -30,6 +30,17 @@ We run a [mailing list]() for discussion of Ruby-related topics. If you have a q
 Get notified about upcoming RubyNepal events and activities.
 
 [Follow @ruby_nepal](http://twitter.com/ruby_nepal)
+
+---
+
+## Ruby developer groups in Facebook
+
+Following are active Ruby groups in Nepal.
+
+[Ruby Developers Nepal](https://www.facebook.com/groups/rubydevelopersnepal/)
+
+[Nepalese RoR Developer](http://www.facebook.com/groups/nepaleserordeveloper/)
+
 
 ---
 
