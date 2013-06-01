@@ -14,7 +14,8 @@
   padding: 1.2%;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 21%;
+  width: 45%;
+  margin-bottom: 10px;
   font-size: .9em;
   margin-right: 1.3%;
   text-align: left;
@@ -31,6 +32,12 @@
       border: 2px dotted rgb(206, 206, 206);
       background: #fff;
     }
+  }
+}
+@media screen and (max-width: 320px){
+  .member{
+    width: 100%;
+    padding: 2.2%;
   }
 }
 article .member p{
