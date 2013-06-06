@@ -35,7 +35,7 @@ Get notified about upcoming RubyNepal events and activities.
 
 ## Ruby developer groups in Facebook
 
-Following are active Ruby groups in Nepal.
+Following are active Ruby groups:
 
 [Ruby Developers Nepal](https://www.facebook.com/groups/rubydevelopersnepal/)
 

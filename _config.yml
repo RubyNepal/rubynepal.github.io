@@ -98,3 +98,46 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+founders:
+  - full_name: Rohit Joshi
+    email: link2j.roy@gmail.com
+    twitter: roxxypoxxy
+    github: rohitrox
+    bio: Rohit blends both coding and UX skills. Currently engaged as Software Engineer and UX Developer at CloudFactory.
+  - full_name: Ashis Bista
+    email: poisonta03@gmail.com
+    twitter: poisonta03
+    github: ashishbista
+    bio: Ashish is M.Sc Computer Science graduate from Tribhuvan University. A Ruby/Rails fanatic and is an open source enthusiast, he is currenlty freelance ROR developer.
+  - full_name: Shrey Ghimire
+    email: shrey.is.shrey@gmail.com
+    twitter: dr_ubix
+    github: dr_ubix
+    bio: Shrey is Sofware Engineering at CloudFactory , churning Ruby on Rails for solving problems. He often can found brainstorming new ideas, startup and the kinds.
+  - full_name: Dipesh Gautam
+    email: dipeshgtm@gmail.com
+    twitter: dipeshgtm
+    github: dipeshgtm
+    bio: Dipesh is hardcore rubyist from Nepal and he can seen at different roles like ROR developer and DevOps.
+advisors:
+  - full_name: Sachin Sagar Rai
+    email: millisami@gmail.com
+    twitter: millisami
+    github: millisami
+    bio: Sachin is probably one of the first ruby programmer in Nepal and has experienced trends in the web technologies so far. He blogs at <a href="http://nepalonrails.com" target="_blank">nepalonrails.com</a>. He has a great passion for ruby and currently he is currently DevOps at Sparkon.
+  - full_name: Bikash Poudel
+    email:
+    twitter:
+    github:
+    bio: Bikash is Engineering Manager at CloudFactory and guides the system towards scaling to 1 million workers in developing countries in comming years.
+  - full_name: Bardan Rana
+    email: bardan.rana@gmail.com
+    twitter: bardanrana
+    github: bivek
+    bio: Bardan is senior ruby on rails engineer at Cloudfactory and has a great problem solving skills. He takes pride in his code and strives for performance.
+  - full_name: Saroj Maharjan
+    email: sawrows@gmail.com
+    twitter: zoraslapen
+    github: zoras
+    bio: Saroj is probably biggest fan ruby in Nepal and spends his free time watching ruby conferences and meetups. He is currently full-time senior ruby on rails developer at Cloudfactory.
