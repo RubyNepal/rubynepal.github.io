@@ -34,6 +34,23 @@
     }
   }
 }
+.members.projects .member {
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  img{
+    height: 60px;
+    padding: 4px;
+    &.dark{
+      background: rgb(46, 109, 139);
+    }
+    &.opensource-badge{
+      position: absolute;
+      top: 4px;
+      right: 4px;
+    }
+  }
+}
 @media screen and (max-width: 320px){
   .member{
     width: 100%;
