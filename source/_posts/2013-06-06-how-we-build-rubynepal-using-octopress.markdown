@@ -13,6 +13,8 @@ This is not another getting started with octopress guide, this is sharing of our
 In the beginning of June 2013, We came up with this idea of building a community website for ruby developers of nepal.
 We didn't need to have a full content management features but we needed features like blog support, pages support, ease for deployments and easy contributing mechanism. Finally, we decided to build rubynepal.org with [octopress](http://octopress.org) and github pages. With this we could to tap out Markdown without needing a web-based WYSIWYG editor and type a command to send everything up to the free Github Pages service and our whole website would be a github repo, perfect for collaboration.
 
+<!-- more -->
+
 The [docs](http://octopress.org/docs/) has pretty neat documentation for installing octopress, configuring setting up github pages. Within few minutes basic website was up at github pages.
 
 Next, themes, we forked this beautiful and responsive theme [greyshade](https://github.com/shashankmehta/greyshade) and customized it. Upto here we had a basic rubynepal.org up and running.
@@ -20,7 +22,7 @@ Next, themes, we forked this beautiful and responsive theme [greyshade](https://
 Now, octopress has its root path that displays the posts ie. essentially blog index, but we needed to have a page instead of blog index.
 For this, first we moved *source/index.html* to *source/blog/index.html*. Then, created a markdown where we wrote what is to be there in homepage.
 We put all such kinds of markdown inside *_partial* folder.
-Then, in *source/index.html* we got rid of all exsiting code with 
+Then, in *source/index.html* we got rid of all exsiting code with
 
 {% codeblock lang:html %}
   ---
