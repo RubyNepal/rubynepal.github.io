@@ -1,6 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://RubyNepal.github.io/blog/2013/06/06/how-we-build-rubynepal-using-octopress/
+        </loc>
+        <lastmod>2013-06-12T23:42:30+05:45</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://RubyNepal.github.io/blog/2013/06/12/ror-trainings-at-hetauda-school-of-management/
+        </loc>
+        <lastmod>2013-06-12T23:08:39+05:45</lastmod>
+    </url>
+    <url>
+        <loc>http://RubyNepal.github.io/blog/2013/06/12/rails-meetup-kathmandu-2013/</loc>
+        <lastmod>2013-06-12T23:38:23+05:45</lastmod>
+    </url>
+    <url>
         <loc>http://RubyNepal.github.io/robots.txt</loc>
         <lastmod>2013-05-31T03:05:10+05:45</lastmod>
     </url>
@@ -10,18 +26,18 @@
     </url>
     <url>
         <loc>http://RubyNepal.github.io/join/</loc>
-        <lastmod>2013-06-02T21:53:22+05:45</lastmod>
+        <lastmod>2013-06-10T22:54:47+05:45</lastmod>
     </url>
     <url>
         <loc>http://RubyNepal.github.io/</loc>
-        <lastmod>2013-06-01T23:24:46+05:45</lastmod>
+        <lastmod>2013-06-12T23:42:30+05:45</lastmod>
     </url>
     <url>
         <loc>http://RubyNepal.github.io/blog/archives/</loc>
-        <lastmod>2013-05-31T03:18:58+05:45</lastmod>
+        <lastmod>2013-06-12T23:42:30+05:45</lastmod>
     </url>
     <url>
         <loc>http://RubyNepal.github.io/blog/</loc>
-        <lastmod>2013-05-31T23:40:11+05:45</lastmod>
+        <lastmod>2013-06-12T23:42:30+05:45</lastmod>
     </url>
 </urlset>

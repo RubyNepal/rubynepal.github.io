@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: activities | RubyNepal]]></title>
+  <link href="http://RubyNepal.github.io/blog/categories/activities/atom.xml" rel="self"/>
+  <link href="http://RubyNepal.github.io/"/>
+  <updated>2013-06-12T23:47:10+05:45</updated>
+  <id>http://RubyNepal.github.io/</id>
+  <author>
+    <name><![CDATA[RubyNepal]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rails MeetUp Kathmandu 2013]]></title>
+    <link href="http://RubyNepal.github.io/blog/2013/06/12/rails-meetup-kathmandu-2013/"/>
+    <updated>2013-06-12T23:19:00+05:45</updated>
+    <id>http://RubyNepal.github.io/blog/2013/06/12/rails-meetup-kathmandu-2013</id>
+    <content type="html"><![CDATA[<p>Every year around the world there are ruby meetup and rails meetup happenings, so why not organise the first ever Rails MeetUp here at Kathmandu. This meetup will not be just an event but also be a point of unite and interaction and sharing of knowledge and experiences between the distributed ruby developers in kathmandu valley.</p>
+
+<p>This event we are planning to schedule is around in the middle of august 2013, however all the plans are not decided. We want a lot of people and groups to be engaged to make this event success. Feel free to suggest us ideas and to come up forward and take the lead. And if you want to present or be a spaeker at the meetup , you are most welcome !!</p>
+
+<h3>Contact Points are:</h3>
+
+<p><a href="mailto:millisami@gmail.com">Sachin Sagar Rai</a></p>
+
+<p><a href="mailto:dipil.saud@gmail.com">Dipil Saud</a></p>
+
+<p><a href="mailto:sawrows@gmail.com">Saroj Maharjan</a></p>
+
+<p><a href="mailto:shrey.is.shrey@gmail.com">Shrey Ghimire</a></p>
+
+<p>We will be posting more updates on this.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby on Rails Training at Hetauda School Of Management]]></title>
+    <link href="http://RubyNepal.github.io/blog/2013/06/12/ror-trainings-at-hetauda-school-of-management/"/>
+    <updated>2013-06-12T22:47:00+05:45</updated>
+    <id>http://RubyNepal.github.io/blog/2013/06/12/ror-trainings-at-hetauda-school-of-management</id>
+    <content type="html"><![CDATA[<p>We are organising 4 sessions(one session per 2 week) ruby on rails training series at Hetauta School of Management for BIM final year students from May 25, 2013. We recieved an special invitation from the college to do this training ans we are pleased to aid the college for conducting such extra curricular programs that will help students to broaded their skills and also we are happy to spread the ruby and ruby on rails wisedom to our next-generation IT professionals.</p>
+
+<p>Our training structure is designed as shown below:</p>
+
+<ul>
+<li>[May 25] Front-End Web Basics (HTML5/CSS3, Javascript/JQuery, AJAX, JSON)</li>
+<li>[June 8] Ruby Literacy session (Ruby Installation and Ruby Basics, irb, OOP and Ruby, Modules and File Operations, Blocks )</li>
+<li>[June 22] Getting started with Rails (RubyGems, Rails Installation, Rails Basics)</li>
+<li>[July 6] Up with Rails ( Advance Rails, debugging, deloyment with heroku, Project)</li>
+</ul>
+
+
+<p>if you are around Hetauda, You can catch us at Hetauda School Of Management.</p>
+]]></content>
+  </entry>
+  
+</feed>

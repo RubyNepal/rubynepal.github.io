@@ -1,0 +1,181 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>How we build rubynepal using Octopress - RubyNepal</title>
+	<meta name="author" content="RubyNepal">
+
+	
+	<meta name="description" content="How We Build Rubynepal Using Octopress This is not another getting started with octopress guide, this is sharing of our experience and couple of &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="RubyNepal" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://RubyNepal.github.io/blog/2013/06/06/how-we-build-rubynepal-using-octopress/">
+	<link href="/favicon.ico" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	<a href='/'><img src='/images/rubynepal.png' alt='Ruby Nepal' style='width: 260px;' /></a>
+</div>
+<hgroup>
+  
+    <h2>Nepal Ruby Community</h2>
+  
+</hgroup>
+
+<nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/members">Members</a></li>
+  <li><a href="/blog/categories/activities">Activities</a></li>
+  <li><a href="https://groups.google.com/group/ror-nepal">Mailing List</a></li>
+  <li><a href="/">Wiki</a></li>
+  <li><a href="/">Projects</a></li>
+  <li><a href="/blog/index.html">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/ruby_nepal" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/rubynepal" title="GitHub">GitHub</a>
+		
+		
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+</header>				
+			</div>
+		</div>	
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">How We Build Rubynepal Using Octopress</h1>
+	<div class="entry-content" itemprop="articleBody"><p>This is not another getting started with octopress guide, this is sharing of our experience and couple of hacks we did while developing rubynepal, that may be helpful to others.</p>
+
+<p>In the beginning of June 2013, We came up with this idea of building a community website for ruby developers of nepal.
+We didn&rsquo;t need to have a full content management features but we needed features like blog support, pages support, ease for deployments and easy contributing mechanism. Finally, we decided to build rubynepal.org with <a href="http://octopress.org">octopress</a> and github pages. With this we could to tap out Markdown without needing a web-based WYSIWYG editor and type a command to send everything up to the free Github Pages service and our whole website would be a github repo, perfect for collaboration.</p>
+
+<!-- more -->
+
+
+<p>The <a href="http://octopress.org/docs/">docs</a> has pretty neat documentation for installing octopress, configuring setting up github pages. Within few minutes basic website was up at github pages.</p>
+
+<p>Next, themes, we forked this beautiful and responsive theme <a href="https://github.com/shashankmehta/greyshade">greyshade</a> and customized it. Upto here we had a basic rubynepal.org up and running.</p>
+
+<p>Now, octopress has its root path that displays the posts ie. essentially blog index, but we needed to have a page instead of blog index.
+For this, first we moved <em>source/index.html</em> to <em>source/blog/index.html</em>. Then, created a markdown where we wrote what is to be there in homepage.
+We put all such kinds of markdown inside <em>_partial</em> folder.
+Then, in <em>source/index.html</em> we got rid of all exsiting code with</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>  ---
+</span><span class='line'>  layout: default
+</span><span class='line'>  ---
+</span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;page_about&quot;</span><span class="nt">/&gt;</span>
+</span><span class='line'>    {% render_partial _partial/about.markdown %}
+</span><span class='line'>  <span class="nt">&lt;/div&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This way about.markdown will be rendered in root page while blog index will be available at <em>/blog</em>.</p>
+
+<p>Now we had to put a list of developers and advisors info in members page. One way was to dump those info to a yml file and access data from there. Matt Swanson has excellent write on how to do that in his <a href="http://mdswanson.com/blog/2013/06/03/jekyll-201.html">blog</a>. With this, we could dump the data from yml file to jekyll <em>site</em> variable.</p>
+
+<p>Finally, we built a small heroku app that powers the join page forms and we have rubynepal.org as how it is now.</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+			</div>
+			<footer id="footer" class="inner"><p>
+  Copyright &copy; 2013 - RubyNepal -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+Design from: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Greyshade</a></footer>
+			<script src="/javascripts/slash.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'rubynepal';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://RubyNepal.github.io/blog/2013/06/06/how-we-build-rubynepal-using-octopress/';
+        var disqus_url = 'http://RubyNepal.github.io/blog/2013/06/06/how-we-build-rubynepal-using-octopress/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>

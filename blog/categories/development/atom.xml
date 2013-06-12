@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: development | RubyNepal]]></title>
+  <link href="http://RubyNepal.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://RubyNepal.github.io/"/>
+  <updated>2013-06-12T23:47:10+05:45</updated>
+  <id>http://RubyNepal.github.io/</id>
+  <author>
+    <name><![CDATA[RubyNepal]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How we build rubynepal using Octopress]]></title>
+    <link href="http://RubyNepal.github.io/blog/2013/06/06/how-we-build-rubynepal-using-octopress/"/>
+    <updated>2013-06-06T19:18:00+05:45</updated>
+    <id>http://RubyNepal.github.io/blog/2013/06/06/how-we-build-rubynepal-using-octopress</id>
+    <content type="html"><![CDATA[<p>This is not another getting started with octopress guide, this is sharing of our experience and couple of hacks we did while developing rubynepal, that may be helpful to others.</p>
+
+<p>In the beginning of June 2013, We came up with this idea of building a community website for ruby developers of nepal.
+We didn&rsquo;t need to have a full content management features but we needed features like blog support, pages support, ease for deployments and easy contributing mechanism. Finally, we decided to build rubynepal.org with <a href="http://octopress.org">octopress</a> and github pages. With this we could to tap out Markdown without needing a web-based WYSIWYG editor and type a command to send everything up to the free Github Pages service and our whole website would be a github repo, perfect for collaboration.</p>
+
+<!-- more -->
+
+
+<p>The <a href="http://octopress.org/docs/">docs</a> has pretty neat documentation for installing octopress, configuring setting up github pages. Within few minutes basic website was up at github pages.</p>
+
+<p>Next, themes, we forked this beautiful and responsive theme <a href="https://github.com/shashankmehta/greyshade">greyshade</a> and customized it. Upto here we had a basic rubynepal.org up and running.</p>
+
+<p>Now, octopress has its root path that displays the posts ie. essentially blog index, but we needed to have a page instead of blog index.
+For this, first we moved <em>source/index.html</em> to <em>source/blog/index.html</em>. Then, created a markdown where we wrote what is to be there in homepage.
+We put all such kinds of markdown inside <em>_partial</em> folder.
+Then, in <em>source/index.html</em> we got rid of all exsiting code with</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;hr</span> <span class="nt">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span>  layout: default<span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;hr</span> <span class="nt">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span>  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;page_about&quot;</span><span class="nt">/&gt;&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;pre&gt;&lt;code&gt;</span>{% render_partial _partial/about.markdown %}
+</span><span class='line'><span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span>  <span class="nt">&lt;/div&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>This way about.markdown will be rendered in root page while blog index will be available at <em>/blog</em>.</p>
+
+<p>Now we had to put a list of developers and advisors info in members page. One way was to dump those info to a yml file and access data from there. Matt Swanson has excellent write on how to do that in his <a href="http://mdswanson.com/blog/2013/06/03/jekyll-201.html">blog</a>. With this, we could dump the data from yml file to jekyll <em>site</em> variable.</p>
+
+<p>Finally, we built a small heroku app that powers the join page forms and we have rubynepal.org as how it is now.</p>
+]]></content>
+  </entry>
+  
+</feed>
