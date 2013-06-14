@@ -18,7 +18,7 @@
 	var appendCaption = function(){
 		$('.entry-content').each(function(i){
 			var _i = i;
-			$(this).find('img').each(function(){
+			$(this).find('img.fancybox').each(function(){
 				var alt = this.alt;
 
 				if (alt != ''){

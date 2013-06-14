@@ -19,7 +19,51 @@
   {% for member in site.advisors %}
     {% include member.html %}
   {% endfor %}
-   
+
 </div>
 
+<p class="clearfix"/></p>
+<h2>Members</h2>
+
+<div class="member_wrap" id="general_members_wrap"></div>
+
 <br class="clearfix" />
+
+<i>** GH Score refers to the score that is calculated according to your public activities in github including commits, pull requests, issue report, create repos and other events. Hence more you become active, more you score will swell. This is also a basic measure of your open source contributions. **</i>
+
+<script src="/javascripts/jqtemplate.js"></script>
+
+<script type="text/javascript">
+
+  $(function(){
+    $.ajax({
+      type: 'GET',
+      url: "http://rubynepal.herokuapp.com/members/all.json",
+      processData: true,
+      dataType: "json",
+      success: function(json) {
+        var tmpl = [];
+        $.each(json, function(){
+          var res = this;
+          var avt = (res.avatar_url == null) ? "http://gravatar.com/avatar" : res.avatar_url;
+          tmpl.push('<div class="member">\
+    <div class="gh-badge">'+res.score+'<br /><b>GH SCORE</b></div>\
+    <img src="'+avt+'?size=120" class="left">\
+    <div class="member_inner">\
+      <h3>'+res.full_name+'</h3>\
+      <p>'+res.short_bio+'</p>\
+    </div>\
+    <div class="members_social clearfix">\
+      <a href="mailto:'+res.email+'" class="gmail" >'+res.email+'</a>\
+      <a href="http://twitter.com/'+res.twitter+'" class="twitter" >@'+res.twitter+'</a>\
+      <a href="http://github.com/'+res.github+'" class="github">'+res.github+'</a>\
+    </div>\
+  </div>');
+          $('#general_members_wrap').html(tmpl.join(''));
+        });
+      }
+      });
+
+  });
+
+</script>

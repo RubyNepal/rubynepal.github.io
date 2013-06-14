@@ -3,6 +3,12 @@
 .clearfix{
   clear: both;
 }
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
 .members{
   margin-bottom: 20px;
   float: left;
@@ -21,6 +27,7 @@
   text-align: left;
   box-shadow: 0px 1px 1px #ccc;
   background: rgb(248, 248, 248);
+  position: relative;
   .profile_img_block{
     display: table;
     margin: 0 auto;
@@ -31,6 +38,30 @@
       padding: 6px;
       border: 2px dotted rgb(206, 206, 206);
       background: #fff;
+    }
+  }
+  .member_inner{
+    float: left;
+    margin-left: 10px;
+    width: 60%;
+  }
+  .gh-badge{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 27px;
+    background: rgb(221, 221, 221);
+    opacity: .7;
+    border-radius: 2px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-top: 14px;
+    text-align: center;
+    b{
+      font-size: 13px;
+      background: #333;
+      color: white;
+      padding: 0px 2px;
     }
   }
 }
