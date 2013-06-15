@@ -206,13 +206,69 @@
 </div>
 
   
-   
+
 </div>
 
 
 
 
+<p class="clearfix"/></p>
+
+
+<h2>Members</h2>
+
+
+
+
+<div class="member_wrap" id="general_members_wrap"></div>
+
+
+
+
 <br class="clearfix" />
+
+
+<p><i><strong> GH Score refers to the score that is calculated according to your public activities in github including commits, pull requests, issue report, create repos and other events. Hence more you become active, more you score will swell. This is also a basic measure of your open source contributions. </strong></i></p>
+
+<script src="/javascripts/jqtemplate.js"></script>
+
+
+
+
+<script type="text/javascript">
+
+  $(function(){
+    $.ajax({
+      type: 'GET',
+      url: "http://rubynepal.herokuapp.com/members/all.json",
+      processData: true,
+      dataType: "json",
+      success: function(json) {
+        var tmpl = [];
+        $.each(json, function(){
+          var res = this;
+          var avt = (res.avatar_url == null) ? "http://gravatar.com/avatar" : res.avatar_url;
+          tmpl.push('<div class="member">\
+    <div class="gh-badge">'+res.score+'<br /><b>GH SCORE</b></div>\
+    <img src="'+avt+'?size=120" class="left">\
+    <div class="member_inner">\
+      <h3>'+res.full_name+'</h3>\
+      <p>'+res.short_bio+'</p>\
+    </div>\
+    <div class="members_social clearfix">\
+      <a href="mailto:'+res.email+'" class="gmail" >'+res.email+'</a>\
+      <a href="http://twitter.com/'+res.twitter+'" class="twitter" >@'+res.twitter+'</a>\
+      <a href="http://github.com/'+res.github+'" class="github">'+res.github+'</a>\
+    </div>\
+  </div>');
+          $('#general_members_wrap').html(tmpl.join(''));
+        });
+      }
+      });
+
+  });
+
+</script>
 
 </div>
 </article>
@@ -231,12 +287,6 @@
 
 
 
-<section id="comment">
-    <h1 class="title">Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</section>
-
 </div>
 			</div>
 			<footer id="footer" class="inner"><p>
@@ -247,22 +297,6 @@
 Design from: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Greyshade</a></footer>
 			<script src="/javascripts/slash.js"></script>
 
-
-<script type="text/javascript">
-      var disqus_shortname = 'rubynepal';
-      
-        
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://RubyNepal.github.io/members/index.html';
-        var disqus_url = 'http://RubyNepal.github.io/members/index.html';
-        var disqus_script = 'embed.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
 
 
 
