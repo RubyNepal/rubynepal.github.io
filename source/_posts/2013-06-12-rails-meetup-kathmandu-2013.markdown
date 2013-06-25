@@ -14,7 +14,11 @@ We want a lot of people and groups to be engaged to make this event success. Fee
 
 And if you want to present or be a speaker at the meetup , you are most welcome and this is your time to send us details.
 
-Great business with unsurpassed people skills and it is great oppurtunity for tech business houses to be promoted and find connections at the event. We welcome sponshorship of any kind financial, promotion, resources or even may be a server.
+Thought about speaking? Want to give speaking at Rails Meetup a shot, but not sure what to talk about?
+
+Even if you have a tiny inkling that you'd want to speak, like your experience, technology, tips and tricks, even may be a tutorial, we'll help you to ideate, write, and present.
+
+Great business starts with unsurpassed people skills, it is a great oppurtunity for tech business houses to be promoted and find connections at the event. We welcome sponshorship of any kind financial, promotional, resources or even may be a service or server.
 
 ### Contact Points are:
 
