@@ -29,8 +29,8 @@
   background: rgb(248, 248, 248);
   position: relative;
   .profile_img_block{
-    display: table;
-    margin: 0 auto;
+    float: left;
+    margin-right: 10px;
     img{
       border-radius: 80px;
       height: 140px;
@@ -99,6 +99,7 @@ article .member p{
   position: relative;
   margin-top: 10px;
   width: 100%;
+  clear: both;
   a{
     display: inline-block;
     width: 32%;

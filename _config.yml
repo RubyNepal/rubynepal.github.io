@@ -99,45 +99,65 @@ google_analytics_tracking_id:
 # Facebook Like
 facebook_like: false
 
-founders:
+core_members:
   - full_name: Rohit Joshi
     email: link2j.roy@gmail.com
     twitter: roxxypoxxy
     github: rohitrox
-    bio: Rohit blends both coding and UX skills. Currently engaged as Software Engineer and UX Developer at CloudFactory.
+    bio: Ruby On Rail Developer, UI/UX Developer
   - full_name: Ashis Bista
     email: poisonta03@gmail.com
     twitter: poisonta03
     github: ashishbista
-    bio: Ashish is M.Sc Computer Science graduate from Tribhuvan University. A Ruby/Rails fanatic and is an open source enthusiast, he is currenlty freelance ROR developer.
+    bio: M.Sc Computer Science graduate from Tribhuvan University. Currenlty freelance ROR developer.
   - full_name: Shrey Ghimire
     email: shrey.is.shrey@gmail.com
-    twitter: dr_ubix
-    github: dr_ubix
-    bio: Shrey is Sofware Engineering at CloudFactory , churning Ruby on Rails for solving problems. He often can found brainstorming new ideas, startup and the kinds.
+    twitter: dr_ubyx
+    github: dr_ubyx
+    bio: Sofware Engineer at CloudFactory, problem solver and startups.
   - full_name: Dipesh Gautam
     email: dipeshgtm@gmail.com
     twitter: dipeshgtm
     github: dipeshgtm
-    bio: Dipesh is hardcore rubyist from Nepal and he can seen at different roles like ROR developer and DevOps.
-advisors:
+    bio: Rubyist from Nepal, DevOps.
   - full_name: Sachin Sagar Rai
     email: millisami@gmail.com
     twitter: millisami
     github: millisami
-    bio: Sachin is probably one of the first ruby programmer in Nepal and has experienced trends in the web technologies so far. He blogs at <a href="http://nepalonrails.com" target="_blank">nepalonrails.com</a>. He has a great passion for ruby and currently he is currently DevOps at Sparkon.
+    bio: One of the first ruby programmers in Nepal , <a href="http://nepalonrails.com" target="_blank">nepalonrails.com</a>, Rails Architect, DevOps.
   - full_name: Bikash Poudel
-    email:
-    twitter:
-    github:
-    bio: Bikash is Engineering Manager at CloudFactory and guides the system towards scaling to 1 million workers in developing countries in comming years.
+    email: bikash@sproutify.com
+    twitter: bikashp
+    github: bikashp
+    bio: One of the first ruby programmers, Rails Architect, Performance and Scaling
   - full_name: Bardan Rana
     email: bardan.rana@gmail.com
     twitter: bardanrana
     github: bivek
-    bio: Bardan is senior ruby on rails engineer at Cloudfactory and has a great problem solving skills. He takes pride in his code and strives for performance.
+    bio: Senior ruby on rails engineer at Cloudfactory, performance engineer and problem solver.
   - full_name: Saroj Maharjan
     email: sawrows@gmail.com
     twitter: zoraslapen
     github: zoras
-    bio: Saroj is probably biggest fan ruby in Nepal and spends his free time watching ruby conferences and meetups. He is currently full-time senior ruby on rails developer at Cloudfactory.
+    bio: ROR Developer, music lover, RubyConfs
+  - full_name: Dipil Saud
+    email: dipil.saud@gmail.com
+    twitter: DipilSaud
+    github: dipil-saud
+    bio: Sofware Developer, Rails Developer, Test Driven Design, Footballer
+  - full_name: Abhaya Thapa
+    email: thapa.abhay@gmail.com
+    github: abhayathapa
+    twitter: #
+    bio: Ruby On Rails Developer, Django skills
+  - full_name: Prasvin Pandey
+    email: prasvin@facebook.com
+    twitter: prasvinp
+    github: prasvin
+    bio: Ruby On Rails Engineer, Architect, Test Driven Design
+  - full_name: Kapil Raj Nakhwa
+    twitter: xecutioner303
+    email: kapilnakhwa@gmail.com
+    github: xecutioner
+    bio: Ruby enthusiast and a rails developer.
+

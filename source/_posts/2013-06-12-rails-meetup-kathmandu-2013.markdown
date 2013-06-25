@@ -9,7 +9,12 @@ author: Rohit Joshi
 
 Every year around the world there are ruby meetup and rails meetup happenings, so why not organise the first ever Rails MeetUp here at Kathmandu. This meetup will not be just an event but also be a point of unite and interaction and sharing of knowledge and experiences between the distributed ruby developers in kathmandu valley.
 
-This event we are planning to schedule is around in the middle of august 2013, however all the plans are not decided. We want a lot of people and groups to be engaged to make this event success. Feel free to suggest us ideas and to come up forward and take the lead. And if you want to present or be a spaeker at the meetup , you are most welcome !!
+This event we are planning to schedule is around in the end of July 2013, however all the plans are not decided, talks are going on.
+We want a lot of people and groups to be engaged to make this event success. Feel free to suggest us ideas and to come up forward.
+
+And if you want to present or be a speaker at the meetup , you are most welcome and this is your time to send us details.
+
+Great business with unsurpassed people skills and it is great oppurtunity for tech business houses to be promoted and find connections at the event. We welcome sponshorship of any kind financial, promotion, resources or even may be a server.
 
 ### Contact Points are:
 
@@ -21,4 +26,6 @@ This event we are planning to schedule is around in the middle of august 2013, h
 
 [Shrey Ghimire](mailto:shrey.is.shrey@gmail.com)
 
-We will be posting more updates on this.
+[Ashis Bista](mailto:poisonta03@gmail.com)
+
+We will be posting dates, venue and schedules.
