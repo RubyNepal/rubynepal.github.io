@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+ruby File.read('.ruby-version').match(/\S*/).to_s
+
 group :development do
   gem 'rake', '~> 0.9'
   gem 'jekyll', '~> 0.12'
