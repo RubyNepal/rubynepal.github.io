@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Dev Meetup July 26, 2014"
+date: 2014-07-31 19:37
+comments: true
+categories: [activities]
+---
+Initial ...
