@@ -12,9 +12,9 @@ The meetup will be carried out monthly (last Saturday of month) to cover web dev
 
 ![First Dev Meetup](pic.twitter.com/Nl3p99NjDG)
 
-After conducting the first successful Dev Meetup on July 26, 2014, next Dev Meetup will take place on Saturday, Aug 30th 2014, go ahead and sign up if you haven't yet: https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8
+After conducting the first successful Dev Meetup on July 26, 2014, next Dev Meetup will take place on Saturday, Aug 30th 2014, go ahead and sign up if you haven't yet: https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8. Kudos to [CloudFactory](http://www.cloudfactory.com) for sponsoring both the events.
 
-If you are not sure what to expect or missed the 1st Dev Meetup, check out the videos and pics from the first one.
+If you are not sure what to expect or missed the 1st Dev Meetup, check out the pics and videos from the first one.
 
 ![Dev Meetup Audience](pic.twitter.com/6k4m5OyhSp)
 
@@ -22,23 +22,29 @@ If you are not sure what to expect or missed the 1st Dev Meetup, check out the v
 
 *Videos:*
 
-1. 10 Ways We Can Be Better by Mark Sears
+1. 10 Ways We Can Be Better by Mark Sears - [@marktsears](http://twitter.com/marktsears)
 
 ![Mark DevMeetup Talk](pic.twitter.com/an0kAl0lH8)
 
-[Mark DevMeetup Talk](https://www.youtube.com/watch?v=COBCnZls5rE&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6&index=1)
+[Video - Mark DevMeetup Talk](https://www.youtube.com/watch?v=COBCnZls5rE&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6&index=1)
 
-2. Ansible by Bikash Kaji Basukala
+[Slides - Mark DevMeetup Talk](http://bit.ly/ktmdevmeetup)
+
+2. Ansible by Bikash Kaji Basukala - [@kajisaap](http://twitter.com/kajisaap)
 
 ![Kaji DevMeetup Talk](pic.twitter.com/mm40FX90Xo)
 
-[Kaji DevMeetup Talk](https://www.youtube.com/watch?v=ZKoSG8bxw0A&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6&index=2)
+[Video - Kaji DevMeetup Talk](https://www.youtube.com/watch?v=ZKoSG8bxw0A&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6&index=2)
 
-3. Ember.js with Ember-Cli by Sachin Sagar Rai
+[Slides - Kaji DevMeetup Talk](https://bit.ly/kajionansible)
 
-![Kaji DevMeetup Talk](http://twitpic.com/e91t6n)
+3. Ember.js with Ember-Cli by Sachin Sagar Rai - [@millisami](http://twitter.com/millisami)
 
-[Kaji DevMeetup Talk](https://www.youtube.com/watch?v=Z_HCTb5I1lM&index=3&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6)
+![Millisami DevMeetup Talk](http://twitpic.com/e91t6n)
+
+[Video - Millisami DevMeetup Talk](https://www.youtube.com/watch?v=Z_HCTb5I1lM&index=3&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6)
+
+[Slides - Millisami DevMeetup Talk](http://nepalonrails.com/blog/2014/07/emberjs-app-using-ember-cli/)
 
 If you want to be a speaker in future meetups or wish someone would impart the knowledge or have any  suggestions, then do let us know. If you want to host / sponser the event at your company then ping [@zoraslapen](http://twitter.com/zoraslapen).
 
