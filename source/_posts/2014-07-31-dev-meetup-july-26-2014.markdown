@@ -10,9 +10,13 @@ The tech scene in Kathmandu is ever growing but it is rather lacking a sense of 
 
 The meetup will be carried out monthly (last Saturday of the month) to cover web development topics like 'ruby', 'rails', 'javascript', 'devops', 'databases', etc.
 
-After conducting the first successful [Dev Meetup on July 26, 2014](https://www.facebook.com/events/768447783198796/), next Dev Meetup will take place on Saturday, Aug 30th 2014, go ahead and sign up if you haven't yet: [2nd Dev Meetup](https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8). Kudos to [CloudFactory](http://www.cloudfactory.com) for sponsoring both the events.
+![First Dev Meetup](http://pic.twitter.com/Nl3p99NjDG)
+
+After conducting the first successful [Dev Meetup on July 26, 2014](https://www.facebook.com/events/768447783198796/), next Dev Meetup will take place on Saturday, Aug 30th 2014. Go ahead and sign up if you haven't yet: [2nd Dev Meetup](https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8). Kudos to [CloudFactory](http://www.cloudfactory.com) for sponsoring both the events.
 
 If you are not sure what to expect or missed the 1st Dev Meetup, check out the pics and videos from the first one.
+
+![Dev Meetup Audience](http://pic.twitter.com/6k4m5OyhSp)
 
 *FB Event Pics and Details:* https://www.facebook.com/events/768447783198796/
 

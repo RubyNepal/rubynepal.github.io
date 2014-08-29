@@ -16,6 +16,15 @@ Commit the changes.
 
 Push and make a pull request.
 
+steps:
+- gut pull --all
+- You should be in source branch
+- Change or add post or do something there
+- be rake preview # to see the changes
+- commit the changes
+- be rake deploy # to deploy
+- git push origin source # to push the source changes
+
 Example snippets:
 
 ``` ruby
