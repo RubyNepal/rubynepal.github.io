@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Monthly Dev Meetup"
+title: "Monthly Dev Meetup July 2014"
 date: 2014-07-31 19:37
 comments: true
 categories: [activities]
@@ -10,29 +10,46 @@ The tech scene in Kathmandu is ever growing but it is rather lacking a sense of 
 
 The meetup will be carried out monthly (last Saturday of the month) to cover web development topics like 'ruby', 'rails', 'javascript', 'devops', 'databases', etc.
 
-After conducting the first successful [Dev Meetup on July 26, 2014](https://www.facebook.com/events/768447783198796/), next Dev Meetup will take place on Saturday, Aug 30th 2014, go ahead and sign up if you haven't yet: [2nd Dev Meetup](https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8). Kudos to [CloudFactory](http://www.cloudfactory.com) for sponsoring both the events.
+The first successful [Dev Meetup](https://www.facebook.com/events/768447783198796/) was held on July 26, 2014 at CloudFactory, the next Dev Meetup is scheduled for August 30th, 2014 at the same venue.
+
+Sign up at https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8 to join us. Kudos to CloudFactory for sponsoring both the events.
+
+Follow us [@ruby_nepal](http://twitter.com/ruby_nepal) for latest updates and news.
 
 If you are not sure what to expect or missed the 1st Dev Meetup, check out the pics and videos from the first one.
 
-*FB Event Pics and Details:* https://www.facebook.com/events/768447783198796/
+** Pictures **
 
-**Videos:**
+{% img https://pbs.twimg.com/media/BtdOPL3CMAAlPlN.jpg %}
+{% img https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg %}
+
+
+** FB Event Pics and Details: ** 
+https://www.facebook.com/events/768447783198796/
+
+** Videos And Slides:  **
 
 _I) 10 Ways We Can Be Better by Mark Sears_ - [@marktsears](http://twitter.com/marktsears)
 
-[Video - Mark DevMeetup Talk](https://www.youtube.com/watch?v=COBCnZls5rE&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6&index=1)
+{% img https://d3j5vwomefv46c.cloudfront.net/photos/large/861728292.jpg?1406529728 %}
+
+{% youtube COBCnZls5rE %}
 
 [Slides - Mark DevMeetup Talk](http://bit.ly/ktmdevmeetup)
 
 _II) Ansible by Bikash Kaji Basukala_ - [@kajisaap](http://twitter.com/kajisaap)
 
-[Video - Kaji DevMeetup Talk](https://www.youtube.com/watch?v=ZKoSG8bxw0A&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6&index=2)
+{% img https://pbs.twimg.com/media/BtdXoatCcAAmTPB.jpg %}
+
+{% youtube ZKoSG8bxw0A %}
 
 [Slides - Kaji DevMeetup Talk](https://bit.ly/kajionansible)
 
 _III) Ember.js with Ember-Cli by Sachin Sagar Rai_ - [@millisami](http://twitter.com/millisami)
 
-[Video - Millisami DevMeetup Talk](https://www.youtube.com/watch?v=Z_HCTb5I1lM&index=3&list=PLfetwPh8YcMmWWPSIKCS_KOeHRsr08sG6)
+{% img https://d3j5vwomefv46c.cloudfront.net/photos/large/861727487.png?1406528902 %}
+
+{% youtube Z_HCTb5I1lM %}
 
 [Slides - Millisami DevMeetup Talk](http://nepalonrails.com/blog/2014/07/emberjs-app-using-ember-cli/)
 
