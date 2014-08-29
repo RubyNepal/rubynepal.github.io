@@ -23,7 +23,6 @@ If you are not sure what to expect or missed the 1st Dev Meetup, check out the p
 {% img https://pbs.twimg.com/media/BtdOPL3CMAAlPlN.jpg %}
 {% img https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg %}
 
-
 ** FB Event Pics and Details: ** 
 https://www.facebook.com/events/768447783198796/
 
