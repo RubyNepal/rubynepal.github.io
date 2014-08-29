@@ -4,7 +4,7 @@
   <title><![CDATA[RubyNepal]]></title>
   <link href="http://RubyNepal.github.io/atom.xml" rel="self"/>
   <link href="http://RubyNepal.github.io/"/>
-  <updated>2014-08-07T11:28:34+05:45</updated>
+  <updated>2014-08-29T15:29:56+05:45</updated>
   <id>http://RubyNepal.github.io/</id>
   <author>
     <name><![CDATA[RubyNepal]]></name>
@@ -12,6 +12,70 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Monthly Dev Meetup July 2014]]></title>
+    <link href="http://RubyNepal.github.io/blog/2014/07/31/dev-meetup-july-26-2014/"/>
+    <updated>2014-07-31T19:37:00+05:45</updated>
+    <id>http://RubyNepal.github.io/blog/2014/07/31/dev-meetup-july-26-2014</id>
+    <content type="html"><![CDATA[<p>The tech scene in Kathmandu is ever growing but it is rather lacking a sense of community. Dev Meetup aims to fill this void with a regular meetup for developers where like minded individuals can gather, get to know each other and share their ideas/views.</p>
+
+<p>The meetup will be carried out monthly (last Saturday of the month) to cover web development topics like &lsquo;ruby&rsquo;, &lsquo;rails&rsquo;, &lsquo;javascript&rsquo;, &lsquo;devops&rsquo;, &lsquo;databases&rsquo;, etc.</p>
+
+<p>The first successful <a href="https://www.facebook.com/events/768447783198796/">Dev Meetup</a> was held on July 26, 2014 at CloudFactory, the next Dev Meetup is scheduled for August 30th, 2014 at the same venue.</p>
+
+<p>Sign up at <a href="https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8">https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8</a> to join us. Kudos to CloudFactory for sponsoring both the events.</p>
+
+<p>Follow us <a href="http://twitter.com/ruby_nepal">@ruby_nepal</a> for latest updates and news.</p>
+
+<p>If you are not sure what to expect or missed the 1st Dev Meetup, check out the pics and videos from the first one.</p>
+
+<p><strong> Pictures </strong></p>
+
+<p><img src="https://pbs.twimg.com/media/BtdOPL3CMAAlPlN.jpg">
+<img src="https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg"></p>
+
+<p><strong> FB Event Pics and Details: </strong>
+<a href="https://www.facebook.com/events/768447783198796/">https://www.facebook.com/events/768447783198796/</a></p>
+
+<p><strong> Videos And Slides:  </strong></p>
+
+<p><em>I) 10 Ways We Can Be Better by Mark Sears</em> &ndash; <a href="http://twitter.com/marktsears">@marktsears</a></p>
+
+<p><img src="https://d3j5vwomefv46c.cloudfront.net/photos/large/861728292.jpg?1406529728"></p>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/COBCnZls5rE" allowfullscreen></iframe></div>
+
+
+<p><a href="http://bit.ly/ktmdevmeetup">Slides &ndash; Mark DevMeetup Talk</a></p>
+
+<p><em>II) Ansible by Bikash Kaji Basukala</em> &ndash; <a href="http://twitter.com/kajisaap">@kajisaap</a></p>
+
+<p><img src="https://pbs.twimg.com/media/BtdXoatCcAAmTPB.jpg"></p>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/ZKoSG8bxw0A" allowfullscreen></iframe></div>
+
+
+<p><a href="https://bit.ly/kajionansible">Slides &ndash; Kaji DevMeetup Talk</a></p>
+
+<p><em>III) Ember.js with Ember-Cli by Sachin Sagar Rai</em> &ndash; <a href="http://twitter.com/millisami">@millisami</a></p>
+
+<p><img src="https://d3j5vwomefv46c.cloudfront.net/photos/large/861727487.png?1406528902"></p>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/Z_HCTb5I1lM" allowfullscreen></iframe></div>
+
+
+<p><a href="http://nepalonrails.com/blog/2014/07/emberjs-app-using-ember-cli/">Slides &ndash; Millisami DevMeetup Talk</a></p>
+
+<p>If you want to be a speaker in future meetups or wish someone would impart the knowledge or have any  suggestions, then do let us know. If you want to host / sponser the event at your company then ping <a href="http://twitter.com/zoraslapen">@zoraslapen</a>.</p>
+
+<p>Looking forward to meet you guys!</p>
+
+<blockquote><p>Saroj Maharjan &ndash; <a href="http://github.com/zoras">zoras</a></p>
+
+<p>Organiser, Dev Meetup</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rails MeetUp Kathmandu 2013]]></title>
