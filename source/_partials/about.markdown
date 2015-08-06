@@ -39,8 +39,13 @@ Following are active Ruby groups:
 
 [Ruby Developers Nepal](https://www.facebook.com/groups/rubydevelopersnepal/)
 
-[Nepalese RoR Developer](http://www.facebook.com/groups/nepaleserordeveloper/)
+[Ruby on Rails (RoR) Developers Nepal](http://www.facebook.com/groups/nepaleserordeveloper/)
 
+---
+
+## IRC
+
+[Join rubynepal on Slack](https://rubynepal-slack.herokuapp.com/)
 
 ---
 
