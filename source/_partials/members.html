@@ -1,0 +1,56 @@
+<script src="{{ root_url }}/javascripts/md5.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('.profile_img').each(function(){
+      this.src = 'http://www.gravatar.com/avatar/' + MD5(this.getAttribute('data-email')) + '?s=140';
+    });
+  });
+</script>
+<div class="members">
+  <h2>Core Members, Founders, Developers and Contributors of RubyNepal.org</h2>
+  {% for member in site.core_members %}
+    {% include member.html %}
+  {% endfor %}
+</div>
+
+<p class="clearfix"/></p>
+<h2>All Members</h2>
+
+<div class="member_wrap" id="general_members_wrap"></div>
+
+<br class="clearfix" />
+
+<script type="text/javascript">
+
+  $(function(){
+    $.ajax({
+      type: 'GET',
+      url: "http://rubynepal.herokuapp.com/members/all.json",
+      processData: true,
+      dataType: "json",
+      success: function(json) {
+        var tmpl = [];
+        $.each(json, function(){
+          var res = this;
+          var avt = (res.avatar_url == null) ? "http://gravatar.com/avatar" : res.avatar_url;
+          //<div class="gh-badge">'+res.score+'<br /><b>GH SCORE</b></div>\
+          tmpl.push('<div class="member">\
+            <img src="'+avt+'?size=120" class="left">\
+            <div class="member_inner">\
+              <h3>'+res.full_name+'</h3>\
+              <p>'+res.short_bio+'</p>\
+            </div>\
+            <div class="members_social clearfix">\
+              <a href="mailto:'+res.email+'" class="gmail" >'+res.email+'</a>\
+              <a href="http://twitter.com/'+res.twitter+'" class="twitter" >@'+res.twitter+'</a>\
+              <a href="http://github.com/'+res.github+'" class="github">'+res.github+'</a>\
+            </div>\
+          </div>');
+          $('#general_members_wrap').html(tmpl.join(''));
+        });
+      }
+      });
+
+  });
+
+</script>

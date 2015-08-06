@@ -1,0 +1,3 @@
+[submodule ".themes/greyshade"]
+	path = .themes/greyshade
+	url = git@github.com:RohitRox/greyshade.git

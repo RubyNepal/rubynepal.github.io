@@ -1,0 +1,128 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+.clearfix{
+  clear: both;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.members{
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  margin-right: 20px;
+}
+.member{
+  float: left;
+  padding: 1.2%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 45%;
+  margin-bottom: 10px;
+  font-size: .9em;
+  margin-right: 1.3%;
+  text-align: left;
+  box-shadow: 0px 1px 1px #ccc;
+  background: rgb(248, 248, 248);
+  position: relative;
+  .profile_img_block{
+    float: left;
+    margin-right: 10px;
+    img{
+      border-radius: 80px;
+      height: 100px;
+      width: 100px;
+      padding: 6px;
+      border: 2px dotted rgb(206, 206, 206);
+      background: #fff;
+    }
+  }
+  .member_inner{
+    float: left;
+    margin-left: 10px;
+    width: 60%;
+  }
+  .gh-badge{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 27px;
+    background: rgb(221, 221, 221);
+    opacity: .7;
+    border-radius: 2px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-top: 14px;
+    text-align: center;
+    b{
+      font-size: 13px;
+      background: #333;
+      color: white;
+      padding: 0px 2px;
+    }
+  }
+}
+.members.projects .member {
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  img{
+    height: 60px;
+    padding: 4px;
+    &.dark{
+      background: rgb(46, 109, 139);
+    }
+    &.opensource-badge{
+      position: absolute;
+      top: 4px;
+      right: 4px;
+    }
+  }
+}
+@media screen and (max-width: 320px){
+  .member{
+    width: 100%;
+    padding: 2.2%;
+  }
+}
+article .member p{
+  margin: 0px;
+  height: 80px;
+  font-size: .9em;
+  line-height: 1.6em;
+  overflow: hidden;
+}
+.members_social{
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  clear: both;
+  a{
+    display: inline-block;
+    width: 32%;
+    height: 20px;
+    opacity: .8;
+    text-indent: -99999px;
+  }
+  a:hover{
+    opacity: 1;
+  }
+ .twitter{
+  background: url('/images/social/twitter.png') center no-repeat #55cff8;
+  }
+  .github{
+  background: url('/images/social/github.png') center no-repeat rgb(145, 149, 163);
+  }
+  .gmail{
+  background: url('/images/social/google.png') center no-repeat rgb(252, 124, 124);
+  }
+}
+#join_frame{
+  width: 100%;
+  max-width: 100%;
+  border: 0px;
+  height: 700px;
+}
