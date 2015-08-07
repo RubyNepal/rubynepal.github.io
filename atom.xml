@@ -4,7 +4,7 @@
   <title><![CDATA[RubyNepal]]></title>
   <link href="http://RubyNepal.github.io/atom.xml" rel="self"/>
   <link href="http://RubyNepal.github.io/"/>
-  <updated>2015-08-06T18:13:12+05:45</updated>
+  <updated>2015-08-07T15:31:06+05:45</updated>
   <id>http://RubyNepal.github.io/</id>
   <author>
     <name><![CDATA[RubyNepal]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Join Ruby and Rails Meetup]]></title>
+    <link href="http://RubyNepal.github.io/blog/2015/08/07/ruby-and-rails-meetup/"/>
+    <updated>2015-08-07T14:03:00+05:45</updated>
+    <id>http://RubyNepal.github.io/blog/2015/08/07/ruby-and-rails-meetup</id>
+    <content type="html"><![CDATA[<p>Every year around the world there are ruby meetup and rails meetup happenings, so why not organise Ruby/Rails Meetup here at Kathmandu. This meetup will not be just an event but also be a point of unite and interaction and sharing of knowledge and experiences between the distributed ruby developers in kathmandu valley.</p>
+
+<p>This will be a regular event happening once a month, to be specific; every second Sunday of the month starting August 9th, 2015.</p>
+
+<p><img src="https://pbs.twimg.com/media/CLoUmwqWIAAc9AR.jpg"></p>
+
+<p>We want a lot of people and groups to be engaged to make this event success. Feel free to suggest us ideas and to come up forward.</p>
+
+<p>And if you want to present or be a speaker at the meetup, you are most welcome and this is your time to send us details.</p>
+
+<p>Thought about speaking? Want to give speaking at Ruby on Rails Meetup a shot, but not sure what to talk about?</p>
+
+<p>Even if you have a tiny inkling that you&rsquo;d want to speak, like your experience, technology, tips and tricks, even maybe a tutorial, we&rsquo;ll help you to ideate, write and present.</p>
+
+<p>Great business starts with unsurpassed people skills, it is a great oppurtunity for tech business houses to be promoted and find connections at the event. We welcome sponsorship of any kind financial, promotional, resources or even may be a service or server.</p>
+
+<p>For more details and to RSVP checkout our meetup page at <a href="http://www.meetup.com/Nepal-Ruby-Users-Group/.">http://www.meetup.com/Nepal-Ruby-Users-Group/.</a></p>
+
+<p>See you at the next Ruby and Rails meetup!</p>
+
+<blockquote><p>Saroj Maharjan &ndash; <a href="http://twitter.com/zoraslapen">zoras</a></p>
+
+<p>Organiser, Ruby and Rails Meetup</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Monthly Dev Meetup July 2014]]></title>
