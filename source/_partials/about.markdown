@@ -33,6 +33,22 @@ Get notified about upcoming RubyNepal events and activities.
 
 ---
 
+## Meetup Group
+
+We meet every 2nd Sunday of the month. Become member of below meetup group to keep up with the details:
+
+[Nepal Ruby and Rails Users Group](http://www.meetup.com/r/inbound/0/0/sharetxt/http://www.meetup.com/Nepal-Ruby-Users-Group/?a=sharetxt)
+
+---
+
+## Chat (IRC)
+
+Send your email by following the link below to get an invite to join [RubyNepal Slack channel](https://rubynepal.slack.com)
+
+[Join rubynepal on Slack](https://rubynepal-slack.herokuapp.com/)
+
+---
+
 ## Ruby developer groups in Facebook
 
 Following are active Ruby groups:
@@ -40,12 +56,6 @@ Following are active Ruby groups:
 [Ruby Developers Nepal](https://www.facebook.com/groups/rubydevelopersnepal/)
 
 [Ruby on Rails (RoR) Developers Nepal](http://www.facebook.com/groups/nepaleserordeveloper/)
-
----
-
-## IRC
-
-[Join rubynepal on Slack](https://rubynepal-slack.herokuapp.com/)
 
 ---
 
