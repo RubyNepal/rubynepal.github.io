@@ -6,16 +6,14 @@
 
 - [Ruby](http://ruby-lang.org/) is a dynamic, open source programming language, powerful yet simple.
 
-- Find out [why we love Ruby](/why_we_love_ruby).
-
 - Get started with ruby, [install](http://www.ruby-lang.org/en/downloads/) it or give it a [try](http://tryruby.org/).
 
 ---
 
 ## Join RubyNepal
 
-RubyNepal is a great way to meet and collaborate with other Ruby developers in Nepal.
-Joining Ruby Nepal is free. [Join!](/join)
+RubyNepal is a great way to meet and collaborate with other Ruby/Rails developers in Nepal.
+Joining Ruby Nepal is free.
 
 ---
 
@@ -35,17 +33,15 @@ Get notified about upcoming RubyNepal events and activities.
 
 ## Meetup Group
 
-We meet every 2nd Sunday of the month. Become member of below meetup group to keep up with the details:
+We meet every 2nd Sunday of the month.
 
 [Nepal Ruby and Rails Users Group](http://www.meetup.com/r/inbound/0/0/sharetxt/http://www.meetup.com/Nepal-Ruby-Users-Group/?a=sharetxt)
 
 ---
 
-## Chat (IRC)
+## Slack Chat
 
-Send your email by following the link below to get an invite to join [RubyNepal Slack channel](https://rubynepal.slack.com)
-
-[Join rubynepal on Slack](https://rubynepal-slack.herokuapp.com/)
+[Get your invite](https://rubynepal-slack.herokuapp.com/) to join [RubyNepal Slack channel](https://rubynepal.slack.com)
 
 ---
 
