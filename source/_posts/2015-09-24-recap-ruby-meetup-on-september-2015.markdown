@@ -36,7 +36,6 @@ See you at the [next Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Use
 
 > Organiser, Ruby and Rails Meetup
 
-
-{% img http://photos1.meetupstatic.com/photos/event/3/1/7/2/600_441972658.jpeg %}
+{% img http://photos4.meetupstatic.com/photos/event/2/e/3/a/600_441971834.jpeg %}
 
 {% img http://photos2.meetupstatic.com/photos/event/2/e/1/9/600_441971801.jpeg %}
