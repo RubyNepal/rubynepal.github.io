@@ -28,9 +28,9 @@ In a true developer fashion, going forward we'll be using github to manage meetu
 
 * Things you want to learn about
 
-I overheard there was a inspiring entrepreneur speech involved during the networking session at the end. [Picture proofs](http://www.meetup.com/Nepal-Ruby-Users-Group/photos/26406995/)
+I overheard there was an inspiring entrepreneur speech involved during the networking session at the end. [Picture proofs](http://www.meetup.com/Nepal-Ruby-Users-Group/photos/26406995/)
 
-See you at the next Ruby and Rails meetup!
+See you at the [next Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/)!
 
 > Saroj Maharjan - [zoras](http://twitter.com/zoraslapen)
 
