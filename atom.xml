@@ -4,7 +4,7 @@
   <title><![CDATA[RubyNepal]]></title>
   <link href="http://RubyNepal.github.io/atom.xml" rel="self"/>
   <link href="http://RubyNepal.github.io/"/>
-  <updated>2015-12-23T21:06:20+05:45</updated>
+  <updated>2016-01-12T23:35:02+05:45</updated>
   <id>http://RubyNepal.github.io/</id>
   <author>
     <name><![CDATA[RubyNepal]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Meetup January 2016]]></title>
+    <link href="http://RubyNepal.github.io/blog/2016/01/12/ruby-meetup-january-2016/"/>
+    <updated>2016-01-12T19:56:00+05:45</updated>
+    <id>http://RubyNepal.github.io/blog/2016/01/12/ruby-meetup-january-2016</id>
+    <content type="html"><![CDATA[<p>Happy New Year to all the Rubyists out there from RubyNepal.org. A common way to celebrate new year is by revisiting moments from your past, so I decided to conduct the first edition of the year 2016&rsquo;s monthly Ruby and Rails Meetup at CloudFactory. It was nostaligic for me to go back to the place from where I learnt so much and is filled with so many good memories.</p>
+
+<p>As for the meetup itself, two presentation talks were given during the event held on Jan 10th, for which around 35 developers turned up.</p>
+
+<p>The first talk was titled &ldquo;<a href="https://github.com/RubyNepal/rorh/issues/9">Performance Improvement of Rails Application</a>&rdquo; by <a href="https://twitter.com/sadikshagautam">Sadiksha Gautam</a>. She is currently working as Software Developer at EnerNOC, a Ruby on Rails based company in Munich, Germany and was eager to share her experience even before she arrived back to Nepal.</p>
+
+<p><img src="http://photos2.meetupstatic.com/photos/event/a/f/8/a/600_445784938.jpeg"></p>
+
+<p>Some good tips on profiling, caching and optimization were shared along with her <a href="http://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf">slides</a> which you can sneak into your Rails app and claim your performance bonus raise. Kudos to Sadiksha for giving the presentation while being unwell. Get well soon!</p>
+
+<p><img src="http://photos3.meetupstatic.com/photos/event/b/a/0/0/600_445787616.jpeg"></p>
+
+<p><a href="https://www.docker.com/">Docker</a> is new rage in the developer universe and DevOps Manager, Bikash Kaji Basukala wasn&rsquo;t far behind. He showed all the tricks he had pulled off with tools like Docker, Jenkins CI, Github APIs and Hipchat to automate and scale the ever-growing CloudFactory, a Ruby on Rails startup enterprise from Nepal to millions of users around the world.</p>
+
+<p><img src="http://photos4.meetupstatic.com/photos/event/a/f/b/4/600_445784980.jpeg"></p>
+
+<p>Too bad if you missed this <strong>advanced talk</strong> as some serious <em>Q&amp;A</em> took place afterwards which was rather informative to anyone who is facing problem scaling apps from monolith to SOA to microservices. Checkout the cool diagrams from his <a href="https://bit.ly/scaling_ci_with_dockers">slides</a> of &ldquo;<a href="https://github.com/RubyNepal/rorh/issues/12">Scaling CI with Docker @ CloudFactory</a>&rdquo;.</p>
+
+<p><img src="http://photos4.meetupstatic.com/photos/event/a/f/f/9/highres_445785049.jpeg"></p>
+
+<p>If you haven&rsquo;t heard then we <a href="https://rubynepal-slack.herokuapp.com/">hangout</a> on <a href="https://rubynepal.slack.com/">Slack</a> and use github issues to schedule and manage our meetup presentations. You can pick/open <a href="https://github.com/RubyNepal/rorh/issues">issue</a> if you want to share your experience or want others to present on topic that intrests you.</p>
+
+<p>Also, warm greetings to <a href="http://www.cloudfactory.com/home">CloudFactory</a> for allowing us to use the spacious training hall and snacks for the event. Like it&rsquo;s said, &ldquo;One step into the past, one into the future&rdquo;. Both speakers happen to be my good old #RubyFriends and it was good to see some old faces! So, don&rsquo;t forget your friends and take care of your family.</p>
+
+<p>Meetup attendees thank <a href="https://twitter.com/bibstha">Bibek Shrestha</a> from Austria for the wonderful stickers all the way from <a href="http://confreaks.tv/events/rubyconf2015">RubyConf 2015 (Texas, US)</a>.</p>
+
+<p><img src="http://photos2.meetupstatic.com/photos/event/9/e/c/0/600_445480640.jpeg"></p>
+
+<p>Have a great year ahead and see you at the next <a href="http://www.meetup.com/Nepal-Ruby-Users-Group/">Ruby and Rails meetup</a></p>
+
+<p>Event page: <a href="http://www.meetup.com/Nepal-Ruby-Users-Group/events/226808320/">http://www.meetup.com/Nepal-Ruby-Users-Group/events/226808320/</a></p>
+
+<p>High resolution snapshots: <a href="http://www.meetup.com/Nepal-Ruby-Users-Group/photos/26660245/">http://www.meetup.com/Nepal-Ruby-Users-Group/photos/26660245/</a></p>
+
+<blockquote><p>Saroj Maharjan &ndash; <a href="https://twitter.com/zoraslapen">zoras</a></p>
+
+<p>Organiser, <a href="http://www.meetup.com/Nepal-Ruby-Users-Group/">Ruby and Rails Meetup</a></p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ruby Meetup December 20, 2015]]></title>
