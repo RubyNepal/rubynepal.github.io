@@ -27,11 +27,11 @@ Too bad if you missed this **advanced talk** as some serious *Q&A* took place af
 
 If you haven't heard then we [hangout](https://rubynepal-slack.herokuapp.com/) on [Slack](https://rubynepal.slack.com/) and use github issues to schedule and manage our meetup presentations. You can pick/open [issue](https://github.com/RubyNepal/rorh/issues) if you want to share your experience or want others to present on topic that intrests you.
 
-Also, warm greetings to [CloudFactory](http://www.cloudfactory.com/home) for allowing us to use the spacious training hall and snacks for the event. Like it's said, "One step into the past, one into the future". Both speakers happen to be my good old #RubyFriends and it was good to see some old faces! So, don't forget your friends and take care of your family.
-
 Meetup attendees thank [Bibek Shrestha](https://twitter.com/bibstha) from Austria for the wonderful stickers all the way from [RubyConf 2015 (Texas, US)](http://confreaks.tv/events/rubyconf2015).
 
 {% img http://photos2.meetupstatic.com/photos/event/9/e/c/0/600_445480640.jpeg %}
+
+Also, warm greetings to [CloudFactory](http://www.cloudfactory.com/home) for allowing us to use the spacious training hall and snacks for the event. Like it's said, "One step into the past, one into the future". Both speakers happen to be my good old #RubyFriends and it was good to see some old faces! So, don't forget your friends and take care of your family.
 
 Have a great year ahead and see you at the next [Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/)
 
