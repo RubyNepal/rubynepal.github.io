@@ -4,7 +4,7 @@
   <title><![CDATA[RubyNepal]]></title>
   <link href="http://RubyNepal.github.io/atom.xml" rel="self"/>
   <link href="http://RubyNepal.github.io/"/>
-  <updated>2016-01-12T23:44:20+05:45</updated>
+  <updated>2016-01-22T13:09:33+05:45</updated>
   <id>http://RubyNepal.github.io/</id>
   <author>
     <name><![CDATA[RubyNepal]]></name>
@@ -12,6 +12,62 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RubyNepal Meetup Update]]></title>
+    <link href="http://RubyNepal.github.io/blog/2016/01/22/rubynepal-meetup-update/"/>
+    <updated>2016-01-22T13:05:00+05:45</updated>
+    <id>http://RubyNepal.github.io/blog/2016/01/22/rubynepal-meetup-update</id>
+    <content type="html"><![CDATA[<p><strong><a href="http://www.meetup.com/Nepal-Ruby-Users-Group/">Ruby and Rails Meetup Nepal</a></strong></p>
+
+<p><a href="https://www.rubynepal.org/">RubyNepal.org</a></p>
+
+<p><em><a href="http://www.meetup.com/Nepal-Ruby-Users-Group/events/">(Meetup held every 2nd Sunday of the Month)</a></em></p>
+
+<p>You are warmly welcome to drop-in at the meetup event; participate (<span>bring along friends)</span>, get to know the local Ruby/Rails community <span>or </span><span>volunteer</span><span> at the event</span> and relief your stress with Ruby love. Sharing your experience, problems and tips are always appreciated and encouraged.</p>
+
+<p><strong>Talks for this month&rsquo;s Ruby Meetup event can be found at </strong><strong><a href="https://github.com/RubyNepal/rorh/milestones/">https://github.com/RubyNepal/rorh/milestones/</a></strong></p>
+
+<p><img src="http://photos3.meetupstatic.com/photos/event/b/9/0/b/600_445787371.jpeg"></p>
+
+<p><strong><span>Never heard of Ruby? Eager to start learning Rails? Freshers/Juniors or Seniors; all are expected to show up at the event where all levels of conversation/ideas/views are discussed.</span></strong></p>
+
+<p>People at the meetup are <em><strong><a href="https://en.wikipedia.org/wiki/MINASWAN">MINASWAN</a></strong></em> (friendly, helpful and nice) so don&rsquo;t hesitate to ask/share anything as we are open-source minded. If there&rsquo;s any topic you think should be covered at the meetup event then please let us know by <a href="https://github.com/RubyNepal/rorh/issues/new">adding/opening</a> issues at <a href="https://github.com/RubyNepal/rorh/issues">https://github.com/RubyNepal/rorh/issues</a>.&nbsp;
+<em>Fancy speaking in front of others?</em> then do <a href="https://github.com/RubyNepal/rorh/issues/new">add</a> your title there-in as well.</p>
+
+<p><strong><em>Want to present and can&rsquo;t find a title?</em></strong>
+Even better option is to pick one up from the <a href="https://github.com/RubyNepal/rorh/issues">issue&nbsp;list</a> or <a href="https://github.com/RubyNepal/rorh/issues/new">add</a> your own presentation title, challenge yourself (or dare your friend) to&nbsp;give a talk &amp; prove yourself&nbsp;to&nbsp;<span>get featured on </span><a href="https://www.rubynepal.org/blog/">RubyNepal blog</a> and <span>add that to your resume</span>.</p>
+
+<p><span><strong>For SPONSORS</strong></span></p>
+
+<p><span><span>Sponsors make it possible to organize these events which uplift and promote the ruby community activities. </span>Any Company/Person/Group can come upfront to <span>volunteer at the event or </span><strong>sponsor</strong><em>venue space, snacks (tea/coffee), cash, rubynepal goodies, etc</em>. Sponsor logo will be advertised and circulated in the meetup banner image along with a &ldquo;<strong>Thank you</strong>&rdquo; note.</span></p>
+
+<p>Anything else do Follow &amp; (Re)Tweet <a href="https://twitter.com/ruby_nepal">@ruby_nepal</a>, email <a href="mailto:rubynepal.org@gmail.com">rubynepal.org</a> or&nbsp;contact me (<a href="mailto:saroj@zoras.me">Saroj</a>).</p>
+
+<p><strong>In the meantime, enjoy snapshots from <a href="https://github.com/RubyNepal/rorh/milestones?state=closed">previous</a> RubyNepal meetups.</strong>
+<strong><a href="http://www.meetup.com/Nepal-Ruby-Users-Group/photos/">http://www.meetup.com/Nepal-Ruby-Users-Group/photos/</a></strong></p>
+
+<p><strong><a href="https://twitter.com/hashtag/RubyNepal">#RubyNepal</a><a href="https://twitter.com/hashtag/RubyMeetup">#RubyMeetup</a></strong></p>
+
+<p><strong>For more info visit:</strong></p>
+
+<p><a href="https://www.rubynepal.org/blog/2015/08/07/ruby-and-rails-meetup/">https://www.rubynepal.org/blog/2015/08/07/ruby-and-rails-meetup/</a></p>
+
+<p><a href="https://speakerdeck.com/zoras/ruby-and-rails-meetup-nepal">https://speakerdeck.com/zoras/ruby-and-rails-meetup-nepal</a></p>
+
+<p><a href="https://github.com/RubyNepal/rorh/issues/">https://github.com/RubyNepal/rorh/issues/</a></p>
+
+<p><a href="https://rubynepal.slack.com">https://rubynepal.slack.com</a></p>
+
+<p><a href="https://twitter.com/ruby_nepal">https://twitter.com/ruby_nepal</a></p>
+
+<p><a href="http://www.meetup.com/Nepal-Ruby-Users-Group/">http://www.meetup.com/Nepal-Ruby-Users-Group/ </a></p>
+
+<blockquote><p>Saroj Maharjan &ndash; <a href="https://twitter.com/zoraslapen">zoras</a></p>
+
+<p>Organiser, <a href="http://www.meetup.com/Nepal-Ruby-Users-Group/">Ruby and Rails Meetup</a></p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ruby Meetup January 2016]]></title>
