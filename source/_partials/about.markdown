@@ -35,7 +35,7 @@ Get notified about upcoming RubyNepal events and activities.
 
 We meet every 2nd Sunday of the month.
 
-[Nepal Ruby and Rails Users Group](http://www.meetup.com/r/inbound/0/0/sharetxt/http://www.meetup.com/Nepal-Ruby-Users-Group/?a=sharetxt)
+[Nepal Ruby and Rails Users Group](http://www.meetup.com/Nepal-Ruby-Users-Group)
 
 ---
 
