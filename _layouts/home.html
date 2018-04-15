@@ -1,57 +1,59 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>{{site.title}}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>{{site.title}}</title>
 </head>
 <body>
 <header style="background: #fff;" class="pdb-50">
-    {% include top-bar.html %}
-    <div class="container">
-        <div class="columns">
-            <div class="column pdt-50">
+  {% include top-bar.html %}
+  <div class="container">
+    <div class="columns">
+      <div class="column pdt-50">
                 <span class="icon has-text-info">
                   <i class="fab fa-twitter"></i>
                 </span>
-                <span class="icon has-text-grey-dark">
+        <span class="icon has-text-grey-dark">
                   <i class="fab fa-github"></i>
                 </span>
-                <span class="icon has-text-warning">
+        <span class="icon has-text-warning">
                   <i class="fas fa-rss"></i>
                 </span>
-            </div>
-            <div class='column'>
-                <div class='equal-height pdb-50'>
-                    <div class='is-flex is-horizontal-center'>
-                        <div class='image ruby-logo'><img src='/images/rubynepal.png' alt="Ruby Nepal Community"></div>
-                    </div>
-                    <div class='is-flex is-horizontal-center'>
-                        <h1 class="subtitle">{{ site.subtitle }}</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="column"></div>
+      </div>
+      <div class='column'>
+        <div class='equal-height pdb-50'>
+          <div class='is-flex is-horizontal-center'>
+            <div class='image ruby-logo'><img src='/images/rubynepal.png' alt="Ruby Nepal Community"></div>
+          </div>
+          <div class='is-flex is-horizontal-center'>
+            <h1 class="subtitle">{{ site.subtitle }}</h1>
+          </div>
         </div>
+      </div>
+      <div class="column"></div>
     </div>
-    {% include home-nav.html %}
+  </div>
+  {% include home-nav.html %}
 </header>
 <div class="container">
-    {{content}}
+  {{content}}
 </div>
 <footer class="footer">
-    <div class="container">
-        <div class="content has-text-centered">
-            <p>
-                Copyright © 2018 - RubyNepal - Powered by <a href="https://jekyllrb.com/">Jekyll</a>
-            </p>
-        </div>
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Copyright © 2018 - RubyNepal - Powered by <a href="https://jekyllrb.com/">Jekyll</a>
+      </p>
     </div>
+  </div>
 </footer>
-<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+        integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
 </body>
 </html>

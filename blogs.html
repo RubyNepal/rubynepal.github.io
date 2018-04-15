@@ -4,23 +4,24 @@ excerpt_separator: "more"
 ---
 
 <section class="articles pdt-50 pdb-50">
-    {% for post in site.posts %}
-    <div class="column is-10 is-offset-1">
-        <div class="card article">
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-content has-text-centered">
-                        <p class="title article-title"><a href="{{post.url}}">{{ post.title}}</a></p>
-                        <p class="subtitle is-6 article-subtitle">
-                            <a href="https://twitter.com/{{post.author-twitter}}">{{ post.author }}</a> on {{ post.date | date: "%-d %B, %Y"}}
-                        </p>
-                    </div>
-                </div>
-                <div class="content article-body">
-                    <p>{{ post.excerpt }} <a href="{{post.url}}">See More</a></p>
-                </div>
-            </div>
+  {% for post in site.posts %}
+  <div class="column is-10 is-offset-1">
+    <div class="card article">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content has-text-centered">
+            <p class="title article-title"><a href="{{post.url}}">{{ post.title}}</a></p>
+            <p class="subtitle is-6 article-subtitle">
+              <a href="https://twitter.com/{{post.author-twitter}}">{{ post.author }}</a> on {{ post.date | date: "%-d
+              %B, %Y"}}
+            </p>
+          </div>
         </div>
+        <div class="content article-body">
+          <p>{{ post.excerpt }} <a href="{{post.url}}">See More</a></p>
+        </div>
+      </div>
     </div>
-    {% endfor %}
+  </div>
+  {% endfor %}
 </section>
