@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-04-14 22:46:09 +0545
 author: "Madhu Sudhan Subedi"

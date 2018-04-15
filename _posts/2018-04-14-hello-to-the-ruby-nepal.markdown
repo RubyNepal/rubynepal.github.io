@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Hello to the Ruby Nepal"
 date:   2018-04-14 22:50:09 +0545
 author: "Madhu Sudhan Subedi"

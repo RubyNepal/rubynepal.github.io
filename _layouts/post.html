@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="articles pdt-50 pdb-50">
+    <div class="column is-10 is-offset-1">
+        <div class="card article">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content has-text-centered">
+                        <p class="title article-title">{{ page.title}}</p>
+                        <p class="subtitle is-6 article-subtitle">
+                            <a href="https://twitter.com/{{page.author-twitter}}">{{ page.author }}</a> on {{ page.date | date: "%-d %B, %Y"}}
+                        </p>
+                    </div>
+                </div>
+                <div class="content article-body">
+                    <p>{{ content }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
