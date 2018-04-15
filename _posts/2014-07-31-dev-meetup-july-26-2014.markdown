@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Monthly Dev Meetup July 2014"
+date: 2014-07-31 19:37
+comments: true
+categories: [activities]
+---
+
+The tech scene in Kathmandu is ever growing but it is rather lacking a sense of community. Dev Meetup aims to fill this void with a regular meetup for developers where like minded individuals can gather, get to know each other and share their ideas/views.
+
+The meetup will be carried out monthly (last Saturday of the month) to cover web development topics like 'ruby', 'rails', 'javascript', 'devops', 'databases', etc.
+
+The first successful [Dev Meetup](https://www.facebook.com/events/768447783198796/) was held on July 26, 2014 at CloudFactory, the next Dev Meetup is scheduled for August 30th, 2014 at the same venue.
+
+Sign up at https://plus.google.com/events/cr78vpsi1466vv0ldj990fdgdr8 to join us. Kudos to CloudFactory for sponsoring both the events.
+
+Follow us [@ruby_nepal](http://twitter.com/ruby_nepal) for latest updates and news.
+
+If you are not sure what to expect or missed the 1st Dev Meetup, check out the pics and videos from the first one.
+
+** Pictures **
+
+![](https://pbs.twimg.com/media/BtdOPL3CMAAlPlN.jpg)
+![](https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg)
+
+** FB Event Pics and Details: ** 
+https://www.facebook.com/events/768447783198796/
+
+** Videos And Slides:  **
+
+_I) 10 Ways We Can Be Better by Mark Sears_ - [@marktsears](http://twitter.com/marktsears)
+
+![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861728292.jpg?1406529728)
+
+[comment]: <> ( youtube COBCnZls5rE )
+
+[Slides - Mark DevMeetup Talk](http://bit.ly/ktmdevmeetup)
+
+_II) Ansible by Bikash Kaji Basukala_ - [@kajisaap](http://twitter.com/kajisaap)
+
+![](https://pbs.twimg.com/media/BtdXoatCcAAmTPB.jpg)
+
+[comment]: <> ( youtube ZKoSG8bxw0A )
+
+[Slides - Kaji DevMeetup Talk](https://bit.ly/kajionansible)
+
+_III) Ember.js with Ember-Cli by Sachin Sagar Rai_ - [@millisami](http://twitter.com/millisami)
+
+![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861727487.png?1406528902)
+
+[comment]: <> ( youtube Z_HCTb5I1lM )
+
+[Slides - Millisami DevMeetup Talk](http://nepalonrails.com/blog/2014/07/emberjs-app-using-ember-cli/)
+
+If you want to be a speaker in future meetups or wish someone would impart the knowledge or have any  suggestions, then do let us know. If you want to host / sponser the event at your company then ping [@zoraslapen](http://twitter.com/zoraslapen).
+
+Looking forward to meet you guys!
+
+
+> Saroj Maharjan - [zoras](http://github.com/zoras)
+
+> Organiser, Dev Meetup

@@ -1,5 +1,6 @@
 ---
 layout: default
+excerpt_separator: "more"
 ---
 
 <section class="articles pdt-50 pdb-50">
@@ -16,7 +17,7 @@ layout: default
                     </div>
                 </div>
                 <div class="content article-body">
-                    <p>{{ post.content }}</p>
+                    <p>{{ post.excerpt }} <a href="{{post.url}}">See More</a></p>
                 </div>
             </div>
         </div>
