@@ -8,38 +8,38 @@ title: "Blog Archive"
   {% assign currentDate = post.date | date: "%Y" %}
   {% if currentDate != myDate %}
   <h1 class="is-size-2">{{ currentDate }}</h1>
-  <ul>
-    {% assign myDate = currentDate %}
-    {% endif %}
-    <div class="column is-10 is-offset-1">
-      <div class="card article">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content has-text-centered">
-              <p class="title article-title"><a href="{{post.url}}">{{ post.title}}</a></p>
-              <p class="subtitle is-6 article-subtitle">
-                <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%-d %B, %Y"}}
-              </p>
-            </div>
-          </div>
-          <div class="content article-body">
-            <p>{{ post.excerpt }} <a href="{{post.url}}">See More</a></p>
+
+  {% assign myDate = currentDate %}
+  {% endif %}
+  <div class="column is-10 is-offset-1">
+    <div class="card article">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content has-text-centered">
+            <p class="title article-title"><a href="{{post.url}}">{{ post.title}}</a></p>
+            <p class="subtitle is-6 article-subtitle">
+              <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%-d %B, %Y"}}
+            </p>
           </div>
         </div>
-      </div>
-      <div class="box">
-        <span class="has-pulled-left">
-          By <a href="">{{ post.author }}</a> <br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href=""><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-          <a href=""><i class="fab fa-github"></i></a>
-        </span>
-        <span class="is-pulled-right">
-          {% for category in post.categories %}
-          <a class="button is-danger">{{ category }}</a>
-          {% endfor %}
-        </span>
+        <div class="content article-body">
+          <p>{{ post.excerpt }} <a href="{{post.url}}">See More</a></p>
+        </div>
       </div>
     </div>
+    <div class="box">
+      <span class="has-pulled-left">
+        By <a href="">{{ post.author }}</a> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href=""><i class="fab fa-github"></i></a>
+      </span>
+      <span class="is-pulled-right">
+        {% for category in post.categories %}
+        <a class="button is-danger">{{ category }}</a>
+        {% endfor %}
+      </span>
+    </div>
+  </div>
   {% endfor %}
 </section>
