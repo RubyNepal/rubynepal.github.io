@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="hero-body">
+<div class="hero-body rnw-hero">
   <div class="container has-text-centered">
     <div class="columns is-vcentered">
       <div class="column is-5">
@@ -19,7 +19,7 @@ layout: home
         </h2>
         <br>
         <p class="has-text-centered">
-          <a class="button is-medium is-info is-outlined">
+          <a href="https://www.ruby-lang.org/en/" class="button is-danger is-rnw-btn">
             Get Started With Ruby
           </a>
         </p>
@@ -43,16 +43,17 @@ layout: home
             <p class="title">Meetup Group</p>
             <p class="subtitle">
               We meet every 2nd Sunday of the month. <br>
-              Nepal Ruby and Rails Users Group
+              <a href="https://www.meetup.com/Nepal-Ruby-Users-Group/?a=sharetxt">Nepal Ruby and Rails Users Group</a>
             </p>
           </article>
         </div>
         <div class="tile is-parent is-shady">
           <article class="tile is-child notification is-white">
             <p class="title">Slack Chat</p>
-            <div class="content">
-              <p>Get your invite to join RubyNepal Slack channel</p>
-            </div>
+            <p class="subtitle">
+              <a href="https://rubynepal-slack.herokuapp.com/">Get your invite</a> to join
+              <a href="https://rubynepal.slack.com/messages">RubyNepal Slack channel</a>
+            </p>
           </article>
         </div>
       </div>
@@ -65,7 +66,7 @@ layout: home
                 <p class="title">Follow us on Twitter</p>
                 <p class="subtitle">Get notified about upcoming RubyNepal events and activities.
 
-                  Follow @ruby_nepal</p>
+                  Follow <a href="{{site.twitter-url}}" target="_blank" class="rnw-link">@ruby_nepal</a></p>
               </article>
             </div>
           </div>
@@ -75,9 +76,11 @@ layout: home
               <p class="subtitle">Following are active Ruby groups:</p>
               <div class="content">
                 <p>
-                  Ruby Developers Nepal <br>
+                  <a href="https://www.facebook.com/groups/rubydevelopersnepal/" target="_blank">Ruby Developers Nepal</a> <br>
 
-                  Ruby on Rails (RoR) Developers Nepal
+                  <a href="https://www.facebook.com/groups/nepaleserordeveloper/" target="_blank">
+                    Ruby on Rails (RoR) Developers Nepal
+                  </a>
                 </p>
               </div>
             </article>
@@ -87,7 +90,8 @@ layout: home
           <article class="tile is-child notification is-white">
             <div class="content">
               <p class="title">Google Group</p>
-              <p class="subtitle">We run a mailing list for discussion of Ruby-related topics.
+              <p class="subtitle">We run a <a href="https://groups.google.com/forum/#!forum/ror-nepal">mailing list</a>
+                for discussion of Ruby-related topics.
                 If you have a question about Ruby (or Ruby on Rails), this group can probably figure it out.
               </p>
             </div>

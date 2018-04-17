@@ -1,0 +1,17 @@
+<div class="box rnw-box">
+  <span class="has-pulled-left">
+    By <a href="" class="rnw-link">{{ post.author }}</a> <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/{{post.author-twitter-name}}" class="rnw-social-link">
+      <i class="fab fa-twitter"></i>
+    </a>&nbsp;&nbsp;
+    <a href="https://twitter.com/{{post.author-github-name}}" class="rnw-social-link">
+      <i class="fab fa-github"></i>
+    </a>
+  </span>
+  <span class="is-pulled-right">
+    {% for category in post.categories %}
+    <a href="/blog/{{category}}" class="button is-danger is-rnw-btn">{{ category }}</a>
+    {% endfor %}
+  </span>
+</div>

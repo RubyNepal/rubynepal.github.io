@@ -6321,8 +6321,28 @@ header {
 .rnw-link {
   color: #e23838; }
 
+.rnw-box {
+  border-radius: 0; }
+
+.rnw-box a:not(.button) {
+  color: #e23838; }
+
+.rnw-hero .notification a:not(.button) {
+  color: #e23838;
+  text-decoration: none; }
+
+.rnw-tag:not(body).is-danger {
+  background-color: #e23838; }
+
 .rnw-social-link {
-  color: #000000; }
+  color: #000000 !important; }
+
+.button.is-rnw-btn {
+  background-color: #e23838; }
+
+.button.is-danger:hover, .button.is-danger.is-hovered {
+  background-color: #e23838;
+  opacity: 0.7; }
 
 .is-bar {
   background-color: #e23838;

@@ -21,23 +21,7 @@ excerpt_separator: "more"
         </div>
       </div>
     </div>
-    <div class="box">
-        <span class="has-pulled-left">
-          By <a href="" class="rnw-link">{{ post.author }}</a> <br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://twitter.com/{{post.author-twitter-name}}" class="rnw-social-link">
-            <i class="fab fa-twitter"></i>
-          </a>&nbsp;&nbsp;
-          <a href="https://twitter.com/{{post.author-github-name}}" class="rnw-social-link">
-            <i class="fab fa-github"></i>
-          </a>
-        </span>
-      <span class="is-pulled-right">
-          {% for category in post.categories %}
-          <a class="button is-danger">{{ category }}</a>
-          {% endfor %}
-        </span>
-    </div>
+    {% include author-category-box.html %}
   </div>
   {% endfor %}
 </section>
