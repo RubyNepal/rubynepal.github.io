@@ -12,22 +12,25 @@ excerpt_separator: "more"
           <div class="media-content has-text-centered">
             <p class="title article-title"><a href="{{post.url}}">{{ post.title}}</a></p>
             <p class="subtitle is-6 article-subtitle">
-              <a href="https://twitter.com/{{post.author-twitter}}">{{ post.author }}</a> on {{ post.date | date: "%-d
-              %B, %Y"}}
+              <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%-d %B, %Y"}}
             </p>
           </div>
         </div>
         <div class="content article-body">
-          <p>{{ post.excerpt }} <a href="{{post.url}}">See More</a></p>
+          <p>{{ post.excerpt }} <a href="{{post.url}}" class="rnw-link">See More</a></p>
         </div>
       </div>
     </div>
     <div class="box">
         <span class="has-pulled-left">
-          By <a href="">{{ post.author }}</a> <br>
+          By <a href="" class="rnw-link">{{ post.author }}</a> <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href=""><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-          <a href=""><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/{{post.author-twitter-name}}" class="rnw-social-link">
+            <i class="fab fa-twitter"></i>
+          </a>&nbsp;&nbsp;
+          <a href="https://twitter.com/{{post.author-github-name}}" class="rnw-social-link">
+            <i class="fab fa-github"></i>
+          </a>
         </span>
       <span class="is-pulled-right">
           {% for category in post.categories %}

@@ -6315,6 +6315,15 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+header {
+  background: #ffffff; }
+
+.rnw-link {
+  color: #e23838; }
+
+.rnw-social-link {
+  color: #000000; }
+
 .is-bar {
   background-color: #e23838;
   padding: 0.2rem 0.2rem 0.2rem 1rem;
@@ -6352,6 +6361,14 @@ label.panel-block {
   .nav li {
     display: inline-block;
     margin-right: -4px; } }
+.rbnw-nav-logo img {
+  max-height: 4.25rem; }
+
+.rbnw-nav {
+  box-shadow: 1px 0 2px 2px rgba(42, 42, 42, 0.25); }
+  .rbnw-nav .navbar-item {
+    font-size: 20px; }
+
 body {
   font-family: 'Vollkorn', serif;
   background: #EFF3F4; }

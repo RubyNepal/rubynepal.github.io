@@ -10,20 +10,18 @@
   <title>{{site.title}}</title>
 </head>
 <body>
-<header style="background: #fff;" class="pdb-50">
+<header class="pdb-50">
   {% include top-bar.html %}
   <div class="container">
     <div class="columns">
       <div class="column pdt-50">
-                <span class="icon has-text-info">
-                  <i class="fab fa-twitter"></i>
-                </span>
-        <span class="icon has-text-grey-dark">
-                  <i class="fab fa-github"></i>
-                </span>
-        <span class="icon has-text-warning">
-                  <i class="fas fa-rss"></i>
-                </span>
+        <div class="navbar-start">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              {% include social-links.html %}
+            </div>
+          </div>
+        </div>
       </div>
       <div class='column'>
         <div class='equal-height pdb-50'>
