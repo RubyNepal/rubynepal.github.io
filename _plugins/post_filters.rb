@@ -52,7 +52,7 @@ module Jekyll
 
     # Copy the #write method to #old_write, so we can redefine #write
     # method.
-    alias_method :old_write, :write
+    # alias_method :old_write, :write
 
     # Write the generated post file to the destination directory. It
     # then calls any post_write methods that may exist.

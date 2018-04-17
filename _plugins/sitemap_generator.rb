@@ -141,11 +141,11 @@ module Jekyll
     # Returns last_modified_date of latest post
     def fill_posts(site, urlset)
       last_modified_date = nil
-      site.posts.each do |post|
-        if !excluded?(post.name)
+      site.posts.docs.each do |post|
+        # if !excluded?(post.name)
           url = fill_url(site, post)
           urlset.add_element(url)
-        end
+        # end
 
         path = post.full_path_to_source
         date = File.mtime(path)
