@@ -5,13 +5,13 @@
     <a href="https://twitter.com/{{post.author-twitter-name}}" class="rnw-social-link">
       <i class="fab fa-twitter"></i>
     </a>&nbsp;&nbsp;
-    <a href="https://twitter.com/{{post.author-github-name}}" class="rnw-social-link">
+    <a href="https://github.com/{{post.author-github-name}}" class="rnw-social-link">
       <i class="fab fa-github"></i>
     </a>
   </span>
   <span class="is-pulled-right">
     {% for category in post.categories %}
-    <a href="/blog/{{category}}" class="button is-danger is-rnw-btn">{{ category }}</a>
+    <a href="/category/{{category}}" class="button is-danger is-rnw-btn">{{ category }}</a>
     {% endfor %}
   </span>
 </div>

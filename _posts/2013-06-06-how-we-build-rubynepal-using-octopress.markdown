@@ -6,6 +6,8 @@ comments: true
 categories: [development]
 author: Rohit Joshi
 published: true
+author-twitter-name: "rohitroxxxxx"
+author-github-name: "RohitRox"
 ---
 
 This is not another getting started with octopress guide, this is sharing of our experience and couple of hacks we did while developing rubynepal, that may be helpful to others.

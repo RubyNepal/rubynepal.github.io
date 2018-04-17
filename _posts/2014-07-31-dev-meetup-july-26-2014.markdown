@@ -3,7 +3,10 @@ layout: post
 title: "Monthly Dev Meetup July 2014"
 date: 2014-07-31 19:37
 comments: true
+author: "Saroj Maharjan"
 categories: [activities]
+author-twitter-name: "zoras"
+author-github-name: "zoras"
 ---
 
 The tech scene in Kathmandu is ever growing but it is rather lacking a sense of community. Dev Meetup aims to fill this void with a regular meetup for developers where like minded individuals can gather, get to know each other and share their ideas/views.
@@ -57,6 +60,6 @@ If you want to be a speaker in future meetups or wish someone would impart the k
 Looking forward to meet you guys!
 
 
-> Saroj Maharjan - [zoras](http://github.com/zoras)
+> Saroj Maharjan - [zoras](http://github.com/)
 
 > Organiser, Dev Meetup

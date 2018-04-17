@@ -5,6 +5,8 @@ date: 2015-08-07 14:03
 comments: true
 categories: [activities]
 author: Edited and reposted by Saroj Maharjan (orginal content by Rohit Joshi)
+author-twitter-name: "zoras"
+author-github-name: "RohitRox"
 ---
 
 Every year around the world there are ruby meetup and rails meetup happenings, so why not organise Ruby/Rails Meetup here at Kathmandu. This meetup will not be just an event but also be a point of unite and interaction and sharing of knowledge and experiences between the distributed ruby developers in kathmandu valley.
