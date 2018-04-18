@@ -11,7 +11,7 @@
         <p class="subtitle is-6 article-subtitle">
           <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%-d %B, %Y"}} &nbsp;&nbsp;
           {% for category in post.categories %}
-          <a href="/blog/{{category}}">
+          <a href="/category/{{category}}">
             <span class="rnw-tag tag is-danger">
               <i class="fas fa-tags"></i> &nbsp;{{ category }}&nbsp;&nbsp;
             </span>

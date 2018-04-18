@@ -10,7 +10,7 @@ layout: default
           <div class="media-content has-text-centered">
             <p class="title article-title">{{ page.title}}</p>
             <p class="subtitle is-6 article-subtitle">
-              <a href="https://twitter.com/{{page.author-twitter}}">{{ page.author }}</a> on {{ page.date | date: "%-d %B, %Y"}}
+              <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%-d %B, %Y"}}
             </p>
           </div>
         </div>
@@ -18,7 +18,23 @@ layout: default
           <p>{{ content }}</p>
         </div>
       </div>
-      {% include author-category-box.html %}
+      <div class="box rnw-box">
+        <span class="has-pulled-left">
+          By <a href="" class="rnw-link">{{ page.author }}</a> <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://twitter.com/{{page.author-twitter-name}}" class="rnw-social-link">
+            <i class="fab fa-twitter"></i>
+          </a>&nbsp;&nbsp;
+          <a href="https://github.com/{{page.author-github-name}}" class="rnw-social-link">
+            <i class="fab fa-github"></i>
+          </a>
+        </span>
+        <span class="is-pulled-right">
+          {% for category in page.categories %}
+          <a href="/category/{{category}}" class="button is-danger is-rnw-btn">{{ category }}</a>
+          {% endfor %}
+        </span>
+      </div>
     </div>
   </div>
 </section>

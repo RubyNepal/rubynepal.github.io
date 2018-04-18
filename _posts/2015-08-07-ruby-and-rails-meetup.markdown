@@ -29,6 +29,6 @@ For more details and to RSVP checkout our meetup page at http://www.meetup.com/N
 
 See you at the next Ruby and Rails meetup!
 
-> Saroj Maharjan - [zoras](http://twitter.com/zoraslapen)
+> Saroj Maharjan - [zoras](http://twitter.com/zoraslapen){:.rnw-link}
 
 > Organiser, Ruby and Rails Meetup
