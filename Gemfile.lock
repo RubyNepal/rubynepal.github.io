@@ -32,8 +32,12 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-seo-tag (2.4.0)
+      jekyll (~> 3.3)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
+    jekyll-youtube (1.0.0)
+      jekyll
     kramdown (1.16.2)
     liquid (4.0.0)
     listen (3.1.5)
@@ -63,6 +67,8 @@ DEPENDENCIES
   jekyll (~> 3.7.3)
   jekyll-feed (~> 0.6)
   jekyll-paginate
+  jekyll-seo-tag
+  jekyll-youtube
   tzinfo-data
 
 BUNDLED WITH

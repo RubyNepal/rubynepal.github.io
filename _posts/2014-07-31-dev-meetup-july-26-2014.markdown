@@ -35,7 +35,7 @@ _I) 10 Ways We Can Be Better by Mark Sears_ - [@marktsears](http://twitter.com/m
 
 ![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861728292.jpg?1406529728)
 
-[comment]: <> ( youtube COBCnZls5rE )
+{% youtube "https://www.youtube.com/watch?v=COBCnZls5rE"  %}
 
 [Slides - Mark DevMeetup Talk](http://bit.ly/ktmdevmeetup){:.rnw-link}
 
@@ -43,7 +43,7 @@ _II) Ansible by Bikash Kaji Basukala_ - [@kajisaap](http://twitter.com/kajisaap)
 
 ![](https://pbs.twimg.com/media/BtdXoatCcAAmTPB.jpg)
 
-[comment]: <> ( youtube ZKoSG8bxw0A )
+{% youtube "https://www.youtube.com/watch?v=ZKoSG8bxw0A" %}
 
 [Slides - Kaji DevMeetup Talk](https://bit.ly/kajionansible){:.rnw-link}
 
@@ -51,7 +51,7 @@ _III) Ember.js with Ember-Cli by Sachin Sagar Rai_ - [@millisami](http://twitter
 
 ![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861727487.png?1406528902)
 
-[comment]: <> ( youtube Z_HCTb5I1lM )
+{% youtube "https://www.youtube.com/watch?v=ZZ_HCTb5I1lM" %}
 
 [Slides - Millisami DevMeetup Talk](http://nepalonrails.com/blog/2014/07/emberjs-app-using-ember-cli/){:.rnw-link}
 
