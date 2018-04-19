@@ -26,7 +26,7 @@ We are using github issue to manage our meetup presentation. You can open [issue
 
 See you at next [Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
 
-![](http://photos3.meetupstatic.com/photos/event/d/9/8/4/highres_445315684.jpeg)}
+![](http://photos3.meetupstatic.com/photos/event/d/9/8/4/highres_445315684.jpeg)
 
 > Susan Joshi - [josisusan](https://twitter.com/josisusan){:.rnw-link}
 

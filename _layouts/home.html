@@ -11,17 +11,13 @@
   <title>{{site.title}}</title>
 </head>
 <body>
-<header class="pdb-50">
+<header class="pdb-10">
   {% include top-bar.html %}
   <div class="container">
     <div class="columns">
       <div class="column pdt-50">
         <div class="navbar-start">
-          <div class="navbar-item">
-            <div class="field is-grouped">
-              {% include social-links.html %}
-            </div>
-          </div>
+          <img src="/images/flag.gif" alt="Ruby Nepal">
         </div>
       </div>
       <div class='column'>
@@ -34,7 +30,15 @@
           </div>
         </div>
       </div>
-      <div class="column"></div>
+      <div class="column pdt-50">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              {% include social-links.html %}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   {% include home-nav.html %}
@@ -46,5 +50,6 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
         integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
         crossorigin="anonymous"></script>
+<script src="/js/app.js"></script>
 </body>
 </html>

@@ -4,6 +4,9 @@
 .rbnw-nav {
   box-shadow: 1px 0 2px 2px rgba(42,42,42,.25);
   .navbar-item {
-    font-size: 20px;
+    font-size: $nav-item-font-size;
+  }
+  a.navbar-item:hover {
+    color: $logo-color;
   }
 }

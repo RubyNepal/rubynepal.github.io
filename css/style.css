@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! bulma.io v0.7.0 | MIT License | github.com/jgthms/bulma */
+/*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -726,29 +726,56 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .has-text-black-bis {
   color: #121212 !important; }
 
+.has-background-black-bis {
+  background-color: #121212 !important; }
+
 .has-text-black-ter {
   color: #242424 !important; }
+
+.has-background-black-ter {
+  background-color: #242424 !important; }
 
 .has-text-grey-darker {
   color: #363636 !important; }
 
+.has-background-grey-darker {
+  background-color: #363636 !important; }
+
 .has-text-grey-dark {
   color: #4a4a4a !important; }
+
+.has-background-grey-dark {
+  background-color: #4a4a4a !important; }
 
 .has-text-grey {
   color: #7a7a7a !important; }
 
+.has-background-grey {
+  background-color: #7a7a7a !important; }
+
 .has-text-grey-light {
   color: #b5b5b5 !important; }
+
+.has-background-grey-light {
+  background-color: #b5b5b5 !important; }
 
 .has-text-grey-lighter {
   color: #dbdbdb !important; }
 
+.has-background-grey-lighter {
+  background-color: #dbdbdb !important; }
+
 .has-text-white-ter {
   color: whitesmoke !important; }
 
+.has-background-white-ter {
+  background-color: whitesmoke !important; }
+
 .has-text-white-bis {
   color: #fafafa !important; }
+
+.has-background-white-bis {
+  background-color: #fafafa !important; }
 
 .has-text-weight-light {
   font-weight: 300 !important; }
@@ -3845,7 +3872,6 @@ a.dropdown-item {
 
 .navbar {
   background-color: white;
-  box-shadow: 0 2px 0 0 whitesmoke;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -4235,7 +4261,7 @@ a.dropdown-item {
     min-height: 3.25rem;
     width: 100%; }
   .navbar.has-shadow {
-    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1); }
+    box-shadow: 0 2px 0 0 whitesmoke; }
   .navbar.is-fixed-bottom, .navbar.is-fixed-top {
     left: 0;
     position: fixed;
@@ -4244,7 +4270,7 @@ a.dropdown-item {
   .navbar.is-fixed-bottom {
     bottom: 0; }
     .navbar.is-fixed-bottom.has-shadow {
-      box-shadow: 0 -2px 3px rgba(10, 10, 10, 0.1); }
+      box-shadow: 0 -2px 0 0 whitesmoke; }
   .navbar.is-fixed-top {
     top: 0; }
 
@@ -6352,35 +6378,15 @@ header {
 .notification:not(:last-child) {
   margin-bottom: 0; }
 
-.nav ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin: 0; }
+.home-nav .navbar-item {
+  background: #e23838;
+  font-size: 20px;
+  color: #f5f5f5; }
+.home-nav a.navbar-item:hover {
+  color: #f5f5f5;
+  background-color: #e23838;
+  opacity: 0.8; }
 
-.nav li {
-  font-size: 1em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888; }
-
-.nav a {
-  text-decoration: none;
-  color: #444;
-  display: block;
-  transition: .3s background-color; }
-
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em; }
-
-  .nav li {
-    display: inline-block;
-    margin-right: -4px; } }
 .rbnw-nav-logo img {
   max-height: 4.25rem; }
 
@@ -6388,6 +6394,16 @@ header {
   box-shadow: 1px 0 2px 2px rgba(42, 42, 42, 0.25); }
   .rbnw-nav .navbar-item {
     font-size: 20px; }
+  .rbnw-nav a.navbar-item:hover {
+    color: #e23838; }
+
+.social-link-control {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 10px;
+  line-height: 20px; }
 
 body {
   font-family: 'Vollkorn', serif;
@@ -6407,5 +6423,8 @@ h1.subtitle {
 
 .pdt-50 {
   padding-top: 50px; }
+
+.pdb-10 {
+  padding-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */

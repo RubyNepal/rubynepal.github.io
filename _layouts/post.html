@@ -31,7 +31,11 @@ layout: default
         </span>
         <span class="is-pulled-right">
           {% for category in page.categories %}
-          <a href="/category/{{category}}" class="button is-danger is-rnw-btn">{{ category }}</a>
+          <a href="/category/{{category}}">
+            <span class="rnw-tag tag is-danger">
+              &nbsp;{{ category }}&nbsp;&nbsp;
+            </span>
+          </a>
           {% endfor %}
         </span>
       </div>
