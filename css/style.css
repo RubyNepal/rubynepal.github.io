@@ -6370,6 +6370,9 @@ header {
   background-color: #e23838;
   opacity: 0.7; }
 
+.image-circle {
+  border-radius: 50%; }
+
 .is-bar {
   background-color: #e23838;
   padding: 0.2rem 0.2rem 0.2rem 1rem;

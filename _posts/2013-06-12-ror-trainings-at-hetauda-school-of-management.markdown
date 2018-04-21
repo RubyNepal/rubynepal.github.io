@@ -4,9 +4,7 @@ title: "Ruby on Rails Training at Hetauda School Of Management"
 date: 2013-06-12 22:47
 comments: true
 categories: [activities]
-author: Rohit Joshi
-author-twitter-name: "rohitroxxxxx"
-author-github-name: "RohitRox"
+author: rohitrox
 ---
 
 We are organising 4 sessions(one session per 2 week) ruby on rails training series at Hetauta School of Management for BIM final year students from May 25, 2013. We recieved an special invitation from the college to do this training ans we are pleased to aid the college for conducting such extra curricular programs that will help students to broaded their skills and also we are happy to spread the ruby and ruby on rails wisedom to our next-generation IT professionals.

@@ -4,9 +4,7 @@ title: "Ruby Meetup January 2016"
 date: 2016-01-12 19:56
 comments: true
 categories: [activities]
-author: "Saroj Maharjan"
-author-twitter-name: "zoras"
-author-github-name: "zoras"
+author: josisusan
 ---
 Happy New Year to all the Rubyists out there from RubyNepal.org. A common way to celebrate new year is by revisiting moments from your past, so I decided to conduct the first edition of the year 2016's monthly Ruby and Rails Meetup at CloudFactory. It was nostaligic for me to go back to the place from where I learnt so much and is filled with so many good memories.
 

@@ -21,7 +21,13 @@ excerpt_separator: "more"
         </div>
       </div>
     </div>
-    {% include author-category-box.html %}
+    <div class="box rnw-box">
+      {% assign author = site.data.authors[post.author] %}
+      {% assign categories = post.categories %}
+      {% if author %}
+      {% include author-category-box.html %}
+      {% endif %}
+    </div>
   </div>
   {% endfor %}
 </section>

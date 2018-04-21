@@ -1,21 +1,35 @@
-<div class="box rnw-box">
-  <span class="has-pulled-left">
-    By <a href="" class="rnw-link">{{ post.author }}</a> <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://twitter.com/{{post.author-twitter-name}}" class="rnw-social-link">
-      <i class="fab fa-twitter"></i>
-    </a>&nbsp;&nbsp;
-    <a href="https://github.com/{{post.author-github-name}}" class="rnw-social-link">
-      <i class="fab fa-github"></i>
-    </a>
-  </span>
-  <span class="is-pulled-right">
-    {% for category in post.categories %}
+<article class="media">
+  <figure class="media-left">
+    <p class="image is-64x64">
+      <img class="image-circle" src="{{ author.photo }}">
+    </p>
+  </figure>
+  <div class="media-content">
+    <div class="content">
+      <p>
+        <strong><a href="https://www.twitter.com/{{author.twitter-username}}" class="rnw-link">{{ author.name }}</a></strong> <small>@{{ author.twitter-username }}</small>
+        <br>
+        {{ author.bio }}
+      </p>
+    </div>
+    <nav class="level is-mobile">
+      <div class="level-left">
+        <a href="https://twitter.com/{{author.twitter-username}}" class="level-item rnw-social-link">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/{{author.twitter-username}}" class="level-item rnw-social-link">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </nav>
+  </div>
+  <div class="media-right">
+    {% for category in categories %}
     <a href="/category/{{category}}">
-      <span class="rnw-tag tag is-danger">
-        &nbsp;{{ category }}&nbsp;&nbsp;
-      </span>
+          <span class="rnw-tag tag is-danger">
+            &nbsp;{{ category }}&nbsp;&nbsp;
+          </span>
     </a>
     {% endfor %}
-  </span>
-</div>
+  </div>
+</article>

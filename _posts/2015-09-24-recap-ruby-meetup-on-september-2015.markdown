@@ -4,9 +4,7 @@ title: "Recap: Ruby Meetup September 13"
 date: 2015-09-24 10:34
 comments: true
 categories: [activities]
-author: "Saroj Maharjan"
-author-twitter-name: "zoras"
-author-github-name: "zoras"
+author: zoras
 ---
 
 The monthly Ruby Meetup was held on the 2nd Sunday of September last week. Local ruby enthusiasts came together to quench and moreover arouse appetite for learning.
