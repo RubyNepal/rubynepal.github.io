@@ -33,10 +33,11 @@ I overheard there was an inspiring entrepreneur speech involved during the netwo
 
 See you at the [next Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}!
 
+![](http://photos4.meetupstatic.com/photos/event/2/e/3/a/600_441971834.jpeg){: .center-image }
+
+![](http://photos2.meetupstatic.com/photos/event/2/e/1/9/600_441971801.jpeg){: .center-image }
+
+
 > Saroj Maharjan - [zoras](http://twitter.com/zoraslapen){:.rnw-link}
 
 > Organiser, Ruby and Rails Meetup
-
-![](http://photos4.meetupstatic.com/photos/event/2/e/3/a/600_441971834.jpeg)
-
-![](http://photos2.meetupstatic.com/photos/event/2/e/1/9/600_441971801.jpeg)

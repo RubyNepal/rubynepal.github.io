@@ -1,6 +1,6 @@
 body {
   font-family: 'Vollkorn', serif;
-  background: #EFF3F4;
+  background: $body-background-color;
 }
 .is-horizontal-center {
   justify-content: center;
@@ -19,4 +19,17 @@ h1.subtitle {
 }
 .pdb-10 {
   padding-bottom: 10px;
+}
+.rnw-hero {
+  p.title {
+    font-size: 1.4rem;
+  }
+  .tile {
+    .tile.is-child {
+      box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+    }
+  }
+  .notification {
+    border-radius: 0;
+  }
 }

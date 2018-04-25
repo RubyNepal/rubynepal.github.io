@@ -19,19 +19,20 @@ Follow us [@ruby_nepal](http://twitter.com/ruby_nepal){:.rnw-link} for latest up
 
 If you are not sure what to expect or missed the 1st Dev Meetup, check out the pics and videos from the first one.
 
-** Pictures **
+**Pictures**
 
-![](https://pbs.twimg.com/media/BtdOPL3CMAAlPlN.jpg)
-![](https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg)
+![](https://pbs.twimg.com/media/BtdOPL3CMAAlPlN.jpg){: .center-image }
 
-** FB Event Pics and Details: ** 
+![](https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg){: .center-image }
+
+**FB Event Pics and Details:** 
 https://www.facebook.com/events/768447783198796/
 
-** Videos And Slides:  **
+**Videos And Slides:**
 
 _I) 10 Ways We Can Be Better by Mark Sears_ - [@marktsears](http://twitter.com/marktsears){:.rnw-link}
 
-![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861728292.jpg?1406529728)
+![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861728292.jpg?1406529728){: .center-image }
 
 {% youtube "https://www.youtube.com/watch?v=COBCnZls5rE"  %}
 
@@ -39,7 +40,7 @@ _I) 10 Ways We Can Be Better by Mark Sears_ - [@marktsears](http://twitter.com/m
 
 _II) Ansible by Bikash Kaji Basukala_ - [@kajisaap](http://twitter.com/kajisaap){:.rnw-link}
 
-![](https://pbs.twimg.com/media/BtdXoatCcAAmTPB.jpg)
+![](https://pbs.twimg.com/media/BtdXoatCcAAmTPB.jpg){: .center-image }
 
 {% youtube "https://www.youtube.com/watch?v=ZKoSG8bxw0A" %}
 
@@ -47,7 +48,7 @@ _II) Ansible by Bikash Kaji Basukala_ - [@kajisaap](http://twitter.com/kajisaap)
 
 _III) Ember.js with Ember-Cli by Sachin Sagar Rai_ - [@millisami](http://twitter.com/millisami){:.rnw-link}
 
-![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861727487.png?1406528902)
+![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861727487.png?1406528902){: .center-image }
 
 {% youtube "https://www.youtube.com/watch?v=ZZ_HCTb5I1lM" %}
 

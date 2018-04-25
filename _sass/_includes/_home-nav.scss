@@ -1,12 +1,11 @@
 .home-nav {
   .navbar-item {
-    background: $logo-color;
     font-size: $nav-item-font-size;
     color: $home-nav-item-color;
   }
   a.navbar-item:hover {
-    color: $home-nav-item-color;
-    background-color: $logo-color;
-    opacity: 0.8;
+    background-color: rgba(0,0,0,0);
+    color: $logo-second-color;
+    border-bottom: 2px solid $nav-item-border-color;
   }
 }
