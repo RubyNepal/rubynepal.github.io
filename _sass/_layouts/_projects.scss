@@ -1,0 +1,11 @@
+.projects {
+  .card-image {
+    img {
+      height: 60px;
+      padding: 4px;
+    }
+  }
+  .add-project {
+    border: 1px dashed $logo-color;
+  }
+}
