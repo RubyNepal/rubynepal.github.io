@@ -37,6 +37,12 @@ plugins:
 sass:
     sass_dir: _sass
     style: compressed
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-118283876-1
+    anonymizeIp: false
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
