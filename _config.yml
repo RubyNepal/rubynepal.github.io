@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ruby Nepal
-email:
+title: RubyNepal
+email: info@rubynepal.org
 subtitle: Nepal Ruby Community
 description: >- # this means to ignore newlines until "baseurl:"
   We are Ruby community of Nepal.
@@ -33,10 +33,12 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-autolink_email
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 jekyll_analytics:
   GoogleAnalytics:

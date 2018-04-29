@@ -38,7 +38,3 @@ This way about.markdown will be rendered in root page while blog index will be a
 Now we had to put a list of developers and advisors info in members page. One way was to dump those info to a yml file and access data from there. Matt Swanson has excellent write on how to do that in his [blog](http://mdswanson.com/blog/2013/06/03/jekyll-201.html){:.rnw-link}. With this, we could dump the data from yml file to jekyll *site* variable.
 
 Finally, we built a small heroku app that powers the join page forms and we have rubynepal.org as how it is now.
-
-
-
-

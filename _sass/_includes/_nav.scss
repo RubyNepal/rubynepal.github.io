@@ -10,6 +10,9 @@
 }
 a.navbar-item:hover {
   background-color: rgba(0,0,0,0);
-  color: $logo-second-color;
-  border-bottom: 2px solid $nav-item-border-color;
+  color: $logo-color;
+  border-bottom: 4px solid $nav-item-border-color;
+}
+a.rbnw-nav-logo:hover {
+  border-bottom: none;;
 }

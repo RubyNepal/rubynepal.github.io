@@ -21,7 +21,11 @@ If you are not sure what to expect or missed the 1st Dev Meetup, check out the p
 
 **Pictures**
 
-![](https://pbs.twimg.com/media/BtdOPL3CMAAlPlN.jpg){: .center-image }
+{% include image.html
+   img="https://pbs.twimg.com/media/BtdOPL3CMAAlPlN.jpg"
+   title="Ruby Meetup"
+   class="center-image"
+   caption="Ruby Meetup" %}
 
 ![](https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg){: .center-image }
 

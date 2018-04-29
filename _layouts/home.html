@@ -1,16 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'/>
-  <title>{{site.title}}</title>
-</head>
+{% include head.html %}
 <body>
 <header class="pdb-10">
   {% include top-bar.html %}
@@ -19,7 +9,7 @@
       <div class='column'>
         <div class='equal-height pdb-50'>
           <div class='is-flex is-horizontal-center'>
-            <div class='image ruby-logo'><img src='/images/rubynepal.png' alt="Ruby Nepal Community"></div>
+            <div class='image rubynepal-logo'><img src='/images/rubynepal.png' alt="Ruby Nepal Community"></div>
           </div>
           <div class='is-flex is-horizontal-center'>
             <h1 class="subtitle">{{ site.subtitle }}</h1>

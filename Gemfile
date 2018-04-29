@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.7.3"
+gem "jekyll", "~> 3.7"
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -17,11 +17,13 @@ gem "jekyll", "~> 3.7.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-paginate"
-  gem "jekyll-seo-tag"
-  gem "jekyll-youtube"
-  gem "jekyll-analytics"
+  gem "jekyll-feed", "~> 0.9"
+  gem "jekyll-paginate", "~> 1.1"
+  gem "jekyll-seo-tag", "~> 2.4"
+  gem "jekyll-youtube", "~> 1.0"
+  gem "jekyll-analytics", "~> 0.1"
+  gem "jekyll-email-protect", "~> 1.0"
+  gem "jekyll-autolink_email", "~> 0.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

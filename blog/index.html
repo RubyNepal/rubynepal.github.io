@@ -5,67 +5,65 @@ excerpt_separator: "more"
 
 <section class="articles pdt-50 pdb-50">
   {% for post in paginator.posts %}
-  <div class="column is-10 is-offset-1">
-    <div class="card article">
-      <div class="card-content">
-        <div class="media">
-          <div class="media-content has-text-centered">
-            <p class="title article-title"><a href="{{post.url}}">{{ post.title}}</a></p>
-            <p class="subtitle is-6 article-subtitle">
-              <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%-d %B, %Y"}}
-            </p>
+    <div class="column is-10 is-offset-1">
+      <div class="card article">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content has-text-centered">
+              <p class="title article-title"><a href="{{post.url}}">{{ post.title}}</a></p>
+              <p class="subtitle is-6 article-subtitle">
+                <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%-d %B, %Y"}}
+              </p>
+            </div>
+          </div>
+          <div class="content article-body">
+            <p>{{ post.excerpt }} <a href="{{post.url}}" class="rnw-link">Continue Reading...</a></p>
           </div>
         </div>
-        <div class="content article-body">
-          <p>{{ post.excerpt }} <a href="{{post.url}}" class="rnw-link">Continue Reading...</a></p>
-        </div>
+      </div>
+      <div class="box rnw-box">
+        {% assign author = site.data.authors[post.author] %}
+        {% assign categories = post.categories %}
+        {% if author %}
+          {% include author-category-box.html %}
+        {% endif %}
       </div>
     </div>
-    <div class="box rnw-box">
-      {% assign author = site.data.authors[post.author] %}
-      {% assign categories = post.categories %}
-      {% if author %}
-      {% include author-category-box.html %}
-      {% endif %}
-    </div>
-  </div>
   {% endfor %}
 </section>
 
 {% if paginator.total_pages > 1 %}
-<div class="column is-10 is-offset-1 pdb-50">
-  <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-       class="pagination-previous">Previous</a>
-    {% else %}
-    <a href="javascript:void(0)"
-       disabled="true"
-       class="pagination-previous">Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a  href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-        class="pagination-next">Next page</a>
-    {% else %}
-    <a href="javascript:void(0)"
-       disabled="true"
-       class="pagination-previous">Next</a>
-    {% endif %}
-    <ul class="pagination-list">
-      {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-      <em>{{ page }}</em>
-      {% elsif page == 1 %}
-      <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-             class="pagination-link" aria-label="Goto page 1">{{ page }}</a>
-      </li>
+  <div class="column is-10 is-offset-1 pdb-50">
+    <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+           class="pagination-previous">Previous</a>
       {% else %}
-      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
-             class="pagination-link" aria-label="Goto page {{ page }}">{{ page }}</a>
-      </li>
+        <a href="javascript:void(0)"
+           disabled="true"
+           class="pagination-previous">Previous</a>
       {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-</div>
+      {% if paginator.next_page %}
+        <a  href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+            class="pagination-next">Next page</a>
+      {% else %}
+        <a href="javascript:void(0)"
+           disabled="true"
+           class="pagination-previous">Next</a>
+      {% endif %}
+      <ul class="pagination-list">
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <em>{{ page }}</em>
+          {% elsif page == 1 %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+                   class="pagination-link" aria-label="Goto page 1">{{ page }}</a></li>
+          {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
+                 class="pagination-link" aria-label="Goto page {{ page }}">{{ page }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
 {% endif %}

@@ -1,14 +1,27 @@
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <p>
-        Copyright © {{ site.time | date: '%Y' }} - RubyNepal - Powered by <a href="https://jekyllrb.com/" class="rnw-link">Jekyll</a>
-      </p>
-    </div>
-    <div class="navbar-menu is-horizontal-center">
-      <div class="navbar-item">
-        <div class="field is-grouped">
-          {% include social-links.html %}
+    <div class="columns">
+      <div class="column">
+        <div class="navbar-item">
+          <i class="fas fa-envelope"></i> &nbsp;&nbsp;
+          <a href="mailto:{{ site.email | encode_email }}" class="rnw-link">info@rubynepal.org</a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="is-horizontal-center">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              {% include social-links.html %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content has-text-centered">
+          <p>
+            Copyright © {{ site.time | date: '%Y' }} - RubyNepal - Powered by
+            <a href="https://jekyllrb.com/" class="rnw-link" target="_blank">Jekyll</a>
+          </p>
         </div>
       </div>
     </div>
