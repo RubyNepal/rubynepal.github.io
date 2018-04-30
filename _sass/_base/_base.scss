@@ -38,6 +38,10 @@ a {
 .footer {
   background-color: $footer-background-color;
 }
+.group-centered {
+  display: flex;
+  justify-content: center;
+}
 .center-image
 {
   margin: 0 auto;

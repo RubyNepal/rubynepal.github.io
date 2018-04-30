@@ -1,28 +1,28 @@
 <footer class="footer">
   <div class="container">
     <div class="columns">
-      <div class="column">
-        <div class="navbar-item">
-          <i class="fas fa-envelope"></i> &nbsp;&nbsp;
-          <a href="mailto:{{ site.email | encode_email }}" class="rnw-link">info@rubynepal.org</a>
-        </div>
-      </div>
-      <div class="column">
-        <div class="is-horizontal-center">
-          <div class="navbar-item">
-            <div class="field is-grouped">
-              {% include social-links.html %}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="content has-text-centered">
+      <div class="column is-4 has-text-left">
+        <div class="content">
           <p>
-            Copyright © {{ site.time | date: '%Y' }} - RubyNepal - Powered by
+            Copyright © {{ site.time | date: '%Y' }} -
+            <a href="https://rubynepal.org/" class="rnw-link" target="_blank">RubyNepal</a>
+          </p>
+          <p>
+            Powered by
             <a href="https://jekyllrb.com/" class="rnw-link" target="_blank">Jekyll</a>
           </p>
         </div>
+      </div>
+      <div class="column is-4">
+        <div class="is-horizontal-center">
+          <div class="field group-centered">
+            {% include social-links.html %}
+          </div>
+        </div>
+      </div>
+      <div class="column is-4 has-text-right">
+        <i class="fas fa-envelope"></i> &nbsp;&nbsp;
+        <a href="mailto:{{ site.email | encode_email }}" class="rnw-link">{{site.email}}</a>
       </div>
     </div>
   </div>
