@@ -56,36 +56,35 @@ layout: default
           <div class="content">
             {% for post in site.related_posts limit:5 %}
               {% assign author = site.data.authors[post.author] %}
-                <article class="post">
-                  <h4>
-                    <a href="{{post.url}}">{{ post.title }}</a>
-                  </h4>
-                  {% if author %}
+              <article class="post">
+                <h4>
+                  <a href="{{post.url}}">{{ post.title }}</a>
+                </h4>
+                {% if author %}
                   <div class="media">
                     <div class="media-left">
                       <p class="image is-32x32">
-                        <img src="{{author.photo}}" class="image-circle">
+                        <img src="{{ author.photo }}" alt="{{ author.name }}" class="image-circle">
                       </p>
                     </div>
-                    {% endif %}
-                    <div class="media-content">
-                      <div class="content">
-                        <p>
-                          <a href="https://www.twitter.com/{{author.twitter-username}}" target="_blank" class="rnw-link">
-                            @{{author.twitter-username}}
-                          </a> &nbsp;
-                          {% for category in post.categories %}
-                            <a href="/category/{{category}}">
-                              <span class="rnw-tag tag is-danger">
-                                {{ category }}&nbsp;&nbsp;
-                              </span>
-                            </a>
-                          {% endfor %}
-                        </p>
-                      </div>
-                    </div>
                   </div>
-                </article>
+                {% endif %}
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      @{{author.name}} &nbsp;
+                      {% for category in post.categories %}
+                        <a href="/category/{{ category }}">
+                          <span class="rnw-tag tag is-danger">
+                            {{ category }}&nbsp;&nbsp;
+                          </span>
+                        </a>
+                      {% endfor %}
+                    </p>
+                  </div>
+                </div>
+                </div>
+              </article>
               {% if forloop.last == false %}
                 <hr>
               {% endif %}

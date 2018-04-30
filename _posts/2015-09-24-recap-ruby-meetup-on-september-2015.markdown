@@ -17,11 +17,11 @@ A big shout out to our sponsors for the September event. [Get in touch](mailto:r
 
 1) [Innovation Hub Kathmandu](https://www.facebook.com/IHKathmandu){:.rnw-link} for graciously allowing us to use the venue.
 
-2) [Leapfrog.Academy](http://leapfrog.academy/courses_ror.php){:.rnw-link} who are currently teaching a course on *Web Development with Ruby on Rails*.
+2) [Leapfrog.Academy](http://leapfrog.academy/){:.rnw-link} who are currently teaching a course on *Web Development with Ruby on Rails*.
 
 3) [Codyssey Web Nepal](http://codysseynepal.com/){:.rnw-link}, a RoR dev shop.
 
-In a true developer fashion, going forward we'll be using github to manage meetup presentations. You can go ahead and open issues in https://github.com/RubyNepal/rorh/issues for: 
+In a true developer fashion, going forward we'll be using github to manage meetup presentations. You can go ahead and open issues in https://github.com/RubyNepal/rorh/issues for:
 
 * Either something you want to present on
 
@@ -33,9 +33,9 @@ I overheard there was an inspiring entrepreneur speech involved during the netwo
 
 See you at the [next Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}!
 
-![](http://photos4.meetupstatic.com/photos/event/2/e/3/a/600_441971834.jpeg){: .center-image }
+![Prasvin Pandey speaking on Metaprogramming in Ruby](https://secure.meetupstatic.com/photos/event/2/e/3/a/600_441971834.jpeg){: .center-image }
 
-![](http://photos2.meetupstatic.com/photos/event/2/e/1/9/600_441971801.jpeg){: .center-image }
+![Audience at Meetup](https://secure.meetupstatic.com/photos/event/2/e/1/9/600_441971801.jpeg){: .center-image }
 
 
 > Saroj Maharjan - [zoras](http://twitter.com/zoraslapen){:.rnw-link}

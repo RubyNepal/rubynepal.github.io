@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-# coding: utf-8
 
+require 'bundler/setup'
 require 'colorize'
 require 'html-proofer'
 require 'jekyll'
@@ -11,8 +11,10 @@ require 'jekyll-youtube'
 # Configuration Options
 config_file = '_config.yml' # Name of Jekyll config file
 
-# Do not touch below this line
-RuboCop::RakeTask.new
+# Rubocop Rake
+RuboCop::RakeTask.new(:rubocop) do |t|
+  t.options = ['--display-cop-names', '.']
+end
 
 # Extend string to allow for bold text.
 class String

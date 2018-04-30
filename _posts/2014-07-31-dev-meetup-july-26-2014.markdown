@@ -27,16 +27,14 @@ If you are not sure what to expect or missed the 1st Dev Meetup, check out the p
    class="center-image"
    caption="Ruby Meetup" %}
 
-![](https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg){: .center-image }
+![Audience at Meetup](https://pbs.twimg.com/media/BtdmzUJCUAEDi0W.jpg){: .center-image }
 
-**FB Event Pics and Details:** 
+**FB Event Pics and Details:**
 https://www.facebook.com/events/768447783198796/
 
 **Videos And Slides:**
 
 _I) 10 Ways We Can Be Better by Mark Sears_ - [@marktsears](http://twitter.com/marktsears){:.rnw-link}
-
-![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861728292.jpg?1406529728){: .center-image }
 
 {% youtube "https://www.youtube.com/watch?v=COBCnZls5rE"  %}
 
@@ -44,15 +42,13 @@ _I) 10 Ways We Can Be Better by Mark Sears_ - [@marktsears](http://twitter.com/m
 
 _II) Ansible by Bikash Kaji Basukala_ - [@kajisaap](http://twitter.com/kajisaap){:.rnw-link}
 
-![](https://pbs.twimg.com/media/BtdXoatCcAAmTPB.jpg){: .center-image }
+![Bikash Kaji speaking about Ansible](https://pbs.twimg.com/media/BtdXoatCcAAmTPB.jpg){: .center-image }
 
 {% youtube "https://www.youtube.com/watch?v=ZKoSG8bxw0A" %}
 
 [Slides - Kaji DevMeetup Talk](https://bit.ly/kajionansible){:.rnw-link}
 
 _III) Ember.js with Ember-Cli by Sachin Sagar Rai_ - [@millisami](http://twitter.com/millisami){:.rnw-link}
-
-![](https://d3j5vwomefv46c.cloudfront.net/photos/large/861727487.png?1406528902){: .center-image }
 
 {% youtube "https://www.youtube.com/watch?v=ZZ_HCTb5I1lM" %}
 
