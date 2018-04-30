@@ -3,7 +3,7 @@ layout: post
 title: "Recap: Ruby Meetup September 13"
 date: 2015-09-24 10:34
 comments: true
-categories: [activities]
+categories: [meetup]
 author: zoras
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Ruby on Rails Training at Hetauda School Of Management"
 date: 2013-06-12 22:47
 comments: true
-categories: [activities]
+categories: [training]
 author: rohitrox
 ---
 

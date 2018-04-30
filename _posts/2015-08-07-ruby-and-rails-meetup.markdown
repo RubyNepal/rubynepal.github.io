@@ -3,7 +3,7 @@ layout: post
 title: "Join Ruby and Rails Meetup"
 date: 2015-08-07 14:03
 comments: true
-categories: [activities]
+categories: [meetup]
 author: zoras
 ---
 
