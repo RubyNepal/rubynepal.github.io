@@ -6,6 +6,7 @@ require 'html-proofer'
 require 'jekyll'
 require 'rubocop/rake_task'
 require 'uri'
+require 'scss_lint/rake_task'
 require 'jekyll-youtube'
 
 # Configuration Options
@@ -14,6 +15,13 @@ config_file = '_config.yml' # Name of Jekyll config file
 # Rubocop Rake
 RuboCop::RakeTask.new(:rubocop) do |t|
   t.options = ['--display-cop-names', '.']
+end
+
+# https://github.com/brigade/scss-lint#rake-integration
+SCSSLint::RakeTask.new do |t|
+  # t.config = 'custom/config.yml'
+  # t.args = ['--format', 'JSON', '--out', 'results.txt']
+  t.files = Dir.glob(['_sass/**/*.scss'])
 end
 
 # Extend string to allow for bold text.

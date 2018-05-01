@@ -36,5 +36,13 @@ gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 gem 'rake'
 
-gem 'html-proofer'
-gem 'rubocop', require: false
+group :development, :test do
+  gem 'html-proofer'
+  gem 'rubocop', require: false
+  gem 'scss_lint', require: false
+
+  gem 'guard-bundler', require: false
+  gem 'guard-bundler-audit'
+  gem 'guard-rake'
+  gem 'guard-rubocop'
+end

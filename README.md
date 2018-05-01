@@ -1,4 +1,4 @@
-## rubynepal.org
+## RubyNepal.org
 
 The rubynepal.org site is a static site powered by [jekyll](https://jekyllrb.com/) and hosted with Github Pages.
 

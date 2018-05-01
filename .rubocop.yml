@@ -2,3 +2,17 @@ inherit_from: .rubocop_todo.yml
 
 AllCops:
   TargetRubyVersion: 2.5
+  Exclude:
+    - vendor/**/* # Ignore Travis-CI build directory
+    - Guardfile
+  DisplayCopNames:
+    enabled: true
+
+Lint:
+  Enabled: true
+
+Rails:
+  Enabled: false
+
+Metrics/LineLength:
+  IgnoredPatterns: ['\A#'] # make rubocop ignore comments using regex
