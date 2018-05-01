@@ -12,10 +12,10 @@ a {
 
 .rnw-box {
   border-radius: 0;
-}
 
-.rnw-box a:not(.button) {
-  color: $logo-color;
+  a:not(.button) {
+    color: $logo-color;
+  }
 }
 
 .rnw-hero {
@@ -25,21 +25,30 @@ a {
   }
 }
 
-.rnw-tag:not(body).is-danger {
-  background-color: $logo-color;
+.rnw-tag {
+  &:not(body) {
+    .is-danger {
+      background-color: $logo-color;
+    }
+  }
 }
 
 .rnw-social-link {
-  color: $social-common-color !important;
+  color: $social-common-color;
 }
 
-.button.is-rnw-btn {
-  background-color: $logo-color
-}
-
-.button.is-danger:hover, .button.is-danger.is-hovered {
+.is-rnw-btn {
   background-color: $logo-color;
-  opacity: 0.7;
+}
+
+.button {
+  .is-danger {
+    &:hover,
+    .is-hovered {
+      background-color: $logo-color;
+      opacity: .7;
+    }
+  }
 }
 
 .image-circle {
@@ -47,6 +56,6 @@ a {
 }
 
 .center-image {
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
 }

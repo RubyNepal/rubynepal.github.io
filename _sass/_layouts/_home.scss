@@ -1,6 +1,6 @@
 body {
-  font-family: 'Vollkorn', serif;
   background: $body-background-color;
+  font-family: 'Vollkorn', serif;
 }
 
 .is-horizontal-center {
@@ -11,8 +11,10 @@ body {
   width: 260px;
 }
 
-h1.subtitle {
-  font-size: 14px;
+h1 {
+  .subtitle {
+    font-size: 14px;
+  }
 }
 
 .pdb-50 {
@@ -28,13 +30,15 @@ h1.subtitle {
 }
 
 .rnw-hero {
-  .title {
-    font-size: 1.4rem;
+  p {
+    .title {
+      font-size: 1.4rem;
+    }
   }
 
   .tile {
     .is-child {
-      box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 1px 0 $rnw-hero-tile-child-color;
     }
   }
 

@@ -94,7 +94,7 @@ linters:
 
   LeadingZero:
     enabled: true
-    style: include_zero
+    style: exclude_zero
 
   MergeableSelector:
     enabled: true
