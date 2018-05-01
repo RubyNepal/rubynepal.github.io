@@ -1,6 +1,8 @@
 scss_files:
   - '_sass/**/*.scss'
-    'css/**/*.scss'
+  - '_sass/**/*.sass'
+  - 'css/**/*.scss'
+  - 'css/**/*.sass'
 
 exclude: '_site/**'
 
