@@ -31,14 +31,32 @@ paginate_path: "/blog/page:num/"
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-autolink_email
+  - jekyll-email-protect
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-email-protect
-  - jekyll-autolink_email
 
 sass:
   sass_dir: _sass
   style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      categories: ""
+      tags: ""
+
+jekyll_admin:
+  hidden_links:
+    # - posts
+    # - pages
+    # - staticfiles
+    # - datafiles
+    # - configuration
 
 jekyll_analytics:
   GoogleAnalytics:
