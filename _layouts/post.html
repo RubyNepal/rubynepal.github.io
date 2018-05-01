@@ -11,7 +11,7 @@ layout: default
             <div class="media-content has-text-centered">
               <p class="title article-title">{{ page.title}}</p>
               <p class="subtitle is-6 article-subtitle">
-                <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%-d %B, %Y"}}
+                <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%-d %B, %Y" }}
               </p>
             </div>
           </div>
@@ -55,24 +55,16 @@ layout: default
         <div class="card-content">
           <div class="content">
             {% for post in site.related_posts limit:5 %}
-              {% assign author = site.data.authors[post.author] %}
               <article class="post">
                 <h4>
                   <a href="{{post.url}}">{{ post.title }}</a>
                 </h4>
-                {% if author %}
-                  <div class="media">
-                    <div class="media-left">
-                      <p class="image is-32x32">
-                        <img src="{{ author.photo }}" alt="{{ author.name }}" class="image-circle">
-                      </p>
-                    </div>
-                  </div>
-                {% endif %}
+                <p>
+                  {{ post.date | date: "%b. %Y" }}
+                </p>
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      {{author.name}} &nbsp;
                       {% for category in post.categories %}
                         <a href="/category/{{ category }}">
                           <span class="rnw-tag tag is-danger">
@@ -82,7 +74,6 @@ layout: default
                       {% endfor %}
                     </p>
                   </div>
-                </div>
                 </div>
               </article>
               {% if forloop.last == false %}

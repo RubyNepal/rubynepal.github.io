@@ -3,7 +3,7 @@ layout: post
 title: "Ruby Meetup December 20, 2015"
 date: 2015-12-23 18:37
 comments: true
-categories: [meetup]
+categories: [activities, meetup]
 author: josisusan
 ---
 After months of hurdles and fuel crisis, we’re finally continuing our monthly Ruby Meetup. Around 30 ruby enthusiasts showed up for the december meetup held on 20th December 2015. I was very glad and a little nervous to host the event for the very first time. I would like to thank [Saroj](https://twitter.com/zoraslapen){:.rnw-link} dai for providing me the opportunity to host the event.

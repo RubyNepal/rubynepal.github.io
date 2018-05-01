@@ -4,7 +4,7 @@ title: "Monthly Dev Meetup July 2014"
 date: 2014-07-31 19:37
 comments: true
 author: zoras
-categories: [meetup]
+categories: [activities, meetup]
 ---
 
 The tech scene in Kathmandu is ever growing but it is rather lacking a sense of community. Dev Meetup aims to fill this void with a regular meetup for developers where like minded individuals can gather, get to know each other and share their ideas/views.
