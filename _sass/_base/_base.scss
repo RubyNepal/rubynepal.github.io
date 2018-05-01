@@ -1,49 +1,52 @@
 header {
   background: $header-back-color;
 }
+
 a {
   color: $logo-second-color;
 }
+
 .rnw-link {
   color: $logo-color;
 }
+
 .rnw-box {
   border-radius: 0;
 }
+
 .rnw-box a:not(.button) {
   color: $logo-color;
 }
+
 .rnw-hero {
   .notification a:not(.button) {
     color: $logo-color;
     text-decoration: none;
   }
 }
+
 .rnw-tag:not(body).is-danger {
   background-color: $logo-color;
 }
+
 .rnw-social-link {
   color: $social-common-color !important;
 }
+
 .button.is-rnw-btn {
   background-color: $logo-color
 }
+
 .button.is-danger:hover, .button.is-danger.is-hovered {
   background-color: $logo-color;
   opacity: 0.7;
 }
+
 .image-circle {
   border-radius: 50%;
 }
-.footer {
-  background-color: $footer-background-color;
-}
-.group-centered {
-  display: flex;
-  justify-content: center;
-}
-.center-image
-{
+
+.center-image {
   margin: 0 auto;
   display: block;
 }

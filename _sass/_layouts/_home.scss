@@ -2,33 +2,42 @@ body {
   font-family: 'Vollkorn', serif;
   background: $body-background-color;
 }
+
 .is-horizontal-center {
   justify-content: center;
 }
+
 .rubynepal-logo {
   width: 260px;
 }
+
 h1.subtitle {
   font-size: 14px;
 }
+
 .pdb-50 {
   padding-bottom: 50px;
 }
+
 .pdt-50 {
   padding-top: 50px;
 }
+
 .pdb-10 {
   padding-bottom: 10px;
 }
+
 .rnw-hero {
-  p.title {
+  .title {
     font-size: 1.4rem;
   }
+
   .tile {
-    .tile.is-child {
-      box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+    .is-child {
+      box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
     }
   }
+
   .notification {
     border-radius: 0;
   }

@@ -1,5 +1,54 @@
-ruby:
+# https://houndci.com/configuration
+fail_on_violations: true
+
+# https://github.com/bbatsov/rubocop
+# ruby:
+rubocop:
+  enabled: true # default true
   config_file: .rubocop.yml
+
+# https://github.com/causes/scss-lint
 scss:
-  enabled: true
+  enabled: true # default true
   config_file: .scss-lint.yml
+  exclude:
+    - '_site/**'
+
+# https://github.com/sasstools/sass-lint
+sass-lint:
+  enabled: true # default false
+  # https://raw.githubusercontent.com/sasstools/sass-lint/master/lib/config/sass-lint.yml
+  # config_file: .sass-lint.yml
+
+# https://github.com/jshint/jshint
+jshint:
+  enabled: true # default true
+  # http://jshint.com/docs/options/
+  # config_file: .jshintrc
+  # ignore_file: .javascript_ignore
+
+# http://eslint.org/
+eslint:
+  enabled: true # default false
+  # http://eslint.org/docs/rules/
+  # config_file: .eslintrc
+
+# http://www.coffeelint.org/
+coffeescript:
+  enabled: false # default true
+  # config_file: coffeelint.json
+
+# https://github.com/brigade/haml-lint
+haml:
+  enabled: false # default true
+  config_file: .haml-lint.yml
+
+# https://github.com/golang/lint
+go:
+  enabled: false # default true
+
+# https://github.com/realm/SwiftLint
+swift:
+  enabled: false # default true
+  # https://raw.githubusercontent.com/houndci/swift/master/config/default.yml
+  config_file: .swiftlint.yml

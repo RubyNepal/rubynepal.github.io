@@ -1,8 +1,6 @@
 scss_files:
   - '_sass/**/*.scss'
-  - '_sass/**/*.sass'
   - 'css/**/*.scss'
-  - 'css/**/*.sass'
 
 exclude: '_site/**'
 
@@ -146,7 +144,7 @@ linters:
       'dpi', 'dpcm', 'dppx',
       '%']
     properties:
-      line-height: []
+      line-height: ['px']
 
   PseudoElement:
     enabled: true
