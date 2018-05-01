@@ -13,15 +13,21 @@ a {
 .rnw-box {
   border-radius: 0;
 
-  a:not(.button) {
-    color: $logo-color;
+  a {
+    &:not(.button) {
+      color: $logo-color;
+    }
   }
 }
 
 .rnw-hero {
-  .notification a:not(.button) {
-    color: $logo-color;
-    text-decoration: none;
+  .notification {
+    a {
+      &:not(.button) {
+        color: $logo-color;
+        text-decoration: none;
+      }
+    }
   }
 }
 

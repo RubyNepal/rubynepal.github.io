@@ -27,6 +27,10 @@ guard :bundler do
   files.each { |file| watch(helper.real_path(file)) }
 end
 
+guard 'bundler_audit', run_on_start: true do
+  watch('Gemfile.lock')
+end
+
 guard :rubocop do
   watch(%r{.+\.rb$})
   watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }
@@ -40,6 +44,6 @@ guard 'rake', task: 'scss_lint' do
   watch(%r{.+\.scss|\.sass$})
 end
 
-guard 'bundler_audit', run_on_start: true do
-  watch('Gemfile.lock')
+guard 'rake', task: 'js:lint' do
+  watch(%r{.+\.js$})
 end

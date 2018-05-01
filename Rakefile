@@ -4,10 +4,12 @@ require 'bundler/setup'
 require 'colorize'
 require 'html-proofer'
 require 'jekyll'
+require 'rake'
 require 'rubocop/rake_task'
 require 'uri'
 require 'scss_lint/rake_task'
 require 'jekyll-youtube'
+require 'jslint-v8'
 
 # Configuration Options
 config_file = '_config.yml' # Name of Jekyll config file
@@ -22,6 +24,27 @@ SCSSLint::RakeTask.new do |t|
   # t.config = 'custom/config.yml'
   # t.args = ['--format', 'JSON', '--out', 'results.txt']
   t.files = Dir.glob(['_sass/**/*.scss'])
+end
+
+# https://github.com/whoward/jslint-v8#rake-task
+namespace :js do
+  JSLintV8::RakeTask.new do |task|
+    task.name = "lint"
+    task.description = "runs jslint against all important javascript files"
+
+    task.output_stream = STDOUT
+
+    task.include_pattern = "js/**/*.js"
+    task.exclude_pattern = "_site/js/**/*.js"
+
+    # pass boolean options to jshint like this, these are merged with the default options
+    task.jquery  = true  # predefine jQuery globals
+    task.browser = true  # predefine Browser globals
+    task.bitwise = false # allow bitwise operators to be used
+
+    # or just access the options hash directly, be sure to use strings for keys
+    # task.lint_options["strict"] = true
+  end
 end
 
 # Extend string to allow for bold text.
