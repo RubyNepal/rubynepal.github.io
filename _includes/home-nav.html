@@ -1,8 +1,12 @@
-<div class="nav">
-    <ul>
-        <li class="home"><a href="#">Activities</a></li>
-        <li class="about"><a href="/projects">Projects</a></li>
-        <li class="news"><a href="#">Blog</a></li>
-        <li class="contact"><a href="#">Archives</a></li>
-    </ul>
+<div class="navbar home-nav">
+  <div class="navbar-brand">
+    <div class="navbar-burger burger is-active" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div id="navbarExampleTransparentExample" class="navbar-menu is-horizontal-center">
+    {% include nav-links.html %}
+  </div>
 </div>

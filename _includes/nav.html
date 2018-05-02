@@ -1,57 +1,18 @@
-<nav class="navbar is-transparent">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-            <img src="../images/rubynepal.png" alt="Ruby Nepal: The Official Ruby Community">
-        </a>
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+<nav class="navbar is-transparent rbnw-nav">
+  <div class="navbar-brand">
+    <a class="navbar-item rbnw-nav-logo" href="/">
+      <img src="{{site.url}}/images/rubynepal.png" alt="RubyNepal: The Official Ruby Community of Nepal">
+    </a>
+    <div class="navbar-burger burger is-active" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
+  </div>
 
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-start">
-            <a class="navbar-item" href="/blogs">
-                Activities
-            </a>
-            <a class="navbar-item" href="/projects">
-                Projects
-            </a>
-            <a class="navbar-item" href="/blogs">
-                Blogs
-            </a>
-            <a class="navbar-item" href="/blogs">
-                Archives
-            </a>
-        </div>
-
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <div class="field is-grouped">
-                    <p class="control">
-                        <a class="bd-tw-button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                          <span class="icon">
-                            <i class="fab fa-twitter"></i>
-                          </span>
-                        </a>
-                    </p>
-                    <p class="control">
-                        <a class="bd-tw-button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                          <span class="icon">
-                            <i class="fab fa-github"></i>
-                          </span>
-                        </a>
-                    </p>
-                    <p class="control">
-                        <a class="bd-tw-button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                          <span class="icon">
-                            <i class="fas fa-rss"></i>
-                          </span>
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      {% include nav-links.html %}
     </div>
+  </div>
 </nav>

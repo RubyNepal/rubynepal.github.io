@@ -1,0 +1,24 @@
+- name: "Emitii"
+  image: "/images/emitii.png"
+  description: "Online time tracking tool and analysis tool designed for software development teams."
+  link: "http://emitii.com/"
+
+- name: "Talk Ruby"
+  image: "/images/talk-ruby.png"
+  description: "Talk ruby is an online news aggregator about ruby and ruby discussion platform for ruby developers."
+  link: "http://talk-ruby.com/"
+
+- name: "Cloudfactory"
+  image: "/images/cloudfactory_logo.png"
+  description: "CloudFactory company is a Distributed Workforce and Enterprise Crowdsourcing Platform."
+  link: "https://www.cloudfactory.com/"
+
+- name: "Ruby In Tab"
+  image: "/images/ruby_in_tab.png"
+  description: "PhoneGap based android app that enables you to play ruby in your android devices."
+  link: "http://rohitrox.github.io/ruby_in_tab/"
+
+- name: "Mero Campus"
+  image: "/images/mero_campus.png"
+  description: "an Online Marketplace for College Admissions in Nepal."
+  link: "http://www.merocampus.com"

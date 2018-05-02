@@ -1,0 +1,48 @@
+body {
+  background: $body-background-color;
+  font-family: 'Vollkorn', serif;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.rubynepal-logo {
+  width: 260px;
+}
+
+h1 {
+  .subtitle {
+    font-size: 14px;
+  }
+}
+
+.pdb-50 {
+  padding-bottom: 50px;
+}
+
+.pdt-50 {
+  padding-top: 50px;
+}
+
+.pdb-10 {
+  padding-bottom: 10px;
+}
+
+.rnw-hero {
+  .tile {
+    .title {
+      font-size: 1.4rem;
+      line-height: 30px;
+      margin-bottom: 2rem;
+    }
+
+    .is-child {
+      box-shadow: 0 0 1px 0 $rnw-hero-tile-child-color;
+    }
+  }
+
+  .notification {
+    border-radius: 0;
+  }
+}

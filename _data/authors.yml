@@ -1,0 +1,24 @@
+rohitrox:
+  username: rohitrox
+  name: Rohit Joshi
+  location: Kathmandu, Nepal
+  twitter-username: "roxxypoxxy"
+  github-username: "RohitRox"
+  bio: "Design . Develop"
+  photo: https://pbs.twimg.com/profile_images/491196307256532992/iz7mdD2x_400x400.jpeg
+zoras:
+  username: zoras
+  name: Saroj Maharjan
+  location: Kathmandu, Nepal
+  twitter-username: "zoraslapen"
+  github-username: "zoras"
+  bio: "Organiser and Admin, RubyNepal.org"
+  photo: https://pbs.twimg.com/profile_images/762590475593199616/dl4L9IW9_400x400.jpg
+josisusan:
+  username: josisusan
+  name: Susan Joshi
+  location: Kathmandu, Nepal
+  twitter-username: "josisusan"
+  github-username: "josisusan"
+  bio: Ruby & Javascript
+  photo: https://pbs.twimg.com/profile_images/680734019663704064/dm70ciE5_400x400.jpg

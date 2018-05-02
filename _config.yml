@@ -13,32 +13,66 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ruby Nepal
-email:
-subtitle: The Official Ruby Community of Nepal
+title: RubyNepal
+email: info@rubynepal.org
+subtitle: Nepal Ruby Community
 description: >- # this means to ignore newlines until "baseurl:"
   We are Ruby community of Nepal.
   The aim of this community is to support, encourage and spread the use and adoption of the Ruby programming language in Nepal,
    and to develop a vibrant community around the language and related technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://www.rubynepal.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: "ruby_nepal"
+github_username: "rubynepal"
+youtube_channelname: "UCoRCDWyFmaby7F4qWRUHgAQ"
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
+  - jekyll-autolink_email
+  - jekyll-email-protect
   - jekyll-feed
+  - jekyll-paginate
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      categories: ""
+      tags: ""
+
+jekyll_admin:
+  hidden_links:
+    # - posts
+    # - pages
+    # - staticfiles
+    # - datafiles
+    # - configuration
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-118283876-1
+    anonymizeIp: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Rakefile
+  - Guardfile

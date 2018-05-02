@@ -2,98 +2,112 @@
 layout: home
 ---
 
-<div class="hero-body">
-    <div class="container has-text-centered">
-        <div class="columns is-vcentered">
-            <div class="column is-5">
-                <figure class="image is-4by3">
-                    <img src="/images/rubymeet.jpeg" alt="Ruby Meetup">
-                </figure>
-            </div>
-            <div class="column is-6 is-offset-1">
-                <h1 class="title is-2">
-                    Welcome, Fam!
-                </h1>
-                <h2 class="subtitle is-4">
-                    {{ site.description }}
-                </h2>
-                <br>
-                <p class="has-text-centered">
-                    <a class="button is-medium is-info is-outlined">
-                        Get Started With Ruby
-                    </a>
-                </p>
-            </div>
-        </div>
+<div class="hero-body rnw-hero">
+  <div class="container has-text-centered">
+    <div class="columns is-vcentered">
+      <div class="column is-5">
+        <figure class="image is-4by3">
+          <img src="/images/rubymeet.jpeg" alt="Ruby Meetup">
+        </figure>
+      </div>
+      <div class="column is-6 is-offset-1">
+        <h1 class="title is-2">
+          Welcome, Fam!
+        </h1>
+        <h2 class="subtitle is-4">
+          {{ site.description }}
+        </h2>
+        <br>
+        <p class="has-text-centered">
+          <a href="https://www.ruby-lang.org/en/" class="button is-danger is-rnw-btn" target="_blank">
+            Get Started With Ruby
+          </a>
+        </p>
+      </div>
     </div>
-    <section>
-        <div class="sandbox pdt-50">
-            <div class="tile is-ancestor">
-                <div class="tile is-parent is-shady">
-                    <article class="tile is-child notification is-white">
-                        <p class="title">Join RubyNepal</p>
-                        <p class="subtitle">
-                            RubyNepal is a great way to meet and collaborate with other Ruby/Rails developers in Nepal.
-                            Joining Ruby Nepal is free.
-                        </p>
-                    </article>
-                </div>
-                <div class="tile is-parent is-shady">
-                    <article class="tile is-child notification is-white">
-                        <p class="title">Meetup Group</p>
-                        <p class="subtitle">
-                            We meet every 2nd Sunday of the month. <br>
-                            Nepal Ruby and Rails Users Group
-                        </p>
-                    </article>
-                </div>
-                <div class="tile is-parent is-shady">
-                    <article class="tile is-child notification is-white">
-                        <p class="title">Slack Chat</p>
-                        <div class="content">
-                            <p>Get your invite to join RubyNepal Slack channel</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
-            <div class="tile is-ancestor">
-                <div class="tile is-vertical is-8">
-                    <div class="tile">
-                        <div class="tile is-parent is-vertical">
-                            <article class="tile is-child notification is-white">
-                                <p class="title">Follow us on Twitter</p>
-                                <p class="subtitle">Get notified about upcoming RubyNepal events and activities.
-
-                                    Follow @ruby_nepal</p>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="tile is-parent is-shady">
-                        <article class="tile is-child notification is-white">
-                            <p class="title">Ruby developer groups in Facebook</p>
-                            <p class="subtitle">Following are active Ruby groups:</p>
-                            <div class="content">
-                                <p>
-                                    Ruby Developers Nepal <br>
-
-                                    Ruby on Rails (RoR) Developers Nepal
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="tile is-parent is-shady">
-                    <article class="tile is-child notification is-white">
-                        <div class="content">
-                            <p class="title">Google Group</p>
-                            <p class="subtitle">We run a mailing list for discussion of Ruby-related topics.
-                                If you have a question about Ruby (or Ruby on Rails), this group can probably figure it out.
-                            </p>
-                        </div>
-                    </article>
-                </div>
-            </div>
+  </div>
+  <section>
+    <div class="sandbox pdt-50">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-shady">
+          <article class="tile is-child notification is-white">
+            <p class="title">Join RubyNepal</p>
+            <p class="subtitle">
+              RubyNepal is a great way to meet and collaborate with other Ruby/Rails developers in Nepal.
+              Joining Ruby Nepal is free.
+            </p>
+          </article>
         </div>
-    </section>
+        <div class="tile is-parent is-shady">
+          <article class="tile is-child notification is-white">
+            <p class="title">Meetup Group</p>
+            <p class="subtitle">
+              We gather around every 2nd Sunday of the month. Come and hangout with us at
+              <a href="https://www.meetup.com/Nepal-Ruby-Users-Group" target="_blank">
+                Nepal Ruby and Rails Users Group
+              </a>
+            </p>
+          </article>
+        </div>
+        <div class="tile is-parent is-shady">
+          <article class="tile is-child notification is-white">
+            <p class="title">Slack Chat</p>
+            <p class="subtitle">
+              <a target="_blank"
+                 href="https://join.slack.com/t/rubynepal/shared_invite/enQtMzU0NjY0NzE4NjQ1LTdmMTBkZDRhNmNhZWJiMWIyZjEwYTY3OTA5Yjk0MjUzOGExMGIwNDNmODI1NDgxYWM3Y2QyMDcyMzA2ZGJjNDg"
+              >Join and chat</a> with <a href="https://rubynepal.slack.com/messages" target="_blank">RubyNepal Slack community</a>
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-white">
+                <p class="title">Follow us on Twitter</p>
+                <p class="subtitle">Get notified about upcoming RubyNepal events and activities.
+                  Follow <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">@ruby_nepal</a></p>
+              </article>
+            </div>
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-white">
+                <p class="title">Contributing to the site</p>
+                <p class="subtitle">The site’s source is hosted on
+                  <a href="https://github.com/RubyNepal/rubynepal.github.io" target="_blank">Github</a>.
+                  Please refer to the README there for more details.</p>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent is-shady">
+            <article class="tile is-child notification is-white">
+              <p class="title">Ruby developer groups in Facebook</p>
+              <p class="subtitle">Following are active Nepalese Ruby/Rails groups:</p>
+              <div class="content">
+                <p>
+                  <a href="https://www.facebook.com/groups/rubydevelopersnepal/" target="_blank">Ruby Developers Nepal</a><br>
+                  <a href="https://www.facebook.com/groups/nepaleserordeveloper/" target="_blank">
+                    Ruby on Rails (RoR) Developers Nepal
+                  </a>
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent is-shady">
+          <article class="tile is-child notification is-white">
+            <div class="content">
+              <p class="title">Google Group</p>
+              <p class="subtitle">We run a
+                <a href="https://groups.google.com/forum/#!forum/ror-nepal" target="_blank">mailing list</a>
+                for discussion of Ruby-related topics.
+                If you have a question about Ruby (or Ruby on Rails), this group can probably figure it out.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>

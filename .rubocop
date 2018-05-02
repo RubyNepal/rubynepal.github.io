@@ -1,0 +1,7 @@
+--format=progress
+--force-exclusion
+--lint
+--display-cop-names
+--display-style-guide
+--extra-details
+--auto-correct

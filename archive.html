@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Blog Archive"
+---
+
+<section class="articles pdt-50 pdb-50">
+  <div class="column is-10 is-offset-1">
+    {% for post in site.posts %}
+      {% include archive.html %}
+    {% endfor %}
+  </div>
+</section>

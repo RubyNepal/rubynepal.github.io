@@ -1,0 +1,65 @@
+header {
+  background: $header-back-color;
+}
+
+a {
+  color: $logo-second-color;
+}
+
+.rnw-link {
+  color: $logo-color;
+}
+
+.rnw-box {
+  border-radius: 0;
+
+  a {
+    &:not(.button) {
+      color: $logo-color;
+    }
+  }
+}
+
+.notification {
+  a {
+    &:not(.button) {
+      color: $logo-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.rnw-tag {
+  &:not(body) {
+    .is-danger {
+      background-color: $logo-color;
+    }
+  }
+}
+
+.rnw-social-link {
+  color: $social-common-color;
+}
+
+.is-rnw-btn {
+  background-color: $logo-color;
+}
+
+.button {
+  .is-danger {
+    &:hover,
+    .is-hovered {
+      background-color: $logo-color;
+      opacity: .7;
+    }
+  }
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+}

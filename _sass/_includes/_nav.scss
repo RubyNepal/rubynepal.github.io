@@ -1,0 +1,29 @@
+.navbar-item {
+  color: $home-nav-item-color;
+  font-size: $nav-item-font-size;
+
+  &:hover {
+    background-color: $hover-background-color;
+    border-bottom: 4px solid $nav-item-border-color;
+    color: $logo-color;
+  }
+}
+
+.active-tab {
+  background-color: $hover-background-color;
+  color: $logo-color;
+}
+
+.rbnw-nav-logo {
+  &:hover {
+    border-bottom: 0;
+  }
+
+  img {
+    max-height: 4.25rem;
+  }
+}
+
+.rbnw-nav {
+  box-shadow: 1px 0 2px 2px $navbar-box-shadow-color;
+}

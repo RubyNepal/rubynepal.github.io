@@ -1,0 +1,9 @@
+.is-bar {
+  background-color: $logo-color;
+  border-radius: 0;
+  padding: .2rem .2rem .2rem 1rem;
+}
+
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}
