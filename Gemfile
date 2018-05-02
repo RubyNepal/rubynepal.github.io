@@ -10,8 +10,11 @@ source 'https://rubygems.org'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '~> 3.7'
-gem 'rake'
+gem 'jekyll', '~> 3.8'
+
+gem 'rake', "~> 12.3"
+gem 'match_regex', "~> 0.1"
+gem 'replace_regex', "~> 0.1"
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby] # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'wdm', '~> 0.1.0' if Gem.win_platform? # Performance-booster for watching directories on Windows
 
@@ -32,13 +35,13 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
-  gem 'html-proofer'
-  gem 'jslint-v8'
-  gem 'rubocop', require: false
-  gem 'scss_lint', require: false
+  gem 'html-proofer', "~> 3.8"
+  gem 'jslint-v8', "~> 1.1"
+  gem 'rubocop', "~> 0.55", require: false
+  gem 'scss_lint', "~> 0.57", require: false
 
-  gem 'guard-bundler', require: false
-  gem 'guard-bundler-audit'
-  gem 'guard-rake'
-  gem 'guard-rubocop'
+  gem 'guard-bundler', "~> 2.1", require: false
+  gem 'guard-bundler-audit', "~> 0.1"
+  gem 'guard-rake', "~> 1.0"
+  gem 'guard-rubocop', "~> 1.3"
 end

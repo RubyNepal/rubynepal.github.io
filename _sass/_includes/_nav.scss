@@ -9,6 +9,11 @@
   }
 }
 
+.active-tab {
+  background-color: $hover-background-color;
+  color: $logo-color;
+}
+
 .rbnw-nav-logo {
   &:hover {
     border-bottom: 0;
