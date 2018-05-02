@@ -11,7 +11,11 @@ Every year around the world there are ruby meetup and rails meetup happenings, s
 
 This will be a regular event happening once a month, to be specific; every second Sunday of the month starting August 9th, 2015.
 
-![RubyNepal Meetup Banner](https://pbs.twimg.com/media/CLoUmwqWIAAc9AR.jpg){: .center-image }
+{% include image.html
+     img="https://pbs.twimg.com/media/CLoUmwqWIAAc9AR.jpg"
+     title="RubyNepal Meetup Banner"
+     class="center-image"
+     caption="RubyNepal Meetup Banner" %}
 
 We want a lot of people and groups to be engaged to make this event success. Feel free to suggest us ideas and to come up forward.
 
@@ -23,7 +27,7 @@ Even if you have a tiny inkling that you'd want to speak, like your experience, 
 
 Great business starts with unsurpassed people skills, it is a great oppurtunity for tech business houses to be promoted and find connections at the event. We welcome sponsorship of any kind financial, promotional, resources or even may be a service or server.
 
-For more details and to RSVP checkout our meetup page at http://www.meetup.com/Nepal-Ruby-Users-Group/.
+For more details and to RSVP checkout our meetup page at [http://www.meetup.com/Nepal-Ruby-Users-Group/](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
 
 See you at the next Ruby and Rails meetup!
 

@@ -33,9 +33,26 @@ I overheard there was an inspiring entrepreneur speech involved during the netwo
 
 See you at the [next Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}!
 
-![Prasvin Pandey speaking on Metaprogramming in Ruby](https://secure.meetupstatic.com/photos/event/2/e/3/a/600_441971834.jpeg){: .center-image }
+{% include image.html
+    img="https://secure.meetupstatic.com/photos/event/2/e/3/a/600_441971834.jpeg"
+    title="Prasvin Pandey speaking on Metaprogramming in Ruby"
+    class="center-image"
+    caption="Prasvin Pandey speaking on Metaprogramming in Ruby"
+%}
 
-![Audience at Meetup](https://secure.meetupstatic.com/photos/event/2/e/1/9/600_441971801.jpeg){: .center-image }
+{% include image.html
+    img="https://secure.meetupstatic.com/photos/event/2/f/e/6/600_441972262.jpeg"
+    title="Susan Joshi talking about Asset Management in Rails"
+    class="center-image"
+    caption="Susan Joshi talking about Asset Management in Rails"
+%}
+
+{% include image.html
+    img="https://secure.meetupstatic.com/photos/event/2/e/1/9/600_441971801.jpeg"
+    title="Audience at Meetup"
+    class="center-image"
+    caption="Audience at Meetup"
+%}
 
 
 > Saroj Maharjan - [zoras](http://twitter.com/zoraslapen){:.rnw-link}

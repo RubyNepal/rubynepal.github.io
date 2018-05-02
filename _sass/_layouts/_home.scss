@@ -30,13 +30,13 @@ h1 {
 }
 
 .rnw-hero {
-  p {
+  .tile {
     .title {
       font-size: 1.4rem;
+      line-height: 30px;
+      margin-bottom: 2rem;
     }
-  }
 
-  .tile {
     .is-child {
       box-shadow: 0 0 1px 0 $rnw-hero-tile-child-color;
     }

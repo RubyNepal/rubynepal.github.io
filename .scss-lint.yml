@@ -1,8 +1,6 @@
-scss_files:
-  - '_sass/**/*.scss'
-  - 'css/**/*.scss'
+scss_files: '_sass/**/*.scss'
 
-exclude: '_site/**'
+exclude: 'css/**'
 
 severity: warning
 

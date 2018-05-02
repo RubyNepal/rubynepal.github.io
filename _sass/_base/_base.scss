@@ -20,13 +20,11 @@ a {
   }
 }
 
-.rnw-hero {
-  .notification {
-    a {
-      &:not(.button) {
-        color: $logo-color;
-        text-decoration: none;
-      }
+.notification {
+  a {
+    &:not(.button) {
+      color: $logo-color;
+      text-decoration: none;
     }
   }
 }
