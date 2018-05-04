@@ -1,25 +1,25 @@
 <article class="media">
   <figure class="media-left">
-    <p class="image is-64x64">
-      <img class="image-circle" src="{{ author.photo }}" alt="{{ author.name }}">
+    <p class="image">
+      {% avatar user=author.github_username %}
     </p>
   </figure>
   <div class="media-content">
     <div class="content">
       <p>
-        <strong>By <a href="https://www.twitter.com/{{ author.twitter-username }}" target="_blank" class="rnw-link">
+        <strong>By <a href="https://www.twitter.com/{{ author.twitter_username }}" target="_blank" class="rnw-link">
           {{ author.name }}</a></strong>
-        <small>@{{ author.twitter-username }}</small>
+        <small>@{{ author.twitter_username }}</small>
         <br>
         {{ author.bio }}
       </p>
     </div>
     <nav class="level is-mobile">
       <div class="level-left">
-        <a href="https://twitter.com/{{ author.twitter-username }}" target="_blank" class="level-item rnw-social-link">
+        <a href="https://twitter.com/{{ author.twitter_username }}" target="_blank" class="level-item rnw-social-link">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="https://github.com/{{ author.github-username }}" target="_blank" class="level-item rnw-social-link">
+        <a href="https://github.com/{{ author.github_username }}" target="_blank" class="level-item rnw-social-link">
           <i class="fab fa-github"></i>
         </a>
       </div>
