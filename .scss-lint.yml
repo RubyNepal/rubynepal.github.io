@@ -2,6 +2,8 @@ scss_files: '_sass/**/*.scss'
 
 exclude: 'css/**'
 
+# preprocess_command: "sed '1{/^---$/{:a N;/---$/!ba;d}}'"
+
 severity: warning
 
 # https://github.com/thoughtbot/administrate/blob/master/.scss-lint.yml
