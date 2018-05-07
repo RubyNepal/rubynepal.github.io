@@ -14,17 +14,22 @@ require 'jslint-v8'
 # Configuration Options
 config_file = '_config.yml' # Name of Jekyll config file
 
+# Standard tasks
+multitask default: [:rubocop, 'js:lint', :html_proofer]
+
 # Rubocop Rake
 RuboCop::RakeTask.new(:rubocop) do |t|
   t.options = ['--display-cop-names', '.']
 end
 
 # https://github.com/brigade/scss-lint#rake-integration
-SCSSLint::RakeTask.new do |t|
-  # t.config = 'custom/config.yml'
-  # t.args = ['--format', 'JSON', '--out', 'results.txt']
-  t.files = Dir.glob(['_sass/**/*.scss'])
-end
+SCSSLint::RakeTask.new
+# SCSSLint::RakeTask.new do |t|
+#   t.config = '.scss-lint.yml'
+#   # t.args = ['--format', 'JSON', '--out', 'results.txt']
+#   t.args = ['--exclude', 'css/*.scss']
+#   t.files = Dir.glob(['_sass/**/*.scss'])
+# end
 
 # https://github.com/whoward/jslint-v8#rake-task
 namespace :js do
@@ -69,9 +74,9 @@ task :html_proofer do
   Rake::Task['build'].invoke
   host_regex = Regexp.new(site_domain(config_file))
   puts 'Running html proofer...'.yellow.bold
-  HTMLProofer.check_directory('./_site', allow_hash_href: true,
-                                         url_ignore: [host_regex],
-                                         assume_extension: true).run
+  HTMLProofer.check_directory('./_site',
+    allow_hash_href: true, url_ignore: [host_regex],
+    assume_extension: true, disable_external: true).run
 end
 
 # Misc Methods
