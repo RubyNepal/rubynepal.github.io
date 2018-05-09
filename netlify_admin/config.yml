@@ -2,6 +2,9 @@
 backend:
   name: git-gateway
   branch: redesign # Branch to update (optional; defaults to master)
+  # accept_roles: #optional - accepts all users if left out
+  #   - admin
+  #   - editor
 
 publish_mode: editorial_workflow
 
@@ -26,6 +29,7 @@ collections:
   - name: "posts"
     label: "Post"
     folder: "_posts"
+    create: true
     # filter:
     #   field: language
     #   value: en
