@@ -26,10 +26,10 @@
     </nav>
   </div>
   <div class="media-right">
-    {% for category in categories %}
-      <a href="/category/{{ category }}">
+    {% for tag in tags %}
+      <a href="/tags/#{{ tag }}">
         <span class="rnw-tag tag is-danger">
-          {{ category }}&nbsp;&nbsp;
+          {{ tag }}&nbsp;&nbsp;
         </span>
       </a>
     {% endfor %}

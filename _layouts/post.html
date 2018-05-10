@@ -38,7 +38,7 @@ layout: default
         </div>
         <div class="box rnw-box">
           {% assign author = site.data.authors[page.author] %}
-          {% assign categories = page.categories %}
+          {% assign tags = page.tags %}
           {% if author %}
             {% include author-category-box.html %}
           {% endif %}
@@ -65,10 +65,10 @@ layout: default
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      {% for category in post.categories %}
-                        <a href="/category/{{ category }}">
+                      {% for tag in post.tags %}
+                        <a href="/tags/#{{ tag }}">
                           <span class="rnw-tag tag is-danger">
-                            {{ category }}&nbsp;&nbsp;
+                            {{ tag }}&nbsp;&nbsp;
                           </span>
                         </a>
                       {% endfor %}

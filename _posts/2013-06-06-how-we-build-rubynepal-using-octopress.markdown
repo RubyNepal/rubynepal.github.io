@@ -1,11 +1,12 @@
 ---
-layout: post
-title: "How we build rubynepal using Octopress"
-date: 2013-06-06 19:18
-comments: true
-categories: [development]
 author: rohitrox
+categories: [blog]
+comments: true
+date: 2013-06-06 19:18
+layout: post
 published: true
+tags: [development]
+title: "How we build rubynepal using Octopress"
 ---
 
 This is not another getting started with octopress guide, this is sharing of our experience and couple of hacks we did while developing rubynepal, that may be helpful to others.

@@ -1,10 +1,11 @@
 ---
-layout: post
-title: "Recap: Ruby Meetup September 13"
-date: 2015-09-24 10:34
-comments: true
-categories: [activities, meetup]
 author: zoras
+categories: [blog]
+comments: true
+date: 2015-09-24 10:34
+layout: post
+tags: [activities, meetup]
+title: "Recap: Ruby Meetup September 13"
 ---
 
 The monthly Ruby Meetup was held on the 2nd Sunday of September last week. Local ruby enthusiasts came together to quench and moreover arouse appetite for learning.

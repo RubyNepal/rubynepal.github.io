@@ -23,7 +23,7 @@ excerpt_separator: "more"
       </div>
       <div class="box rnw-box">
         {% assign author = site.data.authors[post.author] %}
-        {% assign categories = post.categories %}
+        {% assign tags = post.tags %}
         {% if author %}
           {% include author-category-box.html %}
         {% endif %}
