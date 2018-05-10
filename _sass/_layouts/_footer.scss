@@ -1,8 +1,22 @@
 .footer {
   background-color: $footer-background-color;
+
+  .columns {
+    .column {
+      @include mobile {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
 }
 
 .group-centered {
   display: flex;
   justify-content: center;
+}
+
+.contact {
+  text-align: right;
 }

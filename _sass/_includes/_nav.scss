@@ -9,6 +9,15 @@
   }
 }
 
+a {
+  &.navbar-item {
+    &:hover {
+      background-color: $hover-background-color;
+      color: $logo-color;
+    }
+  }
+}
+
 .active-tab {
   background-color: $hover-background-color;
   color: $logo-color;
