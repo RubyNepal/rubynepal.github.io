@@ -17,7 +17,7 @@ A big shout out to our sponsors for the September event. [Get in touch](mailto:r
 
 1) [Innovation Hub Kathmandu](https://www.facebook.com/IHKathmandu){:.rnw-link} for graciously allowing us to use the venue.
 
-2) [Leapfrog.Academy](http://leapfrog.academy/){:.rnw-link} who are currently teaching a course on *Web Development with Ruby on Rails*.
+2) [Leapfrog.Academy](https://web.archive.org/web/20170611180349/http://www.leapfrog.academy:80/course/ruby-on-rails){:.rnw-link} who are currently teaching a course on *Web Development with Ruby on Rails*.
 
 3) [Codyssey Web Nepal](http://codysseynepal.com/){:.rnw-link}, a RoR dev shop.
 
