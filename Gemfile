@@ -25,6 +25,7 @@ gem 'wdm', '~> 0.1.0' if Gem.win_platform? # Performance-booster for watching di
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-admin', '~> 0.8'
+  gem 'jekyll-avatar', '~> 0.6'
   gem 'jekyll-analytics', '~> 0.1'
   gem 'jekyll-autolink_email', '~> 0.1'
   gem 'jekyll-email-protect', '~> 1.0'

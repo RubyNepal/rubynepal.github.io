@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
    and to develop a vibrant community around the language and related technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.rubynepal.org" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /blog/:title
 twitter_username: "ruby_nepal"
 github_username: "rubynepal"
 youtube_channelname: "UCoRCDWyFmaby7F4qWRUHgAQ"
@@ -35,6 +36,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-avatar
 
 sass:
   sass_dir: _sass
