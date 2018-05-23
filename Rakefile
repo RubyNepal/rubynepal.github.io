@@ -70,13 +70,32 @@ task :clean do
   Jekyll::Commands::Clean.process({})
 end
 
-task :html_proofer do
-  Rake::Task['build'].invoke
+desc "Test the website"
+task :html_proofer => [:build] do
+  # Rake::Task['build'].invoke
   host_regex = Regexp.new(site_domain(config_file))
-  puts 'Running html proofer...'.yellow.bold
-  HTMLProofer.check_directory('./_site',
-    allow_hash_href: true, url_ignore: [host_regex],
-    assume_extension: true, disable_external: true).run
+  options = {
+    allow_hash_href: true,
+    assume_extension: true,
+    cache: {
+      timeframe: '6w'
+    },
+    check_external_hash: true,
+    # check_html: true,
+    check_img_http: true,
+    check_opengraph: true,
+    # check_sri: true,
+    disable_external: true,
+    # enforce_https: true,
+    in_processes: 3,
+    url_ignore: [host_regex]
+  }
+  begin
+    puts "Running html proofer...".yellow.bold
+    HTMLProofer.check_directory("./_site", options).run
+  rescue => msg
+    puts "#{msg}"
+  end
 end
 
 # Misc Methods
