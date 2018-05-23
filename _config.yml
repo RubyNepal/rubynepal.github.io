@@ -25,6 +25,10 @@ url: "https://www.rubynepal.org" # the base hostname & protocol for your site, e
 permalink: /blog/:title
 twitter_username: "ruby_nepal"
 github_username: "rubynepal"
+facebook_username: "RubyNepal.org"
+googleplus_username: "+RubyNepal"
+slack_username: "rubynepal"
+meetup_username: "Nepal-Ruby-Users-Group"
 youtube_channelname: "UCoRCDWyFmaby7F4qWRUHgAQ"
 paginate: 5
 paginate_path: "/blog/page:num/"
