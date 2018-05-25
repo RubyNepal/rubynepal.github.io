@@ -1,8 +1,6 @@
 <article class="media">
   <figure class="media-left">
-    <p class="image">
-      {% avatar user=author.github_username %}
-    </p>
+    {% avatar user=author.github_username size=64 %}
   </figure>
   <div class="media-content">
     <div class="content">
@@ -23,15 +21,15 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
+      <div class="level-right">
+        {% for category in categories %}
+          <a href="/category/{{ category }}">
+            <span class="rnw-tag tag is-danger" class="level-item">
+              {{ category }}
+            </span>
+          </a>&nbsp;&nbsp;
+        {% endfor %}
+      </div>
     </nav>
-  </div>
-  <div class="media-right">
-    {% for category in categories %}
-      <a href="/category/{{ category }}">
-        <span class="rnw-tag tag is-danger">
-          {{ category }}&nbsp;&nbsp;
-        </span>
-      </a>
-    {% endfor %}
   </div>
 </article>
