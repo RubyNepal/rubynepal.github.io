@@ -1,0 +1,86 @@
+- episode: 44
+  title: "Ruby on Rails Meetup"
+  date: "2018/04/08"
+  start_time: "11:00 am"
+  end_time: "2:00 am"
+  venue: "National College of Information Technology"
+  address: "Balkumari Lalitpur"
+  hosted_by: "Saroj Maharjan"
+  venue_sponsor_logo: "http://ncit.edu.np/assets/img/logo.png"
+  venue_sponsor_name: "NCIT College"
+  sessions:
+    - id : 1
+      title : "History of RubyNepal"
+      time : "12:00pm"
+      description : "How Rubynepal organization formed, some history of rubyepal."
+      speaker : "Saroj Maharjan"
+      twitter_username: zorasplan
+      github_username: zoras
+      designation : "Organiser and Admin, RubyNepal.org"
+    - id : 2
+      title : "Single Page Application with Vue.js and Rails"
+      time : "12:00pm"
+      description : "Talk Abstract Recently I have worked on an app that had frontend on vue and backend (API) on rails, I want to talk about the experience on the project, The talk will be super fast and will cover the basic of vue and my experience when trying to build the web app as user-friendly as possible. Talk Description Vue js is one of the most popular javascript frameworks out there, It’s simple and progressive framework, On the other side rails is also one of the most popular web frameworks. The talk that I want to present will mainly talk about my experience with Vue js and ruby on rails. I will try to talk as much possible as I could about the basics of vue js and the packages that I used to build my recent project as much user-friendly as possible, I will also share my experience with vue js as this framework was very new to me, based on the perspective of a react js developer (The framework I have large experience with), some of the funny mistakes I made and those moments when I searched react patterns on vue as well, I will also talk about how working on a single project I managed to contribute on one of the vue based open source projects (PR is still on review LOL) Rabin Gaire http://rabingaire.com.np/ @rabingaire Full stack developer Open Source Software Promoter Facebook Developer Circle: Kathmandu core team member KTM JS core team member One of the co-founders of Artificial Intelligence for Development Interested on compiler design"
+      speaker : "Rabin Gaire"
+      twitter_username: rabingaire
+      github_username: rabingaire
+      designation : "Web Developer"
+    - id : 3
+      title : "Introducing Elasticsearch in Rails using Searchkick gem"
+      time : "12:00pm"
+      description : "Did you ever get bored executing large query for complex search and not getting the result you really want? What if you could use the feature that elasticsearch has within Rails application? Don’t worry, Searchkick has us covered. And the best part of them is, they are both open source. Talk Description Have you ever thought of using elasticsearch in Rails? Do you want to get your search results more precise? Do you wish for tools to visualize your search data? Well, here is elasticsearch to rescue us which can be setup in rails application using Searchkick gem. This talk will cover about basic elasticsearch intro along with searchkick setup in rails application. Bibek Khadka @roringbbk Ruby on Rails enthusiast Football fan Coffee Freak"
+      speaker : "Bibek Khadka"
+      twitter_username: bbk_khadka
+      github_username: roringbbk
+      designation : "Software Engineer"
+    - id : 4
+      title : "Introducing Elasticsearch in Rails using Searchkick gem"
+      time : "12:00pm"
+      description : "Did you ever get bored executing large query for complex search and not getting the result you really want? What if you could use the feature that elasticsearch has within Rails application? Don’t worry, Searchkick has us covered. And the best part of them is, they are both open source. Talk Description Have you ever thought of using elasticsearch in Rails? Do you want to get your search results more precise? Do you wish for tools to visualize your search data? Well, here is elasticsearch to rescue us which can be setup in rails application using Searchkick gem. This talk will cover about basic elasticsearch intro along with searchkick setup in rails application. Bibek Khadka @roringbbk Ruby on Rails enthusiast Football fan Coffee Freak"
+      speaker : "Suyog KC"
+      twitter_username: suyogkrazz
+      github_username: suyogkrazz
+      designation : "Ruby on Rails and React Native Developer"
+- episode: 01
+  title: "sddssdRuby on Rails Meetup"
+  date: "dsds2018/04/08"
+  start_time: "dsds11:00 am"
+  end_time: "sds2:00 am"
+  venue: "dsdsNational College of Information Technology"
+  address: "dsdsBalkumari Lalitpur"
+  hosted_by: "sddsSaroj Maharjan"
+  venue_sponsor_logo: "http://ncit.edu.np/assets/img/logo.png"
+  venue_sponsor_name: "dsfdsNCIT College"
+  sessions:
+    - id : 1
+      title : "History of RubyNepal"
+      time : "12:00pm"
+      description : "How Rubynepal organization formed, some history of rubyepal."
+      speaker : "Saroj Maharjan"
+      twitter_username: zorasplan
+      github_username: zoras
+      designation : "Organiser and Admin, RubyNepal.org"
+    - id : 2
+      title : "Single Page Application with Vue.js and Rails"
+      time : "12:00pm"
+      description : "Talk Abstract Recently I have worked on an app that had frontend on vue and backend (API) on rails, I want to talk about the experience on the project, The talk will be super fast and will cover the basic of vue and my experience when trying to build the web app as user-friendly as possible. Talk Description Vue js is one of the most popular javascript frameworks out there, It’s simple and progressive framework, On the other side rails is also one of the most popular web frameworks. The talk that I want to present will mainly talk about my experience with Vue js and ruby on rails. I will try to talk as much possible as I could about the basics of vue js and the packages that I used to build my recent project as much user-friendly as possible, I will also share my experience with vue js as this framework was very new to me, based on the perspective of a react js developer (The framework I have large experience with), some of the funny mistakes I made and those moments when I searched react patterns on vue as well, I will also talk about how working on a single project I managed to contribute on one of the vue based open source projects (PR is still on review LOL) Rabin Gaire http://rabingaire.com.np/ @rabingaire Full stack developer Open Source Software Promoter Facebook Developer Circle: Kathmandu core team member KTM JS core team member One of the co-founders of Artificial Intelligence for Development Interested on compiler design"
+      speaker : "Rabin Gaire"
+      twitter_username: rabingaire
+      github_username: rabingaire
+      designation : "Web Developer"
+    - id : 3
+      title : "Introducing Elasticsearch in Rails using Searchkick gem"
+      time : "12:00pm"
+      description : "Did you ever get bored executing large query for complex search and not getting the result you really want? What if you could use the feature that elasticsearch has within Rails application? Don’t worry, Searchkick has us covered. And the best part of them is, they are both open source. Talk Description Have you ever thought of using elasticsearch in Rails? Do you want to get your search results more precise? Do you wish for tools to visualize your search data? Well, here is elasticsearch to rescue us which can be setup in rails application using Searchkick gem. This talk will cover about basic elasticsearch intro along with searchkick setup in rails application. Bibek Khadka @roringbbk Ruby on Rails enthusiast Football fan Coffee Freak"
+      speaker : "Bibek Khadka"
+      twitter_username: bbk_khadka
+      github_username: roringbbk
+      designation : "Software Engineer"
+    - id : 4
+      title : "Introducing Elasticsearch in Rails using Searchkick gem"
+      time : "12:00pm"
+      description : "Did you ever get bored executing large query for complex search and not getting the result you really want? What if you could use the feature that elasticsearch has within Rails application? Don’t worry, Searchkick has us covered. And the best part of them is, they are both open source. Talk Description Have you ever thought of using elasticsearch in Rails? Do you want to get your search results more precise? Do you wish for tools to visualize your search data? Well, here is elasticsearch to rescue us which can be setup in rails application using Searchkick gem. This talk will cover about basic elasticsearch intro along with searchkick setup in rails application. Bibek Khadka @roringbbk Ruby on Rails enthusiast Football fan Coffee Freak"
+      speaker : "Suyog KC"
+      twitter_username: suyogkrazz
+      github_username: suyogkrazz
+      designation : "Ruby on Rails and React Native Developer"

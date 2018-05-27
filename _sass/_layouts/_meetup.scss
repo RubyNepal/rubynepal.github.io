@@ -1,0 +1,267 @@
+.meetup {
+  text-align: right;
+
+  .meetup-name {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0 0 5px;
+  }
+
+  .meetup-episode {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .8px;
+  }
+
+  .meetup-date {
+    display: block;
+    font-size: 42px;
+    line-height: 54px;
+    margin-top: 40px;
+  }
+
+  .meetup-time {
+    background-color: $logo-color;
+    color: $bright-white;
+    display: inline-table;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .86px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+
+  .meetup-venue {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 20px;
+  }
+
+  .meetup-address {
+    color: $dark-grey;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
+.sessions {
+  .session {
+    margin-top: 80px;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    .session-number {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      line-height: 19px;
+      text-transform: capitalize;
+    }
+
+    .session-splitter {
+      border-bottom: 3px solid $logo-color;
+    }
+
+    .session-title {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+
+    .session-time {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-top: 5px;
+    }
+
+    .session-description {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      margin-top: 20px;
+    }
+
+    .session-speaker {
+      margin-top: 25px;
+    }
+
+    .speaker {
+      overflow: hidden;
+    }
+
+    .speaker-name {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      margin: 0 0 0 130px;
+    }
+
+    .speaker-designation-and-workplace {
+      color: $dark-grey;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      margin: 2px 0 0 130px;
+    }
+
+    img {
+      float: left;
+    }
+  }
+}
+
+.panel-sponsors-and-supporters {
+  margin: 100px 0;
+
+  .sponsors-and-supporters-heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .sponsors-and-supporters-splitter {
+    border-bottom: 3px solid;
+    border-color: $logo-color;
+    margin: 30px 0;
+  }
+
+  .sponsors {
+    margin-left: 150px;
+  }
+
+  .sponsor {
+    margin-bottom: 20px;
+  }
+
+  .sponsor-logo {
+    width: 125px;
+  }
+
+  .supporters {
+    margin-left: 150px;
+  }
+
+  .supporter {
+    margin-bottom: 20px;
+  }
+
+  .supporter-logo {
+    width: 125px;
+  }
+}
+
+@include except-tiny-screen {
+  .panel-meetup {
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: 80px;
+    padding: 0 25px 0 0;
+    width: 100%;
+  }
+
+  .panel-schedule {
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 0 25px;
+  }
+}
+
+@include except-small-screen {
+  .panel-meetup {
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: 80px;
+    padding: 0 60px 0 0;
+    width: 100%;
+  }
+
+  .panel-schedule {
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 0 60px;
+  }
+}
+
+@include except-mini-mobile {
+  .panel-meetup {
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: 80px;
+    padding: 0 80px 0 0;
+    width: 100%;
+  }
+
+  .panel-schedule {
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 0 80px;
+  }
+}
+
+@include tablet-portrait {
+  .panel-meetup {
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: 80px;
+    padding: 0 100px 0 0;
+    width: 100%;
+  }
+
+  .panel-schedule {
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 0 100px;
+  }
+}
+
+@include tablet {
+  .panel-meetup {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 20px 46px 20px 0;
+    padding: 0;
+    width: 42%;
+  }
+
+  .panel-schedule {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin: 20px 0 20px 46px;
+    overflow: auto;
+    padding: 0;
+    width: 42%;
+  }
+}
+
+@include  large {
+  .panel-meetup {
+    box-sizing: initial;
+    display: block;
+    float: none;
+    height: 100%;
+    padding-left: 10%;
+    position: fixed;
+    width: 380px;
+  }
+}
+
+@include widescreen {
+  .panel-schedule {
+    box-sizing: border-box;
+    height: auto;
+    margin: 0 0 0 57%;
+    overflow: auto;
+    padding: 0;
+    width: 480px;
+  }
+}
