@@ -46,11 +46,20 @@ a {
 }
 
 .button {
-  .is-danger {
-    &:hover,
-    .is-hovered {
-      background-color: $logo-color;
-      opacity: .7;
+  padding-right: 1em;
+  padding-left: 1em;
+  -webkit-transition: .5s;
+     -moz-transition: .5s;
+      -ms-transition: .5s;
+       -o-transition: .5s;
+          transition: .5s;
+  &.is-danger {
+    background-color: $logo-color;
+    border: 1px solid $logo-color;
+    &:hover, .is-hovered {
+      border-color: $logo-color;
+      background-color: transparent;
+      color: $logo-color;
     }
   }
 }
