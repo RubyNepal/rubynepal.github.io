@@ -7,6 +7,8 @@ The RubyNepal.org is a static site powered by [jekyll](https://jekyllrb.com/). T
 If jekyll is new to you, you may want to go through its [docs](https://jekyllrb.com/docs/home/) first.
 [CloudCannon](https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/) has some excellent jekyll video tutorials as well.
 
+You can also use [prose.io](http://prose.io) to submit the changes without cloning the repo.
+
 Steps:
 
 ``` bash
@@ -39,7 +41,11 @@ github.com/RubyNepal/rubynepal.github.io
 # After you create a pull request, tests are run automatically on the newly created PR using Hound and TravisCI for style and lint checks.
 
 # Deploy preview is auto created with web url via Netlify.
+
+# When the PR is merged into master, the site is automatically deployed with the help of netlify continuous deployment.
 ```
+
+You can also use [jekyll-admin](https://github.com/jekyll/jekyll-admin/) by visiting [localhost:4000/admin](localhost:4000/admin) to write blogs with WYSIWYG UI editor and make other changes.
 
 #### When you open a pull request, we'd appreciate if you follow some basic guidelines:
 
