@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="pdt-50 pdb-50">
+  <div class="meetups-content">
+    <h1>List Of All Meetups</h1>
+    <ul class="timeline">
+      {% for meetup in site.data.meetup %}
+        <li class="event" data-date="{{ meetup.date | date: '%B %d, %Y' }}">
+          <h3>{{ meetup.title }}</h3>
+          <date>{{ meetup.date | date: '%b %B, %Y' }}. {{ meetup.start_time }}</date>
+          <p>Venue: {{ meetup.venue }}</p>
+          <p>Host: {{ meetup.hosted_by.name }}</p>
+          <h3>Presentations</h3>
+          {% for session in meetup.sessions %}
+            <p>
+              {{ session.title }} by <a href="https://twitter.com/{{session.twitter_username}}">{{ session.speaker }}</a>
+            </p>
+            <ul>
+              {% if session.slide_link %}
+                <li><a href="{{ session.slide_link }}">Slides</a></li>
+              {% endif %}
+              {% if session.demo_link %}
+                <li><a href="{{ meetup.demo_link }}">Demo/Code</a></li>
+              {% endif %}
+              {% if session.video_link %}
+                <li><a href="{{ meetup.video_link }}">Video</a></li>
+              {% endif %}
+            </ul>
+          {% endfor %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
