@@ -1,4 +1,4 @@
-- episode: 2
+- episode: 3
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/05/13
   start_time: '11:00 am'
@@ -59,11 +59,11 @@
         https://docs.google.com/presentation/d/1iLAiAJ_1zFKx6rLTuhC2OEJI8lnqYYmrx7PnaW4Thvg/edit#slide=id.g38da470963_0_268
       video_link: 'https://www.youtube.com/watch?v=TJ0pgnoOh-U'
       demo_link: null
-- episode: 1
+- episode: 2
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/04/08
   start_time: '11:00 am'
-  end_time: '2:00 am'
+  end_time: '2:00 pm'
   address: Balkumari Lalitpur
   hosted_by:
     name: Saroj Maharjan
@@ -115,7 +115,7 @@
         https://docs.google.com/presentation/d/1iFPXsbW2-aZGwqnC_2RDhYHQBRjVVQTdu72if7QLEDY/edit
       video_link: 'https://www.youtube.com/watch?time_continue=7&v=eVQQ2AAzp0Y'
       demo_link: 'https://github.com/suyogkrazz/railsreacttalk'
-- episode: 0
+- episode: 1
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/01/14
   start_time: '11:00 am'
@@ -135,8 +135,9 @@
       speaker: Sujit Shakya
       twitter_username: blackrabbitt26
       github_username: BlackRabbitt
-      designation: 'reelancer@beetle-developers'
-      slide_link: 'https://docs.google.com/presentation/d/1f2ju1U9_BpuUtQxa3RLCP9U0dJS6lUjN2Zn1nKGNDjc/edit#slide=id.p'
+      designation: reelancer@beetle-developers
+      slide_link: >-
+        https://docs.google.com/presentation/d/1f2ju1U9_BpuUtQxa3RLCP9U0dJS6lUjN2Zn1nKGNDjc/edit#slide=id.p
       video_link: 'https://www.youtube.com/watch?v=wKZVnd4EeAs'
       demo_link: null
     - id: 2
@@ -145,7 +146,51 @@
       speaker: Milan Thapa
       twitter_username: thapakazi_
       github_username: thapakazi
-      designation: 'Docker fan 😃 found it on hacker news'
-      slide_link: 'https://rawgit.com/thapakazi/slides/master/docker/docker_and_docker_compose_for_devs.html'
+      designation: 'Docker fan, found it on hacker news'
+      slide_link: >-
+        https://rawgit.com/thapakazi/slides/master/docker/docker_and_docker_compose_for_devs.html
       video_link: 'https://www.youtube.com/watch?v=eshZI2ujK3I'
       demo_link: null
+- episode: 0
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2017-09-10 00:00:00'
+  start_time: '11:00 am'
+  end_time: '2:00 am'
+  address: 'Sainbu, Bhaisepati · Kathmandu'
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: 'https://www.cloudfactory.com/'
+    logo: >-
+      https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359
+    name: Cloudfactory
+  sessions:
+    - id: 1
+      title: Secrets behind writing specs
+      description: null
+      speaker: Er. Chandra Mohan Thakur
+      twitter_username: cmthakur1986
+      github_username: cmthakur
+      designation: Sr. SoftwareEngineer @cloudfactory
+      slide_link: >-
+        https://www.slideshare.net/ErChandraMohanThakur/secrets-behind-writing-specs/1
+      video_link: 'https://www.youtube.com/watch?v=ZUFtLuvxHE4'
+      demo_link: null
+    - id: 2
+      title: Lightweight apps with Sinatra
+      description: null
+      speaker: Aadesh Shrestha
+      twitter_username: aadeshere1
+      github_username: aadeshere1
+      designation: Ruby on Rails developer.  Techrise
+      slide_link: >-
+        https://docs.google.com/presentation/d/1IDHtzAB3tMowoMpm2drWHIICxoQ22jpGxZUREfEukZk/edit#slide=id.p
+      video_link: 'https://www.youtube.com/watch?v=_J6io3sUfLc'
+      demo_link: null
+  questions_answers:
+    - name: Saroj Maharjan
+      twitter_username: zorasplan
+    - name: kapil Raj Nakhwa
+      twitter_username: xecutioner303
+

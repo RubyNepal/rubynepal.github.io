@@ -6,28 +6,68 @@ layout: default
     <h1>List Of All Meetups</h1>
     <ul class="timeline">
       {% for meetup in site.data.meetup %}
-        <li class="event" data-date="{{ meetup.date | date: '%B %d, %Y' }}">
-          <h3>{{ meetup.title }}</h3>
-          <date>{{ meetup.date | date: '%b %B, %Y' }}. {{ meetup.start_time }}</date>
-          <p>Venue: {{ meetup.venue }}</p>
-          <p>Host: {{ meetup.hosted_by.name }}</p>
-          <h3>Presentations</h3>
-          {% for session in meetup.sessions %}
-            <p>
-              {{ session.title }} by <a href="https://twitter.com/{{session.twitter_username}}">{{ session.speaker }}</a>
-            </p>
-            <ul>
-              {% if session.slide_link %}
-                <li><a href="{{ session.slide_link }}">Slides</a></li>
+        <li class="event">
+          <div class="card">
+            <header class="card-header">
+              <h3 class="card-header-title">
+                {{ meetup.date | date: '%d %b, %Y' }}/ {{ meetup.title }}
+              </h3>
+            </header>
+            <div class="card-content">
+              {% for session in meetup.sessions %}
+                <div class="content">
+                  <h4>{{ session.title }} </h4>
+                  <a target="_blank" href="https://twitter.com/{{session.twitter_username}}" class="rnw-link">
+                    {{ session.speaker }}
+                  </a> &nbsp;&nbsp;&nbsp;&nbsp;
+                  {% if session.slide_link %}
+                    <a target="_blank" href="{{ session.slide_link }}">Slides</a> -
+                  {% endif %}
+                  {% if session.demo_link %}
+                    <a target="_blank" href="{{ session.demo_link }}">Demo/Code</a> -
+                  {% endif %}
+                  {% if session.video_link %}
+                    <a target="_blank" href="{{ session.video_link }}">Video</a>
+                  {% endif %}
+                </div>
+                {% if forloop.last == false %}
+                  <hr>
+                {% endif %}
+              {% endfor %}
+              {% if meetup.questions_answers %}
+                <hr>
+                <div class="content">
+                  Q & A Session with &nbsp;&nbsp;
+                  {% for panelist in meetup.questions_answers %}
+                    <a target="_blank" href="https://twitter.com/{{qa.twitter_username}}" class="rnw-link">
+                      {{ panelist.name }}
+                      {% if forloop.last == false %}
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                      {% endif %}
+                    </a>
+                  {% endfor %}
+                </div>
               {% endif %}
-              {% if session.demo_link %}
-                <li><a href="{{ meetup.demo_link }}">Demo/Code</a></li>
-              {% endif %}
-              {% if session.video_link %}
-                <li><a href="{{ meetup.video_link }}">Video</a></li>
-              {% endif %}
-            </ul>
-          {% endfor %}
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  <i class="far fa-user-circle"></i>&nbsp;&nbsp;Host:
+                  <a target="_blank" href="https://twitter.com/{{ meetup.hosted_by.twitter_username}}">
+                    {{ meetup.hosted_by.name }}
+                  </a>
+                </span>
+              </p>
+              <p class="card-footer-item">
+                <span>
+                  <i class="fas fa-map-marker"></i>&nbsp;&nbsp;Venue:
+                  <a target="_blank" href="{{ meetup.venue_sponsor.link }}">
+                    {{ meetup.venue_sponsor.name }}
+                  </a>
+                </span>
+              </p>
+            </footer>
+          </div>
         </li>
       {% endfor %}
     </ul>
