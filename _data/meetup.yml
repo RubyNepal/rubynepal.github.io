@@ -1,4 +1,4 @@
-- episode: 3
+- episode: 9
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/05/13
   start_time: '11:00 am'
@@ -59,7 +59,7 @@
         https://docs.google.com/presentation/d/1iLAiAJ_1zFKx6rLTuhC2OEJI8lnqYYmrx7PnaW4Thvg/edit#slide=id.g38da470963_0_268
       video_link: 'https://www.youtube.com/watch?v=TJ0pgnoOh-U'
       demo_link: null
-- episode: 2
+- episode: 8
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/04/08
   start_time: '11:00 am'
@@ -115,7 +115,7 @@
         https://docs.google.com/presentation/d/1iFPXsbW2-aZGwqnC_2RDhYHQBRjVVQTdu72if7QLEDY/edit
       video_link: 'https://www.youtube.com/watch?time_continue=7&v=eVQQ2AAzp0Y'
       demo_link: 'https://github.com/suyogkrazz/railsreacttalk'
-- episode: 1
+- episode: 7
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/01/14
   start_time: '11:00 am'
@@ -151,7 +151,7 @@
         https://rawgit.com/thapakazi/slides/master/docker/docker_and_docker_compose_for_devs.html
       video_link: 'https://www.youtube.com/watch?v=eshZI2ujK3I'
       demo_link: null
-- episode: 0
+- episode: 6
   title: RoR Himalayan Meetup at Kathmandu
   date: '2017-09-10 00:00:00'
   start_time: '11:00 am'
@@ -193,4 +193,214 @@
       twitter_username: zorasplan
     - name: kapil Raj Nakhwa
       twitter_username: xecutioner303
-
+- episode: 5
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2016-01-10 00:00:00'
+  start_time: '11:00 am'
+  end_time: '2:00 am'
+  address: 'Sainbu, Bhaisepati · Kathmandu'
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: 'https://www.cloudfactory.com/'
+    logo: >-
+      https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359
+    name: Cloudfactory
+  sessions:
+    - id: 1
+      title: Performance Improvement of Rails Application
+      description: null
+      speaker: Sadiksha Gautam
+      twitter_username: sadikshagautam
+      github_username: sadiksha
+      designation: 'Software Developer at EnerNOC, Munich, Germany'
+      slide_link: >-
+        https://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: Scaling CI with Docker @ Cloudfactory
+      description: null
+      speaker: Bikash Kaji Basukala
+      twitter_username: kajisaap
+      github_username: kajisaap
+      designation: 'Devops, janitor and the man maid'
+      slide_link: >-
+        https://docs.google.com/presentation/d/1IyQmKLfdgP9Ktqzg9ApaFKlurGLSJHGVRwtn43qCmQk/pub?start=false&loop=false&delayms=3000#slide=id.p4
+      video_link: null
+      demo_link: null
+- episode: 4
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2016-03-20 00:00:00'
+  start_time: '11:00 am'
+  end_time: '2:00 am'
+  address: Kathmandu
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: 'http://www.leapfrog.academy/'
+    logo: 'http://www.leapfrog.academy/themes/website/assets/img/logo_main.png'
+    name: Leapfrog Academy
+  sessions:
+    - id: 1
+      title: Working as a Junior Developer
+      description: null
+      speaker: Madhuri Shrestha
+      twitter_username: MadzzSrestha
+      github_username: ''
+      designation: Fun-loving Adventurous Free-spirited Determined
+      slide_link: null
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: Organizing CSS
+      description: null
+      speaker: Sanjeev Praja
+      twitter_username: null
+      github_username: null
+      designation: null
+      slide_link: null
+      video_link: null
+      demo_link: null
+- episode: 3
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2016-05-08 00:00:00'
+  start_time: '11:00 am'
+  end_time: '2:00 am'
+  address: Kathmandu
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: ''
+    logo: ''
+    name: 'Innovation Hub, FNCCI provided by @AmericanSpaces'
+  sessions:
+    - id: 1
+      title: ActionCable in Rails 5
+      description: null
+      speaker: Paul Chobert
+      twitter_username: barodeur
+      github_username: barodeur
+      designation: Freelance Software Engineer
+      slide_link: 'https://drive.google.com/file/d/170mmguu5QUppftCTBrxW4D5QtNqWzIpG/view'
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: Building APIs in RoR with Grape
+      description: null
+      speaker: Milap Neupane
+      twitter_username: _milap
+      github_username: milap-neupane
+      designation: Software Engineer
+      slide_link: 'https://drive.google.com/file/d/1b0P7JIOxJTks3t0HOKKh73kp7YH8i4lD/view'
+      video_link: null
+      demo_link: null
+- episode: 2
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2016-07-17 00:00:00'
+  start_time: '11:00 am'
+  end_time: '2:00 am'
+  address: Kathmandu
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: ''
+    logo: ''
+    name: 'Innovation Hub, FNCCI provided by @AmericanSpaces'
+  sessions:
+    - id: 1
+      title: New Features in Rails 5
+      description: null
+      speaker: Saroj Maharjan
+      twitter_username: zoraslapen
+      github_username: zoras
+      designation: 'Mentor @GSoC. #RoR Developer. Consultant. Traveler. Founder'
+      slide_link: null
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: 'Ruby Implementations(MRI, Rubinius, and JRuby)'
+      description: null
+      speaker: Uzzal Devkota
+      twitter_username: oozzal
+      github_username: oozzal
+      designation: '#Developer #Ruby #Rails #Javascript #JavaSoftware Engineer'
+      slide_link: null
+      video_link: null
+      demo_link: null
+- episode: 1
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2015-09-13 00:00:00'
+  start_time: '11:00 am'
+  end_time: '2:00 am'
+  address: Kathmandu
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: 'https://twitter.com/AmericanSpaces'
+    logo: >-
+      https://pbs.twimg.com/profile_images/438007102317928448/Qyx3zvt8_400x400.jpeg
+    name: American Spaces
+  sessions:
+    - id: 1
+      title: Asset Management in Rails
+      description: null
+      speaker: Susan Joshi
+      twitter_username: josisusan
+      github_username: josisusan
+      designation: Ruby & Javascript
+      slide_link: >-
+        https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FAsset%20Management%20in%20Rails%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.pdf
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: MetaProgramming in Ruby
+      description: null
+      speaker: Prasvin Pandey
+      twitter_username: prasvinp
+      github_username: prasvin
+      designation: ''
+      slide_link: >-
+        https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FMetaProgramming%20in%20Ruby%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.zip
+      video_link: null
+      demo_link: null
+- episode: 0
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2015-12-20 00:00:00'
+  start_time: '11:00 am'
+  end_time: '2:00 am'
+  address: Kathmandu
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: 'https://twitter.com/AmericanSpaces'
+    logo: >-
+      https://pbs.twimg.com/profile_images/438007102317928448/Qyx3zvt8_400x400.jpeg
+    name: American Spaces
+  sessions:
+    - id: 1
+      title: Tech in France and meeting developers in Asia
+      description: null
+      speaker: Ludwine Probst
+      twitter_username: nivdul
+      github_username: nivdul
+      designation: ''
+      slide_link: null
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: Test Driven Development
+      description: null
+      speaker: Ganesh Kunwar
+      twitter_username: gkunwar1
+      github_username: gkunwar
+      designation: Software Engineer
+      slide_link: 'https://drive.google.com/file/d/1DHB_FrWsofyOHT8dd38f8ZB-3DVr8aoK/view'
+      video_link: null
+      demo_link: null
