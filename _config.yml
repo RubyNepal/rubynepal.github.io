@@ -84,3 +84,4 @@ exclude:
   - vendor/ruby/
   - Rakefile
   - Guardfile
+  - node_modules

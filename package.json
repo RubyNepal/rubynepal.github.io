@@ -1,0 +1,37 @@
+{
+  "name": "rubynepal.github.io",
+  "version": "1.0.0",
+  "description": "Ruby Nepal Official Website",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhusudhan1234/rubynepal.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhusudhan1234/rubynepal.github.io/issues"
+  },
+  "homepage": "https://github.com/rubynepal/rubynepal.github.io",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-avatar": "^3.2.0",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
