@@ -41,6 +41,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-avatar
+  - jekyll-twitter-plugin
 
 sass:
   sass_dir: _sass
