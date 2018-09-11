@@ -65,46 +65,52 @@ layout: home
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-8">
           <div class="tile">
-            <div class="tile is-parent is-vertical">
+            <div class="tile is-parent is-shady">
               <article class="tile is-child notification is-white">
-                <p class="title">Follow us on Twitter</p>
-                <p class="subtitle">Get notified about upcoming RubyNepal events and activities.
-                  Follow <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">@ruby_nepal</a></p>
+                <div class="content">
+                  <p class="title">Google Group</p>
+                  <p class="subtitle">We run a
+                    <a href="https://groups.google.com/forum/#!forum/ror-nepal" target="_blank">mailing list</a>
+                    for discussion of Ruby-related topics.
+                    If you have a question about Ruby (or Ruby on Rails), this group can probably figure it out.
+                  </p>
+                </div>
               </article>
             </div>
             <div class="tile is-parent is-vertical">
               <article class="tile is-child notification is-white">
-                <p class="title">Contributing to the site</p>
-                <p class="subtitle">The site’s source is hosted on
-                  <a href="https://github.com/RubyNepal/rubynepal.github.io" target="_blank">Github</a>.
-                  Please refer to the README there for more details.</p>
+                <p class="title">Ruby developer groups in Facebook</p>
+                <p class="subtitle">Following are active Nepalese Ruby/Rails groups:</p>
+                <div class="content">
+                  <p>
+                    <a href="https://www.facebook.com/groups/rubydevelopersnepal/" target="_blank">Ruby Developers Nepal</a><br>
+                    <a href="https://www.facebook.com/groups/nepaleserordeveloper/" target="_blank">
+                       Ruby on Rails (RoR) Developers Nepal
+                     </a>
+                   </p>
+                </div>
               </article>
             </div>
           </div>
           <div class="tile is-parent is-shady">
             <article class="tile is-child notification is-white">
-              <p class="title">Ruby developer groups in Facebook</p>
-              <p class="subtitle">Following are active Nepalese Ruby/Rails groups:</p>
-              <div class="content">
-                <p>
-                  <a href="https://www.facebook.com/groups/rubydevelopersnepal/" target="_blank">Ruby Developers Nepal</a><br>
-                  <a href="https://www.facebook.com/groups/nepaleserordeveloper/" target="_blank">
-                    Ruby on Rails (RoR) Developers Nepal
-                  </a>
-                </p>
-              </div>
+              <p class="title">Contributing to the site</p>
+              <p class="subtitle">The site’s source is hosted on
+                <a href="https://github.com/RubyNepal/rubynepal.github.io" target="_blank">Github</a>.
+                Please refer to the README there for more details.</p>
             </article>
           </div>
         </div>
-        <div class="tile is-parent is-shady">
+        <div class="tile is-parent is-shady ruby-nepal-twitter-timeline">
           <article class="tile is-child notification is-white">
             <div class="content">
-              <p class="title">Google Group</p>
-              <p class="subtitle">We run a
-                <a href="https://groups.google.com/forum/#!forum/ror-nepal" target="_blank">mailing list</a>
-                for discussion of Ruby-related topics.
-                If you have a question about Ruby (or Ruby on Rails), this group can probably figure it out.
-              </p>
+              <div class="columns is-mobile">
+                <p class="column is-two-fifths">Recent Tweets</p>
+                <a class="column is-three-fifths" target="_blank" href="https://twitter.com/ruby_nepal">
+                  Follow us On Twitter
+                </a>
+              </div>
+              {% twitter https://twitter.com/ruby_nepal %}
             </div>
           </article>
         </div>
