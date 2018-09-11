@@ -11,8 +11,8 @@ source 'https://rubygems.org'
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem 'jekyll', '~> 3.8'
-
 gem 'rake', '~> 12.3'
+
 gem 'match_regex', '~> 0.1'
 gem 'replace_regex', '~> 0.1'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby] # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -25,16 +25,15 @@ gem 'wdm' if Gem.win_platform? # Performance-booster for watching directories on
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-admin', '~> 0.8'
-  gem 'jekyll-avatar', '~> 0.6'
   gem 'jekyll-analytics', '~> 0.1'
   gem 'jekyll-autolink_email', '~> 0.1'
+  gem 'jekyll-avatar', '~> 0.6'
   gem 'jekyll-email-protect', '~> 1.1'
   gem 'jekyll-feed', '~> 0.11'
   gem 'jekyll-paginate', '~> 1.1'
   gem 'jekyll-seo-tag', '~> 2.5'
-  gem 'jekyll-youtube', '~> 1.0'
-  # https://github.com/rob-murray/jekyll-twitter-plugin
   gem 'jekyll-twitter-plugin', '~> 2.0'
+  gem 'jekyll-youtube', '~> 1.0'
 end
 
 group :development, :test do
