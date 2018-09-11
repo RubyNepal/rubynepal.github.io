@@ -29,19 +29,19 @@ group :jekyll_plugins do
   gem "jekyll-analytics", "~> 0.1"
   gem "jekyll-autolink_email", "~> 0.1"
   gem "jekyll-email-protect", "~> 1.1"
-  gem "jekyll-feed", "~> 0.9"
+  gem "jekyll-feed", "~> 0.11"
   gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-seo-tag", "~> 2.5"
   gem "jekyll-youtube", "~> 1.0"
   # https://github.com/rob-murray/jekyll-twitter-plugin
-  gem "jekyll-twitter-plugin", "~> 2.0.0"
+  gem "jekyll-twitter-plugin", "~> 2.0"
 end
 
 group :development, :test do
   gem "html-proofer", "~> 3.9"
   gem "jslint-v8", "~> 1.1"
   gem "parallel", "~> 1.12"
-  gem "rubocop", "~> 0.56", require: false
+  gem "rubocop", "~> 0.59", require: false
   gem "scss_lint", "~> 0.57", require: false
 
   gem "guard-bundler", "~> 2.1", require: false
