@@ -33,7 +33,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-seo-tag", "~> 2.5"
   gem "jekyll-youtube", "~> 1.0"
-  # https://github.com/rob-murray/jekyll-twitter-plugin(embeds Tweets, Timelines)
+  # https://github.com/rob-murray/jekyll-twitter-plugin
   gem "jekyll-twitter-plugin", "~> 2.0.0"
 end
 
