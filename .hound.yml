@@ -22,7 +22,7 @@ sass-lint:
 
 # https://github.com/jshint/jshint
 jshint:
-  enabled: true # default true
+  enabled: false # default true
   # http://jshint.com/docs/options/
   # config_file: .jshintrc
   # ignore_file: .javascript_ignore

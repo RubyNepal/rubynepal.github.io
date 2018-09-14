@@ -44,6 +44,6 @@ guard 'rake', task: 'scss_lint' do
   watch(%r{.+\.scss|\.sass$})
 end
 
-guard 'rake', task: 'js:lint' do
-  watch(%r{.+\.js$})
-end
+# guard 'rake', task: 'js:lint' do
+#   watch(%r{.+\.js$})
+# end
