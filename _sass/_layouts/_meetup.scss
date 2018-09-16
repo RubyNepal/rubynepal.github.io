@@ -1,3 +1,7 @@
+.meetup-section {
+  padding-top: 0;
+}
+
 .meetup {
   text-align: right;
 
@@ -46,6 +50,10 @@
     line-height: 20px;
     margin-bottom: 40px;
   }
+
+  .see-all-meetup {
+    font-size: 30px;
+  }
 }
 
 .sessions {
@@ -66,6 +74,10 @@
 
     .session-splitter {
       border-bottom: 3px solid $logo-color;
+    }
+
+    hr {
+      margin: $hr-top-bottom-size 0;
     }
 
     .session-title {
@@ -112,12 +124,18 @@
       color: $github-icon-color;
     }
 
-    .speaker-designation-and-workplace {
+    .speaker-designation-and-workplace,
+    .slide-and-video {
       color: $dark-grey;
       font-size: 14px;
       font-weight: 400;
       line-height: 17px;
       margin: 2px 0 0 130px;
+    }
+
+    .slide-and-video {
+      font-size: 16px;
+      padding-top: 20px;
     }
 
     img {

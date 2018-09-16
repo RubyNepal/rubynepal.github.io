@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madhusudhan1234/rubynepal.github.io.git"
+    "url": "https://github.com/rubynepal/rubynepal.github.io/issues"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/madhusudhan1234/rubynepal.github.io/issues"
+    "url": "https://github.com/rubynepal/rubynepal.github.io/issues"
   },
   "homepage": "https://github.com/rubynepal/rubynepal.github.io",
   "dependencies": {

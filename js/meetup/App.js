@@ -34,6 +34,21 @@ function SocialLinks(props) {
   }
 }
 
+function SlideAndVideo(props) {
+  const slide_link =  props.session.slide_link;
+  const video_link =  props.session.video_link;
+  const demo_link =  props.session.demo_link;
+  if (props.session && (slide_link || video_link || demo_link)) {
+    return (<div className="slide-and-video">
+      {slide_link && <a href={slide_link} target="_blank"><i className="fas fa-sliders-h"></i>  Slide</a>} &nbsp;&nbsp;
+      {video_link && <a href={video_link} target="_blank"><i className="fab fa-youtube"></i>  Video</a>} &nbsp;&nbsp;
+      {demo_link && <a href={demo_link} target="_blank"><i className="fas fa-laptop"></i>  Demo</a>}
+    </div>);
+  } else {
+    return false;
+  }
+}
+
 class App extends Component {
 
   constructor(props) {
@@ -83,12 +98,17 @@ class App extends Component {
   renderImage(session) {
     const twitter_username = session.twitter_username;
     const avatar_size = '73';
+
     if (twitter_username) {
       const avatar_url = `https://avatar-redirect.appspot.com/twitter/${twitter_username}`;
       return <img src={avatar_url} alt={session.speaker} height={avatar_size} width={avatar_size}/>
     } else {
       return <Avatar name={session.speaker} size={avatar_size} />
     }
+  }
+
+  handleScroll() {
+
   }
 
   render() {
@@ -100,7 +120,6 @@ class App extends Component {
               <div className="meetup">
                 <h1 className="meetup-name">{meetup.title}</h1>
                 <p className="meetup-episode">/Episode {meetup.episode}, {meetup.date}</p>
-                <span className="meetup-date">{meetup.date}</span>
                 <span className="meetup-time">
                   {meetup.start_time} - {meetup.end_time}
                 </span>
@@ -127,7 +146,7 @@ class App extends Component {
               </div>
             </div>
             <div className="column panel-schedule">
-              <ol className="sessions">
+              <ul className="sessions">
                 {meetup.sessions.map(session =>
                   <li className="session" key={session.id}>
                     <h3 className="session-number">session #{session.id}</h3>
@@ -143,12 +162,13 @@ class App extends Component {
                         <p className="speaker-designation-and-workplace">
                           {session.designation}
                         </p>
+                        <SlideAndVideo session={session} />
                         <SocialLinks session={session} />
                       </li>
                     </ol>
                   </li>
                 )}
-              </ol>
+              </ul>
               <div className="panel-sponsors-and-supporters">
                 <hr className="sponsors-and-supporters-splitter"/>
                 <h2 className="sponsors-and-supporters-heading">Venue Sponsor</h2>
