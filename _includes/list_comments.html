@@ -1,6 +1,6 @@
 <h1 class="title is-4"> Comments: </h1>
 {% assign comments = site.data.comments.[page.slug] %}
-<ul class="style="list-style: none;">
+<ul style="list-style: none;">
   {% for comment in comments %}
     {% assign commentData = comment[1] %}
     <li class="comment-box card">
