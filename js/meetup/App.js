@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import Avatar from 'react-avatar';
 import meetups from './data';
-
-const twitter_url = 'https://twitter.com';
-const github_url = 'https://github.com';
+import {
+  TWITTER_URL,
+  GITHUB_URL,
+  INITIAL_EPISODE_ID,
+  LEFT_ARROW_KEY,
+  RIGHT_ARROW_KEY,
+  AVATAR_SIZE,
+} from './constants';
 
 function TwitterIcon(props) {
   if (props.twitter_username) {
-    const twitter_profile = `${twitter_url}/${props.twitter_username}`;
+    const twitter_profile = `${TWITTER_URL}/${props.twitter_username}`;
     return <a href={twitter_profile} target="_blank"><i className="fab fa-twitter speaker-twitter"></i></a>
   } else {
     return false;
@@ -16,7 +21,7 @@ function TwitterIcon(props) {
 
 function GithubIcon(props) {
   if (props.github_username) {
-    const github_profile = `${github_url}/${props.github_username}`;
+    const github_profile = `${GITHUB_URL}/${props.github_username}`;
     return <a href={github_profile} target="_blank"><i className="fab fa-github speaker-github"></i></a>;
   } else {
     return false;
@@ -35,12 +40,12 @@ function SocialLinks(props) {
 }
 
 function SlideAndVideo(props) {
-  const slide_link =  props.session.slide_link;
+  const slides_link =  props.session.slides_link;
   const video_link =  props.session.video_link;
   const demo_link =  props.session.demo_link;
-  if (props.session && (slide_link || video_link || demo_link)) {
+  if (props.session && (slides_link || video_link || demo_link)) {
     return (<div className="slide-and-video">
-      {slide_link && <a href={slide_link} target="_blank"><i className="fas fa-sliders-h"></i>  Slide</a>} &nbsp;&nbsp;
+      {slides_link && <a href={slides_link} target="_blank"><i className="fas fa-sliders-h"></i>  Slide</a>} &nbsp;&nbsp;
       {video_link && <a href={video_link} target="_blank"><i className="fab fa-youtube"></i>  Video</a>} &nbsp;&nbsp;
       {demo_link && <a href={demo_link} target="_blank"><i className="fas fa-laptop"></i>  Demo</a>}
     </div>);
@@ -55,23 +60,46 @@ class App extends Component {
     super(props);
 
     this.state ={
-      selectedEpisode: this.latestEpisode(),
-      firstEpisode: 0,
+      selectedEpisode: this.currentEpisode(),
+      firstEpisode: INITIAL_EPISODE_ID,
       messageForNotFound: '',
+      isScrolled: false,
     };
-
-    this.onStepChange = this.onStepChange.bind(this);
-    this.latestEpisode = this.latestEpisode.bind(this);
+    this.section = React.createRef();
   }
 
-  latestEpisode() {
-    return meetups.length - 1;
-  }
+  handleKeyUp = (event) => {
+    if (event.keyCode === LEFT_ARROW_KEY) {
+      return this.onStepChange('previous');
+    } else if (event.keyCode === RIGHT_ARROW_KEY) {
+      return this.onStepChange('next');
+    } else {
+      return false;
+    }
+  };
 
-  onStepChange(step) {
+  currentEpisode = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const paramsEpisodeId = urlParams.has('episode') ? parseInt(urlParams.get('episode')) : null;
+    if (paramsEpisodeId >= INITIAL_EPISODE_ID && paramsEpisodeId <= this.totalEpisode()) {
+      return paramsEpisodeId;
+    } else {
+      return this.totalEpisode();
+    }
+  };
+
+  totalEpisode = () => {
+    return meetups.length;
+  };
+
+  urlWithEpisode = () => {
+    window.history.pushState('', '', `/meetup/?episode=${this.state.selectedEpisode}`);
+  };
+
+  onStepChange = (step) => {
     switch(step) {
       case 'next':
-        if (this.state.selectedEpisode === this.latestEpisode()) {
+        if (this.state.selectedEpisode === this.totalEpisode()) {
           this.setState({ messageForNotFound: 'New meetup information coming soon!'});
           setTimeout(() => {
             this.setState({ messageForNotFound: ''});
@@ -79,6 +107,7 @@ class App extends Component {
           return false;
         }
         this.setState({ selectedEpisode: this.state.selectedEpisode + 1 });
+        this.urlWithEpisode();
         break;
       case 'previous':
         if (this.state.selectedEpisode === this.state.firstEpisode) {
@@ -89,35 +118,43 @@ class App extends Component {
           return false;
         }
         this.setState({ selectedEpisode: this.state.selectedEpisode - 1 });
+        this.urlWithEpisode();
         break;
       default:
         return false;
     }
-  }
+  };
 
   renderImage(session) {
     const twitter_username = session.twitter_username;
-    const avatar_size = '73';
 
     if (twitter_username) {
       const avatar_url = `https://avatar-redirect.appspot.com/twitter/${twitter_username}`;
-      return <img src={avatar_url} alt={session.speaker} height={avatar_size} width={avatar_size}/>
+      return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>
     } else {
-      return <Avatar name={session.speaker} size={avatar_size} />
+      return <Avatar name={session.speaker} size={AVATAR_SIZE} />
     }
   }
 
-  handleScroll() {
-
+  componentDidMount() {
+    this.urlWithEpisode();
+    document.addEventListener('keyup', this.handleKeyUp);
+    window.addEventListener('scroll', () => {
+      if (pageYOffset > 50) {
+        this.setState({ isScrolled: true });
+      } else {
+        this.setState({ isScrolled: false });
+      }
+    });
   }
 
   render() {
     return (
-      <div>
+      <div onKeyUp={this.handleKeyUp}>
         {meetups.filter(meetup => meetup.episode === this.state.selectedEpisode).map(meetup =>
-          <section className="pdt-50 pdb-50" key={meetup.episode}>
+          <section className={this.state.isScrolled ? 'pdb-50' : 'pdb-50 pdt-50'} key={meetup.episode} ref={this.section}>
             <div className="column panel-meetup">
-              <div className="meetup">
+              <div className="meetup-content">
                 <h1 className="meetup-name">{meetup.title}</h1>
                 <p className="meetup-episode">/Episode {meetup.episode}, {meetup.date}</p>
                 <span className="meetup-time">
@@ -184,6 +221,10 @@ class App extends Component {
         )}
       </div>
     );
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keyup', this.handleKeyUp);
   }
 }
 
