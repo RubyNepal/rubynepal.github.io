@@ -31,7 +31,7 @@ jshint:
 eslint:
   enabled: true # default false
   # http://eslint.org/docs/rules/
-  # config_file: .eslintrc
+  config_file: .eslintrc.json
 
 # http://www.coffeelint.org/
 coffeescript:
