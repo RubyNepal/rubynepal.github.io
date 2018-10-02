@@ -1,6 +1,9 @@
 - name: TryRuby
   link: https://ruby.github.io/TryRuby
+  description: "Got 30 minutes? Give Ruby a shot right now!"
 - name: Learn Ruby
   link: https://www.codecademy.com/learn/learn-ruby
+  description: "Continue your learning by starting with Learn Ruby"
 - name: Learn Jekyll
   link: https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/
+  description: "Introduction to the world of static site generators"

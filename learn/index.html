@@ -2,13 +2,14 @@
 title: Learning Resources
 layout: default
 ---
+
 <div class="pdb-50 pdt-50">
   <p class="title">{{page.title}}</p>
   {% for resource in site.data.learn %}
     <div class="card">
       <header class="card-header">
-        <p class="card-header-title">
-          <a href="{{resource.link}}" target="_blank">{{ resource.name }}</a>
+        <p class="card-header-title learn-title">
+          <a href="{{resource.link}}" target="_blank">{{ resource.name }}</a> &nbsp;- {{ resource.description }}
         </p>
       </header>
     </div>
