@@ -17,6 +17,7 @@ github.com:RubyNepal/rubynepal.github.io
 
 # Clone your forked repo
 $ git clone git@github.com:<your_github_username>/rubynepal.github.io.git
+$ bundle install
 
 # Create a new branch for you.
 $ git pull orgin master # You should be in master branch
@@ -27,7 +28,9 @@ $ bundle exec jekyll serve # Fires up local server at port 4000
 # Preview the changes on localhost:4000
 
 # Make sure linters are happy
+$ npm install
 $ bundle exec guard # to auto run tests and other linter checks (js, sass, html)
+$ ./node_modules/.bin/eslint --config .eslintrc.json *.js js/**/*.js --fix
 
 # Commit the changes
 $ git commit -m 'My awesome contribution'

@@ -44,6 +44,12 @@ guard 'rake', task: 'scss_lint' do
   watch(%r{.+\.scss|\.sass$})
 end
 
+guard :shell do
+  watch(%r{.+\.js$}) do |m|
+    `./node_modules/.bin/eslint #{m[0]}`
+  end
+end
+
 # guard 'rake', task: 'js:lint' do
 #   watch(%r{.+\.js$})
 # end
