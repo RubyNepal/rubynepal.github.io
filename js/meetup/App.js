@@ -7,13 +7,13 @@ import {
   INITIAL_EPISODE_ID,
   LEFT_ARROW_KEY,
   RIGHT_ARROW_KEY,
-  AVATAR_SIZE,
+  AVATAR_SIZE
 } from './constants';
 
 function TwitterIcon(props) {
   if (props.twitter_username) {
     const twitter_profile = `${TWITTER_URL}/${props.twitter_username}`;
-    return <a href={twitter_profile} target="_blank"><i className="fab fa-twitter speaker-twitter"></i></a>
+    return <a href={twitter_profile} target="_blank" rel='noopener noreferrer'><i className="fab fa-twitter speaker-twitter"></i></a>;
   } else {
     return false;
   }
@@ -22,7 +22,7 @@ function TwitterIcon(props) {
 function GithubIcon(props) {
   if (props.github_username) {
     const github_profile = `${GITHUB_URL}/${props.github_username}`;
-    return <a href={github_profile} target="_blank"><i className="fab fa-github speaker-github"></i></a>;
+    return <a href={github_profile} target="_blank" rel='noopener noreferrer'><i className="fab fa-github speaker-github"></i></a>;
   } else {
     return false;
   }
@@ -45,9 +45,9 @@ function SlideAndVideo(props) {
   const demo_link =  props.session.demo_link;
   if (props.session && (slides_link || video_link || demo_link)) {
     return (<div className="slide-and-video">
-      {slides_link && <a href={slides_link} target="_blank"><i className="fas fa-sliders-h"></i>  Slide</a>} &nbsp;&nbsp;
-      {video_link && <a href={video_link} target="_blank"><i className="fab fa-youtube"></i>  Video</a>} &nbsp;&nbsp;
-      {demo_link && <a href={demo_link} target="_blank"><i className="fas fa-laptop"></i>  Demo</a>}
+      {slides_link && <a href={slides_link} target="_blank" rel='noopener noreferrer'><i className="fas fa-sliders-h"></i>  Slide</a>} &nbsp;&nbsp;
+      {video_link && <a href={video_link} target="_blank" rel='noopener noreferrer'><i className="fab fa-youtube"></i>  Video</a>} &nbsp;&nbsp;
+      {demo_link && <a href={demo_link} target="_blank" rel='noopener noreferrer'><i className="fas fa-laptop"></i>  Demo</a>}
     </div>);
   } else {
     return false;
@@ -59,11 +59,11 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state ={
+    this.state = {
       selectedEpisode: this.currentEpisode(),
       firstEpisode: INITIAL_EPISODE_ID,
       messageForNotFound: '',
-      isScrolled: false,
+      isScrolled: false
     };
     this.section = React.createRef();
   }
@@ -97,7 +97,7 @@ class App extends Component {
   };
 
   onStepChange = (step) => {
-    switch(step) {
+    switch (step) {
       case 'next':
         if (this.state.selectedEpisode === this.totalEpisode()) {
           this.setState({ messageForNotFound: 'New meetup information coming soon!'});
@@ -130,9 +130,9 @@ class App extends Component {
 
     if (twitter_username) {
       const avatar_url = `https://avatar-redirect.appspot.com/twitter/${twitter_username}`;
-      return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>
+      return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>;
     } else {
-      return <Avatar name={session.speaker} size={AVATAR_SIZE} />
+      return <Avatar name={session.speaker} size={AVATAR_SIZE} />;
     }
   }
 
@@ -164,14 +164,14 @@ class App extends Component {
                 <p className="meetup-address">{meetup.address}</p>
                 <strong>
                   <a href="javascript:void(0)"
-                     className="see-all-meetup rnw-link"
-                     onClick={() => this.onStepChange('previous')}
+                    className="see-all-meetup rnw-link"
+                    onClick={() => this.onStepChange('previous')}
                   ><i className="fas fa-arrow-left"></i>
                   </a>
                   &nbsp;&nbsp;&nbsp;
                   <a href="javascript:void(0)"
-                     className="see-all-meetup rnw-link"
-                     onClick={() => this.onStepChange('next')}
+                    className="see-all-meetup rnw-link"
+                    onClick={() => this.onStepChange('next')}
                   >
                     <i className="fas fa-arrow-right"></i>
                   </a>
@@ -212,7 +212,7 @@ class App extends Component {
                 <ul className="sponsors">
                   <li className="sponsor">
                     <img className="sponsor-logo" src={meetup.venue_sponsor.logo}
-                         alt={meetup.venue_sponsor.name}/>
+                      alt={meetup.venue_sponsor.name}/>
                   </li>
                 </ul>
               </div>
