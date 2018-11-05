@@ -14,11 +14,22 @@ layout: default
 
           <div class="field is-horizontal">
             <div class="field-label is-normal">
-              <label class="label">Your Name:</label>
+              <label class="label">Your Name *:</label>
             </div>
             <div class="field-body">
               <div class="control">
                 <input class="input" type="text" name="name" required/>
+              </div>
+            </div>
+          </div>
+
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Your Email:</label>
+            </div>
+            <div class="field-body">
+              <div class="control">
+                <input class="input" type="email" name="email_id" />
               </div>
             </div>
           </div>
@@ -45,8 +56,8 @@ layout: default
             </div>
           </div>
 
-          <div class="field">
-            <div class="control">
+          <div class="field columns is-centered">
+            <div class="control column is-half">
               <button class="button" type="submit">Send</button>
             </div>
           </div>
