@@ -10,7 +10,11 @@ layout: default
       </div> -->
 
       <div class="box member-form">
-        <form name="member-form" method="POST" netlify>
+        <form name="member-form" method="POST" netlify-honeypot="bot-field" netlify>
+
+            <p class="hidden">
+              <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
 
           <div class="field is-horizontal">
             <div class="field-label is-normal">
@@ -55,6 +59,8 @@ layout: default
               </div>
             </div>
           </div>
+
+          <div data-netlify-recaptcha></div>
 
           <div class="field columns is-centered">
             <div class="control column is-half">
