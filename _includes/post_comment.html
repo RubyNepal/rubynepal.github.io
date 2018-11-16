@@ -1,0 +1,27 @@
+<form class="content" method="POST" action="https://api.staticman.net/v2/entry/RubyNepal/rubynepal.github.io/master/comments">
+  <input name="options[redirect]" type="hidden" value="{{ page.url }}">
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <div class="field">
+    <label class="label">Name</label>
+    <div class="control">
+      <input class="input" name="fields[name]" type="text" placeholder="Rajesh Hamal">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">E-mail</label>
+    <div class="control">
+      <input class="input" name="fields[email]" type="email">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Message</label>
+    <div class="control">
+      <textarea class="textarea" name="fields[message]" placeholder="Your comment here"></textarea>
+    </div>
+  </div>
+  <div class="field">
+    <div class="control">
+      <button class="button" type="submit">Submit</button>
+    </div>
+  </div>
+</form>
