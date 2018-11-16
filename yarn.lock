@@ -801,7 +801,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@>=5.0.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
+babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -1215,7 +1215,7 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
-core-js@^2.4.0, core-js@^2.5.0:
+core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
@@ -3048,11 +3048,11 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-avatar@^3.2.0:
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/react-avatar/-/react-avatar-3.4.4.tgz#f0c033afd843df549afc633dd8dc92d91a132154"
+react-avatar@^3.4.6:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/react-avatar/-/react-avatar-3.4.6.tgz#0bbfdecc5231537bc433c09f12182e03f7daccfa"
   dependencies:
-    babel-runtime ">=5.0.0"
+    core-js "^2.5.7"
     is-retina "^1.0.3"
     md5 "^2.0.0"
 
