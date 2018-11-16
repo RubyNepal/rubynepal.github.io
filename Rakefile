@@ -15,7 +15,8 @@ require 'jslint-v8'
 config_file = '_config.yml' # Name of Jekyll config file
 
 # Standard tasks
-multitask default: [:rubocop, :html_proofer]
+# [:rubocop, 'js:lint', :html_proofer]
+multitask default: %i[rubocop html_proofer]
 
 # Rubocop Rake
 RuboCop::RakeTask.new(:rubocop) do |t|
