@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if ($navbarBurgers.length > 0) {
     $navbarBurgers.forEach(function ($el) {
       $el.addEventListener('click', function () {
-        var target, $target;
+        var $target; var target;
         target = $el.dataset.target;
         $target = document.getElementById(target);
         $el.classList.toggle('is-active');

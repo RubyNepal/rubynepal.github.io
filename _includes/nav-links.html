@@ -1,9 +1,9 @@
 <a class="navbar-item blog {% if (page.url contains 'blog' %} active-tab {% endif %}"
   href="/blog">Blog</a>
+<a class="navbar-item meetup {% if page.url contains 'meetup' %} active-tab {% endif %}"
+  href="/meetup">Meetup</a>
 <a class="navbar-item learn {% if page.url contains 'learn' %} active-tab {% endif %}" id="learn"
   href="/learn">Learn</a>
-<a class="navbar-item meetup"
-  href="https://www.meetup.com/{{ site.meetup_username }}" target="_blank">Meetup</a>
 <a class="navbar-item slack"
   href="https://{{ site.slack_username }}.slack.com/" target="_blank">Chat</a>
 <a class="navbar-item gallery"

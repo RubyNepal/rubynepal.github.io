@@ -49,4 +49,5 @@ group :development, :test do
   gem 'guard-bundler-audit', '~> 0.1'
   gem 'guard-rake', '~> 1.0'
   gem 'guard-rubocop', '~> 1.3'
+  gem 'guard-shell'
 end

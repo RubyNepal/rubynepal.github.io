@@ -1,3 +1,6 @@
+$bright-white: #fff;
+$dark-grey: #808080;
+
 $body-background-color: #f7f7f7;
 
 $logo-color: #e23838;
@@ -6,7 +9,7 @@ $logo-second-color: #6395ba;
 $home-nav-item-color: #444;
 $nav-item-border-color: $logo-color;
 
-$header-back-color: #fff;
+$header-back-color: $bright-white;
 
 $social-common-color: #000;
 
@@ -14,7 +17,10 @@ $hover-background-color: rgba(0, 0, 0, 0);
 $rnw-hero-tile-child-color: rgba(0, 0, 0, .5);
 $link-control-border-color: rgba(0, 0, 0, .75);
 $navbar-box-shadow-color: rgba(42, 42, 42, .25);
+$border-bottom-color: rgba(255, 255, 255, .1);
 
 $footer-background-color: $header-back-color;
 
+$twitter-icon-color: #1da1f2;
+$github-icon-color: #333;
 $comment-box-background: #fbfbfb;

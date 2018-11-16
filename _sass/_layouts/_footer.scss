@@ -1,5 +1,8 @@
 .footer {
   background-color: $footer-background-color;
+  margin-top: 70px;
+  position: relative;
+  z-index: 2;
 
   .columns {
     .column {

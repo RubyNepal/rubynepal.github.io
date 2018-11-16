@@ -22,7 +22,7 @@ sass-lint:
 
 # https://github.com/jshint/jshint
 jshint:
-  enabled: true # default true
+  enabled: false # default true
   # http://jshint.com/docs/options/
   # config_file: .jshintrc
   # ignore_file: .javascript_ignore
@@ -31,7 +31,7 @@ jshint:
 eslint:
   enabled: true # default false
   # http://eslint.org/docs/rules/
-  # config_file: .eslintrc
+  config_file: .eslintrc.json
 
 # http://www.coffeelint.org/
 coffeescript:
