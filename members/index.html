@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div class="columns pdt-50 pdb-50">
+  <div class="column is-10 is-offset-1">
+    <div class="members">
+
+      <!-- <div class="box active-members">
+      </div> -->
+
+      <div class="box member-form">
+        <form name="member-form" method="POST" netlify-honeypot="bot-field" netlify>
+
+            <p class="hide-me">
+              <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Your Name *:</label>
+            </div>
+            <div class="field-body">
+              <div class="control">
+                <input class="input" type="text" name="name" required/>
+              </div>
+            </div>
+          </div>
+
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Your Email:</label>
+            </div>
+            <div class="field-body">
+              <div class="control">
+                <input class="input" type="email" name="email_id" />
+              </div>
+            </div>
+          </div>
+
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Your Github:</label>
+            </div>
+            <div class="field-body">
+              <div class="control">
+                <input class="input" type="text" name="github_id" />
+              </div>
+            </div>
+          </div>
+
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Your Twitter:</label>
+            </div>
+            <div class="field-body">
+              <div class="control">
+                <input class="input" type="text" name="twitter_id" />
+              </div>
+            </div>
+          </div>
+
+          <div data-netlify-recaptcha></div>
+
+          <div class="field columns is-centered">
+            <div class="control column is-half">
+              <button class="button" type="submit">Send</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
