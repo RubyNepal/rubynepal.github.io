@@ -3051,9 +3051,9 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-avatar@^3.2.0:
-  version "3.4.6"
-  resolved "https://registry.yarnpkg.com/react-avatar/-/react-avatar-3.4.6.tgz#0bbfdecc5231537bc433c09f12182e03f7daccfa"
+react-avatar@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/react-avatar/-/react-avatar-3.5.0.tgz#c6bba995ec17719dceb0c2854a3c84257c862269"
   dependencies:
     core-js "^2.5.7"
     is-retina "^1.0.3"
