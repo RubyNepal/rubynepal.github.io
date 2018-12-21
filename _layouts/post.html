@@ -12,6 +12,14 @@ layout: default
               <p class="title article-title">{{ page.title}}</p>
               <p class="subtitle is-6 article-subtitle">
                 <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%-d %B, %Y" }}
+                {% include read-time.html
+                           content=content
+                           bracket_start='('
+                           bracket_end=')'
+                           unit='min'
+                           approx='true'
+                           caption='read'
+                %}
               </p>
             </div>
           </div>
