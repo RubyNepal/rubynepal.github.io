@@ -42,7 +42,7 @@ group :development, :test do
   gem 'html-proofer', '~> 3.9'
   gem 'jslint-v8', '~> 1.1'
   gem 'parallel', '~> 1.12'
-  gem 'rubocop', '~> 0.61', require: false
+  gem 'rubocop', '~> 0.62', require: false
   gem 'scss_lint', '~> 0.57', require: false
 
   gem 'guard-bundler', '~> 2.1', require: false
