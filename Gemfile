@@ -39,7 +39,7 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
-  gem 'html-proofer', '~> 3.9'
+  gem 'html-proofer', '~> 3.10'
   gem 'jslint-v8', '~> 1.1'
   gem 'parallel', '~> 1.12'
   gem 'rubocop', '~> 0.62', require: false
