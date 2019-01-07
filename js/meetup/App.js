@@ -106,8 +106,7 @@ class App extends Component {
           }, 3000);
           return false;
         }
-        this.setState({ selectedEpisode: this.state.selectedEpisode + 1 });
-        this.urlWithEpisode();
+        this.setState({ selectedEpisode: this.state.selectedEpisode + 1 }, () => this.urlWithEpisode());
         break;
       case 'previous':
         if (this.state.selectedEpisode === this.state.firstEpisode) {
@@ -117,8 +116,7 @@ class App extends Component {
           }, 3000);
           return false;
         }
-        this.setState({ selectedEpisode: this.state.selectedEpisode - 1 });
-        this.urlWithEpisode();
+        this.setState({ selectedEpisode: this.state.selectedEpisode - 1 }, () => this.urlWithEpisode());
         break;
       default:
         return false;
@@ -163,18 +161,17 @@ class App extends Component {
                 <h2 className="meetup-venue">{meetup.venue_sponsor.name}</h2>
                 <p className="meetup-address">{meetup.address}</p>
                 <strong>
-                  <a href="javascript:void(0)"
-                    className="see-all-meetup rnw-link"
+                  <button className="button is-success is-inverted"
                     onClick={() => this.onStepChange('previous')}
-                  ><i className="fas fa-arrow-left"></i>
-                  </a>
+                  >
+                    <i className="fas fa-arrow-left"></i>
+                  </button>
                   &nbsp;&nbsp;&nbsp;
-                  <a href="javascript:void(0)"
-                    className="see-all-meetup rnw-link"
+                  <button className="button is-success is-inverted"
                     onClick={() => this.onStepChange('next')}
                   >
                     <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </button>
                 </strong>
                 {this.state.messageForNotFound &&
                 <p className="rnw-link">
