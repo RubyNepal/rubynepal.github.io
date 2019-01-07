@@ -64,6 +64,8 @@ Keep the pull request focused on one thing - if you make two different, unrelate
 
 ## Contributors
 
+* Many thanks to the site's recent contributors: [github.com/RubyNepal/rubynepal.github.io/contributors](https://github.com/RubyNepal/rubynepal.github.io/graphs/contributors)
+
 * [Madhu Sudhan](https://twitter.com/sudhansubedi)
 
 ## LICENSE
