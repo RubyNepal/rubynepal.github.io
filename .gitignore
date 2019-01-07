@@ -12,3 +12,4 @@ codekit-config.json
 example/_site
 node_modules
 npm-debug.log*
+bundle/*
