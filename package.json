@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/rubynepal/rubynepal.github.io",
   "dependencies": {
-    "react": "^16.8.2",
+    "react": "^16.8.3",
     "react-avatar": "^3.5.0",
-    "react-dom": "^16.8.2",
+    "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "eslint": "5.x",
     "eslint-plugin-react": "^7.12.4",
     "style-loader": "^0.23.1",
-    "webpack": "^4.29.4",
+    "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
   }
 }
