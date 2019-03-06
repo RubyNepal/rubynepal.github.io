@@ -21,7 +21,7 @@
   "homepage": "https://github.com/rubynepal/rubynepal.github.io",
   "dependencies": {
     "react": "^16.8.3",
-    "react-avatar": "^3.5.0",
+    "react-avatar": "^3.5.1",
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1"
   },
