@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/rubynepal/rubynepal.github.io",
   "dependencies": {
-    "react": "^16.8.3",
+    "react": "^16.8.4",
     "react-avatar": "^3.6.0",
-    "react-dom": "^16.8.3",
+    "react-dom": "^16.8.4",
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
@@ -31,7 +31,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "css-loader": "^2.1.0",
+    "css-loader": "^2.1.1",
     "eslint": "5.x",
     "eslint-plugin-react": "^7.12.4",
     "style-loader": "^0.23.1",
