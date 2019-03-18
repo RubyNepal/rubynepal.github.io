@@ -33,7 +33,7 @@ group :jekyll_plugins do
   gem 'jekyll-email-protect', '~> 1.1'
   gem 'jekyll-feed', '~> 0.11'
   gem 'jekyll-paginate', '~> 1.1'
-  gem 'jekyll-seo-tag', '~> 2.5'
+  gem 'jekyll-seo-tag', '~> 2.6'
   gem 'jekyll-twitter-plugin', '~> 2.0'
   gem 'jekyll-youtube', '~> 1.0'
 end
