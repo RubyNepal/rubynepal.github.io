@@ -22,7 +22,7 @@
   "dependencies": {
     "react": "^16.8.4",
     "react-avatar": "^3.6.0",
-    "react-dom": "^16.8.4",
+    "react-dom": "^16.8.5",
     "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
