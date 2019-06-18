@@ -41,7 +41,7 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
-  gem 'html-proofer', '~> 3.10'
+  gem 'html-proofer', '~> 3.11'
   gem 'jslint-v8', '~> 1.1'
   gem 'parallel', '~> 1.17'
   gem 'rubocop', '~> 0.71', require: false
