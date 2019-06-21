@@ -18,7 +18,7 @@ I am not good on designing things and front end development but I showed some in
 
 #### Story Begins
 
-Octopress was used to make rubynepal.org website, which is an obsessively designed toolkit for writing and deploying [https://jekyllrb.com/](Jekyll) blogs. But we chose [https://jekyllrb.com/](jekyll) to make redesign  because Octopress was not actively updated from 2016. You can found the rubynepal website repo in github [https://github.com/RubyNepal/rubynepal.github.io](here).
+Octopress was used to make rubynepal.org website, which is an obsessively designed toolkit for writing and deploying [Jekyll](https://jekyllrb.com/) blogs. But we chose [jekyll](https://jekyllrb.com/) to make redesign  because Octopress was not actively updated from 2016. You can found the rubynepal website repo in github [here](https://github.com/RubyNepal/rubynepal.github.io).
 
 Let's talk about css framework, I see the twitter handle of saroj dai and there was the first tweet on his wall  was  about  bulma (A modern css framework based on bulma). You may guess that's why I chose bumla css framework and that's true. 
 
@@ -60,7 +60,7 @@ Some gems used for the development and test environment are as follows:
 
 - **[guard-rubocop](https://github.com/yujinakayama/guard-rubocop)** : Guard plugin for RuboCop.
 
-We are planning to remove bulma css and add our own css after completing some high priority backlog tasks. In future we will make style guide for the rubynepal website so the contributer can contribute for the design easily. Let's see how it goes, And if you have any suggestion about design related things and If you found any issues please feel free to create new issues  [https://github.com/RubyNepal/rubynepal.github.io/issues](here).  
+We are planning to remove bulma css and add our own css after completing some high priority backlog tasks. In future we will make style guide for the rubynepal website so the contributer can contribute for the design easily. Let's see how it goes, And if you have any suggestion about design related things and If you found any issues please feel free to create new issues  [here](https://github.com/RubyNepal/rubynepal.github.io/issues).  
 
 #### On to the Future
 
