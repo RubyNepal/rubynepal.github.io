@@ -41,6 +41,7 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
+  gem 'colorize', '~> 0.8', require: false
   gem 'html-proofer', '~> 3.11'
   gem 'jslint-v8', '~> 1.1'
   gem 'parallel', '~> 1.17'
