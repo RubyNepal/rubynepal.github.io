@@ -15,6 +15,7 @@ GEM
       thor (~> 0.18)
     coderay (1.1.2)
     colorator (1.1.0)
+    colorize (0.8.1)
     concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -193,6 +194,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize (~> 0.8)
   guard-bundler (~> 2.2)
   guard-bundler-audit (~> 0.1)
   guard-rake (~> 1.0)
@@ -219,5 +221,8 @@ DEPENDENCIES
   scss_lint (~> 0.58)
   tzinfo-data
 
+RUBY VERSION
+   ruby 2.6.3p62
+
 BUNDLED WITH
-   1.16.5
+   1.17.3
