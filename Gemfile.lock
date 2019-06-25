@@ -64,7 +64,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jaro_winkler (1.5.2)
+    jaro_winkler (1.5.3)
     jekyll (3.8.5)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -147,7 +147,7 @@ GEM
     replace_regex (0.1.0)
     rinku (1.7.3)
     rouge (3.3.0)
-    rubocop (0.71.0)
+    rubocop (0.72.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.6)
@@ -217,7 +217,7 @@ DEPENDENCIES
   parallel (~> 1.17)
   rake (~> 12.3)
   replace_regex (~> 0.1)
-  rubocop (~> 0.71)
+  rubocop (~> 0.72)
   scss_lint (~> 0.58)
   tzinfo-data
 
