@@ -35,6 +35,7 @@ paginate_path: "/blog/page:num/"
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-analytics
   - jekyll-autolink_email
   - jekyll-email-protect
   - jekyll-feed
