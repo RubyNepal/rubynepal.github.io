@@ -1,4 +1,4 @@
-- episode: 9
+- episode: 12
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/05/13
   start_time: '11:00 am'
@@ -11,7 +11,7 @@
     link: 'https://www.cloudfactory.com/'
     logo: >-
       https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359
-    name: Cloudfactory
+    name: CloudFactory
   sessions:
     - id: 1
       title: Parallel Tests with Docker
@@ -19,7 +19,7 @@
       speaker: Rohit Joshi
       twitter_username: roxxypoxxy
       github_username: RohitRox
-      designation: Senior Software Engineer Cloudfactory
+      designation: Senior Software Engineer CloudFactory
       slide_link: >-
         https://docs.google.com/presentation/d/15GvuyRnrS7yZ2DmAP9BbhWSiZ85PCMoUXPicz64UaXE/edit#slide=id.gcb9a0b074_1_0
       video_link: 'https://www.youtube.com/watch?v=vDqrHX2Ozaw'
@@ -30,7 +30,7 @@
       speaker: Basanti Neupane
       twitter_username: BasantiNeupane
       github_username: null
-      designation: Cloudfactory
+      designation: CloudFactory
       profile_image_link: >-
         https://pbs.twimg.com/profile_images/742293936144683008/5QI_EDYd_400x400.jpg
       slide_link: >-
@@ -59,7 +59,7 @@
         https://docs.google.com/presentation/d/1iLAiAJ_1zFKx6rLTuhC2OEJI8lnqYYmrx7PnaW4Thvg/edit#slide=id.g38da470963_0_268
       video_link: 'https://www.youtube.com/watch?v=TJ0pgnoOh-U'
       demo_link: null
-- episode: 8
+- episode: 11
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/04/08
   start_time: '11:00 am'
@@ -115,7 +115,7 @@
         https://docs.google.com/presentation/d/1iFPXsbW2-aZGwqnC_2RDhYHQBRjVVQTdu72if7QLEDY/edit
       video_link: 'https://www.youtube.com/watch?time_continue=7&v=eVQQ2AAzp0Y'
       demo_link: 'https://github.com/suyogkrazz/railsreacttalk'
-- episode: 7
+- episode: 10
   title: RoR Himalayan Meetup at Kathmandu
   date: 2018/01/14
   start_time: '11:00 am'
@@ -151,7 +151,7 @@
         https://rawgit.com/thapakazi/slides/master/docker/docker_and_docker_compose_for_devs.html
       video_link: 'https://www.youtube.com/watch?v=eshZI2ujK3I'
       demo_link: null
-- episode: 6
+- episode: 9
   title: RoR Himalayan Meetup at Kathmandu
   date: '2017-09-10 00:00:00'
   start_time: '11:00 am'
@@ -164,7 +164,7 @@
     link: 'https://www.cloudfactory.com/'
     logo: >-
       https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359
-    name: Cloudfactory
+    name: CloudFactory
   sessions:
     - id: 1
       title: Secrets behind writing specs
@@ -172,7 +172,7 @@
       speaker: Er. Chandra Mohan Thakur
       twitter_username: cmthakur1986
       github_username: cmthakur
-      designation: Sr. SoftwareEngineer @cloudfactory
+      designation: Sr. SoftwareEngineer @CloudFactory
       slide_link: >-
         https://www.slideshare.net/ErChandraMohanThakur/secrets-behind-writing-specs/1
       video_link: 'https://www.youtube.com/watch?v=ZUFtLuvxHE4'
@@ -193,7 +193,7 @@
       twitter_username: zorasplan
     - name: kapil Raj Nakhwa
       twitter_username: xecutioner303
-- episode: 5
+- episode: 8
   title: RoR Himalayan Meetup at Kathmandu
   date: '2016-01-10 00:00:00'
   start_time: '11:00 am'
@@ -206,7 +206,7 @@
     link: 'https://www.cloudfactory.com/'
     logo: >-
       https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359
-    name: Cloudfactory
+    name: CloudFactory
   sessions:
     - id: 1
       title: Performance Improvement of Rails Application
@@ -220,7 +220,7 @@
       video_link: null
       demo_link: null
     - id: 2
-      title: Scaling CI with Docker @ Cloudfactory
+      title: Scaling CI with Docker @ CloudFactory
       description: null
       speaker: Bikash Kaji Basukala
       twitter_username: kajisaap
@@ -230,7 +230,7 @@
         https://docs.google.com/presentation/d/1IyQmKLfdgP9Ktqzg9ApaFKlurGLSJHGVRwtn43qCmQk/pub?start=false&loop=false&delayms=3000#slide=id.p4
       video_link: null
       demo_link: null
-- episode: 4
+- episode: 7
   title: RoR Himalayan Meetup at Kathmandu
   date: '2016-03-20 00:00:00'
   start_time: '11:00 am'
@@ -264,7 +264,7 @@
       slide_link: null
       video_link: null
       demo_link: null
-- episode: 3
+- episode: 6
   title: RoR Himalayan Meetup at Kathmandu
   date: '2016-05-08 00:00:00'
   start_time: '11:00 am'
@@ -298,7 +298,7 @@
       slide_link: 'https://drive.google.com/file/d/1b0P7JIOxJTks3t0HOKKh73kp7YH8i4lD/view'
       video_link: null
       demo_link: null
-- episode: 2
+- episode: 5
   title: RoR Himalayan Meetup at Kathmandu
   date: '2016-07-17 00:00:00'
   start_time: '11:00 am'
@@ -332,7 +332,7 @@
       slide_link: null
       video_link: null
       demo_link: null
-- episode: 1
+- episode: 4
   title: RoR Himalayan Meetup at Kathmandu
   date: '2015-09-13 00:00:00'
   start_time: '11:00 am'
@@ -369,7 +369,7 @@
         https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FMetaProgramming%20in%20Ruby%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.zip
       video_link: null
       demo_link: null
-- episode: 0
+- episode: 3
   title: RoR Himalayan Meetup at Kathmandu
   date: '2015-12-20 00:00:00'
   start_time: '11:00 am'
@@ -402,5 +402,95 @@
       github_username: gkunwar
       designation: Software Engineer
       slide_link: 'https://drive.google.com/file/d/1DHB_FrWsofyOHT8dd38f8ZB-3DVr8aoK/view'
+      video_link: null
+      demo_link: null
+- episode: 2
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2015-08-09 00:00:00'
+  start_time: '01:30 pm'
+  end_time: '05:00 pm'
+  address: Kathmandu
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: 'https://twitter.com/AmericanSpaces'
+    logo: >-
+      https://pbs.twimg.com/profile_images/438007102317928448/Qyx3zvt8_400x400.jpeg
+    name: American Spaces
+  sessions:
+    - id: 1
+      title: Opening note
+      description: null
+      speaker: Saroj Maharjan
+      twitter_username: zoraslapen
+      github_username: zoras
+      designation: Organiser and Admin, RubyNepal.org
+      slide_link: https://speakerdeck.com/zoras/ruby-and-rails-meetup-nepal
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: ECMAScript 2015
+      description: null
+      speaker: Madhu Rakhal Magar
+      twitter_username: madhurakhal
+      github_username: madhurakhal
+      designation: Software Engineer
+      slide_link: http://slides.com/rakhalmadhu/ecmascript2015-es6#/
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: Front End Development for Ruby Developers
+      description: null
+      speaker: Nikesh Suwal
+      twitter_username: null
+      github_username: null
+      designation: Software Engineer @ Jyaasa Technologies
+      slide_link: https://docs.google.com/presentation/d/1n48hyKqUNe7e5bwGe5HKYw1bavEM44qnr7G8M1v8M-0/edit#slide=id.p
+      video_link: null
+      demo_link: null
+- episode: 1
+  title: Monthly Dev Meetup July 2014
+  date: '2014-07-26 00:00:00'
+  start_time: '02:00 pm'
+  end_time: '05:00 pm'
+  address: Kathmandu
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: 'https://www.cloudfactory.com/'
+    logo: >-
+      https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359
+    name: CloudFactory
+  sessions:
+    - id: 1
+      title: 10 Ways We Can Be Better 
+      description: null
+      speaker: Mark Sears
+      twitter_username: marktsears
+      github_username: null
+      designation: Founder and CEO of CloudFactory
+      slide_link: https://docs.google.com/presentation/d/1PzVQM4wZb0hiBRAvek6-nO4ptC2yeSR-3ryaWufeAEY/edit#slide=id.p
+      video_link: https://www.youtube.com/watch?v=COBCnZls5rE
+      demo_link: null
+    - id: 2
+      title: Ansible
+      description: null
+      speaker: Bikash Kaji Basukala
+      twitter_username: kajisaap
+      github_username: kajisaap
+      designation: Devops, janitor and the man maid
+      slide_link: https://docs.google.com/presentation/d/1HKycISvdw7lxleJjJKYBh-f8GRhVdC5BsC3Db5wQWkk/present?slide=id.g2ae7d0021_2_7
+      video_link: https://www.youtube.com/watch?v=ZKoSG8bxw0A
+      demo_link: null
+    - id: 3
+      title: Ember.js with Ember-Cli
+      description: null
+      speaker: Sachin Sagar Rai
+      twitter_username: millisami
+      github_username: millisami
+      designation: Ruby on Rails/Javascript Developer
+      slide_link: null
       video_link: null
       demo_link: null
