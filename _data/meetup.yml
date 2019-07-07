@@ -195,44 +195,7 @@
       twitter_username: xecutioner303
 - episode: 8
   title: RoR Himalayan Meetup at Kathmandu
-  date: '2016-01-10'
-  start_time: 11:00 am
-  end_time: 2:00 am
-  address: 'Sainbu, Bhaisepati · Kathmandu'
-  hosted_by:
-    name: Saroj Maharjan
-    twitter_username: zoraslapen
-  venue_sponsor:
-    link: 'https://www.cloudfactory.com/'
-    logo: >-
-      https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359
-    name: CloudFactory
-  sessions:
-    - id: 1
-      title: Performance Improvement of Rails Application
-      description: null
-      speaker: Sadiksha Gautam
-      twitter_username: sadikshagautam
-      github_username: sadiksha
-      designation: 'Software Developer at EnerNOC, Munich, Germany'
-      slide_link: >-
-        https://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf
-      video_link: null
-      demo_link: null
-    - id: 2
-      title: Scaling CI with Docker @ CloudFactory
-      description: null
-      speaker: Bikash Kaji Basukala
-      twitter_username: kajisaap
-      github_username: kajisaap
-      designation: 'Devops, janitor and the man maid'
-      slide_link: >-
-        https://docs.google.com/presentation/d/1IyQmKLfdgP9Ktqzg9ApaFKlurGLSJHGVRwtn43qCmQk/pub?start=false&loop=false&delayms=3000#slide=id.p4
-      video_link: null
-      demo_link: null
-- episode: 7
-  title: RoR Himalayan Meetup at Kathmandu
-  date: '2016-03-20'
+  date: '2016-07-17'
   start_time: 11:00 am
   end_time: 2:00 am
   address: Kathmandu
@@ -240,31 +203,31 @@
     name: Saroj Maharjan
     twitter_username: zoraslapen
   venue_sponsor:
-    link: 'http://www.leapfrog.academy/'
-    logo: 'http://www.leapfrog.academy/themes/website/assets/img/logo_main.png'
-    name: Leapfrog Academy
+    link: ''
+    logo: ''
+    name: 'Innovation Hub, FNCCI provided by @AmericanSpaces'
   sessions:
     - id: 1
-      title: Working as a Junior Developer
+      title: New Features in Rails 5
       description: null
-      speaker: Madhuri Shrestha
-      twitter_username: MadzzSrestha
-      github_username: MadhuriShres
-      designation: Fun-loving Adventurous Free-spirited Determined
+      speaker: Saroj Maharjan
+      twitter_username: zoraslapen
+      github_username: zoras
+      designation: 'Mentor @GSoC. #RoR Developer. Consultant. Traveler. Founder'
       slide_link: null
       video_link: null
       demo_link: null
     - id: 2
-      title: Organizing CSS
+      title: Ruby Implementations(MRI, Rubinius, and JRuby)
       description: null
-      speaker: Sanjeev Praja
-      twitter_username: SanjeevPraja
-      github_username: SanjeevPraja
-      designation: null
+      speaker: Uzzal Devkota
+      twitter_username: oozzal
+      github_username: oozzal
+      designation: '#Developer #Ruby #Rails #Javascript #JavaSoftware Engineer'
       slide_link: null
       video_link: null
       demo_link: null
-- episode: 6
+- episode: 7
   title: RoR Himalayan Meetup at Kathmandu
   date: '2016-05-08'
   start_time: 11:00 am
@@ -298,9 +261,9 @@
       slide_link: 'https://drive.google.com/file/d/1b0P7JIOxJTks3t0HOKKh73kp7YH8i4lD/view'
       video_link: null
       demo_link: null
-- episode: 5
+- episode: 6
   title: RoR Himalayan Meetup at Kathmandu
-  date: '2016-07-17'
+  date: '2016-03-20'
   start_time: 11:00 am
   end_time: 2:00 am
   address: Kathmandu
@@ -308,28 +271,65 @@
     name: Saroj Maharjan
     twitter_username: zoraslapen
   venue_sponsor:
-    link: ''
-    logo: ''
-    name: 'Innovation Hub, FNCCI provided by @AmericanSpaces'
+    link: 'http://www.leapfrog.academy/'
+    logo: 'http://www.leapfrog.academy/themes/website/assets/img/logo_main.png'
+    name: Leapfrog Academy
   sessions:
     - id: 1
-      title: New Features in Rails 5
+      title: Working as a Junior Developer
       description: null
-      speaker: Saroj Maharjan
-      twitter_username: zoraslapen
-      github_username: zoras
-      designation: 'Mentor @GSoC. #RoR Developer. Consultant. Traveler. Founder'
+      speaker: Madhuri Shrestha
+      twitter_username: MadzzSrestha
+      github_username: MadhuriShres
+      designation: Fun-loving Adventurous Free-spirited Determined
       slide_link: null
       video_link: null
       demo_link: null
     - id: 2
-      title: Ruby Implementations(MRI, Rubinius, and JRuby)
+      title: Organizing CSS
       description: null
-      speaker: Uzzal Devkota
-      twitter_username: oozzal
-      github_username: oozzal
-      designation: '#Developer #Ruby #Rails #Javascript #JavaSoftware Engineer'
+      speaker: Sanjeev Praja
+      twitter_username: SanjeevPraja
+      github_username: SanjeevPraja
+      designation: null
       slide_link: null
+      video_link: null
+      demo_link: null
+- episode: 5
+  title: RoR Himalayan Meetup at Kathmandu
+  date: '2016-01-10'
+  start_time: 11:00 am
+  end_time: 2:00 am
+  address: 'Sainbu, Bhaisepati · Kathmandu'
+  hosted_by:
+    name: Saroj Maharjan
+    twitter_username: zoraslapen
+  venue_sponsor:
+    link: 'https://www.cloudfactory.com/'
+    logo: >-
+      https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359
+    name: CloudFactory
+  sessions:
+    - id: 1
+      title: Performance Improvement of Rails Application
+      description: null
+      speaker: Sadiksha Gautam
+      twitter_username: sadikshagautam
+      github_username: sadiksha
+      designation: 'Software Developer at EnerNOC, Munich, Germany'
+      slide_link: >-
+        https://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf
+      video_link: null
+      demo_link: null
+    - id: 2
+      title: Scaling CI with Docker @ CloudFactory
+      description: null
+      speaker: Bikash Kaji Basukala
+      twitter_username: kajisaap
+      github_username: kajisaap
+      designation: 'Devops, janitor and the man maid'
+      slide_link: >-
+        https://docs.google.com/presentation/d/1IyQmKLfdgP9Ktqzg9ApaFKlurGLSJHGVRwtn43qCmQk/pub?start=false&loop=false&delayms=3000#slide=id.p4
       video_link: null
       demo_link: null
 - episode: 4
