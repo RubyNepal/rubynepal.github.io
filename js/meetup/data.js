@@ -89,7 +89,7 @@ const meetups = [
         title: 'History of RubyNepal',
         description: null,
         speaker: 'Saroj Maharjan',
-        twitter_username: 'zorasplan',
+        twitter_username: 'zoraslapen',
         github_username: 'zoras',
         designation: 'Organiser and Admin, RubyNepal.org',
         slide_link: null,
