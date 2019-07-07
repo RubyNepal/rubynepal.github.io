@@ -24,7 +24,7 @@ const meetups = [
         twitter_username: 'roxxypoxxy',
         github_username: 'RohitRox',
         designation: 'Senior Software Engineer CloudFactory',
-        slide_link: 'https://docs.google.com/presentation/d/15GvuyRnrS7yZ2DmAP9BbhWSiZ85PCMoUXPicz64UaXE/edit#slide=id.gcb9a0b074_1_0',
+        slides_link: 'https://docs.google.com/presentation/d/15GvuyRnrS7yZ2DmAP9BbhWSiZ85PCMoUXPicz64UaXE/edit#slide=id.gcb9a0b074_1_0',
         video_link: 'https://www.youtube.com/watch?v=vDqrHX2Ozaw',
         demo_link: 'https://github.com/RohitRox/docker-rails-parallel-tests'
       },
@@ -37,7 +37,7 @@ const meetups = [
         github_username: null,
         designation: 'CloudFactory',
         profile_image_link: 'https://pbs.twimg.com/profile_images/742293936144683008/5QI_EDYd_400x400.jpg',
-        slide_link: 'https://docs.google.com/presentation/d/1-jtL7P3rmZz02Y7t1L-s620Zz9bQ7-BZTC1BwNIkINE/edit#slide=id.g387f5142bf_2_10',
+        slides_link: 'https://docs.google.com/presentation/d/1-jtL7P3rmZz02Y7t1L-s620Zz9bQ7-BZTC1BwNIkINE/edit#slide=id.g387f5142bf_2_10',
         video_link: 'https://www.youtube.com/watch?v=dqWHRrVbgyM',
         demo_link: null
       },
@@ -49,7 +49,7 @@ const meetups = [
         twitter_username: null,
         github_username: 'pratikghimire',
         designation: 'Software Engineer',
-        slide_link: 'https://docs.google.com/presentation/d/1jD789KFA7_yyFRZSMyQSIZLtVVNp3mukSLwlqyxziOU/edit?copiedFromTrash#slide=id.p3',
+        slides_link: 'https://docs.google.com/presentation/d/1jD789KFA7_yyFRZSMyQSIZLtVVNp3mukSLwlqyxziOU/edit?copiedFromTrash#slide=id.p3',
         video_link: 'https://www.youtube.com/watch?v=3_4nNad9-3U',
         demo_link: null
       },
@@ -61,7 +61,7 @@ const meetups = [
         twitter_username: 'prativa_p2',
         github_username: 'prativapokhrel',
         designation: 'Ruby on Rails and React Native Developer',
-        slide_link: 'https://docs.google.com/presentation/d/1iLAiAJ_1zFKx6rLTuhC2OEJI8lnqYYmrx7PnaW4Thvg/edit#slide=id.g38da470963_0_268',
+        slides_link: 'https://docs.google.com/presentation/d/1iLAiAJ_1zFKx6rLTuhC2OEJI8lnqYYmrx7PnaW4Thvg/edit#slide=id.g38da470963_0_268',
         video_link: 'https://www.youtube.com/watch?v=TJ0pgnoOh-U',
         demo_link: null
       }
@@ -92,7 +92,7 @@ const meetups = [
         twitter_username: 'zoraslapen',
         github_username: 'zoras',
         designation: 'Organiser and Admin, RubyNepal.org',
-        slide_link: null,
+        slides_link: null,
         video_link: 'https://www.youtube.com/watch?v=p6nTzC9zcr0',
         demo_link: null
       },
@@ -104,7 +104,7 @@ const meetups = [
         twitter_username: 'rabingaire',
         github_username: 'rabingaire',
         designation: 'Web Developer',
-        slide_link: 'https://www.slideshare.net/RabinGaire/vuerails',
+        slides_link: 'https://www.slideshare.net/RabinGaire/vuerails',
         video_link: 'https://www.youtube.com/watch?v=NgS3aND7-U4',
         demo_link: null
       },
@@ -116,7 +116,7 @@ const meetups = [
         twitter_username: 'bbk_khadka',
         github_username: 'roringbbk',
         designation: 'Software Engineer',
-        slide_link: 'https://docs.google.com/presentation/d/1jemvcT3aBE6qBr_iT1oL5vSeZD8U3jF6eH50H6ON3Zk/edit',
+        slides_link: 'https://docs.google.com/presentation/d/1jemvcT3aBE6qBr_iT1oL5vSeZD8U3jF6eH50H6ON3Zk/edit',
         video_link: 'https://www.youtube.com/watch?v=YQm3aoldrLE',
         demo_link: null
       },
@@ -128,7 +128,7 @@ const meetups = [
         twitter_username: 'suyogkrazz',
         github_username: 'suyogkrazz',
         designation: 'Ruby on Rails and React Native Developer',
-        slide_link: 'https://docs.google.com/presentation/d/1iFPXsbW2-aZGwqnC_2RDhYHQBRjVVQTdu72if7QLEDY/edit',
+        slides_link: 'https://docs.google.com/presentation/d/1iFPXsbW2-aZGwqnC_2RDhYHQBRjVVQTdu72if7QLEDY/edit',
         video_link: 'https://www.youtube.com/watch?time_continue=7&v=eVQQ2AAzp0Y',
         demo_link: 'https://github.com/suyogkrazz/railsreacttalk'
       }
@@ -159,7 +159,7 @@ const meetups = [
         twitter_username: 'blackrabbitt26',
         github_username: 'BlackRabbitt',
         designation: 'reelancer@beetle-developers',
-        slide_link: 'https://docs.google.com/presentation/d/1f2ju1U9_BpuUtQxa3RLCP9U0dJS6lUjN2Zn1nKGNDjc/edit#slide=id.p',
+        slides_link: 'https://docs.google.com/presentation/d/1f2ju1U9_BpuUtQxa3RLCP9U0dJS6lUjN2Zn1nKGNDjc/edit#slide=id.p',
         video_link: 'https://www.youtube.com/watch?v=wKZVnd4EeAs',
         demo_link: null
       },
@@ -171,7 +171,7 @@ const meetups = [
         twitter_username: 'thapakazi_',
         github_username: 'thapakazi',
         designation: 'Docker fan, found it on hacker news',
-        slide_link: 'https://rawgit.com/thapakazi/slides/master/docker/docker_and_docker_compose_for_devs.html',
+        slides_link: 'https://rawgit.com/thapakazi/slides/master/docker/docker_and_docker_compose_for_devs.html',
         video_link: 'https://www.youtube.com/watch?v=eshZI2ujK3I',
         demo_link: null
       }
@@ -202,7 +202,7 @@ const meetups = [
         twitter_username: 'cmthakur1986',
         github_username: 'cmthakur',
         designation: 'Sr. SoftwareEngineer @CloudFactory',
-        slide_link: 'https://www.slideshare.net/ErChandraMohanThakur/secrets-behind-writing-specs/1',
+        slides_link: 'https://www.slideshare.net/ErChandraMohanThakur/secrets-behind-writing-specs/1',
         video_link: 'https://www.youtube.com/watch?v=ZUFtLuvxHE4',
         demo_link: null
       },
@@ -214,7 +214,7 @@ const meetups = [
         twitter_username: 'aadeshere1',
         github_username: 'aadeshere1',
         designation: 'Ruby on Rails developer.  Techrise',
-        slide_link: 'https://docs.google.com/presentation/d/1IDHtzAB3tMowoMpm2drWHIICxoQ22jpGxZUREfEukZk/edit#slide=id.p',
+        slides_link: 'https://docs.google.com/presentation/d/1IDHtzAB3tMowoMpm2drWHIICxoQ22jpGxZUREfEukZk/edit#slide=id.p',
         video_link: 'https://www.youtube.com/watch?v=_J6io3sUfLc',
         demo_link: null
       }
@@ -255,7 +255,7 @@ const meetups = [
         twitter_username: 'zoraslapen',
         github_username: 'zoras',
         designation: 'Mentor @GSoC. #RoR Developer. Consultant. Traveler. Founder',
-        slide_link: null,
+        slides_link: null,
         video_link: null,
         demo_link: null
       },
@@ -267,7 +267,7 @@ const meetups = [
         twitter_username: 'oozzal',
         github_username: 'oozzal',
         designation: '#Developer #Ruby #Rails #Javascript #JavaSoftware Engineer',
-        slide_link: null,
+        slides_link: null,
         video_link: null,
         demo_link: null
       }
@@ -298,7 +298,7 @@ const meetups = [
         twitter_username: 'barodeur',
         github_username: 'barodeur',
         designation: 'Freelance Software Engineer',
-        slide_link: 'https://drive.google.com/file/d/170mmguu5QUppftCTBrxW4D5QtNqWzIpG/view',
+        slides_link: 'https://drive.google.com/file/d/170mmguu5QUppftCTBrxW4D5QtNqWzIpG/view',
         video_link: null,
         demo_link: null
       },
@@ -310,7 +310,7 @@ const meetups = [
         twitter_username: '_milap',
         github_username: 'milap-neupane',
         designation: 'Software Engineer',
-        slide_link: 'https://drive.google.com/file/d/1b0P7JIOxJTks3t0HOKKh73kp7YH8i4lD/view',
+        slides_link: 'https://drive.google.com/file/d/1b0P7JIOxJTks3t0HOKKh73kp7YH8i4lD/view',
         video_link: null,
         demo_link: null
       }
@@ -341,7 +341,7 @@ const meetups = [
         twitter_username: 'MadzzSrestha',
         github_username: 'MadhuriShres',
         designation: 'Fun-loving Adventurous Free-spirited Determined',
-        slide_link: null,
+        slides_link: null,
         video_link: null,
         demo_link: null
       },
@@ -353,7 +353,7 @@ const meetups = [
         twitter_username: 'SanjeevPraja',
         github_username: 'SanjeevPraja',
         designation: null,
-        slide_link: null,
+        slides_link: null,
         video_link: null,
         demo_link: null
       }
@@ -384,7 +384,7 @@ const meetups = [
         twitter_username: 'sadikshagautam',
         github_username: 'sadiksha',
         designation: 'Software Developer at EnerNOC, Munich, Germany',
-        slide_link: 'https://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf',
+        slides_link: 'https://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf',
         video_link: null,
         demo_link: null
       },
@@ -396,7 +396,7 @@ const meetups = [
         twitter_username: 'kajisaap',
         github_username: 'kajisaap',
         designation: 'Devops, janitor and the man maid',
-        slide_link: 'https://docs.google.com/presentation/d/1IyQmKLfdgP9Ktqzg9ApaFKlurGLSJHGVRwtn43qCmQk/pub?start=false&loop=false&delayms=3000#slide=id.p4',
+        slides_link: 'https://docs.google.com/presentation/d/1IyQmKLfdgP9Ktqzg9ApaFKlurGLSJHGVRwtn43qCmQk/pub?start=false&loop=false&delayms=3000#slide=id.p4',
         video_link: null,
         demo_link: null
       }
@@ -427,7 +427,7 @@ const meetups = [
         twitter_username: 'nivdul',
         github_username: 'nivdul',
         designation: '',
-        slide_link: null,
+        slides_link: null,
         video_link: null,
         demo_link: null
       },
@@ -439,7 +439,7 @@ const meetups = [
         twitter_username: 'gkunwar1',
         github_username: 'gkunwar',
         designation: 'Software Engineer',
-        slide_link: 'https://drive.google.com/file/d/1DHB_FrWsofyOHT8dd38f8ZB-3DVr8aoK/view',
+        slides_link: 'https://drive.google.com/file/d/1DHB_FrWsofyOHT8dd38f8ZB-3DVr8aoK/view',
         video_link: null,
         demo_link: null
       }
@@ -470,7 +470,7 @@ const meetups = [
         twitter_username: 'josisusan',
         github_username: 'josisusan',
         designation: 'Ruby & Javascript',
-        slide_link: 'https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FAsset%20Management%20in%20Rails%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.pdf',
+        slides_link: 'https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FAsset%20Management%20in%20Rails%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.pdf',
         video_link: null,
         demo_link: null
       },
@@ -482,7 +482,7 @@ const meetups = [
         twitter_username: 'prasvinp',
         github_username: 'prasvin',
         designation: '',
-        slide_link: 'https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FMetaProgramming%20in%20Ruby%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.zip',
+        slides_link: 'https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FMetaProgramming%20in%20Ruby%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.zip',
         video_link: null,
         demo_link: null
       }
@@ -513,7 +513,7 @@ const meetups = [
         twitter_username: 'zoraslapen',
         github_username: 'zoras',
         designation: 'Organiser and Admin, RubyNepal.org',
-        slide_link: 'https://speakerdeck.com/zoras/ruby-and-rails-meetup-nepal',
+        slides_link: 'https://speakerdeck.com/zoras/ruby-and-rails-meetup-nepal',
         video_link: null,
         demo_link: null
       },
@@ -525,7 +525,7 @@ const meetups = [
         twitter_username: 'madhurakhal',
         github_username: 'madhurakhal',
         designation: 'Software Engineer',
-        slide_link: 'http://slides.com/rakhalmadhu/ecmascript2015-es6#/',
+        slides_link: 'http://slides.com/rakhalmadhu/ecmascript2015-es6#/',
         video_link: null,
         demo_link: null
       },
@@ -537,7 +537,7 @@ const meetups = [
         twitter_username: null,
         github_username: null,
         designation: 'Software Engineer @ Jyaasa Technologies',
-        slide_link: 'https://docs.google.com/presentation/d/1n48hyKqUNe7e5bwGe5HKYw1bavEM44qnr7G8M1v8M-0/edit#slide=id.p',
+        slides_link: 'https://docs.google.com/presentation/d/1n48hyKqUNe7e5bwGe5HKYw1bavEM44qnr7G8M1v8M-0/edit#slide=id.p',
         video_link: null,
         demo_link: null
       }
@@ -568,7 +568,7 @@ const meetups = [
         twitter_username: 'marktsears',
         github_username: null,
         designation: 'Founder and CEO of CloudFactory',
-        slide_link: 'https://docs.google.com/presentation/d/1PzVQM4wZb0hiBRAvek6-nO4ptC2yeSR-3ryaWufeAEY/edit#slide=id.p',
+        slides_link: 'https://docs.google.com/presentation/d/1PzVQM4wZb0hiBRAvek6-nO4ptC2yeSR-3ryaWufeAEY/edit#slide=id.p',
         video_link: 'https://www.youtube.com/watch?v=COBCnZls5rE',
         demo_link: null
       },
@@ -580,7 +580,7 @@ const meetups = [
         twitter_username: 'kajisaap',
         github_username: 'kajisaap',
         designation: 'Devops, janitor and the man maid',
-        slide_link: 'https://docs.google.com/presentation/d/1HKycISvdw7lxleJjJKYBh-f8GRhVdC5BsC3Db5wQWkk/present?slide=id.g2ae7d0021_2_7',
+        slides_link: 'https://docs.google.com/presentation/d/1HKycISvdw7lxleJjJKYBh-f8GRhVdC5BsC3Db5wQWkk/present?slide=id.g2ae7d0021_2_7',
         video_link: 'https://www.youtube.com/watch?v=ZKoSG8bxw0A',
         demo_link: null
       },
@@ -592,7 +592,7 @@ const meetups = [
         twitter_username: 'millisami',
         github_username: 'millisami',
         designation: 'Ruby on Rails/Javascript Developer',
-        slide_link: null,
+        slides_link: null,
         video_link: null,
         demo_link: null
       }
