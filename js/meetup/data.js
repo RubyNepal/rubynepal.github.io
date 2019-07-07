@@ -2,7 +2,7 @@ const meetups = [
   {
     episode: 12,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2018/05/13',
+    date: '2018-05-13',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Sainbu, Bhaisepati · Kathmandu',
@@ -70,7 +70,7 @@ const meetups = [
   {
     episode: 11,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2018/04/08',
+    date: '2018-04-08',
     start_time: '11:00 am',
     end_time: '2:00 pm',
     address: 'Balkumari Lalitpur',
@@ -137,7 +137,7 @@ const meetups = [
   {
     episode: 10,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2018/01/14',
+    date: '2018-01-14',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Balkumari Lalitpur',
@@ -180,7 +180,7 @@ const meetups = [
   {
     episode: 9,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2017-09-10 00:00:00',
+    date: '2017-09-10',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Sainbu, Bhaisepati · Kathmandu',
@@ -233,7 +233,7 @@ const meetups = [
   {
     episode: 8,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2016-01-10 00:00:00',
+    date: '2016-01-10',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Sainbu, Bhaisepati · Kathmandu',
@@ -276,7 +276,7 @@ const meetups = [
   {
     episode: 7,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2016-03-20 00:00:00',
+    date: '2016-03-20',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Kathmandu',
@@ -319,7 +319,7 @@ const meetups = [
   {
     episode: 6,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2016-05-08 00:00:00',
+    date: '2016-05-08',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Kathmandu',
@@ -362,7 +362,7 @@ const meetups = [
   {
     episode: 5,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2016-07-17 00:00:00',
+    date: '2016-07-17',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Kathmandu',
@@ -405,50 +405,7 @@ const meetups = [
   {
     episode: 4,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2015-09-13 00:00:00',
-    start_time: '11:00 am',
-    end_time: '2:00 am',
-    address: 'Kathmandu',
-    hosted_by: {
-      name: 'Saroj Maharjan',
-      twitter_username: 'zoraslapen'
-    },
-    venue_sponsor: {
-      link: 'https://twitter.com/AmericanSpaces',
-      logo: 'https://pbs.twimg.com/profile_images/438007102317928448/Qyx3zvt8_400x400.jpeg',
-      name: 'American Spaces'
-    },
-    sessions: [
-      {
-        id: 1,
-        title: 'Asset Management in Rails',
-        description: null,
-        speaker: 'Susan Joshi',
-        twitter_username: 'josisusan',
-        github_username: 'josisusan',
-        designation: 'Ruby & Javascript',
-        slide_link: 'https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FAsset%20Management%20in%20Rails%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.pdf',
-        video_link: null,
-        demo_link: null
-      },
-      {
-        id: 2,
-        title: 'MetaProgramming in Ruby',
-        description: null,
-        speaker: 'Prasvin Pandey',
-        twitter_username: 'prasvinp',
-        github_username: 'prasvin',
-        designation: '',
-        slide_link: 'https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FMetaProgramming%20in%20Ruby%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.zip',
-        video_link: null,
-        demo_link: null
-      }
-    ]
-  },
-  {
-    episode: 3,
-    title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2015-12-20 00:00:00',
+    date: '2015-12-20',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Kathmandu',
@@ -489,9 +446,52 @@ const meetups = [
     ]
   },
   {
+    episode: 3,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2015-09-13',
+    start_time: '11:00 am',
+    end_time: '2:00 am',
+    address: 'Kathmandu',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {
+      link: 'https://twitter.com/AmericanSpaces',
+      logo: 'https://pbs.twimg.com/profile_images/438007102317928448/Qyx3zvt8_400x400.jpeg',
+      name: 'American Spaces'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'Asset Management in Rails',
+        description: null,
+        speaker: 'Susan Joshi',
+        twitter_username: 'josisusan',
+        github_username: 'josisusan',
+        designation: 'Ruby & Javascript',
+        slide_link: 'https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FAsset%20Management%20in%20Rails%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.pdf',
+        video_link: null,
+        demo_link: null
+      },
+      {
+        id: 2,
+        title: 'MetaProgramming in Ruby',
+        description: null,
+        speaker: 'Prasvin Pandey',
+        twitter_username: 'prasvinp',
+        github_username: 'prasvin',
+        designation: '',
+        slide_link: 'https://secure.meetup.com/login/?returnUri=https%3A%2F%2Ffiles.meetup.com%2F18762323%2F%2F%2FMetaProgramming%20in%20Ruby%20-%20Ruby%20Nepal%20Meetup%20-%20Sep%2013%2C%202015.zip',
+        video_link: null,
+        demo_link: null
+      }
+    ]
+  },
+  {
     episode: 2,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2015-08-09 00:00:00',
+    date: '2015-08-09',
     start_time: '01:30 pm',
     end_time: '05:00 pm',
     address: 'Kathmandu',
@@ -530,7 +530,7 @@ const meetups = [
         demo_link: null
       },
       {
-        id: 3,
+        id: 2,
         title: 'Front End Development for Ruby Developers',
         description: null,
         speaker: 'Nikesh Suwal',
@@ -545,8 +545,8 @@ const meetups = [
   },
   {
     episode: 1,
-    title: 'Monthly Dev Meetup July 2014',
-    date: '2014-07-26 00:00:00',
+    title: 'Monthly Dev Meetup',
+    date: '2014-07-26',
     start_time: '02:00 pm',
     end_time: '05:00 pm',
     address: 'Kathmandu',
