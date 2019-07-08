@@ -158,12 +158,12 @@ class App extends Component {
             <div className="column panel-meetup">
               <div className="meetup-content">
                 <h1 className="meetup-name">{meetup.title}</h1>
-                <p className="meetup-episode">/Episode {meetup.episode}, {meetup.date}</p>
+                <p className="meetup-episode">Episode {meetup.episode}, {meetup.date}</p>
                 <span className="meetup-time">
                   {meetup.start_time} - {meetup.end_time}
                 </span>
-                <h2 className="meetup-venue">{meetup.venue_sponsor.name}</h2>
-                <p className="meetup-address">{meetup.address}</p>
+                <br />
+                <br />
                 <strong>
                   <button className="button is-success is-inverted"
                     onClick={() => this.onStepChange('previous')}
@@ -214,6 +214,8 @@ class App extends Component {
                   <li className="sponsor">
                     <img className="sponsor-logo" src={meetup.venue_sponsor.logo}
                       alt={meetup.venue_sponsor.name}/>
+                    <h2 className="meetup-venue">{meetup.venue_sponsor.name}</h2>
+                    <p className="meetup-address">{meetup.address}</p>
                   </li>
                 </ul>
               </div>
