@@ -39,7 +39,7 @@ $ git commit -m 'My awesome contribution'
 $ git push
 
 # Make a pull request of your newly changed branch against
-github.com/RubyNepal/rubynepal.github.io
+[https://github.com/RubyNepal/rubynepal.github.io/compare](https://github.com/RubyNepal/rubynepal.github.io/compare)
 
 # After you create a pull request, tests are run automatically on the newly created PR using Hound and TravisCI for style and lint checks.
 

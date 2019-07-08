@@ -4,7 +4,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2018-05-13',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Sainbu, Bhaisepati · Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -139,7 +139,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2018-01-14',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Balkumari Lalitpur',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -182,7 +182,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2017-09-10',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Sainbu, Bhaisepati · Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -235,7 +235,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2016-07-17',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -278,7 +278,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2016-05-08',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -321,7 +321,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2016-03-20',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -364,7 +364,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2016-01-10',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Sainbu, Bhaisepati · Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -407,7 +407,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2015-12-20',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -450,7 +450,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2015-09-13',
     start_time: '11:00 am',
-    end_time: '2:00 am',
+    end_time: '2:00 pm',
     address: 'Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
