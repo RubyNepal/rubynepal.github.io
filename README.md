@@ -29,6 +29,7 @@ $ bundle exec jekyll serve # Fires up local server at port 4000
 
 # Make sure linters are happy
 $ npm install
+$ webpack --mode development --watch
 $ bundle exec guard # to auto run tests and other linter checks (js, sass, html)
 $ ./node_modules/.bin/eslint --config .eslintrc.json *.js js/**/*.js --fix
 
