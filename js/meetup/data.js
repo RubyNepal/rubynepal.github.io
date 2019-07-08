@@ -1,8 +1,8 @@
 const meetups = [
   {
-    episode: 10,
+    episode: 12,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2018/05/13',
+    date: '2018-05-13',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Sainbu, Bhaisepati · Kathmandu',
@@ -13,7 +13,7 @@ const meetups = [
     venue_sponsor: {
       link: 'https://www.cloudfactory.com/',
       logo: 'https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359',
-      name: 'Cloudfactory'
+      name: 'CloudFactory'
     },
     sessions: [
       {
@@ -23,7 +23,7 @@ const meetups = [
         speaker: 'Rohit Joshi',
         twitter_username: 'roxxypoxxy',
         github_username: 'RohitRox',
-        designation: 'Senior Software Engineer Cloudfactory',
+        designation: 'Senior Software Engineer CloudFactory',
         slides_link: 'https://docs.google.com/presentation/d/15GvuyRnrS7yZ2DmAP9BbhWSiZ85PCMoUXPicz64UaXE/edit#slide=id.gcb9a0b074_1_0',
         video_link: 'https://www.youtube.com/watch?v=vDqrHX2Ozaw',
         demo_link: 'https://github.com/RohitRox/docker-rails-parallel-tests'
@@ -35,7 +35,7 @@ const meetups = [
         speaker: 'Basanti Neupane',
         twitter_username: 'BasantiNeupane',
         github_username: null,
-        designation: 'Cloudfactory',
+        designation: 'CloudFactory',
         profile_image_link: 'https://pbs.twimg.com/profile_images/742293936144683008/5QI_EDYd_400x400.jpg',
         slides_link: 'https://docs.google.com/presentation/d/1-jtL7P3rmZz02Y7t1L-s620Zz9bQ7-BZTC1BwNIkINE/edit#slide=id.g387f5142bf_2_10',
         video_link: 'https://www.youtube.com/watch?v=dqWHRrVbgyM',
@@ -68,9 +68,9 @@ const meetups = [
     ]
   },
   {
-    episode: 9,
+    episode: 11,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2018/04/08',
+    date: '2018-04-08',
     start_time: '11:00 am',
     end_time: '2:00 pm',
     address: 'Balkumari Lalitpur',
@@ -135,9 +135,9 @@ const meetups = [
     ]
   },
   {
-    episode: 8,
+    episode: 10,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2018/01/14',
+    date: '2018-01-14',
     start_time: '11:00 am',
     end_time: '2:00 am',
     address: 'Balkumari Lalitpur',
@@ -178,7 +178,7 @@ const meetups = [
     ]
   },
   {
-    episode: 7,
+    episode: 9,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2017-09-10',
     start_time: '11:00 am',
@@ -191,7 +191,7 @@ const meetups = [
     venue_sponsor: {
       link: 'https://www.cloudfactory.com/',
       logo: 'https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359',
-      name: 'Cloudfactory'
+      name: 'CloudFactory'
     },
     sessions: [
       {
@@ -201,7 +201,7 @@ const meetups = [
         speaker: 'Er. Chandra Mohan Thakur',
         twitter_username: 'cmthakur1986',
         github_username: 'cmthakur',
-        designation: 'Sr. SoftwareEngineer @cloudfactory',
+        designation: 'Sr. SoftwareEngineer @CloudFactory',
         slides_link: 'https://www.slideshare.net/ErChandraMohanThakur/secrets-behind-writing-specs/1',
         video_link: 'https://www.youtube.com/watch?v=ZUFtLuvxHE4',
         demo_link: null
@@ -231,136 +231,7 @@ const meetups = [
     ]
   },
   {
-    episode: 6,
-    title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2016-01-10',
-    start_time: '11:00 am',
-    end_time: '2:00 am',
-    address: 'Sainbu, Bhaisepati · Kathmandu',
-    hosted_by: {
-      name: 'Saroj Maharjan',
-      twitter_username: 'zoraslapen'
-    },
-    venue_sponsor: {
-      link: 'https://www.cloudfactory.com/',
-      logo: 'https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359',
-      name: 'Cloudfactory'
-    },
-    sessions: [
-      {
-        id: 1,
-        title: 'Performance Improvement of Rails Application',
-        description: null,
-        speaker: 'Sadiksha Gautam',
-        twitter_username: 'sadikshagautam',
-        github_username: 'sadiksha',
-        designation: 'Software Developer at EnerNOC, Munich, Germany',
-        slides_link: 'https://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf',
-        video_link: null,
-        demo_link: null
-      },
-      {
-        id: 2,
-        title: 'Scaling CI with Docker @ Cloudfactory',
-        description: null,
-        speaker: 'Bikash Kaji Basukala',
-        twitter_username: 'kajisaap',
-        github_username: 'kajisaap',
-        designation: 'Devops, janitor and the man maid',
-        slides_link: 'https://docs.google.com/presentation/d/1IyQmKLfdgP9Ktqzg9ApaFKlurGLSJHGVRwtn43qCmQk/pub?start=false&loop=false&delayms=3000#slide=id.p4',
-        video_link: null,
-        demo_link: null
-      }
-    ]
-  },
-  {
-    episode: 5,
-    title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2016-03-20',
-    start_time: '11:00 am',
-    end_time: '2:00 am',
-    address: 'Kathmandu',
-    hosted_by: {
-      name: 'Saroj Maharjan',
-      twitter_username: 'zoraslapen'
-    },
-    venue_sponsor: {
-      link: 'http://www.leapfrog.academy/',
-      logo: 'http://www.leapfrog.academy/themes/website/assets/img/logo_main.png',
-      name: 'Leapfrog Academy'
-    },
-    sessions: [
-      {
-        id: 1,
-        title: 'Working as a Junior Developer',
-        description: null,
-        speaker: 'Madhuri Shrestha',
-        twitter_username: 'MadzzSrestha',
-        github_username: 'MadhuriShres',
-        designation: 'Fun-loving Adventurous Free-spirited Determined',
-        slides_link: null,
-        video_link: null,
-        demo_link: null
-      },
-      {
-        id: 2,
-        title: 'Organizing CSS',
-        description: null,
-        speaker: 'Sanjeev Praja',
-        twitter_username: 'sanjeevpraja',
-        github_username: 'SanjeevPraja',
-        designation: null,
-        slides_link: null,
-        video_link: null,
-        demo_link: null
-      }
-    ]
-  },
-  {
-    episode: 4,
-    title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2016-05-08',
-    start_time: '11:00 am',
-    end_time: '2:00 am',
-    address: 'Kathmandu',
-    hosted_by: {
-      name: 'Saroj Maharjan',
-      twitter_username: 'zoraslapen'
-    },
-    venue_sponsor: {
-      link: '',
-      logo: '',
-      name: 'Innovation Hub, FNCCI provided by @AmericanSpaces'
-    },
-    sessions: [
-      {
-        id: 1,
-        title: 'ActionCable in Rails 5',
-        description: null,
-        speaker: 'Paul Chobert',
-        twitter_username: 'barodeur',
-        github_username: 'barodeur',
-        designation: 'Freelance Software Engineer',
-        slides_link: 'https://drive.google.com/file/d/170mmguu5QUppftCTBrxW4D5QtNqWzIpG/view',
-        video_link: null,
-        demo_link: null
-      },
-      {
-        id: 2,
-        title: 'Building APIs in RoR with Grape',
-        description: null,
-        speaker: 'Milap Neupane',
-        twitter_username: '_milap',
-        github_username: 'milap-neupane',
-        designation: 'Software Engineer',
-        slides_link: 'https://drive.google.com/file/d/1b0P7JIOxJTks3t0HOKKh73kp7YH8i4lD/view',
-        video_link: null,
-        demo_link: null
-      }
-    ]
-  },
-  {
-    episode: 3,
+    episode: 8,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2016-07-17',
     start_time: '11:00 am',
@@ -403,7 +274,179 @@ const meetups = [
     ]
   },
   {
-    episode: 2,
+    episode: 7,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2016-05-08',
+    start_time: '11:00 am',
+    end_time: '2:00 am',
+    address: 'Kathmandu',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {
+      link: '',
+      logo: '',
+      name: 'Innovation Hub, FNCCI provided by @AmericanSpaces'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'ActionCable in Rails 5',
+        description: null,
+        speaker: 'Paul Chobert',
+        twitter_username: 'barodeur',
+        github_username: 'barodeur',
+        designation: 'Freelance Software Engineer',
+        slides_link: 'https://drive.google.com/file/d/170mmguu5QUppftCTBrxW4D5QtNqWzIpG/view',
+        video_link: null,
+        demo_link: null
+      },
+      {
+        id: 2,
+        title: 'Building APIs in RoR with Grape',
+        description: null,
+        speaker: 'Milap Neupane',
+        twitter_username: '_milap',
+        github_username: 'milap-neupane',
+        designation: 'Software Engineer',
+        slides_link: 'https://drive.google.com/file/d/1b0P7JIOxJTks3t0HOKKh73kp7YH8i4lD/view',
+        video_link: null,
+        demo_link: null
+      }
+    ]
+  },
+  {
+    episode: 6,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2016-03-20',
+    start_time: '11:00 am',
+    end_time: '2:00 am',
+    address: 'Kathmandu',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {
+      link: 'http://www.leapfrog.academy/',
+      logo: 'http://www.leapfrog.academy/themes/website/assets/img/logo_main.png',
+      name: 'Leapfrog Academy'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'Working as a Junior Developer',
+        description: null,
+        speaker: 'Madhuri Shrestha',
+        twitter_username: 'MadzzSrestha',
+        github_username: 'MadhuriShres',
+        designation: 'Fun-loving Adventurous Free-spirited Determined',
+        slides_link: null,
+        video_link: null,
+        demo_link: null
+      },
+      {
+        id: 2,
+        title: 'Organizing CSS',
+        description: null,
+        speaker: 'Sanjeev Praja',
+        twitter_username: 'SanjeevPraja',
+        github_username: 'SanjeevPraja',
+        designation: null,
+        slides_link: null,
+        video_link: null,
+        demo_link: null
+      }
+    ]
+  },
+  {
+    episode: 5,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2016-01-10',
+    start_time: '11:00 am',
+    end_time: '2:00 am',
+    address: 'Sainbu, Bhaisepati · Kathmandu',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {
+      link: 'https://www.cloudfactory.com/',
+      logo: 'https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359',
+      name: 'CloudFactory'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'Performance Improvement of Rails Application',
+        description: null,
+        speaker: 'Sadiksha Gautam',
+        twitter_username: 'sadikshagautam',
+        github_username: 'sadiksha',
+        designation: 'Software Developer at EnerNOC, Munich, Germany',
+        slides_link: 'https://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf',
+        video_link: null,
+        demo_link: null
+      },
+      {
+        id: 2,
+        title: 'Scaling CI with Docker @ CloudFactory',
+        description: null,
+        speaker: 'Bikash Kaji Basukala',
+        twitter_username: 'kajisaap',
+        github_username: 'kajisaap',
+        designation: 'Devops, janitor and the man maid',
+        slides_link: 'https://docs.google.com/presentation/d/1IyQmKLfdgP9Ktqzg9ApaFKlurGLSJHGVRwtn43qCmQk/pub?start=false&loop=false&delayms=3000#slide=id.p4',
+        video_link: null,
+        demo_link: null
+      }
+    ]
+  },
+  {
+    episode: 4,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2015-12-20',
+    start_time: '11:00 am',
+    end_time: '2:00 am',
+    address: 'Kathmandu',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {
+      link: 'https://twitter.com/AmericanSpaces',
+      logo: 'https://pbs.twimg.com/profile_images/438007102317928448/Qyx3zvt8_400x400.jpeg',
+      name: 'American Spaces'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'Tech in France and meeting developers in Asia',
+        description: null,
+        speaker: 'Ludwine Probst',
+        twitter_username: 'nivdul',
+        github_username: 'nivdul',
+        designation: '',
+        slides_link: null,
+        video_link: null,
+        demo_link: null
+      },
+      {
+        id: 2,
+        title: 'Test Driven Development',
+        description: null,
+        speaker: 'Ganesh Kunwar',
+        twitter_username: 'gkunwar1',
+        github_username: 'gkunwar',
+        designation: 'Software Engineer',
+        slides_link: 'https://drive.google.com/file/d/1DHB_FrWsofyOHT8dd38f8ZB-3DVr8aoK/view',
+        video_link: null,
+        demo_link: null
+      }
+    ]
+  },
+  {
+    episode: 3,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2015-09-13',
     start_time: '11:00 am',
@@ -446,11 +489,11 @@ const meetups = [
     ]
   },
   {
-    episode: 1,
+    episode: 2,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2015-12-20',
-    start_time: '11:00 am',
-    end_time: '2:00 am',
+    date: '2015-08-09',
+    start_time: '01:30 pm',
+    end_time: '05:00 pm',
     address: 'Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
@@ -464,25 +507,92 @@ const meetups = [
     sessions: [
       {
         id: 1,
-        title: 'Tech in France and meeting developers in Asia',
+        title: 'Opening note',
         description: null,
-        speaker: 'Ludwine Probst',
-        twitter_username: 'nivdul',
-        github_username: 'nivdul',
-        designation: '',
-        slides_link: null,
+        speaker: 'Saroj Maharjan',
+        twitter_username: 'zoraslapen',
+        github_username: 'zoras',
+        designation: 'Organiser and Admin, RubyNepal.org',
+        slides_link: 'https://speakerdeck.com/zoras/ruby-and-rails-meetup-nepal',
         video_link: null,
         demo_link: null
       },
       {
         id: 2,
-        title: 'Test Driven Development',
+        title: 'ECMAScript 2015',
         description: null,
-        speaker: 'Ganesh Kunwar',
-        twitter_username: 'gkunwar1',
-        github_username: 'gkunwar',
+        speaker: 'Madhu Rakhal Magar',
+        twitter_username: 'madhurakhal',
+        github_username: 'madhurakhal',
         designation: 'Software Engineer',
-        slides_link: 'https://drive.google.com/file/d/1DHB_FrWsofyOHT8dd38f8ZB-3DVr8aoK/view',
+        slides_link: 'http://slides.com/rakhalmadhu/ecmascript2015-es6#/',
+        video_link: null,
+        demo_link: null
+      },
+      {
+        id: 2,
+        title: 'Front End Development for Ruby Developers',
+        description: null,
+        speaker: 'Nikesh Suwal',
+        twitter_username: null,
+        github_username: null,
+        designation: 'Software Engineer @ Jyaasa Technologies',
+        slides_link: 'https://docs.google.com/presentation/d/1n48hyKqUNe7e5bwGe5HKYw1bavEM44qnr7G8M1v8M-0/edit#slide=id.p',
+        video_link: null,
+        demo_link: null
+      }
+    ]
+  },
+  {
+    episode: 1,
+    title: 'Monthly Dev Meetup',
+    date: '2014-07-26',
+    start_time: '02:00 pm',
+    end_time: '05:00 pm',
+    address: 'Kathmandu',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {
+      link: 'https://www.cloudfactory.com/',
+      logo: 'https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359',
+      name: 'CloudFactory'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: '10 Ways We Can Be Better',
+        description: null,
+        speaker: 'Mark Sears',
+        twitter_username: 'marktsears',
+        github_username: null,
+        designation: 'Founder and CEO of CloudFactory',
+        slides_link: 'https://docs.google.com/presentation/d/1PzVQM4wZb0hiBRAvek6-nO4ptC2yeSR-3ryaWufeAEY/edit#slide=id.p',
+        video_link: 'https://www.youtube.com/watch?v=COBCnZls5rE',
+        demo_link: null
+      },
+      {
+        id: 2,
+        title: 'Ansible',
+        description: null,
+        speaker: 'Bikash Kaji Basukala',
+        twitter_username: 'kajisaap',
+        github_username: 'kajisaap',
+        designation: 'Devops, janitor and the man maid',
+        slides_link: 'https://docs.google.com/presentation/d/1HKycISvdw7lxleJjJKYBh-f8GRhVdC5BsC3Db5wQWkk/present?slide=id.g2ae7d0021_2_7',
+        video_link: 'https://www.youtube.com/watch?v=ZKoSG8bxw0A',
+        demo_link: null
+      },
+      {
+        id: 3,
+        title: 'Ember.js with Ember-Cli',
+        description: null,
+        speaker: 'Sachin Sagar Rai',
+        twitter_username: 'millisami',
+        github_username: 'millisami',
+        designation: 'Ruby on Rails/Javascript Developer',
+        slides_link: null,
         video_link: null,
         demo_link: null
       }
