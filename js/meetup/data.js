@@ -242,8 +242,8 @@ const meetups = [
       twitter_username: 'zoraslapen'
     },
     venue_sponsor: {
-      link: '',
-      logo: '',
+      link: 'https://www.facebook.com/IHKathmandu',
+      logo: 'https://scontent.fktm3-1.fna.fbcdn.net/v/t1.0-9/55788325_1495016847296339_1352846296590843904_n.jpg',
       name: 'Innovation Hub, FNCCI provided by @AmericanSpaces'
     },
     sessions: [
@@ -285,8 +285,8 @@ const meetups = [
       twitter_username: 'zoraslapen'
     },
     venue_sponsor: {
-      link: '',
-      logo: '',
+      link: 'https://www.facebook.com/IHKathmandu',
+      logo: 'https://scontent.fktm3-1.fna.fbcdn.net/v/t1.0-9/55788325_1495016847296339_1352846296590843904_n.jpg',
       name: 'Innovation Hub, FNCCI provided by @AmericanSpaces'
     },
     sessions: [
