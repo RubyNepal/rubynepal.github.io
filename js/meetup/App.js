@@ -131,7 +131,7 @@ class App extends Component {
       const avatar_url = `https://avatar-redirect.appspot.com/twitter/${twitter_username}`;
       return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>;
     } else if (github_username) {
-      const avatar_url = `https://avatars.githubusercontent.com/${github_username}.png?size=${AVATAR_SIZE}`;
+      const avatar_url = `https://avatars.githubusercontent.com/${github_username}`;
       return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>;
     } else {
       return <Avatar name={session.speaker} size={AVATAR_SIZE} />;
