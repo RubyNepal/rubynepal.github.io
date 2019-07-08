@@ -140,7 +140,7 @@ const meetups = [
     date: '2018-01-14',
     start_time: '11:00 am',
     end_time: '2:00 pm',
-    address: 'Balkumari Lalitpur',
+    address: 'Baluwatar Kathmandu',
     hosted_by: {
       name: 'Saroj Maharjan',
       twitter_username: 'zoraslapen'
