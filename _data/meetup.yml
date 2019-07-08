@@ -443,8 +443,8 @@
       title: Front End Development for Ruby Developers
       description: null
       speaker: Nikesh Suwal
-      twitter_username: null
-      github_username: null
+      twitter_username: SuwalNikesh
+      github_username: Nikeshsuwal
       designation: Software Engineer @ Jyaasa Technologies
       slides_link: https://docs.google.com/presentation/d/1n48hyKqUNe7e5bwGe5HKYw1bavEM44qnr7G8M1v8M-0/edit#slide=id.p
       video_link: null
@@ -465,7 +465,7 @@
     name: CloudFactory
   sessions:
     - id: 1
-      title: 10 Ways We Can Be Better 
+      title: 10 Ways We Can Be Better
       description: null
       speaker: Mark Sears
       twitter_username: marktsears
