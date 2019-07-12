@@ -79,8 +79,8 @@ const meetups = [
       twitter_username: 'zoraslapen'
     },
     venue_sponsor: {
-      link: 'http://ncit.edu.np',
-      logo: 'http://ncit.edu.np/assets/img/logo.png',
+      link: 'https://ncit.edu.np',
+      logo: 'https://ncit.edu.np/assets/img/logo.png',
       name: 'NCIT College'
     },
     sessions: [
