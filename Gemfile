@@ -42,7 +42,7 @@ end
 
 group :development, :test do
   gem 'colorize', '~> 0.8', require: false
-  gem 'html-proofer', '~> 3.12'
+  gem 'html-proofer', '~> 3.13'
   gem 'jslint-v8', '~> 1.1'
   gem 'parallel', '~> 1.17'
   gem 'rubocop', '~> 0.74', require: false
