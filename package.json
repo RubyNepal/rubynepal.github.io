@@ -23,7 +23,7 @@
     "react": "^16.10.1",
     "react-avatar": "^3.7.0",
     "react-dom": "^16.10.1",
-    "react-router-dom": "^5.1.1"
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
