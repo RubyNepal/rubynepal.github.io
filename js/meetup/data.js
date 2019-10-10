@@ -1,5 +1,77 @@
 const meetups = [
   {
+    episode: 14,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2019-09-29',
+    start_time: '11:00 am',
+    end_time: '02:00 pm',
+    address: 'Sainbu, Bhaisepati · Kathmandu',
+    hosted_by: {
+      name: 'Susan Joshi',
+      twitter_username: 'josisusan'
+    },
+    venue_sponsor: {
+      link: 'https://www.cloudfactory.com/',
+      logo: 'https://www.cloudfactory.com/hs-fs/hub/351374/file-461075169-png/img/cf-logo-preview.png?t=1528352709359',
+      name: 'CloudFactory'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'Build your free personal Developer website with Jekyll',
+        description: null,
+        speaker: 'Budha Ram Gurung',
+        twitter_username: 'coolbrg',
+        github_username: 'coolbrg',
+        designation: 'CTO, Siris Youth Foundation',
+        slides_link: '',
+        video_link: 'https://www.facebook.com/groups/rubydevelopersnepal/permalink/1422589424565691/',
+        demo_link: ''
+      },
+      {
+        id: 2,
+        title: 'Jekyll Themes and zero-cost Hosting',
+        description: null,
+        speaker: 'Rajan Bhattarai',
+        twitter_username: 'cdrrazan',
+        github_username: 'cdrrazan',
+        designation: 'Full Stack Ruby on Rails Developer',
+        slides_link: '',
+        video_link: 'https://www.facebook.com/groups/rubydevelopersnepal/permalink/1422589424565691/',
+        demo_link: ''
+      }
+    ]
+  },
+  {
+    episode: 13,
+    title: 'Casual Meetup',
+    date: '2019-06-16',
+    start_time: '02:00 pm',
+    end_time: '04:00 pm',
+    address: 'Pulchowk · Kathmandu',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {
+      name: 'The Village Cafe'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'My Journey',
+        description: null,
+        speaker: 'Aram Bhusal',
+        twitter_username: 'phoenixwizard',
+        github_username: 'phoenixwizard',
+        designation: 'Principal Engineer, Zoomcar Full Stack',
+        slides_link: '',
+        video_link: 'https://www.youtube.com/watch?v=jpequNhq9-A',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 12,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2018-05-13',
