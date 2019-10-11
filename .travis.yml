@@ -11,7 +11,7 @@ cache:
 
 # gemfile: docs/Gemfile
 rvm:
-  - 2.6.3
+  - 2.6.5
   - ruby-head
 matrix:
   allow_failures:
