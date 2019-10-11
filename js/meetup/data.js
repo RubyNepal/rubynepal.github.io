@@ -24,7 +24,7 @@ const meetups = [
         twitter_username: 'coolbrg',
         github_username: 'coolbrg',
         designation: 'CTO, Siris Youth Foundation',
-        slides_link: '',
+        slides_link: 'https://docs.google.com/presentation/d/1khnzL-VyH0CN_GJaZVSYrq-Dve5Tsbzv9Tsphu41adU/edit?usp=drivesdk',
         video_link: 'https://www.facebook.com/groups/rubydevelopersnepal/permalink/1422589424565691/',
         demo_link: ''
       },
@@ -36,7 +36,7 @@ const meetups = [
         twitter_username: 'cdrrazan',
         github_username: 'cdrrazan',
         designation: 'Full Stack Ruby on Rails Developer',
-        slides_link: '',
+        slides_link: 'https://meetup.cdrrazan.com/',
         video_link: 'https://www.facebook.com/groups/rubydevelopersnepal/permalink/1422589424565691/',
         demo_link: ''
       }
@@ -64,7 +64,7 @@ const meetups = [
         speaker: 'Aram Bhusal',
         twitter_username: 'phoenixwizard',
         github_username: 'phoenixwizard',
-        designation: 'Principal Engineer, Zoomcar Full Stack',
+        designation: 'Principal Engineer, Zoomcar',
         slides_link: '',
         video_link: 'https://www.youtube.com/watch?v=jpequNhq9-A',
         demo_link: ''
