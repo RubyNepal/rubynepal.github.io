@@ -154,8 +154,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    scss_lint (0.58.0)
-      rake (>= 0.9, < 13)
+    scss_lint (0.59.0)
       sass (~> 3.5, >= 3.5.5)
     shellany (0.0.1)
     sinatra (1.4.8)
@@ -207,7 +206,7 @@ DEPENDENCIES
   rake (~> 12.3)
   replace_regex (~> 0.1)
   rubocop (~> 0.75)
-  scss_lint (~> 0.58)
+  scss_lint (~> 0.59)
   tzinfo-data
 
 RUBY VERSION
