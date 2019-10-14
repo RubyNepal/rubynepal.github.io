@@ -142,7 +142,7 @@ class App extends Component {
   renderMsg() {
     if (this.state.showFutureEvents) {
       return (<div>Please visit <a href="https://www.meetup.com/Nepal-Ruby-Users-Group/events/">meetup.com</a> for upcoming events</div>);
-    } 
+    }
     if (this.state.showPastEvents) {
       return (<div>Please visit <a href="https://www.meetup.com/Nepal-Ruby-Users-Group/events/past/">meetup.com</a> for past events</div>);
     }
