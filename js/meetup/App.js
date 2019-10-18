@@ -62,7 +62,8 @@ class App extends Component {
     this.state = {
       selectedEpisode: this.currentEpisode(),
       firstEpisode: INITIAL_EPISODE_ID,
-      messageForNotFound: '',
+      showFutureEvents: false,
+      showPastEvents: false,
       isScrolled: false
     };
     this.section = React.createRef();
@@ -100,23 +101,23 @@ class App extends Component {
     switch (step) {
       case 'next':
         if (this.state.selectedEpisode === this.totalEpisode()) {
-          this.setState({ messageForNotFound: 'New meetup information coming soon!'});
+          this.setState({ showFutureEvents: true});
           setTimeout(() => {
-            this.setState({ messageForNotFound: ''});
+            this.setState({ showFutureEvents: false});
           }, 3000);
           return false;
         }
-        this.setState({ selectedEpisode: this.state.selectedEpisode + 1 }, () => this.urlWithEpisode());
+        this.setState({ selectedEpisode: this.state.selectedEpisode + 1, showPastEvents: false }, () => this.urlWithEpisode());
         break;
       case 'previous':
         if (this.state.selectedEpisode === this.state.firstEpisode) {
-          this.setState({ messageForNotFound: 'No previous meetup. Seems, we started meetup from here!'});
+          this.setState({ showPastEvents: true});
           setTimeout(() => {
-            this.setState({ messageForNotFound: ''});
+            this.setState({ showPastEvents: false});
           }, 3000);
           return false;
         }
-        this.setState({ selectedEpisode: this.state.selectedEpisode - 1 }, () => this.urlWithEpisode());
+        this.setState({ selectedEpisode: this.state.selectedEpisode - 1, showFutureEvents: false }, () => this.urlWithEpisode());
         break;
       default:
         return false;
@@ -136,6 +137,16 @@ class App extends Component {
     } else {
       return <Avatar name={session.speaker} size={AVATAR_SIZE} />;
     }
+  }
+
+  renderMsg() {
+    if (this.state.showFutureEvents) {
+      return (<div>Please visit <a href="https://www.meetup.com/Nepal-Ruby-Users-Group/events/">meetup.com</a> for upcoming events</div>);
+    }
+    if (this.state.showPastEvents) {
+      return (<div>Please visit <a href="https://www.meetup.com/Nepal-Ruby-Users-Group/events/past/">meetup.com</a> for past events</div>);
+    }
+    return null;
   }
 
   componentDidMount() {
@@ -177,10 +188,7 @@ class App extends Component {
                     <i className="fas fa-arrow-right"></i>
                   </button>
                 </strong>
-                {this.state.messageForNotFound &&
-                <p className="rnw-link">
-                  {this.state.messageForNotFound}
-                </p>}
+                {this.renderMsg()}
               </div>
             </div>
             <div className="column panel-schedule">
