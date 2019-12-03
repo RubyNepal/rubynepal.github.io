@@ -43,7 +43,7 @@ end
 group :development, :test do
   gem 'colorize', '~> 0.8', require: false
   gem 'html-proofer', '~> 3.14'
-  gem 'jslint-v8', '~> 1.1'
+  gem 'jshint-rb', '~> 1.1', require: false
   gem 'parallel', '~> 1.19'
   gem 'rubocop', '~> 0.77', require: false
   gem 'scss_lint', '~> 0.59', require: false
@@ -52,5 +52,5 @@ group :development, :test do
   gem 'guard-bundler-audit', '~> 0.1'
   gem 'guard-rake', '~> 1.0'
   gem 'guard-rubocop', '~> 1.3'
-  gem 'guard-shell'
+  gem 'guard-shell', '~> 0.7'
 end
