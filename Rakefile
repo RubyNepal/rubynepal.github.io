@@ -9,14 +9,14 @@ require 'rubocop/rake_task'
 require 'uri'
 require 'scss_lint/rake_task'
 require 'jekyll-youtube'
-require 'jslint-v8'
+require 'jshint/tasks'
 
 # Configuration Options
 config_file = '_config.yml' # Name of Jekyll config file
 
 # Standard tasks
-# [:rubocop, 'js:lint', :html_proofer]
-multitask default: %i[rubocop html_proofer]
+# [:rubocop, 'jshint', :html_proofer]
+multitask default: %i[rubocop jshint html_proofer]
 
 # Rubocop Rake
 RuboCop::RakeTask.new(:rubocop) do |t|
@@ -33,25 +33,25 @@ SCSSLint::RakeTask.new
 # end
 
 # https://github.com/whoward/jslint-v8#rake-task
-namespace :js do
-  JSLintV8::RakeTask.new do |task|
-    task.name = "lint"
-    task.description = "runs jslint against all important javascript files"
+# namespace :js do
+#   JSLintV8::RakeTask.new do |task|
+#     task.name = "lint"
+#     task.description = "runs jslint against all important javascript files"
 
-    task.output_stream = STDOUT
+#     task.output_stream = STDOUT
 
-    task.include_pattern = "js/**/*.js"
-    task.exclude_pattern = "_site/js/**/*.js"
+#     task.include_pattern = "js/**/*.js"
+#     task.exclude_pattern = "_site/js/**/*.js"
 
-    # pass boolean options to jshint like this, these are merged with the default options
-    task.jquery  = true  # predefine jQuery globals
-    task.browser = true  # predefine Browser globals
-    task.bitwise = false # allow bitwise operators to be used
+#     # pass boolean options to jshint like this, these are merged with the default options
+#     task.jquery  = true  # predefine jQuery globals
+#     task.browser = true  # predefine Browser globals
+#     task.bitwise = false # allow bitwise operators to be used
 
-    # or just access the options hash directly, be sure to use strings for keys
-    # task.lint_options["strict"] = true
-  end
-end
+#     # or just access the options hash directly, be sure to use strings for keys
+#     # task.lint_options["strict"] = true
+#   end
+# end
 
 # Extend string to allow for bold text.
 class String

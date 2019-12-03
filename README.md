@@ -11,7 +11,7 @@ You can also use [prose.io](http://prose.io) to submit the changes without cloni
 
 Steps:
 
-``` bash
+```bash
 # Fork the repo
 github.com:RubyNepal/rubynepal.github.io
 
@@ -32,6 +32,8 @@ $ npm install
 $ webpack --mode development --watch
 $ bundle exec guard # to auto run tests and other linter checks (js, sass, html)
 $ ./node_modules/.bin/eslint --config .eslintrc.json *.js js/**/*.js --fix
+# Run below command to compile React files (if any changed) into `bundle/meetup.js` file.
+$ ./node_modules/webpack/bin/webpack.js --mode production
 
 # Commit the changes
 $ git commit -m 'My awesome contribution'
@@ -59,15 +61,15 @@ Keep the pull request focused on one thing - if you make two different, unrelate
 
 ## Maintainers
 
-* [Saroj Maharjan](https://twitter.com/zoraslapen)
-* [Susan Joshi](https://twitter.com/josisusan)
-* [Rohit Joshi](https://twitter.com/roxxypoxxy)
+- [Saroj Maharjan](https://twitter.com/zoraslapen)
+- [Susan Joshi](https://twitter.com/josisusan)
+- [Rohit Joshi](https://twitter.com/roxxypoxxy)
 
 ## Contributors
 
-* Many thanks to the site's recent contributors: [github.com/RubyNepal/rubynepal.github.io/contributors](https://github.com/RubyNepal/rubynepal.github.io/graphs/contributors)
+- Many thanks to the site's recent contributors: [github.com/RubyNepal/rubynepal.github.io/contributors](https://github.com/RubyNepal/rubynepal.github.io/graphs/contributors)
 
-* [Madhu Sudhan](https://twitter.com/sudhansubedi)
+- [Madhu Sudhan](https://twitter.com/sudhansubedi)
 
 ## LICENSE
 

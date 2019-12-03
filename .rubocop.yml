@@ -13,8 +13,8 @@ AllCops:
 Lint:
   Enabled: true
 
-Rails:
-  Enabled: false
+# Rails:
+#   Enabled: false
 
 Metrics/LineLength:
   IgnoredPatterns: ['\A#'] # make rubocop ignore comments using regex
