@@ -7,6 +7,10 @@ const meetups = [
     end_time: '02:00 pm',
     address: 'Sainbu, Bhaisepati · Kathmandu',
     hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    master_of_ceremonies(mc): {
       name: 'Susan Joshi',
       twitter_username: 'josisusan'
     },
