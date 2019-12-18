@@ -140,7 +140,7 @@ GEM
     replace_regex (0.1.0)
     rinku (1.7.3)
     rouge (3.13.0)
-    rubocop (0.77.0)
+    rubocop (0.78.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.6)
@@ -202,7 +202,7 @@ DEPENDENCIES
   parallel (~> 1.19)
   rake (~> 13.0)
   replace_regex (~> 0.1)
-  rubocop (~> 0.77)
+  rubocop (~> 0.78)
   scss_lint (~> 0.59)
   tzinfo-data
 
