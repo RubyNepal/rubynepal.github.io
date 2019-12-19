@@ -36,7 +36,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.13'
   gem 'jekyll-paginate', '~> 1.1'
   gem 'jekyll-seo-tag', '~> 2.6'
-  gem 'jekyll-twitter-plugin', '~> 2.0'
+  gem 'jekyll-twitter-plugin', '~> 2.1'
   gem 'jekyll-youtube', '~> 1.0'
 end
 
