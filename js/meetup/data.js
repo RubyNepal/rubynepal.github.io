@@ -1,5 +1,48 @@
 const meetups = [
   {
+    episode: 15,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2019-12-24',
+    start_time: '06:00 pm',
+    end_time: '08:00 pm',
+    address: 'Gusingal, Lalitpur · Kathmandu',
+    hosted_by: {
+      name: 'Susan Joshi',
+      twitter_username: 'josisusan'
+    },
+    venue_sponsor: {
+      link: 'http://jyaasa.com/',
+      logo: 'http://jyaasa.com/img/logo-transparent.png',
+      name: 'Jyaasa'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'Performance and Load Testing your Rails app',
+        description: null,
+        speaker: 'Milap Neupane',
+        twitter_username: '_milap',
+        github_username: 'milap-neupane',
+        designation: 'Rubyist Gohper. Blogger',
+        slides_link: 'https://docs.google.com/presentation/d/1WdA95HExrw5E7NFW_swajzC-Ydyi9kahdoCRDbfngH4/edit',
+        video_link: '',
+        demo_link: ''
+      },
+      {
+        id: 2,
+        title: 'Socket Programming in Ruby',
+        description: null,
+        speaker: 'Sushant Bajracharya',
+        twitter_username: '',
+        github_username: 'sushant12',
+        designation: 'Software Developer',
+        slides_link: '',
+        video_link: '',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 14,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2019-09-29',
