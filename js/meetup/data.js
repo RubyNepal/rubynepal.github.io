@@ -36,7 +36,7 @@ const meetups = [
         twitter_username: '',
         github_username: 'sushant12',
         designation: 'Software Developer',
-        slides_link: '',
+        slides_link: '/assets/meetup_dec_2019_socket_programming_sushant12.pdf',
         video_link: '',
         demo_link: ''
       }
