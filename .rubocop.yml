@@ -16,5 +16,5 @@ Lint:
 # Rails:
 #   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   IgnoredPatterns: ['\A#'] # make rubocop ignore comments using regex
