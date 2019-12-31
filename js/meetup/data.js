@@ -25,7 +25,7 @@ const meetups = [
         github_username: 'milap-neupane',
         designation: 'Rubyist Gohper. Blogger',
         slides_link: 'https://docs.google.com/presentation/d/1WdA95HExrw5E7NFW_swajzC-Ydyi9kahdoCRDbfngH4/edit',
-        video_link: '',
+        video_link: 'https://www.facebook.com/RubyNepal.org/videos/830832337357025/',
         demo_link: ''
       },
       {
@@ -37,7 +37,7 @@ const meetups = [
         github_username: 'sushant12',
         designation: 'Software Developer',
         slides_link: '/assets/meetup_dec_2019_socket_programming_sushant12.pdf',
-        video_link: '',
+        video_link: 'https://www.facebook.com/RubyNepal.org/videos/830832337357025/',
         demo_link: ''
       }
     ]
