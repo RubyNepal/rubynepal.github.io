@@ -9,6 +9,7 @@ require 'rubocop/rake_task'
 require 'uri'
 require 'scss_lint/rake_task'
 require 'jekyll-youtube'
+require 'jshint'
 require 'jshint/tasks'
 
 # Configuration Options
@@ -30,6 +31,18 @@ SCSSLint::RakeTask.new
 #   # t.args = ['--format', 'JSON', '--out', 'results.txt']
 #   t.args = ['--exclude', 'css/*.scss']
 #   t.files = Dir.glob(['_sass/**/*.scss'])
+# end
+
+# https://github.com/josephholsten/jshint.rb#running-from-your-code
+JSHint.config_path = "config/lint.yml"
+# namespace :js do
+#   lint = JSHint::Lint.new(
+#     :paths => ['js/**/*.js'],
+#     :exclude_paths => ['bundle/**/*.js', '_site/js/**/*.js', '_site/bundle/**/*.js'],
+#     :config_path => 'config/jslint.yml'
+#   )
+#
+#   lint.run
 # end
 
 # https://github.com/whoward/jslint-v8#rake-task

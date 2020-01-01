@@ -52,6 +52,6 @@ guard :shell do
   end
 end
 
-# guard 'rake', task: 'jshint' do
-#   watch(%r{.+\.js$})
-# end
+guard 'rake', task: 'jshint' do
+  watch(%r{.+\.js$})
+end
