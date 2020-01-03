@@ -36,7 +36,7 @@ paginate_path: "/blog/page:num/"
 markdown: kramdown
 plugins:
   - jekyll-analytics
-  - jekyll-autolink_email
+  # - jekyll-autolink_email
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-paginate
@@ -74,10 +74,12 @@ jekyll_analytics:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - [vendor]
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
