@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/rubynepal/rubynepal.github.io",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-avatar": "^3.9.0",
     "react-dom": "^16.12.0",
