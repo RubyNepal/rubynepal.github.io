@@ -13,3 +13,4 @@ example/_site
 node_modules
 npm-debug.log*
 hint-report/
+.jekyll-cache/

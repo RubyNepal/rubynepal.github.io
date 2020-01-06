@@ -12,7 +12,7 @@ ruby File.read('.ruby-version').strip.split('-').last
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '~> 3.8'
+gem 'jekyll', '~> 4.0'
 gem 'rake', '~> 13.0'
 
 gem 'match_regex', '~> 0.1'
@@ -30,7 +30,7 @@ gem 'wdm' if Gem.win_platform?
 group :jekyll_plugins do
   gem 'jekyll-admin', '~> 0.9'
   gem 'jekyll-analytics', '~> 0.1'
-  gem 'jekyll-autolink_email', '~> 0.1'
+  # gem 'jekyll-autolink_email', '~> 0.1'
   gem 'jekyll-avatar', '~> 0.7'
   gem 'jekyll-email-protect', '~> 1.1'
   gem 'jekyll-feed', '~> 0.13'
