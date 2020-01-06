@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/rubynepal/rubynepal.github.io",
   "dependencies": {
+    "parse-link-header": "^1.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-avatar": "^3.9.0",

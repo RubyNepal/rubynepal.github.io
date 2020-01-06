@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import TalkItem from './talkItem';
+import parse from 'parse-link-header';
 
 
 class TalkSuggestions extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      firstLink: 'https://api.github.com/repos/RubyNepal/rorh/issues?state=open&per_page=4&page=1',
+      nextLabel: null,
+      prevLabel: null,
       error: null,
       isLoaded: false,
       items: []
@@ -13,13 +17,26 @@ class TalkSuggestions extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.github.com/repos/RubyNepal/rorh/issues?state=open&per_page=4')
-      .then(res => res.json())
+    this.fetchAPI(this.state.firstLink);
+  }
+
+  fetchAPI(page){
+    fetch(page)
+      .then((res) => {
+        return res.json().then(json => ({
+          headers: res.headers,
+          items: json
+        }));
+      })
       .then(
         (result) => {
+          const links = parse(result.headers.get('Link'));
           this.setState({
             isLoaded: true,
-            items: result
+            items: result.items,
+            currentPage: page,
+            nextLabel: (links && links.next),
+            prevLabel: (links && links.prev)
           });
         },
         (error) => {
@@ -29,6 +46,48 @@ class TalkSuggestions extends Component {
           });
         }
       );
+  }
+
+  onStepChange(direction){
+    const { prevLabel, nextLabel } = this.state;
+    if ((direction === 'next') && nextLabel) {
+      this.fetchAPI(nextLabel.url);
+    } else if ((direction === 'previous') && prevLabel) {
+      this.fetchAPI(prevLabel.url);
+    }
+  }
+
+  displayPagination() {
+    const { prevLabel, nextLabel } = this.state;
+    if (prevLabel || nextLabel) {
+      return (
+        <div className="strong-pagination">
+          { this.previousLink() } &nbsp;&nbsp;&nbsp; { this.nextLink() }
+        </div>
+      );
+    }
+  }
+
+  previousLink() {
+    const { prevLabel } = this.state;
+    if (prevLabel){
+      return (
+        <button className="button is-success is-inverted" onClick={() => this.onStepChange('previous')}>
+          <i className="fas fa-arrow-left"></i>
+        </button>
+      );
+    }
+  }
+
+  nextLink() {
+    const { nextLabel } = this.state;
+    if (nextLabel) {
+      return (
+        <button className="button is-success is-inverted" onClick={() => this.onStepChange('next')}>
+          <i className="fas fa-arrow-right"></i>
+        </button>
+      );
+    }
   }
 
   render() {
@@ -50,6 +109,7 @@ class TalkSuggestions extends Component {
               <TalkItem key={item.id} title={item.title} body={item.body} user={item.user.login} avatarUrl={item.user.avatar_url} />
             ))}
           </ul>
+          { this.displayPagination() }
         </div>
       );
     }
