@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import TalkItem from './talkItem';
 import parse from 'parse-link-header';
 
-
 class TalkSuggestions extends Component {
   constructor(props) {
     super(props);
