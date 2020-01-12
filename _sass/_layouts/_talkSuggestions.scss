@@ -1,0 +1,32 @@
+.suggestion-intro {
+  font-size: large;
+  font-weight: bold;
+  margin: 37px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.talk-items {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+
+  .talk-item {
+    margin: 20px;
+    width: 45%;
+  }
+
+  .text-truncate {
+    display: initial;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.strong-pagination {
+  display: flex;
+  justify-content: center;
+}

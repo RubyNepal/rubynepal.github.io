@@ -1,9 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: './js/meetup.js',
+  entry: {
+    meetup: './js/meetup.js',
+    talkSuggestions: './js/talkSuggestions.js'
+  },
   output: {
-    filename: 'meetup.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'bundle')
   },
   module: {
