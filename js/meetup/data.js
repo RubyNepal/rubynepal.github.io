@@ -1,5 +1,48 @@
 const meetups = [
   {
+    episode: 16,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2019-02-04',
+    start_time: '06:00 pm',
+    end_time: '07:00 pm',
+    address: 'Gyaneshwor, Kathmandu · Kathmandu',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {
+      link: 'https://codysseynepal.com/',
+      logo: 'https://codysseynepal.com/images/codyssey-logo-no-web-black.png',
+      name: 'Codyssey'
+    },
+    sessions: [
+      {
+        id: 1,
+        title: 'ActiveSupport Instrumentation',
+        description: null,
+        speaker: 'Dipendra Shrestha',
+        twitter_username: 'DipzShr',
+        github_username: 'dipzshr',
+        designation: 'Team Lead, Sr. Developer',
+        slides_link: 'https://docs.google.com/presentation/d/1vFp9F2Z027mSy4aoul4XBqPgqi7E997d_AnbqgncfYY/edit#slide=id.p',
+        video_link: 'https://www.facebook.com/RubyNepal.org/videos/1351192251735896/',
+        demo_link: ''
+      },
+      {
+        id: 2,
+        title: 'Comments in Rails Migrations and Databases',
+        description: null,
+        speaker: 'Suman Awal',
+        twitter_username: 'awalsuman43',
+        github_username: 'sumanawal',
+        designation: 'Software Developer',
+        slides_link: 'https://docs.google.com/presentation/d/1u9Z3I8GWBW9ty85eyfNCtB0SYpRXA0sFOlus0HsVgmc/edit#slide=id.g7d3a7f815e_0_268',
+        video_link: 'https://www.facebook.com/RubyNepal.org/videos/1351192251735896/',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 15,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2019-12-24',
