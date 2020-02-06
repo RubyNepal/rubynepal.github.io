@@ -21,7 +21,7 @@ const meetups = [
         title: 'ActiveSupport Instrumentation',
         description: null,
         speaker: 'Dipendra Shrestha',
-        twitter_username: '',
+        twitter_username: 'DipzShr',
         github_username: 'dipzshr',
         designation: 'Team Lead, Sr. Developer',
         slides_link: 'https://docs.google.com/presentation/d/1vFp9F2Z027mSy4aoul4XBqPgqi7E997d_AnbqgncfYY/edit#slide=id.p',
