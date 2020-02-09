@@ -220,8 +220,7 @@ class App extends Component {
                 <h2 className="sponsors-and-supporters-heading">Venue Sponsor</h2>
                 <ul className="sponsors">
                   <li className="sponsor">
-                    <img className="sponsor-logo" src={meetup.venue_sponsor.logo}
-                      alt={meetup.venue_sponsor.name}/>
+                    <img className="sponsor-logo" src={meetup.venue_sponsor.logo} alt={meetup.venue_sponsor.name}/>
                     <a href={meetup.venue_sponsor.link} target="_blank" rel="noopener noreferrer"><h2 className="meetup-venue">{meetup.venue_sponsor.name}</h2></a>
                     <p className="meetup-address">{meetup.address}</p>
                   </li>

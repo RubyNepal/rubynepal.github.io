@@ -42,6 +42,7 @@ plugins:
   - jekyll-paginate
   - jekyll-avatar
   - jekyll-twitter-plugin
+  - jekyll-youtube
 
 sass:
   sass_dir: _sass
