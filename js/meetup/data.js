@@ -140,6 +140,8 @@ const meetups = [
       twitter_username: 'zoraslapen'
     },
     venue_sponsor: {
+      link: '',
+      logo: '',
       name: 'The Village Cafe'
     },
     sessions: [
