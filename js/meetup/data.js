@@ -2,7 +2,7 @@ const meetups = [
   {
     episode: 16,
     title: 'RoR Himalayan Meetup at Kathmandu',
-    date: '2019-02-04',
+    date: '2020-02-04',
     start_time: '06:00 pm',
     end_time: '07:00 pm',
     address: 'Gyaneshwor, Kathmandu · Kathmandu',
