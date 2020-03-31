@@ -24,7 +24,7 @@ Let's talk about css framework, I see the twitter handle of saroj dai and there 
 
 Some of the jekyll plugin used are as follows:
 
-- **[jekyll-admin](https://github.com/jekyll/jekyll-admin)** :  A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites. 
+- **[jekyll-admin](https://github.com/jekyll/jekyll--admin)** :  A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites. 
 
 - **[jekyll-avatar](https://github.com/benbalter/jekyll-avatar)** :  A Jekyll plugin for rendering GitHub avatars 
 
