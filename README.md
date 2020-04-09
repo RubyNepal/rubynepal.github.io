@@ -65,11 +65,11 @@ Keep the pull request focused on one thing - if you make two different, unrelate
 - [Susan Joshi](https://twitter.com/josisusan)
 - [Rohit Joshi](https://twitter.com/roxxypoxxy)
 
-## Contributors
+## Contributors ✨
 
-- Many thanks to the site's recent contributors: [github.com/RubyNepal/rubynepal.github.io/contributors](https://github.com/RubyNepal/rubynepal.github.io/graphs/contributors)
+Thanks goes to all these [wonderful people](github.com/RubyNepal/rubynepal.github.io/contributors):
 
-- [Madhu Sudhan](https://twitter.com/sudhansubedi)
+<a href="https://github.com/RubyNepal/rubynepal.github.io/contributors"><img src="https://opencollective.com/rubynepal/contributors.svg?width=890&button=false" /></a>
 
 ## LICENSE
 
