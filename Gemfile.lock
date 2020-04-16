@@ -120,7 +120,7 @@ GEM
       nenv (~> 0.1)
       shellany (~> 0.0)
     parallel (1.19.1)
-    parser (2.7.0.5)
+    parser (2.7.1.1)
       ast (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -141,7 +141,7 @@ GEM
     replace_regex (0.1.0)
     rexml (3.2.4)
     rouge (3.17.0)
-    rubocop (0.81.0)
+    rubocop (0.82.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
@@ -207,7 +207,7 @@ DEPENDENCIES
   parallel (~> 1.19)
   rake (~> 13.0)
   replace_regex (~> 0.1)
-  rubocop (~> 0.81)
+  rubocop (~> 0.82)
   scss_lint (~> 0.59)
   tzinfo-data
 
