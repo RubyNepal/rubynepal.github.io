@@ -95,12 +95,12 @@ task :html_proofer => [:build] do
       timeframe: '6w'
     },
     check_external_hash: true,
-    # check_html: true,
+    check_html: true,
     check_img_http: true,
     check_opengraph: true,
     # check_sri: true,
     disable_external: true,
-    # enforce_https: true,
+    enforce_https: true,
     in_processes: 3,
     url_ignore: [host_regex]
   }
