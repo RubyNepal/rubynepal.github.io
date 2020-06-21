@@ -72,7 +72,7 @@ class TalkSuggestions extends Component {
     if (prevLabel){
       return (
         <button className="button is-success is-inverted" onClick={() => this.onStepChange('previous')}>
-          <i className="fas fa-arrow-left"></i>
+          <i className="icon-arrow-left"></i>
         </button>
       );
     }
@@ -83,7 +83,7 @@ class TalkSuggestions extends Component {
     if (nextLabel) {
       return (
         <button className="button is-success is-inverted" onClick={() => this.onStepChange('next')}>
-          <i className="fas fa-arrow-right"></i>
+          <i className="icon-arrow-right"></i>
         </button>
       );
     }
