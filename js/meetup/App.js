@@ -13,7 +13,7 @@ import {
 function TwitterIcon(props) {
   if (props.twitter_username) {
     const twitter_profile = `${TWITTER_URL}/${props.twitter_username}`;
-    return <a href={twitter_profile} target="_blank" rel='noopener noreferrer'><i className="fab fa-twitter speaker-twitter"></i></a>;
+    return <a href={twitter_profile} target="_blank" rel='noopener noreferrer'><i className="icon-twitter speaker-twitter"></i></a>;
   } else {
     return false;
   }
@@ -22,7 +22,7 @@ function TwitterIcon(props) {
 function GithubIcon(props) {
   if (props.github_username) {
     const github_profile = `${GITHUB_URL}/${props.github_username}`;
-    return <a href={github_profile} target="_blank" rel='noopener noreferrer'><i className="fab fa-github speaker-github"></i></a>;
+    return <a href={github_profile} target="_blank" rel='noopener noreferrer'><i className="icon-github speaker-github"></i></a>;
   } else {
     return false;
   }
@@ -45,9 +45,9 @@ function SlideAndVideo(props) {
   const demo_link =  props.session.demo_link;
   if (props.session && (slides_link || video_link || demo_link)) {
     return (<div className="slide-and-video">
-      {slides_link && <a href={slides_link} target="_blank" rel='noopener noreferrer'><i className="fas fa-sliders-h"></i>  Slide</a>} &nbsp;&nbsp;
-      {video_link && <a href={video_link} target="_blank" rel='noopener noreferrer'><i className="fab fa-youtube"></i>  Video</a>} &nbsp;&nbsp;
-      {demo_link && <a href={demo_link} target="_blank" rel='noopener noreferrer'><i className="fas fa-laptop"></i>  Demo</a>}
+      {slides_link && <a href={slides_link} target="_blank" rel='noopener noreferrer'><i className="icon-file-powerpoint-o"></i>  Slide</a>} &nbsp;&nbsp;
+      {video_link && <a href={video_link} target="_blank" rel='noopener noreferrer'><i className="icon-youtube-play"></i>  Video</a>} &nbsp;&nbsp;
+      {demo_link && <a href={demo_link} target="_blank" rel='noopener noreferrer'><i className="icon-laptop"></i>  Demo</a>}
     </div>);
   } else {
     return false;
@@ -179,13 +179,13 @@ class App extends Component {
                   <button className="button is-success is-inverted"
                     onClick={() => this.onStepChange('previous')}
                   >
-                    <i className="fas fa-arrow-left"></i>
+                    <i className="icon-arrow-left"></i>
                   </button>
                   &nbsp;&nbsp;&nbsp;
                   <button className="button is-success is-inverted"
                     onClick={() => this.onStepChange('next')}
                   >
-                    <i className="fas fa-arrow-right"></i>
+                    <i className="icon-arrow-right"></i>
                   </button>
                 </strong>
                 {this.renderMsg()}

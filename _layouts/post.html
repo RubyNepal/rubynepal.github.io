@@ -11,7 +11,7 @@ layout: default
             <div class="media-content has-text-centered">
               <p class="title article-title">{{ page.title}}</p>
               <p class="subtitle is-6 article-subtitle">
-                <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%-d %B, %Y" }}
+                <i class="icon-calendar"></i> {{ page.date | date: "%-d %B, %Y" }}
                 {% include read-time.html
                            content=content
                            bracket_start='('
@@ -31,15 +31,15 @@ layout: default
             <div class="buttons is-centered">
               <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
                  rel="nofollow" target="_blank" title="Share on Twitter" class="button">
-                <span><i class="fab fa-twitter"></i> &nbsp;Twitter</span>
+                <span><i class="icon-twitter"></i> &nbsp;Twitter</span>
               </a>
               <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"
                  rel="nofollow" target="_blank" title="Share on Facebook"  class="button">
-                <span><i class="fab fa-facebook"></i> &nbsp;Facebook</span>
+                <span><i class="icon-facebook-official"></i> &nbsp;Facebook</span>
               </a>
               <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
                  rel="nofollow" target="_blank" title="Share on Google+" class="button">
-                <span ><i class="fab fa-google-plus"></i> &nbsp;Google</span>
+                <span ><i class="icon-google-plus-circle"></i> &nbsp;Google</span>
               </a>
             </div>
           </div>
