@@ -1,35 +1,7 @@
-<p class="control social-link-control">
-  <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title='Twitter' class="is-size-5 rnw-social-link">
-    <i class="icon-twitter"></i>
-  </a>
-</p>
-<p class="control social-link-control">
-  <a href="https://github.com/{{ site.github_username }}" target="_blank" title='GitHub' class="is-size-5 rnw-social-link">
-    <i class="icon-github"></i>
-  </a>
-</p>
-<p class="control social-link-control">
-  <a href="https://www.youtube.com/channel/{{site.youtube_channelname}}" target="_blank" title='YouTube' class="is-size-6 rnw-social-link">
-    <i class="icon-youtube-play"></i>
-  </a>
-</p>
-<p class="control social-link-control">
-  <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title='Facebook' class="is-size-5 rnw-social-link">
-    <i class="icon-facebook-official"></i>
-  </a>
-</p>
-<!-- <p class="control social-link-control">
-  <a href="https://{{ site.slack_username }}.slack.com/" target="_blank" title='Slack' class="is-size-5 rnw-social-link">
-    <i class="icon-slack"></i>
-  </a>
-</p>
-<p class="control social-link-control">
-  <a href="https://www.meetup.com/{{ site.meetup_username }}" target="_blank" title='Meetup' class="is-size-5 rnw-social-link">
-    <i class="icon-meetup"></i>
-  </a>
-</p> -->
-<p class="control social-link-control">
-  <a href="/feed.xml" target="_blank" title='Subscribe' class="is-size-5 rnw-social-link">
-    <i class="icon-rss"></i>
-  </a>
-</p>
+{% for link in site.links %}
+  <p class="control social-link-control">
+    <a href="{{ link.url }}" target="_blank" title="{{ link.title }}" class="is-size-5 rnw-social-link">
+      <i class="{{ link.icon }}"></i>
+    </a>
+  </p>
+{% endfor %}
