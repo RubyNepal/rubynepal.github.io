@@ -24,6 +24,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.rubynepal.org" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:title
 twitter_username: "ruby_nepal" # used in post sharing
+slack_username: "rubynepal"
+meetup_username: "Nepal-Ruby-Users-Group"
 paginate: 5
 paginate_path: "/blog/page:num/"
 
