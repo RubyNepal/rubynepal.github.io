@@ -17,11 +17,17 @@ config_file = '_config.yml' # Name of Jekyll config file
 
 # Standard tasks
 # [:rubocop, 'jshint', :html_proofer]
-multitask default: %i[rubocop jshint html_proofer]
+multitask default: %i[jshint html_proofer]
 
 # Rubocop Rake
-RuboCop::RakeTask.new(:rubocop) do |t|
-  t.options = ['--display-cop-names', '.']
+desc 'Run RuboCop on the lib directory'
+RuboCop::RakeTask.new(:rubocop) do |task|
+  task.options = ['--display-cop-names', '.']
+  task.patterns = ['**/*.rb']
+  # only show the files with failures
+  task.formatters = ['files']
+  # abort rake on failure
+  task.fail_on_error = true
 end
 
 # https://github.com/brigade/scss-lint#rake-integration
@@ -87,6 +93,7 @@ end
 desc "Test the website"
 task :html_proofer => [:build] do
   # Rake::Task['build'].invoke
+  puts "⚡️  Checking HTML".blue
   host_regex = Regexp.new(site_domain(config_file))
   options = {
     allow_hash_href: true,
@@ -98,10 +105,14 @@ task :html_proofer => [:build] do
     check_html: true,
     check_img_http: true,
     check_opengraph: true,
-    # check_sri: true,
+    check_sri: false,
     disable_external: true,
     enforce_https: true,
     in_processes: 3,
+    report_eof_tags: true,
+    report_invalid_tags: true,
+    report_mismatched_tags: true,
+    report_missing_doctype: true,
     url_ignore: [host_regex]
   }
   begin

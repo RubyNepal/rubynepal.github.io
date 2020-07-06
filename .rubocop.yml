@@ -3,7 +3,7 @@
 inherit_from: .rubocop_todo.yml
 
 AllCops:
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 2.7
   Exclude:
     - vendor/**/* # Ignore Travis-CI build directory
     - Guardfile
