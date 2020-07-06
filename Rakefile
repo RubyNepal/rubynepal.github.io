@@ -17,7 +17,7 @@ config_file = '_config.yml' # Name of Jekyll config file
 
 # Standard tasks
 # [:rubocop, 'jshint', :html_proofer]
-multitask default: %i[jshint html_proofer]
+multitask default: %i[rubocop jshint html_proofer]
 
 # Rubocop Rake
 desc 'Run RuboCop on the lib directory'
@@ -102,6 +102,7 @@ task :html_proofer => [:build] do
       timeframe: '6w'
     },
     check_external_hash: true,
+    check_favicon: true,
     check_html: true,
     check_img_http: true,
     check_opengraph: true,
