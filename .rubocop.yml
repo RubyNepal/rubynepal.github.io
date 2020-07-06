@@ -1,7 +1,12 @@
 # https://raw.githubusercontent.com/bbatsov/rubocop/master/config/enabled.yml
 # http://rubocop.readthedocs.io/en/latest/
 
-require: rubocop-performance
+require:
+  - rubocop-jekyll
+  - rubocop-performance
+
+inherit_gem:
+  rubocop-jekyll: .rubocop.yml
 
 inherit_from: .rubocop_todo.yml
 
@@ -12,7 +17,7 @@ AllCops:
     - Guardfile
   DisplayCopNames:
     enabled: true
-  NewCops: enable
+  # NewCops: enable
 
 Lint:
   Enabled: true
