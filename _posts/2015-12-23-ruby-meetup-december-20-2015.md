@@ -31,13 +31,13 @@ First speaker was [Ludwine Probst](https://twitter.com/nivdul){:.rnw-link}, data
     caption="Ganesh Kunwar talking about TDD in Rails"
 %}
 
-Second speaker was [Ganesh Kunwar](https://twitter.com/gkunwar1){:.rnw-link}, Sr. Ruby Developer from Jyaasa on the topic "Test Driven Development(TDD Basics)". He briefly explained on how TDD can be practiced easily with gems like RSpec, Test/Unit, Capybara with some code samples. He shared his experience on TDD workflow on codebase. He shed some light on TDD (Test Driven Development) and DDT (Development Driven Test) approach which not only clarified the value of TDD in QC (Quality Control) but also significantly improving the overall architecture of the system design itself. You can download the  slides [here](http://files.meetup.com/18762323/Test%20Driven%20Development%20%28TDD%29%20-%20Ruby%20Nepal%20Meetup%20-%20Dec%2020%2C2015.pdf){:.rnw-link}
+Second speaker was [Ganesh Kunwar](https://twitter.com/gkunwar1){:.rnw-link}, Sr. Ruby Developer from Jyaasa on the topic "Test Driven Development(TDD Basics)". He briefly explained on how TDD can be practiced easily with gems like RSpec, Test/Unit, Capybara with some code samples. He shared his experience on TDD workflow on codebase. He shed some light on TDD (Test Driven Development) and DDT (Development Driven Test) approach which not only clarified the value of TDD in QC (Quality Control) but also significantly improving the overall architecture of the system design itself. You can download the  slides [here](https://files.meetup.com/18762323/Test%20Driven%20Development%20%28TDD%29%20-%20Ruby%20Nepal%20Meetup%20-%20Dec%2020%2C2015.pdf){:.rnw-link}
 
-A big thank you to [CloudFactory](http://www.cloudfactory.com/home){:.rnw-link} for sponsoring December RubyNepal Meetup and [Innovation Hub Kathmandu](https://www.facebook.com/IHKathmandu){:.rnw-link} for the awesome venue.
+A big thank you to [CloudFactory](https://www.cloudfactory.com/home){:.rnw-link} for sponsoring December RubyNepal Meetup and [Innovation Hub Kathmandu](https://www.facebook.com/IHKathmandu){:.rnw-link} for the awesome venue.
 
 We are using github issue to manage our meetup presentation. You can open [issue](https://github.com/RubyNepal/rorh/issues){:.rnw-link} if you want to share your experience or present on topic that intrests you.
 
-See you at next [Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
+See you at next [Ruby and Rails meetup](https://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
 
 {% include image.html
     img="https://secure.meetupstatic.com/photos/event/d/9/8/4/highres_445315684.jpeg"

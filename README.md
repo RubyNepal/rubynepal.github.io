@@ -7,7 +7,7 @@ The RubyNepal.org is a static site powered by [jekyll](https://jekyllrb.com/). T
 If jekyll is new to you, you may want to go through its [docs](https://jekyllrb.com/docs/home/) first.
 [CloudCannon](https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/) has some excellent jekyll video tutorials as well.
 
-You can also use [prose.io](http://prose.io) to submit the changes without cloning the repo.
+You can also use [prose.io](https://prose.io) to submit the changes without cloning the repo.
 
 Steps:
 
