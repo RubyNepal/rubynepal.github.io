@@ -28,6 +28,7 @@ Lint:
 
 Layout/LineLength:
   IgnoredPatterns: ['\A#'] # make rubocop ignore comments using regex
+  # https://github.com/jekyll/rubocop-jekyll/blob/master/.rubocop.yml
   Max: 100
   Severity: warning
 Layout/HashAlignment:
