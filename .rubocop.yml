@@ -47,10 +47,8 @@ Layout/EmptyComment:
 Layout/EndAlignment:
   Severity: error
 
-
 Lint/UnreachableCode:
   Severity: error
-
 
 Metrics/AbcSize:
   Max: 21
@@ -70,12 +68,10 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Max: 8
 
-
 Naming/FileName:
   Enabled: false
 Naming/MemoizedInstanceVariableName:
   EnforcedStyleForLeadingUnderscores: optional
-
 
 Style/AccessModifierDeclarations:
   Enabled: false

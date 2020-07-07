@@ -24,7 +24,8 @@ matrix:
 # install: gem install jekyll html-proofer
 
 script:
-  - bundle exec rake default
+  - bundle exec rake html_proofer
+  - bundle exec rake rubocop
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
