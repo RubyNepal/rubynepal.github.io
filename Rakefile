@@ -23,7 +23,6 @@ multitask default: %i[rubocop jshint html_proofer]
 desc 'Run RuboCop on the lib directory'
 RuboCop::RakeTask.new(:rubocop) do |task|
   task.requires.push(
-    'rubocop-jekyll',
     'rubocop-performance'
   )
   task.options = ['--display-cop-names', '.']
