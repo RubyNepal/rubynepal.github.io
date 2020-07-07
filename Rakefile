@@ -96,6 +96,7 @@ end
 desc "Test the website"
 task :html_proofer => [:build] do
   # Rake::Task['build'].invoke
+  # sh "bundle exec jekyll build"
   puts "⚡️  Checking HTML".blue
   host_regex = Regexp.new(site_domain(config_file))
   options = {
@@ -119,12 +120,12 @@ task :html_proofer => [:build] do
     report_missing_doctype: true,
     url_ignore: [host_regex]
   }
-  begin
+  # begin
     puts "Running html proofer...".yellow.bold
     HTMLProofer.check_directory("./_site", options).run
-  rescue => msg
-    puts "#{msg}"
-  end
+  # rescue => msg
+  #   puts "#{msg}"
+  # end
 end
 
 # Misc Methods
