@@ -13,11 +13,11 @@ exclude_paths:
   - _site/js/**/*.js
 
 # ------------ jshint options ------------
-# visit http://jshint.com/ for complete documentation
+# visit https://jshint.com/ for complete documentation
 
 # "enforce" type options (true means potentially more warnings)
 
-# adsafe:   false     # true if ADsafe rules should be enforced. See http://www.ADsafe.org/
+# adsafe:   false     # true if ADsafe rules should be enforced. See https://www.ADsafe.org/
 bitwise:  true      # true if bitwise operators should not be allowed
 newcap:   true      # true if Initial Caps must be used with constructor functions
 eqeqeq:   false     # true if === should be required (for ALL equality comparisons)

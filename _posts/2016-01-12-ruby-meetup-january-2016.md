@@ -20,7 +20,7 @@ The first talk was titled "[Performance Improvement of Rails Application](https:
     caption="Sadiksha Gautam on stage"
 %}
 
-Some good tips on profiling, caching and optimization were shared along with her [slides](http://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf){:.rnw-link} which you can sneak into your Rails app and claim your performance bonus raise. Kudos to Sadiksha for giving the presentation while being unwell. Get well soon!
+Some good tips on profiling, caching and optimization were shared along with her [slides](https://files.meetup.com/18762323/Performance_Improvement_Sadiksha_Gautam-Ruby_Nepal_Meetup-Jan_10.pdf){:.rnw-link} which you can sneak into your Rails app and claim your performance bonus raise. Kudos to Sadiksha for giving the presentation while being unwell. Get well soon!
 
 {% include image.html
     img="https://secure.meetupstatic.com/photos/event/b/a/0/0/600_445787616.jpeg"
@@ -49,7 +49,7 @@ Too bad if you missed this **advanced talk** as some serious *Q&A* took place af
 
 If you haven't heard then we [hangout](https://rubynepal-slack.herokuapp.com/){:.rnw-link} on [Slack](https://rubynepal.slack.com/){:.rnw-link} and use github issues to schedule and manage our meetup presentations. You can pick/open [issue](https://github.com/RubyNepal/rorh/issues){:.rnw-link} if you want to share your experience or want others to present on topic that intrests you.
 
-Meetup attendees thank [Bibek Shrestha](https://twitter.com/bibstha){:.rnw-link} from Austria for the wonderful stickers all the way from [RubyConf 2015 (Texas, US)](http://confreaks.tv/events/rubyconf2015){:.rnw-link}.
+Meetup attendees thank [Bibek Shrestha](https://twitter.com/bibstha){:.rnw-link} from Austria for the wonderful stickers all the way from [RubyConf 2015 (Texas, US)](https://confreaks.tv/events/rubyconf2015){:.rnw-link}.
 
 {% include image.html
     img="https://secure.meetupstatic.com/photos/event/9/e/c/0/highres_445480640.jpeg"
@@ -58,14 +58,14 @@ Meetup attendees thank [Bibek Shrestha](https://twitter.com/bibstha){:.rnw-link}
     caption="More stickers courtesy of Bibek Shrestha"
 %}
 
-Also, warm greetings to [CloudFactory](http://www.cloudfactory.com/home){:.rnw-link} for allowing us to use the spacious training hall and snacks for the event. Like it's said, "One step into the past, one into the future". Both speakers happen to be my good old #RubyFriends and it was good to see some old faces! So, don't forget your friends and take care of your family.
+Also, warm greetings to [CloudFactory](https://www.cloudfactory.com/home){:.rnw-link} for allowing us to use the spacious training hall and snacks for the event. Like it's said, "One step into the past, one into the future". Both speakers happen to be my good old #RubyFriends and it was good to see some old faces! So, don't forget your friends and take care of your family.
 
-Have a great year ahead and see you at the next [Ruby and Rails meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
+Have a great year ahead and see you at the next [Ruby and Rails meetup](https://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
 
-Event page: [http://www.meetup.com/Nepal-Ruby-Users-Group/events/226808320/](http://www.meetup.com/Nepal-Ruby-Users-Group/events/226808320/){:.rnw-link}
+Event page: [https://www.meetup.com/Nepal-Ruby-Users-Group/events/226808320/](https://www.meetup.com/Nepal-Ruby-Users-Group/events/226808320/){:.rnw-link}
 
-High resolution snapshots: [http://www.meetup.com/Nepal-Ruby-Users-Group/photos/26660245/](http://www.meetup.com/Nepal-Ruby-Users-Group/photos/26660245/){:.rnw-link}
+High resolution snapshots: [https://www.meetup.com/Nepal-Ruby-Users-Group/photos/26660245/](https://www.meetup.com/Nepal-Ruby-Users-Group/photos/26660245/){:.rnw-link}
 
 > Saroj Maharjan - [zoras](https://twitter.com/zoraslapen){:.rnw-link}
 
-> Organiser, [Ruby and Rails Meetup](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
+> Organiser, [Ruby and Rails Meetup](https://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}

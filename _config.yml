@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The aim of this community is to support, encourage and spread the use and adoption of the Ruby programming language in Nepal,
    and to develop a vibrant community around the language and related technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.rubynepal.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.rubynepal.org" # the base hostname & protocol for your site, e.g. https://example.com
 permalink: /blog/:title
 twitter_username: "ruby_nepal" # used in post sharing
 slack_username: "rubynepal"

@@ -23,17 +23,17 @@ sass-lint:
 # https://github.com/jshint/jshint
 jshint:
   enabled: false # default true
-  # http://jshint.com/docs/options/
+  # https://jshint.com/docs/options/
   # config_file: .jshintrc
   # ignore_file: .javascript_ignore
 
-# http://eslint.org/
+# https://eslint.org/
 eslint:
   enabled: true # default false
-  # http://eslint.org/docs/rules/
+  # https://eslint.org/docs/rules/
   config_file: .eslintrc.json
 
-# http://www.coffeelint.org/
+# https://www.coffeelint.org/
 coffeescript:
   enabled: false # default true
   # config_file: coffeelint.json

@@ -27,12 +27,12 @@ Even if you have a tiny inkling that you'd want to speak, like your experience, 
 
 Great business starts with unsurpassed people skills, it is a great oppurtunity for tech business houses to be promoted and find connections at the event. We welcome sponsorship of any kind financial, promotional, resources or even may be a service or server.
 
-For more details and to RSVP checkout our meetup page at [http://www.meetup.com/Nepal-Ruby-Users-Group/](http://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
+For more details and to RSVP checkout our meetup page at [https://www.meetup.com/Nepal-Ruby-Users-Group/](https://www.meetup.com/Nepal-Ruby-Users-Group/){:.rnw-link}
 
 See you at the next Ruby and Rails meetup!
 
 > Edited and reposted by Saroj Maharjan (orginal content by Rohit Joshi)
 
-> Saroj Maharjan - [zoras](http://twitter.com/zoraslapen){:.rnw-link}
+> Saroj Maharjan - [zoras](https://twitter.com/zoraslapen){:.rnw-link}
 
 > Organiser, Ruby and Rails Meetup

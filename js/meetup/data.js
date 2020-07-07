@@ -54,8 +54,8 @@ const meetups = [
       twitter_username: 'josisusan'
     },
     venue_sponsor: {
-      link: 'http://jyaasa.com/',
-      logo: 'http://jyaasa.com/img/logo-transparent.png',
+      link: 'https://jyaasa.com/',
+      logo: 'https://jyaasa.com/img/logo-transparent.png',
       name: 'Jyaasa'
     },
     sessions: [
@@ -488,8 +488,8 @@ const meetups = [
       twitter_username: 'zoraslapen'
     },
     venue_sponsor: {
-      link: 'http://www.leapfrog.academy/',
-      logo: 'http://www.leapfrog.academy/themes/website/assets/img/logo_main.png',
+      link: 'https://www.leapfrog.academy/',
+      logo: 'https://www.leapfrog.academy/themes/website/assets/img/logo_main.png',
       name: 'Leapfrog Academy'
     },
     sessions: [
@@ -685,7 +685,7 @@ const meetups = [
         twitter_username: 'madhurakhal',
         github_username: 'madhurakhal',
         designation: 'Software Engineer',
-        slides_link: 'http://slides.com/rakhalmadhu/ecmascript2015-es6#/',
+        slides_link: 'https://slides.com/rakhalmadhu/ecmascript2015-es6#/',
         video_link: null,
         demo_link: null
       },
