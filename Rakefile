@@ -17,7 +17,7 @@ config_file = '_config.yml' # Name of Jekyll config file
 
 # Standard tasks
 # [:rubocop, 'jshint', :html_proofer]
-multitask default: %i[rubocop jshint html_proofer]
+multitask default: %i[jshint html_proofer]
 
 # Rubocop Rake
 desc 'Run RuboCop on the lib directory'
