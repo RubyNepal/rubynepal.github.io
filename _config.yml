@@ -23,34 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.rubynepal.org" # the base hostname & protocol for your site, e.g. https://example.com
 permalink: /blog/:title
-twitter_username: "ruby_nepal" # used in post sharing
-slack_username: "rubynepal"
-meetup_username: "Nepal-Ruby-Users-Group"
 paginate: 5
 paginate_path: "/blog/page:num/"
-
-links:
-  - title: Twitter
-    url: https://twitter.com/ruby_nepal/
-    icon: icon-twitter
-  - title: GitHub
-    url: https://github.com/rubynepal/
-    icon: icon-github
-  - title: YouTube Channel
-    url: https://www.youtube.com/channel/UCoRCDWyFmaby7F4qWRUHgAQ
-    icon: icon-youtube-play
-  - title: Facebook
-    url: https://www.facebook.com/RubyNepal.org
-    icon: icon-facebook-official
-  # - title: Slack
-  #   url: https://rubynepal.slack.com/
-  #   icon: icon-slack
-  # - title: Meetup
-  #   url: https://www.meetup.com/Nepal-Ruby-Users-Group/
-  #   icon: icon-meetup
-  - title: Subscribe
-    url: /feed.xml
-    icon: icon-rss
 
 # Build settings
 markdown: kramdown
@@ -108,3 +82,40 @@ exclude:
   - Rakefile
   - Guardfile
   - node_modules
+
+social:
+  usernames:
+    twitter: &twitter_username "ruby_nepal"
+    github: &github_username "rubynepal"
+    facebook: &facebook_username "RubyNepal.org"
+    slack: &slack_username "rubynepal"
+    meetup: &meetup_username "Nepal-Ruby-Users-Group"
+    youtube: &youtube_channelname "UCoRCDWyFmaby7F4qWRUHgAQ"
+  links:
+    - title: Twitter
+      url: https://twitter.com/
+      icon: icon-twitter
+      username: *twitter_username
+    - title: GitHub
+      url: https://github.com/
+      icon: icon-github
+      username: *github_username
+    - title: YouTube Channel
+      url: https://www.youtube.com/channel/
+      icon: icon-youtube-play
+      username: *youtube_channelname
+    - title: Facebook
+      url: https://www.facebook.com/
+      icon: icon-facebook-official
+      username: *facebook_username
+    # - title: Slack
+    #   url: https://rubynepal.slack.com/
+    #   icon: icon-slack
+    #   username: *slack_username
+    # - title: Meetup
+    #   url: https://www.meetup.com/Nepal-Ruby-Users-Group/
+    #   icon: icon-meetup
+    #   username: *meetup_username
+    - title: Subscribe
+      url: /feed.xml
+      icon: icon-rss
