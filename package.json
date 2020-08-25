@@ -34,7 +34,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "css-loader": "^4.2.1",
+    "css-loader": "^4.2.2",
     "eslint": "^7.6.0",
     "eslint-plugin-react": "^7.20.5",
     "style-loader": "^1.2.1",
