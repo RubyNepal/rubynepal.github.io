@@ -1,5 +1,44 @@
 const meetups = [
   {
+    episode: 17,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2020-09-22',
+    start_time: '06:30 pm',
+    end_time: '08:30 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: 'Testing With Minitest',
+        description: null,
+        speaker: 'Victor Goff',
+        twitter_username: 'kotp',
+        github_username: 'kotp',
+        designation: 'Ruby Mentor',
+        slides_link: '/assets/meetup_sept_2020_minitest_victor.pdf',
+        video_link: '',
+        demo_link: ''
+      },
+      {
+        id: 2,
+        title: 'Introduction to Kubernetes',
+        description: null,
+        speaker: 'Dibesh Shrestha',
+        twitter_username: '',
+        github_username: '',
+        designation: 'Sr. DevOps Engineer, RingCentral',
+        slides_link: '/assets/meetup_sept_2020_intro_to_Kubernetes_dibesh.pdf',
+        video_link: '',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 16,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2020-02-04',
@@ -33,7 +72,7 @@ const meetups = [
         title: 'Comments in Rails Migrations and Databases',
         description: null,
         speaker: 'Suman Awal',
-        twitter_username: 'awalsuman43',
+        twitter_username: '',
         github_username: 'sumanawal',
         designation: 'Software Developer',
         slides_link: 'https://docs.google.com/presentation/d/1u9Z3I8GWBW9ty85eyfNCtB0SYpRXA0sFOlus0HsVgmc/edit#slide=id.g7d3a7f815e_0_268',
