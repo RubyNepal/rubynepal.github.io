@@ -129,13 +129,13 @@ class App extends Component {
     const github_username = session.github_username;
 
     if (twitter_username) {
-      const avatar_url = `https://avatar-redirect.appspot.com/twitter/${twitter_username}`;
+      const avatar_url = `https://unavatar.now.sh/twitter/${twitter_username}`;
       return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>;
-    } else if (github_username) {
+    } if (github_username) {
       const avatar_url = `https://avatars.githubusercontent.com/${github_username}`;
       return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>;
     } else {
-      return <Avatar name={session.speaker} size={AVATAR_SIZE} />;
+      return <Avatar color={Avatar.getRandomColor('sitebase', ['red', 'green', 'blue'])} name={session.speaker} size={AVATAR_SIZE} />;
     }
   }
 

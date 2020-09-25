@@ -29,7 +29,7 @@ $ bundle exec jekyll serve # Fires up local server at port 4000
 
 # Make sure linters are happy
 $ npm install
-$ webpack --mode development --watch
+$ npm run watch
 $ bundle exec guard # to auto run tests and other linter checks (js, sass, html)
 $ ./node_modules/.bin/eslint --config .eslintrc.json *.js js/**/*.js --fix
 # Run below command to compile React files (if any changed) into `bundle/meetup.js` file.
