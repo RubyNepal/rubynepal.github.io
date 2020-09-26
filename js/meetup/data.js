@@ -1,6 +1,6 @@
 const meetups = [
   {
-    episode: 17,
+    episode: 19,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2020-09-22',
     start_time: '06:30 pm',
@@ -29,8 +29,8 @@ const meetups = [
         title: 'Introduction to Kubernetes',
         description: null,
         speaker: 'Dibesh Shrestha',
-        twitter_username: '',
-        github_username: '',
+        twitter_username: 'dibeshs',
+        github_username: 'dibeshs',
         designation: 'Sr. DevOps Engineer, RingCentral',
         slides_link: '/assets/meetup_sept_2020_intro_to_Kubernetes_dibesh.pdf',
         video_link: '',
@@ -72,7 +72,7 @@ const meetups = [
         title: 'Comments in Rails Migrations and Databases',
         description: null,
         speaker: 'Suman Awal',
-        twitter_username: '',
+        twitter_username: 'awalsuman43',
         github_username: 'sumanawal',
         designation: 'Software Developer',
         slides_link: 'https://docs.google.com/presentation/d/1u9Z3I8GWBW9ty85eyfNCtB0SYpRXA0sFOlus0HsVgmc/edit#slide=id.g7d3a7f815e_0_268',
