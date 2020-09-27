@@ -1,6 +1,6 @@
 const meetups = [
   {
-    episode: 19,
+    episode: 17,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2020-09-22',
     start_time: '06:30 pm',
