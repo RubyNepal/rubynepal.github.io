@@ -1,5 +1,44 @@
 const meetups = [
   {
+    episode: 19,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2020-09-22',
+    start_time: '06:30 pm',
+    end_time: '08:30 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: 'Testing With Minitest',
+        description: null,
+        speaker: 'Victor Goff',
+        twitter_username: 'kotp',
+        github_username: 'kotp',
+        designation: 'Ruby Mentor',
+        slides_link: '/assets/meetup_sept_2020_minitest_victor.pdf',
+        video_link: 'https://www.youtube.com/watch?v=oFndIybjzCk',
+        demo_link: ''
+      },
+      {
+        id: 2,
+        title: 'Introduction to Kubernetes',
+        description: null,
+        speaker: 'Dibesh Shrestha',
+        twitter_username: 'dibeshs',
+        github_username: 'dibeshs',
+        designation: 'Sr. DevOps Engineer, RingCentral',
+        slides_link: '/assets/meetup_sept_2020_intro_to_Kubernetes_dibesh.pdf',
+        video_link: 'https://www.youtube.com/watch?v=q0qXoNf8_yI',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 16,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2020-02-04',
