@@ -52,6 +52,6 @@ group :development, :test do
   gem 'guard-bundler', '~> 2.2', require: false
   gem 'guard-bundler-audit', '~> 0.1'
   gem 'guard-rake', '~> 1.0'
-  gem 'guard-rubocop', '~> 1.3'
+  gem 'guard-rubocop', '~> 1.4'
   gem 'guard-shell', '~> 0.7'
 end
