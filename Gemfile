@@ -44,7 +44,7 @@ group :development, :test do
   gem 'colorize', '~> 0.8', require: false
   gem 'html-proofer', '~> 3.16'
   gem 'jshint-rb', '~> 1.1', require: false
-  gem 'parallel', '~> 1.19'
+  gem 'parallel', '~> 1.20'
   gem 'rubocop', '~> 1.1', require: false
   gem 'rubocop-performance', '~> 1.8', require: false
   gem 'scss_lint', '~> 0.59', require: false
