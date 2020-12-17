@@ -48,7 +48,7 @@ GEM
     guard-shell (0.7.1)
       guard (>= 2.0.0)
       guard-compat (~> 1.0)
-    html-proofer (3.18.0)
+    html-proofer (3.18.2)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogumbo (~> 2.0)
