@@ -23,7 +23,7 @@
     "parse-link-header": "^1.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
-    "react-avatar": "^3.9.7",
+    "react-avatar": "^3.10.0",
     "react-dom": "^16.14.0",
     "react-router-dom": "^5.2.0"
   },
