@@ -112,7 +112,7 @@ GEM
     mini_portile2 (2.5.0)
     multi_json (1.15.0)
     nenv (0.3.0)
-    nokogiri (1.11.0)
+    nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     nokogumbo (2.0.4)
