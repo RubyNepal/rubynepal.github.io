@@ -49,7 +49,7 @@ group :development, :test do
   gem 'rubocop-performance', '~> 1.10', require: false
   gem 'scss_lint', '~> 0.59', require: false
 
-  gem 'guard-bundler', '~> 2.2', require: false
+  gem 'guard-bundler', '~> 3.0', require: false
   gem 'guard-bundler-audit', '~> 0.1'
   gem 'guard-rake', '~> 1.0'
   gem 'guard-rubocop', '~> 1.4'
