@@ -20,7 +20,7 @@ const meetups = [
         twitter_username: '',
         github_username: '',
         designation: 'Senior Software Engineer, Bajra Technologies',
-        slides_link: '',
+        slides_link: '/assets/meetup_jun_2021_beginner_guide_to_building_api_using_ror_abhinav_and_roman.pdf',
         video_link: '',
         demo_link: ''
       },
