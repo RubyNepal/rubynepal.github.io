@@ -1,5 +1,46 @@
 const meetups = [
   {
+    episode: 18,
+    title: 'RoR Himalayan Meetup at Kathmandu',
+    date: '2021-06-19',
+    start_time: '02:00 pm',
+    end_time: '04:00 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: "Beginner's Guide to building API using Ruby on Rails",
+        description: null,
+        speaker: 'Abhinav Risal',
+        twitter_username: '',
+        github_username: 'arisal2',
+        gitlab_username: 'abhinavrisal99',
+        external_avatar: 'https://gitlab.com/uploads/-/system/user/avatar/2936144/avatar.png?width=90',
+        designation: 'Senior Software Engineer, Bajra Technologies',
+        slides_link: '/assets/meetup_jun_2021_beginner_guide_to_building_api_using_ror_abhinav_and_roman.pdf',
+        video_link: 'https://www.youtube.com/watch?v=DzEPDeovC9g',
+        demo_link: ''
+      },
+      {
+        id: 2,
+        title: "Beginner's Guide to building API using Ruby on Rails (Live Demo)",
+        description: null,
+        speaker: 'Roman KC',
+        twitter_username: '',
+        github_username: 'kcromanpl',
+        designation: 'Software Engineer, Bajra Technologies',
+        slides_link: '',
+        video_link: '',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 17,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2020-09-22',
