@@ -144,7 +144,7 @@ GEM
     replace_regex (0.1.0)
     rexml (3.2.5)
     rouge (3.26.0)
-    rubocop (1.18.1)
+    rubocop (1.18.2)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
