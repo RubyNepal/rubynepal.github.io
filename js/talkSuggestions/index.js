@@ -99,13 +99,12 @@ class TalkSuggestions extends Component {
       return (
         <div>
           <div className="suggestion-intro card">
-            <p> Do you want to give a Talk at the Meetup or Do you have any Suggestion Topics to talk about?</p>
-            <p> Please, feel free to open up an issue at <a href="https://github.com/RubyNepal/rorh/issues" target="_blank" rel="noopener noreferrer">Github</a>
+            <p> Do you want to give a Talk at the Meetup or Do you have any Suggestion Topics to talk about? Please, feel free to open up an issue at <a href="https://github.com/RubyNepal/rorh/issues" target="_blank" rel="noopener noreferrer">Github</a>
             </p>
           </div>
           <ul className="talk-items">
             {items.map(item => (
-              <TalkItem key={item.id} title={item.title} body={item.body} user={item.user.login} avatarUrl={item.user.avatar_url} />
+              <TalkItem key={item.id} title={item.title} body={item.body} user={item.user.login} avatarUrl={item.user.avatar_url} url={item.html_url} />
             ))}
           </ul>
           { this.displayPagination() }
