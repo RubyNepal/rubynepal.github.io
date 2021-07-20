@@ -99,7 +99,7 @@ class TalkSuggestions extends Component {
       return (
         <div>
           <div className="suggestion-intro card">
-            <p> Do you want to speak at upcoming meetups or have any Topic suggestions for others? Please, feel free to open up an issue at <a href="https://github.com/RubyNepal/rorh/issues" target="_blank" rel="noopener noreferrer">Github</a>
+            <p> Do you want to speak at upcoming meetup or have a topic suggestion? Please, feel free to open a <a href="https://github.com/RubyNepal/rorh/issues" target="_blank" rel="noopener noreferrer">Github issue</a>.
             </p>
           </div>
           <ul className="talk-items">
