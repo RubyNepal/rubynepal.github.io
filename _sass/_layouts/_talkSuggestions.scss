@@ -1,7 +1,7 @@
 .suggestion-intro {
+  display: flex;
   font-size: large;
   font-weight: bold;
-  margin: 37px;
   margin-bottom: 0;
   margin-top: 15px;
   padding: 20px;
@@ -9,12 +9,13 @@
 
 .talk-items {
   display: flex;
-  flex-flow: wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 
   .talk-item {
-    margin: 20px;
-    width: 45%;
+    width: 49%;
   }
 
   .text-truncate {
