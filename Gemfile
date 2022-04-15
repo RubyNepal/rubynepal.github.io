@@ -32,7 +32,7 @@ group :jekyll_plugins do
   gem 'jekyll-admin', '~> 0.11'
   gem 'jekyll-analytics', '~> 0.1'
   # gem 'jekyll-autolink_email', '~> 0.1'
-  gem 'jekyll-avatar', '~> 0.7'
+  gem 'jekyll-avatar', '~> 0.8'
   gem 'jekyll-email-protect', '~> 1.1'
   gem 'jekyll-feed', '~> 0.16'
   gem 'jekyll-paginate', '~> 1.1'
