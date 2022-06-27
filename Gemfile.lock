@@ -142,7 +142,7 @@ GEM
     replace_regex (0.1.0)
     rexml (3.2.5)
     rouge (3.28.0)
-    rubocop (1.30.0)
+    rubocop (1.31.0)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -215,7 +215,7 @@ DEPENDENCIES
   parallel (~> 1.22)
   rake (~> 13.0)
   replace_regex (~> 0.1)
-  rubocop (~> 1.30)
+  rubocop (~> 1.31)
   rubocop-performance (~> 1.14)
   scss_lint (~> 0.59)
   tzinfo-data
