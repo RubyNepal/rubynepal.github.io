@@ -1,5 +1,34 @@
 const meetups = [
   {
+    episode: 19,
+    title: 'RoR Himalayan Meetup on Zoom',
+    date: '2022-09-06',
+    start_time: '07:00 pm',
+    end_time: '08:00 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Jonathan Clarke',
+      twitter_username: 'sean_o_cleirigh'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: 'Policing Ruby with Rubocop',
+        description: null,
+        speaker: 'Panuza Parajuli',
+        twitter_username: '',
+        github_username: 'panuza',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/29054159?v=4',
+        designation: 'Software Engineer @ Houzz.com',
+        slides_link: '',
+        video_link: '',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 18,
     title: 'RoR Himalayan Meetup at Kathmandu',
     date: '2021-06-19',
