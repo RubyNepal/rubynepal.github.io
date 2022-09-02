@@ -25,7 +25,50 @@ const meetups = [
         slides_link: '',
         video_link: '',
         demo_link: ''
+      },
+      {
+        id: 2,
+        title: 'Scalable Systems and common problems',
+        description: null,
+        speaker: 'Asmit Ghimire',
+        twitter_username: '',
+        github_username: 'asmitghimire',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/22499401?v=4',
+        designation: 'Software Engineer @ Gurzu',
+        slides_link: '',
+        video_link: '',
+        demo_link: ''
+      },
+      {
+        id: 3,
+        title: 'Introducing StimulusReflex and CableReady',
+        Description: null,
+        speaker: 'Avi Bhutel',
+        twitter_username: '',
+        github_username: 'binarygit',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/87677429?v=4',
+        designation: 'Junior Developer @ OpenFoodNetwork.org',
+        slides_link: '',
+        video_link: '',
+        demo_link: ''
+      },
+      {
+        id: 4,
+        title: 'SAML Authentication',
+        Description: null,
+        speaker: 'Binod Paneru',
+        twitter_username: '',
+        github_username: 'binpaneru1',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/87677429?v=4',
+        designation: 'Software Engineer @ Gurzu',
+        slides_link: '',
+        video_link: '',
+        demo_link: ''
       }
+
     ]
   },
   {
