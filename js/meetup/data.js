@@ -44,7 +44,7 @@ const meetups = [
         id: 3,
         title: 'Introducing StimulusReflex and CableReady',
         Description: null,
-        speaker: 'Avi Bhutel',
+        speaker: 'Avi Bhurtel',
         twitter_username: '',
         github_username: 'binarygit',
         gitlab_username: '',
