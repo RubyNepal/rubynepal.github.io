@@ -20,12 +20,22 @@
   },
   "homepage": "https://github.com/rubynepal/rubynepal.github.io",
   "dependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "https-browserify": "^1.0.0",
+    "node-fetch": "^3.2.10",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "os-browserify": "^0.3.0",
     "parse-link-header": "^2.0.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-avatar": "^3.10.0",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "util": "^0.12.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
