@@ -4,7 +4,7 @@ const meetups = [
     title: 'RoR Himalayan Meetup on Zoom',
     date: '2022-09-06',
     start_time: '07:00 pm',
-    end_time: '08:00 pm',
+    end_time: '09:00 pm',
     address: 'Remote Meetup',
     hosted_by: {
       name: 'Jonathan Clarke',
@@ -17,13 +17,13 @@ const meetups = [
         title: 'Policing Ruby with Rubocop',
         description: null,
         speaker: 'Panuza Parajuli',
-        twitter_username: '',
+        twitter_username: 'psp2049',
         github_username: 'panuza',
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/29054159?v=4',
         designation: 'Software Engineer @ Houzz.com',
-        slides_link: '',
-        video_link: '',
+        slides_link: '/assets/meetup_sept_2022_policing_with_rubocop_panuza_parajuli.pdf',
+        video_link: 'https://youtu.be/Pvipl0dq2m8',
         demo_link: ''
       },
       {
@@ -31,13 +31,13 @@ const meetups = [
         title: 'Scalable Systems and common problems',
         description: null,
         speaker: 'Asmit Ghimire',
-        twitter_username: '',
+        twitter_username: 'as_m_it',
         github_username: 'asmitghimire',
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/22499401?v=4',
         designation: 'Software Engineer @ Gurzu',
-        slides_link: '',
-        video_link: '',
+        slides_link: '/assets/meetup_sept_2022_scalable_system_asmit_ghimire.pdf',
+        video_link: 'https://youtu.be/HFw5kLmK49o',
         demo_link: ''
       },
       {
@@ -50,8 +50,8 @@ const meetups = [
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/87677429?v=4',
         designation: 'Junior Developer @ OpenFoodNetwork.org',
-        slides_link: '',
-        video_link: '',
+        slides_link: '/assets/meetup_sept_2022_introducing_stimulus_reflex_and_cable_ready_avi_bhurtel.pdf',
+        video_link: 'https://youtu.be/5AKvyy27WyY',
         demo_link: ''
       },
       {
@@ -64,11 +64,10 @@ const meetups = [
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/87677429?v=4',
         designation: 'Software Engineer @ Gurzu',
-        slides_link: '',
-        video_link: '',
+        slides_link: '/assets/meetup_sept_2022_saml_authentication_binod_paneru.pdf',
+        video_link: 'https://youtu.be/fiGmgzNVLCA',
         demo_link: ''
       }
-
     ]
   },
   {
