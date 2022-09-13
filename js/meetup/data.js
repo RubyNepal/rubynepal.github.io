@@ -52,7 +52,7 @@ const meetups = [
         designation: 'Junior Developer @ OpenFoodNetwork.org',
         slides_link: '/assets/meetup_sept_2022_introducing_stimulus_reflex_and_cable_ready_avi_bhurtel.pdf',
         video_link: 'https://youtu.be/5AKvyy27WyY',
-        demo_link: ''
+        demo_link: 'https://github.com/binarygit/stimulus_reflex_example'
       },
       {
         id: 4,
