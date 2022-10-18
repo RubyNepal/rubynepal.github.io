@@ -34,7 +34,7 @@ group :jekyll_plugins do
   # gem 'jekyll-autolink_email', '~> 0.1'
   gem 'jekyll-avatar', '~> 0.8'
   gem 'jekyll-email-protect', '~> 1.1'
-  gem 'jekyll-feed', '~> 0.16'
+  gem 'jekyll-feed', '~> 0.17'
   gem 'jekyll-paginate', '~> 1.1'
   gem 'jekyll-seo-tag', '~> 2.8'
   gem 'jekyll-twitter-plugin', '~> 2.1'
