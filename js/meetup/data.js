@@ -1,5 +1,61 @@
 const meetups = [
   {
+    episode: 20,
+    title: 'RoR Himalayan Meetup on Zoom',
+    date: '2022-11-08',
+    start_time: '07:00 pm',
+    end_time: '09:00 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Jonathan Clarke',
+      twitter_username: 'sean_o_cleirigh'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: 'Keeping your secrets safe',
+        description: null,
+        speaker: 'Avi Bhurtel',
+        github_username: 'binarygit',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/87677429?v=4',
+        designation: 'Junior Developer @ OpenFoodNetwork.org',
+        slides_link: '/assets/meetup_nov_2022_keeping_secrets_safe_avi_bhurtel.pdf',
+        video_link: 'https://youtu.be/Zs71EuaHkWM',
+        demo_link: 'https://gist.github.com/binarygit/79be65ce9fdfa63ef1bccd1ad54d914a'
+      },
+      {
+        id: 2,
+        title: 'Testing directly in production',
+        description: null,
+        speaker: 'Bibek Shrestha',
+        twitter_username: 'bibstha',
+        github_username: 'bibstha',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/51671?v=4',
+        designation: '',
+        slides_link: '/assets/meetup_nov_2022_testing_in_production_bibek_shrestha.pdf',
+        video_link: 'https://youtu.be/U7VQzekHXZo',
+        demo_link: null
+      },
+      {
+        id: 3,
+        title: 'WASM loves Ruby',
+        Description: null,
+        speaker: 'Jonathan Clarke',
+        twitter_username: 'sean_o_cleirigh',
+        github_username: 'jonathanclarke',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/11335?v=4',
+        designation: 'Director of Engineering @ Houzz',
+        slides_link: '/assets/meetup_nov_2022_WASM_loves_Ruby_Jonathan_Clarke.pdf',
+        video_link: 'https://youtu.be/peMDYb1yQvE',
+        demo_link: 'https://irb-wasm.vercel.app/'
+      }
+    ]
+  },
+  {
     episode: 19,
     title: 'RoR Himalayan Meetup on Zoom',
     date: '2022-09-06',
