@@ -23,13 +23,14 @@ const meetups = [
         designation: 'Junior Developer @ OpenFoodNetwork.org',
         slides_link: null,
         video_link: 'https://youtu.be/Zs71EuaHkWM',
-        demo_link: null
+        demo_link: 'https://gist.github.com/binarygit/79be65ce9fdfa63ef1bccd1ad54d914a'
       },
       {
         id: 2,
         title: 'Testing directly in production',
         description: null,
         speaker: 'Bibek Shrestha',
+        twitter_username: 'bibstha',
         github_username: 'bibstha',
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/51671?v=4',
@@ -47,10 +48,10 @@ const meetups = [
         github_username: 'jonathanclarke',
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/11335?v=4',
-        designation: 'Junior Developer @ OpenFoodNetwork.org',
+        designation: 'Director of Engineering @ Houzz',
         slides_link: '/assets/meetup_nov_2022_WASM_loves_Ruby_Jonathan_Clarke.pdf',
         video_link: 'https://youtu.be/peMDYb1yQvE',
-        demo_link: null
+        demo_link: 'https://irb-wasm.vercel.app/'
       }
     ]
   },
