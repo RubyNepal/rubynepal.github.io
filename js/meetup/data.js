@@ -49,7 +49,7 @@ const meetups = [
         external_avatar: 'https://avatars.githubusercontent.com/u/11335?v=4',
         designation: 'Junior Developer @ OpenFoodNetwork.org',
         slides_link: '/assets/meetup_nov_2022_WASM_loves_Ruby_Jonathan_Clarke.pdf',
-        video_link: '',
+        video_link: 'https://youtu.be/peMDYb1yQvE',
         demo_link: null
       }
     ]
