@@ -21,7 +21,7 @@ const meetups = [
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/87677429?v=4',
         designation: 'Junior Developer @ OpenFoodNetwork.org',
-        slides_link: null,
+        slides_link: '/assets/meetup_nov_2022_keeping_secrets_safe_avi_bhurtel.pdf',
         video_link: 'https://youtu.be/Zs71EuaHkWM',
         demo_link: 'https://gist.github.com/binarygit/79be65ce9fdfa63ef1bccd1ad54d914a'
       },
