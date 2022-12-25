@@ -1,5 +1,48 @@
 const meetups = [
   {
+    episode: 21,
+    title: 'RoR Himalayan Meetup on Zoom',
+    date: '2022-12-20',
+    start_time: '06:30 pm',
+    end_time: '08:00 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: 'DDD with Ruby',
+        description: null,
+        speaker: 'Sandesh Bodke',
+        twitter_username: 'SandeshBodke',
+        github_username: 'sandeshbodake',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/40017038?v=4',
+        designation: 'Software Engineer @ Pattern',
+        slides_link: '/assets/meetup_dec_2022_ddd_with_ruby_sandesh_bodke.pdf',
+        video_link: 'https://youtu.be/UST-yfOxs78',
+        demo_link: 'https://github.com/sandeshbodake/CCD'
+      },
+      {
+        id: 2,
+        title: 'Code Kata',
+        description: null,
+        speaker: 'Saroj Maharjan',
+        twitter_username: 'zoraslapen',
+        github_username: 'zoras',
+        gitlab_username: 'zoras',
+        external_avatar: 'https://avatars.githubusercontent.com/u/365783?v=4',
+        designation: 'Admin @ RubyNepal',
+        slides_link: 'https://github.com/jimweirich/presentation_kata_and_analysis/raw/master/pdf/KataAndAnalysis.key.pdf',
+        video_link: 'https://youtu.be/vSMIS2QFe4M',
+        demo_link: 'https://github.com/jimweirich/presentation_kata_and_analysis/tree/master/src'
+      }
+    ]
+  },
+  {
     episode: 20,
     title: 'RoR Himalayan Meetup on Zoom',
     date: '2022-11-08',
