@@ -125,13 +125,9 @@ class App extends Component {
   };
 
   renderImage(session) {
-    const twitter_username = session.twitter_username;
     const github_username = session.github_username;
 
-    if (twitter_username) {
-      const avatar_url = `https://unavatar.now.sh/twitter/${twitter_username}`;
-      return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>;
-    } else if (github_username) {
+    if (github_username) {
       const avatar_url = `https://avatars.githubusercontent.com/${github_username}`;
       return <img src={avatar_url} alt={session.speaker} height={AVATAR_SIZE} width={AVATAR_SIZE}/>;
     } else {
