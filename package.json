@@ -26,7 +26,7 @@
     "node-fetch": "^3.3.0",
     "node-polyfill-webpack-plugin": "^2.0.1",
     "os-browserify": "^0.3.0",
-    "parse-link-header": "^1.0.1",
+    "parse-link-header": "^2.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-avatar": "^5.0.3",
