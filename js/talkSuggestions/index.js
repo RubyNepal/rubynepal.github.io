@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import TalkItem from './talkItem';
-import parse from 'parse-link-header';
 
 class TalkSuggestions extends Component {
   constructor(props) {
@@ -29,7 +28,7 @@ class TalkSuggestions extends Component {
       })
       .then(
         (result) => {
-          const links = parse(result.headers.get('Link'));
+          const links = this.parse(result.headers.get('Link'));
           this.setState({
             isLoaded: true,
             items: result.items,
@@ -50,9 +49,9 @@ class TalkSuggestions extends Component {
   onStepChange(direction){
     const { prevLabel, nextLabel } = this.state;
     if ((direction === 'next') && nextLabel) {
-      this.fetchAPI(nextLabel.url);
+      this.fetchAPI(nextLabel);
     } else if ((direction === 'previous') && prevLabel) {
-      this.fetchAPI(prevLabel.url);
+      this.fetchAPI(prevLabel);
     }
   }
 
@@ -65,6 +64,28 @@ class TalkSuggestions extends Component {
         </div>
       );
     }
+  }
+
+  // Assuming the link header is always in the following format:
+  // <https://api.github.com/repositories/42564599/issues?state=open&per_page=4&page=2>; rel="next", <https://api.github.com/repositories/42564599/issues?state=open&per_page=4&page=2>; rel="last"
+  // Function returns:
+  // {next: "https://api.github.com/repositories/42564599/issues?state=open&per_page=4&page=2", last: "https://api.github.com/repositories/42564599/issues?state=open&per_page=4&page=2"}
+  parse(linkHeaders) {
+    let direction = {}
+    let urlWithRel = linkHeaders.split(", ");
+    if(urlWithRel.length < 2) {
+      return direction
+    }
+    let splitted = []
+    urlWithRel.forEach((element) => {
+      let s = element.split("; ")
+      splitted.push(s)
+    })
+    splitted.forEach((element) => {
+      direction[element[1].slice(5, -1)] = element[0].slice(1, -1)
+    })
+    
+    return direction;
   }
 
   previousLink() {
