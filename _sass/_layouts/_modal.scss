@@ -1,6 +1,7 @@
 // Modal CSS for video
 
-.modal__bg {
+// Following BEM conventions - For more info: https://en.bem.info/methodology/naming-convention/
+.modal--bg {
   position: fixed;
   top: 0;
   left: 0;
@@ -20,21 +21,21 @@
   z-index: 100;
 }
 
-.modal__align {
+.modal--align {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.modal__content {
+.modal--content {
   width: 76em;
   height: 42em;
   background: transparent;
   margin: 0rem 4rem;
 }
 
-.modal__close {
+.modal--close {
   background-color: white;
   border-radius: 50%;
   cursor: pointer;
@@ -46,71 +47,10 @@
   left: 98%;
 }
 
-.modal__video-align {
+.modal--video-align {
   display: flex;
   position: relative;
   bottom: 37px;
-}
-
-.modal__video-style {
-  border-radius: 20px;
-  z-index: 100;
-}
-
-.modal__spinner {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.modal__spinner {
-  animation: spin 2s linear infinite;
-  font-size: 40px;
-  color: #1b6aae;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .modal__content {
-    margin: 0rem 1rem;
-    width: 100%;
-    height: 100%;
-  }
-  .modal__video-style {
-    width: 100%;
-  }
-  .react-player {
-    width: 640px !important;
-    height: 360px !important;
-  }
-}
-
-@media screen and (max-width: 499px) {
-  .modal__content {
-    background: transparent;
-    height: auto;
-    width: 80%;
-    height: 80%;
-  }
-  .modal__video-align {
-    bottom: 0px;
-  }
-  .modal__video-style {
-    height: auto;
-  }
-  .react-player {
-    width: 320px !important;
-    height: 180px !important;
-  }
 }
 
 // React player CSS
@@ -123,4 +63,86 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+// Responsiveness
+@include for-phone-only {
+  .modal--content {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    margin: 50%;
+  }
+  .modal--video-align {
+    bottom: 0px;
+  }
+  .react-player {
+    position: relative !important;
+    width: 320px !important;
+    height: 180px !important;
+  }
+  .modal--close {
+    position: sticky !important;
+    z-index: 1001;
+  }
+}
+
+@include for-tablet-portrait-up {
+  .modal--content {
+    margin: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  .react-player {
+    position: relative !important;
+    width: 704px !important;
+    height: 396px !important;
+  }
+  .modal--close {
+    position: sticky !important;
+    z-index: 1001;
+  }
+  .player-wrapper {
+    padding-top: 15% !important;
+  }
+}
+
+@include for-tablet-landscape-up {
+  .modal--content {
+    margin: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  .react-player {
+    position: relative !important;
+    width: 704px !important;
+    height: 396px !important;
+  }
+  .modal--close {
+    position: sticky !important;
+    z-index: 1001;
+  }
+  .player-wrapper {
+    padding-top: 15% !important;
+  }
+}
+
+@include for-desktop-up {
+  .modal--content {
+    margin: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  .react-player {
+    position: relative !important;
+    width: 1088px !important;
+    height: 612px !important;
+  }
+  .modal--close {
+    position: sticky !important;
+    z-index: 1001;
+  }
+  .player-wrapper {
+    padding-top: 5% !important;
+  }
 }

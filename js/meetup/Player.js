@@ -14,15 +14,15 @@ export default function Player(props) {
       <a onClick={toggleModal}><i className="icon-youtube-play"></i>  Video</a>
       {
         modal ? (
-          <section className="modal__bg">
-            <div className="modal__align">
-              <div className="modal__content">
+          <section className="modal--bg">
+            <div className="modal--align">
+              <div className="modal--content">
                 <IoCloseOutline
-                  className="modal__close"
+                  className="modal--close"
                   arial-label="Close modal"
                   onClick={toggleModal}
                 />
-                <div className="modal__video-align">
+                <div className="modal--video-align">
                   <div className='player-wrapper'>
                     <ReactPlayer
                       className='react-player'
