@@ -71,20 +71,20 @@ class TalkSuggestions extends Component {
   // Function returns:
   // {next: "https://api.github.com/repositories/42564599/issues?state=open&per_page=4&page=2", last: "https://api.github.com/repositories/42564599/issues?state=open&per_page=4&page=2"}
   parse(linkHeaders) {
-    let direction = {}
-    let urlWithRel = linkHeaders.split(", ");
-    if(urlWithRel.length < 2) {
-      return direction
+    let direction = {};
+    let urlWithRel = linkHeaders.split(', ');
+    if (urlWithRel.length < 2) {
+      return direction;
     }
-    let splitted = []
+    let splitted = [];
     urlWithRel.forEach((element) => {
-      let s = element.split("; ")
-      splitted.push(s)
-    })
+      let s = element.split('; ');
+      splitted.push(s);
+    });
     splitted.forEach((element) => {
-      direction[element[1].slice(5, -1)] = element[0].slice(1, -1)
-    })
-    
+      direction[element[1].slice(5, -1)] = element[0].slice(1, -1);
+    });
+
     return direction;
   }
 
