@@ -1,0 +1,148 @@
+// Modal CSS for video
+
+// Following BEM conventions - For more info: https://en.bem.info/methodology/naming-convention/
+.modal--bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(28, 28, 28, 0.19);
+  backdrop-filter: blur(6px);
+  opacity: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.3s;
+  animation-name: modal-video;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+  z-index: 100;
+}
+
+.modal--align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal--content {
+  width: 76em;
+  height: 42em;
+  background: transparent;
+  margin: 0rem 4rem;
+}
+
+.modal--close {
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  bottom: 50px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  left: 98%;
+}
+
+.modal--video-align {
+  display: flex;
+  position: relative;
+  bottom: 37px;
+}
+
+// React player CSS
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+// Responsiveness
+@include for-phone-only {
+  .modal--content {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    margin: 50%;
+  }
+  .modal--video-align {
+    bottom: 0px;
+  }
+  .react-player {
+    position: relative !important;
+    width: 320px !important;
+    height: 180px !important;
+  }
+  .modal--close {
+    position: sticky !important;
+    z-index: 1001;
+  }
+}
+
+@include for-tablet-portrait-up {
+  .modal--content {
+    margin: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  .react-player {
+    position: relative !important;
+    width: 704px !important;
+    height: 396px !important;
+  }
+  .modal--close {
+    position: sticky !important;
+    z-index: 1001;
+  }
+  .player-wrapper {
+    padding-top: 15% !important;
+  }
+}
+
+@include for-tablet-landscape-up {
+  .modal--content {
+    margin: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  .react-player {
+    position: relative !important;
+    width: 704px !important;
+    height: 396px !important;
+  }
+  .modal--close {
+    position: sticky !important;
+    z-index: 1001;
+  }
+  .player-wrapper {
+    padding-top: 15% !important;
+  }
+}
+
+@include for-desktop-up {
+  .modal--content {
+    margin: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  .react-player {
+    position: relative !important;
+    width: 1088px !important;
+    height: 612px !important;
+  }
+  .modal--close {
+    position: sticky !important;
+    z-index: 1001;
+  }
+  .player-wrapper {
+    padding-top: 5% !important;
+  }
+}

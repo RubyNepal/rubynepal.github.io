@@ -184,7 +184,7 @@ const meetups = [
     sessions: [
       {
         id: 1,
-        title: "Beginner's Guide to building API using Ruby on Rails",
+        title: 'Beginner\'s Guide to building API using Ruby on Rails',
         description: null,
         speaker: 'Abhinav Risal',
         twitter_username: '',
@@ -198,7 +198,7 @@ const meetups = [
       },
       {
         id: 2,
-        title: "Beginner's Guide to building API using Ruby on Rails (Live Demo)",
+        title: 'Beginner\'s Guide to building API using Ruby on Rails (Live Demo)',
         description: null,
         speaker: 'Roman KC',
         twitter_username: '',

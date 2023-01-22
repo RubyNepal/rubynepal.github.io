@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Avatar from 'react-avatar';
 import meetups from './data';
+import Player from './player';
+
 import {
   TWITTER_URL,
   GITHUB_URL,
@@ -46,7 +48,7 @@ function SlideAndVideo(props) {
   if (props.session && (slides_link || video_link || demo_link)) {
     return (<div className="slide-and-video">
       {slides_link && <a href={slides_link} target="_blank" rel='noopener noreferrer'><i className="icon-file-powerpoint-o"></i>  Slide</a>} &nbsp;&nbsp;
-      {video_link && <a href={video_link} target="_blank" rel='noopener noreferrer'><i className="icon-youtube-play"></i>  Video</a>} &nbsp;&nbsp;
+      {video_link && <Player session={props.session} width="76em" height="42em"/>} &nbsp;&nbsp;
       {demo_link && <a href={demo_link} target="_blank" rel='noopener noreferrer'><i className="icon-laptop"></i>  Demo</a>}
     </div>);
   } else {
@@ -165,7 +167,10 @@ class App extends Component {
             <div className="column panel-meetup">
               <div className="meetup-content">
                 <h1 className="meetup-name">{meetup.title}</h1>
-                <p className="meetup-episode">Episode {meetup.episode}, {meetup.date}</p>
+                <p className="meetup-episode">
+                  Episode {meetup.episode}
+                </p>
+                <span>Meetup held on {meetup.date}</span>
                 <span className="meetup-time">
                   {meetup.start_time} - {meetup.end_time}
                 </span>
