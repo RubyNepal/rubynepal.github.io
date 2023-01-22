@@ -10,7 +10,7 @@
     "eslint:recommended",
     "plugin:react/recommended"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true,
@@ -97,6 +97,7 @@
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+    "react/prop-types": "off",
     "semi": [ "error", "always" ],
     "semi-spacing": [2, {
       "before": false,
