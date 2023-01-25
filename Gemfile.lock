@@ -162,7 +162,7 @@ GEM
     replace_regex (0.1.0)
     rexml (3.2.5)
     rouge (4.0.1)
-    rubocop (1.44.0)
+    rubocop (1.44.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.2.0.0)
