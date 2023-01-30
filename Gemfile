@@ -48,7 +48,7 @@ group :development, :test do
   gem 'parallel', '~> 1.22'
   gem 'rubocop', '~> 1.44', require: false
   gem 'rubocop-performance', '~> 1.15', require: false
-  gem 'scss_lint', '~> 0.59', require: false
+  gem 'scss_lint', '~> 0.60', require: false
 
   gem 'guard-bundler', '~> 3.0', require: false
   gem 'guard-bundler-audit', '~> 0.1'
