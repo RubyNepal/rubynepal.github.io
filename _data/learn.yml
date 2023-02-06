@@ -1,5 +1,5 @@
 - name: TryRuby
-  link: https://ruby.github.io/TryRuby
+  link: https://try.ruby-lang.org/
   description: "Got 30 minutes? Give Ruby a shot right now!"
 - name: Learn Ruby
   link: https://www.codecademy.com/learn/learn-ruby
@@ -22,3 +22,6 @@
 - name: Master Ruby on Exercism
   link: https://exercism.org/tracks/ruby
   description: "Access to 108 exercises grouped into 17 Ruby Concepts, with automatic analysis of your code and personal mentoring, all 100% free"
+- name: Ruby Warrior
+  link: https://web.archive.org/web/20210122224438/https://www.bloc.io/ruby-warrior/#/
+  description: "Game designed to teach the Ruby language and artificial intelligence in a fun, interactive way"
