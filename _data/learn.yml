@@ -7,9 +7,15 @@
 - name: Learn Jekyll
   link: https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/
   description: "Introduction to the world of static site generators"
+- name: Rails Guides
+  link: https://guides.rubyonrails.org/getting_started.html
+  description: "Get started with creating a Rails application from scratch"
 - name: Hanami 2.0
   link: https://guides.hanamirb.org/v2.0/introduction/getting-started/
   description: "Hanami is a Ruby framework designed to create software that is well-architected, maintainable and a pleasure to work on"
 - name: Sinatra
   link: https://sinatrarb.com/intro.html
   description: "Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort"
+- name: Dragon Ruby
+  link: https://dragonruby.org/
+  description: "DragonRuby is a zero dependency, cross platform, Ruby runtime built on top of mRuby, libSDL, and LLVM."
