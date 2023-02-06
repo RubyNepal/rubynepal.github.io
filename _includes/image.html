@@ -1,6 +1,6 @@
 <div class="image-wrapper" >
   {% if include.url %}
-    <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+    <a href="{{ include.url }}" title="{{ include.title }}" target="_blank" rel="noopener noreferrer">
   {% endif %}
   <img src="{{ include.img }}" alt="{{ include.title }}" class="{{ include.class }}"/>
   {% if include.url %}

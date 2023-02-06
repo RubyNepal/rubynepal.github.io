@@ -5,9 +5,9 @@
 <a class="navbar-item learn {% if page.url contains 'learn' %} active-tab {% endif %}" id="learn"
   href="/learn">Learn</a>
 <a class="navbar-item slack"
-  href="https://{{ site.social.usernames.slack }}.slack.com/" target="_blank">Chat</a>
+  href="https://{{ site.social.usernames.slack }}.slack.com/" target="_blank" rel="noopener noreferrer">Chat</a>
 <a class="navbar-item gallery"
-  href="https://www.meetup.com/{{ site.social.usernames.meetup }}/photos" target="_blank">Gallery</a>
+  href="https://www.meetup.com/{{ site.social.usernames.meetup }}/photos" target="_blank" rel="noopener noreferrer">Gallery</a>
 <a class="navbar-item members {% if (page.url contains 'members' %} active-tab {% endif %}"
   href="/members">Members</a>
 <a class="navbar-item talk_suggestions {% if (page.url contains 'talk_suggestion' %} active-tab {% endif %}"
