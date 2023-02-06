@@ -18,4 +18,7 @@
   description: "Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort"
 - name: Dragon Ruby
   link: https://dragonruby.org/
-  description: "DragonRuby is a zero dependency, cross platform, Ruby runtime built on top of mRuby, libSDL, and LLVM."
+  description: "DragonRuby is a zero dependency, cross platform, Ruby runtime built on top of mRuby, libSDL, and LLVM"
+- name: Master Ruby on Exercism
+  link: https://exercism.org/tracks/ruby
+  description: "Access to 108 exercises grouped into 17 Ruby Concepts, with automatic analysis of your code and personal mentoring, all 100% free"
