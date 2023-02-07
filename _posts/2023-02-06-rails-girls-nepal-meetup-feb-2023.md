@@ -13,12 +13,12 @@ We know, we know! Reviving and growing a community is a LOT of work. Let's start
 
 {% include image.html
      img="https://secure.meetupstatic.com/photos/event/1/2/c/f/highres_510304815.jpeg"
-     title="RailsGirlsNepal Meetup Banner"
+     title="Rails Girls Nepal Meetup Banner"
      class="center-image"
-     caption="RailsGirlsNepal Meetup Banner" %}
+     caption="Rails Girls Nepal Meetup Banner" %}
 
 If you want to talk about anything specific, please feel free to send us your ideas. We’d love to have you as a speaker!
 
-For more details and to RSVP checkout our meetup page at [RailsGirlsNepal Meetup 2023](https://www.meetup.com/nepal-ruby-users-group/events/291145795/){:.rnw-link}
+For more details and to RSVP checkout our meetup page at [Rails Girls Nepal Meetup 2023](https://www.meetup.com/nepal-ruby-users-group/events/291145795/){:.rnw-link}
 
 See you there!
