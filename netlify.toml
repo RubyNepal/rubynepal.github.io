@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://www.rubynepal.org/blog/*"
+  to = "https://rubynepal.org/blog/:splat"
+  status = 301
+  force = true
