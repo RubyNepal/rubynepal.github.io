@@ -36,7 +36,7 @@ const meetups = [
         gitlab_username: 'https://youtu.be/gTZHnS9B9Lo',
         external_avatar: 'https://avatars.githubusercontent.com/u/40017038?v=4',
         designation: 'Principal Engineer @ Buildkite',
-        slides_link: '',
+        slides_link: 'https://dry-rb.org/',
         video_link: 'https://youtu.be/ZqbPUKMSSeg ',
         demo_link: 'https://github.com/dry-rb/dry-web-blog'
       },
