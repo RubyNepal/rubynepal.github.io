@@ -41,7 +41,7 @@ const meetups = [
         demo_link: ''
       },
       {
-        id: 2,
+        id: 3,
         title: 'Maintaining Code Standards',
         description: null,
         speaker: 'Prabin Poudel',
