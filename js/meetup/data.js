@@ -37,7 +37,7 @@ const meetups = [
         external_avatar: 'https://avatars.githubusercontent.com/u/15196941?v=4',
         designation: 'Senior Ruby on Rails Engineer @ Truemark Technology',
         slides_link: '',
-        video_link: '',
+        video_link: 'https://youtu.be/gp9fLd346Pw',
         demo_link: ''
       }
     ]
