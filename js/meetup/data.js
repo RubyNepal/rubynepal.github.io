@@ -1,5 +1,64 @@
 const meetups = [
   {
+    episode: 22,
+    title: 'RoR Himalayan Meetup on Zoom',
+    date: '2023-01-17',
+    start_time: '05:00 pm',
+    end_time: '07:00 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: 'Hanami 2.0',
+        description: 'Hanami 2: New Framework, New You. Hanami is a modern web framework for Ruby',
+        speaker: 'Tim Riley',
+        twitter_username: '',
+        mastodon_link: 'https://ruby.social/@timriley',
+        github_username: 'timriley',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/40017038?v=4',
+        designation: 'Principal Engineer @ Buildkite',
+        slides_link: 'https://hanamirb.org/',
+        video_link: 'https://youtu.be/ZqbPUKMSSeg ',
+        demo_link: 'https://github.com/hanami/bookshelf'
+      },
+      {
+        id: 2,
+        title: 'Bonus: Dry-rb',
+        description: 'dry-rb is a collection of next-generation Ruby libraries which helps you write clear, flexible, and more maintainable Ruby code',
+        speaker: 'Tim Riley',
+        twitter_username: '',
+        mastodon_link: 'https://ruby.social/@timriley',
+        github_username: 'timriley',
+        gitlab_username: 'https://youtu.be/gTZHnS9B9Lo',
+        external_avatar: 'https://avatars.githubusercontent.com/u/40017038?v=4',
+        designation: 'Principal Engineer @ Buildkite',
+        slides_link: 'https://dry-rb.org/',
+        video_link: 'https://youtu.be/ZqbPUKMSSeg ',
+        demo_link: 'https://github.com/dry-rb/dry-web-blog'
+      },
+      {
+        id: 3,
+        title: 'Maintaining Code Standards',
+        description: 'Maintaining Coding Standards with RuboCop, Overcommit, Pronto and Gitlab',
+        speaker: 'Prabin Poudel',
+        twitter_username: 'coolprobn',
+        github_username: 'coolprobn',
+        gitlab_username: '',
+        external_avatar: 'https://avatars.githubusercontent.com/u/15196941?v=4',
+        designation: 'Senior Ruby on Rails Engineer @ Truemark Technology',
+        slides_link: '/assets/meetup_jan_2023_coding_standards_prabin.pdf',
+        video_link: 'https://youtu.be/gp9fLd346Pw',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 21,
     title: 'RoR Himalayan Meetup on Zoom',
     date: '2022-12-20',

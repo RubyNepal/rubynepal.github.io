@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Avatar from 'react-avatar';
 import meetups from './data';
 import Player from './player';
+import { IoLogoMastodon } from 'react-icons/io5';
 
 import {
   TWITTER_URL,
@@ -16,6 +17,15 @@ function TwitterIcon(props) {
   if (props.twitter_username) {
     const twitter_profile = `${TWITTER_URL}/${props.twitter_username}`;
     return <a href={twitter_profile} target="_blank" rel='noopener noreferrer'><i className="icon-twitter speaker-twitter"></i></a>;
+  } else {
+    return false;
+  }
+}
+
+function MastodonIcon(props) {
+  if (props.mastodon_link) {
+    const mastodon_profile = `${props.mastodon_link}`;
+    return <a href={mastodon_profile} target="_blank" rel='noopener noreferrer'><IoLogoMastodon /></a>;
   } else {
     return false;
   }
@@ -36,6 +46,7 @@ function SocialLinks(props) {
       <p className="speaker-name speaker-social">
         <br/>
         <TwitterIcon twitter_username={props.session.twitter_username}/> &nbsp;&nbsp;
+        <MastodonIcon mastodon_link={props.session.mastodon_link}/> &nbsp;&nbsp;
         <GithubIcon github_username={props.session.github_username}/>
       </p>);
   }
