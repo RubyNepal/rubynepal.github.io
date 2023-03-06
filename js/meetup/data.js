@@ -23,7 +23,7 @@ const meetups = [
         external_avatar: 'https://avatars.githubusercontent.com/u/40017038?v=4',
         designation: 'Principal Engineer @ Buildkite',
         slides_link: '',
-        video_link: '',
+        video_link: 'https://youtu.be/ZqbPUKMSSeg ',
         demo_link: ''
       },
       {
