@@ -10,12 +10,12 @@
 .talk-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 22px;
+  gap: 1.5em;
   margin-top: 30px;
   margin-bottom: 15px;
 
   .talk-item {
-    width: 49%;
+    width: 48%;
   }
 
   .text-truncate {
@@ -30,4 +30,14 @@
 .strong-pagination {
   display: flex;
   justify-content: center;
+}
+
+// Responsiveness
+@include for-phone-only {
+  .talk-items {
+    .talk-item {
+      width: 100%;
+      margin: 0px 10px;
+    }
+  }
 }
