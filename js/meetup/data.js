@@ -50,7 +50,7 @@ const meetups = [
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/15196941?v=4',
         designation: 'Senior Ruby on Rails Engineer @ Truemark Technology',
-        slides_link: '',
+        slides_link: '/assets/meetup_jan_2023_coding_standards_prabin.pdf',
         video_link: 'https://youtu.be/gp9fLd346Pw',
         demo_link: ''
       }
