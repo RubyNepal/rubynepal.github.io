@@ -38,7 +38,7 @@ const meetups = [
         designation: 'Principal Engineer @ Buildkite',
         slides_link: '',
         video_link: 'https://youtu.be/ZqbPUKMSSeg ',
-        demo_link: ''
+        demo_link: 'https://github.com/dry-rb/dry-web-blog'
       },
       {
         id: 3,
