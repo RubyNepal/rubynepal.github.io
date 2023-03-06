@@ -27,6 +27,20 @@ const meetups = [
         demo_link: ''
       },
       {
+        id: 1,
+        title: 'Bonus: Dry-rb',
+        description: null,
+        speaker: 'Tim Riley',
+        twitter_username: '',
+        github_username: 'timriley',
+        gitlab_username: 'https://youtu.be/gTZHnS9B9Lo',
+        external_avatar: 'https://avatars.githubusercontent.com/u/40017038?v=4',
+        designation: 'Principal Engineer @ Buildkite',
+        slides_link: '',
+        video_link: 'https://youtu.be/ZqbPUKMSSeg ',
+        demo_link: ''
+      },
+      {
         id: 2,
         title: 'Maintaining Code Standards',
         description: null,
