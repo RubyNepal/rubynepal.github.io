@@ -15,7 +15,7 @@ const meetups = [
       {
         id: 1,
         title: 'Hanami 2.0',
-        description: null,
+        description: 'Hanami 2: New Framework, New You. Hanami is a modern web framework for Ruby',
         speaker: 'Tim Riley',
         twitter_username: '',
         mastodon_link: 'https://ruby.social/@timriley',
@@ -30,7 +30,7 @@ const meetups = [
       {
         id: 2,
         title: 'Bonus: Dry-rb',
-        description: null,
+        description: 'dry-rb is a collection of next-generation Ruby libraries which helps you write clear, flexible, and more maintainable Ruby code',
         speaker: 'Tim Riley',
         twitter_username: '',
         mastodon_link: 'https://ruby.social/@timriley',
@@ -45,7 +45,7 @@ const meetups = [
       {
         id: 3,
         title: 'Maintaining Code Standards',
-        description: null,
+        description: 'Maintaining Coding Standards with RuboCop, Overcommit, Pronto and Gitlab',
         speaker: 'Prabin Poudel',
         twitter_username: 'coolprobn',
         github_username: 'coolprobn',
