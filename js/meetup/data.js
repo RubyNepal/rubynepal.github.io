@@ -22,7 +22,7 @@ const meetups = [
         gitlab_username: '',
         external_avatar: 'https://avatars.githubusercontent.com/u/40017038?v=4',
         designation: 'Principal Engineer @ Buildkite',
-        slides_link: '',
+        slides_link: 'https://hanamirb.org/',
         video_link: 'https://youtu.be/ZqbPUKMSSeg ',
         demo_link: 'https://github.com/hanami/bookshelf'
       },
