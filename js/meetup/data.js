@@ -27,7 +27,7 @@ const meetups = [
         demo_link: ''
       },
       {
-        id: 1,
+        id: 2,
         title: 'Bonus: Dry-rb',
         description: null,
         speaker: 'Tim Riley',
