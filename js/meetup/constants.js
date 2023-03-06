@@ -1,5 +1,4 @@
 export const TWITTER_URL = 'https://twitter.com';
-export const MASTODON_URL = 'https://ruby.social';
 export const GITHUB_URL = 'https://github.com';
 export const INITIAL_EPISODE_ID = 1;
 export const LEFT_ARROW_KEY = 37;

@@ -6,7 +6,6 @@ import { IoLogoMastodon } from 'react-icons/io5';
 
 import {
   TWITTER_URL,
-  MASTODON_URL,
   GITHUB_URL,
   INITIAL_EPISODE_ID,
   LEFT_ARROW_KEY,
@@ -24,8 +23,8 @@ function TwitterIcon(props) {
 }
 
 function MastodonIcon(props) {
-  if (props.mastodon_username) {
-    const mastodon_profile = `${MASTODON_URL}/@${props.mastodon_username}`;
+  if (props.mastodon_link) {
+    const mastodon_profile = `${props.mastodon_link}`;
     return <a href={mastodon_profile} target="_blank" rel='noopener noreferrer'><IoLogoMastodon /></a>;
   } else {
     return false;
@@ -47,7 +46,7 @@ function SocialLinks(props) {
       <p className="speaker-name speaker-social">
         <br/>
         <TwitterIcon twitter_username={props.session.twitter_username}/> &nbsp;&nbsp;
-        <MastodonIcon mastodon_username={props.session.mastodon_username}/> &nbsp;&nbsp;
+        <MastodonIcon mastodon_link={props.session.mastodon_link}/> &nbsp;&nbsp;
         <GithubIcon github_username={props.session.github_username}/>
       </p>);
   }
