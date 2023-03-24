@@ -21,7 +21,7 @@ const meetups = [
         mastodon_link: 'https://ruby.social/@zoras',
         github_username: 'zoras',
         external_avatar: 'https://avatars.githubusercontent.com/u/365783?v=4',
-        designation: 'Admin @ RubyNepal',
+        designation: 'Admin @ Ruby GSoC 2023',
         slides_link: '/assets/meetup_mar_2023_participating_in_gsoc_saroj_maharjan.pdf',
         video_link: 'https://youtu.be/R0PqvRHI1K0',
         demo_link: 'https://summerofcode.withgoogle.com/programs/2023/organizations/ruby'
