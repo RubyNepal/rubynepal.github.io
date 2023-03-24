@@ -1,5 +1,34 @@
 const meetups = [
   {
+    episode: 23,
+    title: 'RoR Himalayan Meetup on Zoom',
+    date: '2023-03-16',
+    start_time: '06:00 pm',
+    end_time: '08:00 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Saroj Maharjan',
+      twitter_username: 'zoraslapen'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: 'Participating in Google Summer of Code 2023',
+        description: null,
+        speaker: 'Saroj Maharjan',
+        twitter_username: 'zoraslapen',
+        mastodon_link: 'https://ruby.social/@zoras',
+        github_username: 'zoras',
+        external_avatar: 'https://avatars.githubusercontent.com/u/365783?v=4',
+        designation: 'Admin @ Ruby GSoC 2023',
+        slides_link: '/assets/meetup_mar_2023_participating_in_gsoc_saroj_maharjan.pdf',
+        video_link: 'https://youtu.be/R0PqvRHI1K0',
+        demo_link: 'https://summerofcode.withgoogle.com/programs/2023/organizations/ruby'
+      }
+    ]
+  },
+  {
     episode: 22,
     title: 'RoR Himalayan Meetup on Zoom',
     date: '2023-01-17',
