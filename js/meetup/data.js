@@ -37,7 +37,7 @@ const meetups = [
         external_avatar: '',
         designation: 'Product Manager and Team Lead for Crystal Language @ Manas',
         slides_link: '',
-        video_link: '',
+        video_link: 'https://youtu.be/pbC5nrocYwI',
         demo_link: ''
       }
     ]
