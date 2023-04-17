@@ -23,7 +23,7 @@ const meetups = [
         external_avatar: '',
         designation: 'Associate Software Engineer @ Truemark Technology',
         slides_link: '/assets/meetup_apr_2023_the_single_responsibility_principle_kss_anmol.pdf',
-        video_link: '',
+        video_link: 'https://youtu.be/4Xc_aBP1jYA',
         demo_link: ''
       },
       {
