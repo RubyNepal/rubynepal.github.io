@@ -34,7 +34,7 @@ const meetups = [
         twitter_username: 'BetaZiliani',
         mastodon_link: '',
         github_username: 'beta-ziliani',
-        external_avatar: '',
+        external_avatar: 'https://manas.tech/images/staff/bziliani-b.webp',
         designation: 'Product Manager and Team Lead for Crystal Language @ Manas',
         slides_link: '',
         video_link: 'https://youtu.be/pbC5nrocYwI',
