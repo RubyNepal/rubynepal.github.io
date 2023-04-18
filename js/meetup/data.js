@@ -19,7 +19,7 @@ const meetups = [
         speaker: 'Anmol Shah',
         twitter_username: '',
         mastodon_link: '',
-        github_username: '',
+        github_username: 'anmolshah80',
         external_avatar: '',
         designation: 'Associate Software Engineer @ Truemark Technology',
         slides_link: '/assets/meetup_apr_2023_the_single_responsibility_principle_kss_anmol.pdf',
