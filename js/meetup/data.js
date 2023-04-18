@@ -1,5 +1,48 @@
 const meetups = [
   {
+    episode: 24,
+    title: 'RoR Himalayan Meetup on Zoom',
+    date: '2023-04-11',
+    start_time: '06:00 pm',
+    end_time: '08:00 pm',
+    address: 'Remote Meetup',
+    hosted_by: {
+      name: 'Susan Joshi',
+      twitter_username: 'josisusan'
+    },
+    venue_sponsor: {},
+    sessions: [
+      {
+        id: 1,
+        title: 'The Single Responsibility Principle - SOLID Principles',
+        description: null,
+        speaker: 'Anmol Shah',
+        twitter_username: '',
+        mastodon_link: '',
+        github_username: 'anmolshah80',
+        external_avatar: '',
+        designation: 'Associate Software Engineer @ Truemark Technology',
+        slides_link: '/assets/meetup_apr_2023_the_single_responsibility_principle_kss_anmol.pdf',
+        video_link: 'https://youtu.be/4Xc_aBP1jYA',
+        demo_link: ''
+      },
+      {
+        id: 2,
+        title: 'Getting to know Crystal: A language for humans and computers',
+        description: null,
+        speaker: 'Beta Ziliani',
+        twitter_username: 'BetaZiliani',
+        mastodon_link: '',
+        github_username: 'beta-ziliani',
+        external_avatar: 'https://manas.tech/images/staff/bziliani-b.webp',
+        designation: 'Product Manager and Team Lead for Crystal Language @ Manas',
+        slides_link: '',
+        video_link: 'https://youtu.be/pbC5nrocYwI',
+        demo_link: ''
+      }
+    ]
+  },
+  {
     episode: 23,
     title: 'RoR Himalayan Meetup on Zoom',
     date: '2023-03-16',
