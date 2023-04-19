@@ -2,11 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (1.1.0)
-    addressable (2.8.1)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     afm (0.2.2)
     ast (2.4.2)
-    async (2.4.2)
+    async (2.5.0)
       console (~> 1.10)
       io-event (~> 1.1)
       timers (~> 4.1)
@@ -58,7 +58,7 @@ GEM
       guard (>= 2.0.0)
       guard-compat (~> 1.0)
     hashery (2.1.2)
-    html-proofer (5.0.6)
+    html-proofer (5.0.7)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
