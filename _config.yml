@@ -91,6 +91,7 @@ social:
     slack: &slack_username "rubynepal"
     meetup: &meetup_username "Nepal-Ruby-Users-Group"
     youtube: &youtube_channelname "@RubyNepal"
+    linkedin: &linkedin_username "RubyNepal"
   links:
     - title: Twitter
       url: https://twitter.com/
@@ -116,6 +117,10 @@ social:
     #   url: https://www.meetup.com/Nepal-Ruby-Users-Group/
     #   icon: icon-meetup
     #   username: *meetup_username
+    - title: Linkedin
+      url: https://linkedin.com/groups/
+      icon: icon-linkedin
+      username: *linkedin_username
     - title: Subscribe
       url: /feed.xml
       icon: icon-rss

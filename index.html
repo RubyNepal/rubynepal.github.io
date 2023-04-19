@@ -5,12 +5,10 @@ layout: home
 <div class="hero-body rnw-hero">
   <div class="container has-text-centered">
     <div class="columns is-vcentered">
-      <div class="column is-5">
-        <figure class="image is-4by3">
-          <img src="/images/rubymeet.jpg" alt="Ruby Meetup">
-        </figure>
+      <div class="column is-7">
+        {% youtube_embed_playlist PLg3mQu9T3dCB0qcyMyMjSFq006C0Q4Ztd %}
       </div>
-      <div class="column is-6 is-offset-1">
+      <div class="column is-5">
         <h1 class="title is-2">
           Welcome, Fam!
         </h1>
@@ -29,6 +27,22 @@ layout: home
   <section>
     <div class="sandbox pdt-50">
       <div class="tile is-ancestor">
+        <div class="tile is-parent is-shady is-8">
+          <article class="tile is-child notification is-white">
+            <h4 class="title">Our Upcoming Events @ <i class="icon-meetup"></i> Meetup </h4>
+            <p class="subtitle">
+              We gather around every last Tuesday of the month. Come and hangout with us at
+              <a href="https://www.meetup.com/Nepal-Ruby-Users-Group" target="_blank">Nepal Ruby and Rails Users Group</a>
+              (RSVP)
+              <br/><br/>
+              Upcoming Episode: <a href="https://www.meetup.com/nepal-ruby-users-group/events/291910381/">Episode #23</a>
+              <br/><br/>
+              You can find previous episodes in the <a href="/meetup">meetup section</a>
+              <br/><br/>
+              Check out our latest updates on <a href="https://www.meetup.com/nepal-ruby-users-group/events/" target="_blank">here</a> along with social media updates!
+            </p>
+          </article>
+        </div>
         <div class="tile is-parent is-shady">
           <article class="tile is-child notification is-white">
             <h4 class="title">Join RubyNepal</h4>
@@ -36,28 +50,26 @@ layout: home
               RubyNepal is a great way to meet and collaborate with other Ruby/Rails developers in Nepal.
               Joining Ruby Nepal is free.
             </p>
-          </article>
-        </div>
-        <div class="tile is-parent is-shady">
-          <article class="tile is-child notification is-white">
-            <h4 class="title"><i class="icon-meetup"></i> Meetup Group</h4>
-            <p class="subtitle">
-              We gather around every last Tuesday of the month. Come and hangout with us at
-              <a href="https://www.meetup.com/Nepal-Ruby-Users-Group" target="_blank">
-                Nepal Ruby and Rails Users Group
+            <div class="content">
+              <p>
+                <a href="https://www.facebook.com/RubyNepal.org" target="_blank">
+                  <i class="icon-facebook-official"></i>
+                  Like RubyNepal.org
+                </a><br/>
+                <a target="_blank"
+                 href="https://bit.ly/JoinRubyNepalSlack2"><i class="icon-slack"></i>
+                 Join Slack Workspace
+                </a><br/>
+                <a target="_blank"
+                href="https://twitter.com/ruby_nepal"><i class="icon-twitter"></i>
+                Follow on twitter
+               </a><br/>
+               <a target="_blank"
+               href="https://www.linkedin.com/groups/14193311/"><i class="icon-linkedin"></i>
+               Follow on Linkedin
               </a>
-              (RSVP)
-            </p>
-          </article>
-        </div>
-        <div class="tile is-parent is-shady">
-          <article class="tile is-child notification is-white">
-            <h4 class="title"><i class="icon-slack"></i> Slack Chat</h4>
-            <p class="subtitle">
-              <a target="_blank"
-                 href="https://bit.ly/JoinRubyNepalSlack2"
-              >Join and chat</a> with <a href="https://rubynepal.slack.com/messages" target="_blank">RubyNepal Slack community</a>
-            </p>
+              </p>
+            </div>
           </article>
         </div>
       </div>
@@ -68,28 +80,19 @@ layout: home
             <div class="tile is-parent is-shady">
               <article class="tile is-child notification is-white">
                 <div class="content">
-                  <h4 class="title"><i class="icon-google"></i> Google Group</h4>
-                  <p class="subtitle">We run a
+                  <h4 class="title"> Social Ruby Groups</h4>
+                  <h5><i class="icon-google"></i> Google Groups</h5>
+                  <p>We run a
                     <a href="https://groups.google.com/forum/#!forum/ror-nepal" target="_blank">mailing list</a>
                     for discussion of Ruby-related topics.
                     If you have a question about Ruby (or Ruby on Rails), this group can probably figure it out.
                   </p>
-                </div>
-              </article>
-            </div>
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-child notification is-white">
-                <h4 class="title"><i class="icon-facebook-official"></i> Facebook page & groups</h4>
-                <p class="subtitle">Like us on fb/<a href="https://www.facebook.com/RubyNepal.org" target="_blank">RubyNepal.org</a>. Following are active Nepalese Ruby/Rails developer groups:</p>
-                <div class="content">
-                  <p>
-                    <a href="https://www.facebook.com/groups/rubydevelopersnepal/" target="_blank">
-                      Ruby Developers Nepal
-                    </a><br/>
-                    <a href="https://www.facebook.com/groups/nepaleserordeveloper/" target="_blank">
-                      Ruby on Rails (RoR) Developers Nepal
-                     </a>
-                   </p>
+                  <h5><i class="icon-facebook-official"></i> Facebook Groups</h5>
+                  We post our updates on <a href="https://www.facebook.com/groups/rubydevelopersnepal/" target="_blank">Ruby Developers Nepal</a>
+                  and have
+                  <a href="https://www.facebook.com/groups/nepaleserordeveloper/" target="_blank">
+                    Ruby on Rails (RoR) Developers Nepal
+                  </a> group for more discussions.
                 </div>
               </article>
             </div>
@@ -124,10 +127,4 @@ layout: home
     </div>
   </section>
 
-  <br/>
-  <br/>
-
-  <div>
-    {% youtube_embed_playlist PLg3mQu9T3dCB0qcyMyMjSFq006C0Q4Ztd %}
-  </div>
 </div>

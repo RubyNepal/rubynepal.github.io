@@ -27,12 +27,14 @@
 
 .icon-youtube-play:before {
   content: "\e90f";
+  color: #FF0000;
 }
 .icon-feed:before {
   content: "\e900";
 }
 .icon-rss:before {
   content: "\e900";
+  color: #ee802f;
 }
 .icon-envelope:before {
   content: "\e901";
@@ -63,19 +65,29 @@
 }
 .icon-twitter:before {
   content: "\e909";
+  color: #00acee;
 }
 .icon-github:before {
   content: "\e90a";
+  color: #171515;
 }
 .icon-facebook-official:before {
   content: "\e90b";
+  color: #3b5998 ;
 }
 .icon-google:before {
   content: "\e90c";
+  color: #4285F4;
 }
 .icon-slack:before {
   content: "\e90d";
+  color: #ECB22E;
 }
 .icon-meetup:before {
   content: "\e90e";
+  color: #e51937;
+}
+.icon-linkedin:before {
+  content: "\eaca";
+  color: #0e76a8;
 }
