@@ -36,7 +36,7 @@ const meetups = [
         github_username: 'beta-ziliani',
         external_avatar: 'https://manas.tech/images/staff/bziliani-b.webp',
         designation: 'Product Manager and Team Lead for Crystal Language @ Manas',
-        slides_link: '',
+        slides_link: '/assets/meetup_apr_2023_getting_to_know_crystal_beta_ziliani.pdf',
         video_link: 'https://youtu.be/pbC5nrocYwI',
         demo_link: ''
       }
