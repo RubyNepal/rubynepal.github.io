@@ -42,7 +42,7 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
-  gem 'colorize', '~> 0.8', require: false
+  gem 'colorize', '~> 1.1', require: false
   gem 'html-proofer', '~> 5.0'
   gem 'jshint-rb', '~> 1.1', require: false
   gem 'parallel', '~> 1.23'
