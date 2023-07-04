@@ -39,7 +39,7 @@
     "util": "^0.12.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.5",
+    "@babel/core": "^7.22.6",
     "@babel/eslint-parser": "^7.22.5",
     "@babel/preset-env": "^7.22.6",
     "@babel/preset-react": "^7.22.5",
