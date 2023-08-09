@@ -11,6 +11,7 @@ GEM
       fiber-annotation
       io-event (~> 1.1)
       timers (~> 4.1)
+    base64 (0.1.1)
     bundler-audit (0.9.0.1)
       bundler (>= 1.2.0, < 3)
       thor (~> 1.0)
@@ -167,7 +168,8 @@ GEM
     replace_regex (0.1.0)
     rexml (3.2.6)
     rouge (4.0.1)
-    rubocop (1.55.1)
+    rubocop (1.56.0)
+      base64 (~> 0.1.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -248,7 +250,7 @@ DEPENDENCIES
   parallel (~> 1.23)
   rake (~> 13.0)
   replace_regex (~> 0.1)
-  rubocop (~> 1.55)
+  rubocop (~> 1.56)
   rubocop-performance (~> 1.18)
   scss_lint (~> 0.60)
   tzinfo-data
