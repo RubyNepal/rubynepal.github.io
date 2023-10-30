@@ -13,7 +13,7 @@ ruby File.read('.ruby-version').strip.split('-').last
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem 'jekyll', '~> 4.3'
-gem 'rake', '~> 13.0'
+gem 'rake', '~> 13.1'
 gem 'webrick', '~> 1.8'
 
 gem 'match_regex', '~> 0.1'
