@@ -48,7 +48,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "core-js-pure": "^3.37.0",
     "css-loader": "^6.11.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-react": "^7.34.1",
     "style-loader": "^3.3.4",
     "webpack": "^5.91.0",
