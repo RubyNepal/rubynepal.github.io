@@ -46,7 +46,7 @@ group :development, :test do
   gem 'html-proofer', '~> 5.0'
   gem 'jshint-rb', '~> 1.1', require: false
   gem 'parallel', '~> 1.24'
-  gem 'rubocop', '~> 1.63', require: false
+  gem 'rubocop', '~> 1.64', require: false
   gem 'rubocop-performance', '~> 1.21', require: false
   gem 'scss_lint', '~> 0.60', require: false
 
