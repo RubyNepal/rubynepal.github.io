@@ -171,7 +171,7 @@ GEM
       ffi (~> 1.0)
     regexp_parser (2.9.2)
     replace_regex (0.1.0)
-    rexml (3.3.4)
+    rexml (3.3.6)
       strscan
     rouge (4.2.0)
     rubocop (1.65.1)
