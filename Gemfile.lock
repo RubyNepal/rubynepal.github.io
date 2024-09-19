@@ -38,7 +38,7 @@ GEM
     fiber-storage (0.1.0)
     formatador (1.1.0)
     forwardable-extended (2.6.0)
-    google-protobuf (4.28.1-x86_64-linux)
+    google-protobuf (4.28.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
     guard (2.18.0)
