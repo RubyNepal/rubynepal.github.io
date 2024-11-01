@@ -14,7 +14,7 @@ ruby File.read('.ruby-version').strip.split('-').last
 # Happy Jekylling!
 gem 'jekyll', '~> 4.3'
 gem 'rake', '~> 13.2'
-gem 'webrick', '~> 1.8'
+gem 'webrick', '~> 1.9'
 
 gem 'match_regex', '~> 0.1'
 gem 'replace_regex', '~> 0.1'
