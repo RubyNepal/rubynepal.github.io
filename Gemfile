@@ -29,7 +29,7 @@ gem 'wdm' if Gem.win_platform?
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-admin', '~> 0.11'
+  gem 'jekyll-admin', '~> 0.12'
   gem 'jekyll-analytics', '~> 0.1'
   # gem 'jekyll-autolink_email', '~> 0.1'
   gem 'jekyll-avatar', '~> 0.8'
