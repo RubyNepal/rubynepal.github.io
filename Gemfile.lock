@@ -130,7 +130,7 @@ GEM
     jshint-rb (1.1.1)
       execjs (>= 1.3.2)
       multi_json (>= 1.3.5)
-    json (2.10.1)
+    json (2.10.2)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
