@@ -3,7 +3,7 @@ updates:
 - package-ecosystem: "bundler"
   directory: "/"
   schedule:
-    interval: "daily"
+    interval: "weekly"
     day: "sunday"
     time: "23:15"
     timezone: "Asia/Kathmandu"
@@ -13,7 +13,7 @@ updates:
 - package-ecosystem: "npm"
   directory: "/"
   schedule:
-    interval: "daily"
+    interval: "weekly"
     day: "sunday"
     time: "23:15"
     timezone: "Asia/Kathmandu"
