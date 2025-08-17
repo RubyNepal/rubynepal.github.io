@@ -51,7 +51,7 @@
     "eslint": "^9.33.0",
     "eslint-plugin-react": "^7.37.5",
     "style-loader": "^4.0.0",
-    "webpack": "^5.101.0",
+    "webpack": "^5.101.2",
     "webpack-cli": "^5.1.4"
   }
 }
