@@ -193,7 +193,7 @@ GEM
       ffi (~> 1.0)
     regexp_parser (2.11.2)
     replace_regex (0.1.0)
-    rexml (3.4.1)
+    rexml (3.4.2)
     rouge (4.5.1)
     rubocop (1.80.2)
       json (~> 2.3)
