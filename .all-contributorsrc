@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "zoras",
+      "name": "Saroj Maharjan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/365783?v=4",
+      "profile": "https://sarojmaharjan.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "rubynepal.github.io",
+  "projectOwner": "RubyNepal"
+}
