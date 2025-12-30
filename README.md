@@ -59,17 +59,17 @@ Describe what you're changing, and more importantly why you're changing it
 
 Keep the pull request focused on one thing - if you make two different, unrelated changes, please separate them into two pull requests
 
-## Maintainers
+## Collaborators
 
-- [Saroj Maharjan](https://twitter.com/zoraslapen)
-- [Susan Joshi](https://twitter.com/josisusan)
-- [Rohit Joshi](https://twitter.com/roxxypoxxy)
+<!-- readme: collaborators -start -->
+<!-- readme: collaborators -end -->
 
 ## Contributors
 
 - Many thanks to the site's recent contributors: [github.com/RubyNepal/rubynepal.github.io/contributors](https://github.com/RubyNepal/rubynepal.github.io/graphs/contributors)
 
-- [Madhu Sudhan](https://twitter.com/sudhansubedi)
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
 ## LICENSE
 
