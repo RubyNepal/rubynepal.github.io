@@ -140,6 +140,13 @@ Keep the pull request focused on one thing - if you make two different, unrelate
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/staticmanapp">
+                    <img src="" width="100;" alt="staticmanapp"/>
+                    <br />
+                    <sub><b>staticmanapp</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/alina02">
                     <img src="https://avatars.githubusercontent.com/u/10445860?v=4" width="100;" alt="alina02"/>
                     <br />
@@ -206,13 +213,6 @@ Keep the pull request focused on one thing - if you make two different, unrelate
                     <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
                     <br />
                     <sub><b>github-actions[bot]</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/staticmanapp">
-                    <img src="https://avatars.githubusercontent.com/u/15851864?v=4" width="100;" alt="staticmanapp"/>
-                    <br />
-                    <sub><b>staticmanapp</b></sub>
                 </a>
             </td>
             <td align="center">
