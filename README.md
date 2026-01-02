@@ -64,11 +64,167 @@ Keep the pull request focused on one thing - if you make two different, unrelate
 - Many thanks to the site's contributors: [github.com/RubyNepal/rubynepal.github.io/contributors](https://github.com/RubyNepal/rubynepal.github.io/graphs/contributors)
 
 <!-- readme: zoras,josisusan,collaborators,contributors,madhusudhan1994/- -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/zoras">
+                    <img src="https://avatars.githubusercontent.com/u/365783?v=4" width="100;" alt="zoras"/>
+                    <br />
+                    <sub><b>Saroj Maharjan</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/josisusan">
+                    <img src="https://avatars.githubusercontent.com/u/1419169?v=4" width="100;" alt="josisusan"/>
+                    <br />
+                    <sub><b>Susan Joshi</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/jonathanclarke">
+                    <img src="https://avatars.githubusercontent.com/u/11335?v=4" width="100;" alt="jonathanclarke"/>
+                    <br />
+                    <sub><b>Jonathan Clarke</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/xecutioner">
+                    <img src="https://avatars.githubusercontent.com/u/672474?v=4" width="100;" alt="xecutioner"/>
+                    <br />
+                    <sub><b>Kapil Raj Nakhwa</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/dipil-saud">
+                    <img src="https://avatars.githubusercontent.com/u/672476?v=4" width="100;" alt="dipil-saud"/>
+                    <br />
+                    <sub><b>Dipil Saud</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/prasvin">
+                    <img src="https://avatars.githubusercontent.com/u/672496?v=4" width="100;" alt="prasvin"/>
+                    <br />
+                    <sub><b>prasvin pandey</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/gkunwar">
+                    <img src="https://avatars.githubusercontent.com/u/1822907?v=4" width="100;" alt="gkunwar"/>
+                    <br />
+                    <sub><b>Ganesh K.</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/madhusudhan1234">
+                    <img src="https://avatars.githubusercontent.com/u/8276878?v=4" width="100;" alt="madhusudhan1234"/>
+                    <br />
+                    <sub><b>Madhu Sudhan Subedi</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/kelishrestha">
+                    <img src="https://avatars.githubusercontent.com/u/10415266?v=4" width="100;" alt="kelishrestha"/>
+                    <br />
+                    <sub><b>Kelina Shrestha</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/coolprobn">
+                    <img src="https://avatars.githubusercontent.com/u/15196941?v=4" width="100;" alt="coolprobn"/>
+                    <br />
+                    <sub><b>Prabin Poudel</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/staticmanapp">
+                    <img src="" width="100;" alt="staticmanapp"/>
+                    <br />
+                    <sub><b>staticmanapp</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/alina02">
+                    <img src="https://avatars.githubusercontent.com/u/10445860?v=4" width="100;" alt="alina02"/>
+                    <br />
+                    <sub><b>Alina Karmacharya</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/brgnepal">
+                    <img src="https://avatars.githubusercontent.com/u/1132451?v=4" width="100;" alt="brgnepal"/>
+                    <br />
+                    <sub><b>Budh Ram Gurung (BRG)</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Prepsa">
+                    <img src="https://avatars.githubusercontent.com/u/38975653?v=4" width="100;" alt="Prepsa"/>
+                    <br />
+                    <sub><b>Prepsa</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/syslin">
+                    <img src="https://avatars.githubusercontent.com/u/30019204?v=4" width="100;" alt="syslin"/>
+                    <br />
+                    <sub><b>Saneema</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/sushant12">
+                    <img src="https://avatars.githubusercontent.com/u/8981250?v=4" width="100;" alt="sushant12"/>
+                    <br />
+                    <sub><b>Suss Buzz</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/surya000000">
+                    <img src="https://avatars.githubusercontent.com/u/26281867?v=4" width="100;" alt="surya000000"/>
+                    <br />
+                    <sub><b>Surya Prasad Siwakoti</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: zoras,josisusan,collaborators,contributors,madhusudhan1994/- -end -->
 
 ## Bots
 
 <!-- readme: bots -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/dependabot[bot]">
+                    <img src="https://avatars.githubusercontent.com/in/29110?v=4" width="100;" alt="dependabot[bot]"/>
+                    <br />
+                    <sub><b>dependabot[bot]</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/github-actions[bot]">
+                    <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
+                    <br />
+                    <sub><b>github-actions[bot]</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/dependabot-preview[bot]">
+                    <img src="https://avatars.githubusercontent.com/in/2141?v=4" width="100;" alt="dependabot-preview[bot]"/>
+                    <br />
+                    <sub><b>dependabot-preview[bot]</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: bots -end -->
 
 ## LICENSE
