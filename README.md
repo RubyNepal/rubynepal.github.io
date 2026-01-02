@@ -210,7 +210,7 @@ Keep the pull request focused on one thing - if you make two different, unrelate
             </td>
             <td align="center">
                 <a href="https://github.com/staticmanapp">
-                    <img src="" width="100;" alt="staticmanapp"/>
+                    <img src="https://avatars.githubusercontent.com/u/15851864?v=4" width="100;" alt="staticmanapp"/>
                     <br />
                     <sub><b>staticmanapp</b></sub>
                 </a>
