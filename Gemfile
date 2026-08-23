@@ -47,7 +47,7 @@ group :development, :test do
   gem 'jshint-rb', '~> 1.1', require: false
   gem 'parallel', '~> 1.28'
   gem 'rubocop', '~> 1.89', require: false
-  gem 'rubocop-performance', '~> 1.26', require: false
+  gem 'rubocop-performance', '~> 1.27', require: false
   gem 'scss_lint', '~> 0.60', require: false
 
   gem 'guard-bundler', '~> 3.1', require: false
