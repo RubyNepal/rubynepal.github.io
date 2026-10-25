@@ -4,7 +4,7 @@ GEM
     Ascii85 (2.0.1)
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
-    afm (1.0.0)
+    afm (1.0.1)
     ast (2.4.3)
     async (2.37.0)
       console (~> 1.29)
@@ -78,7 +78,7 @@ GEM
       guard (>= 2.0.0)
       guard-compat (~> 1.0)
     hashery (2.1.2)
-    html-proofer (5.2.2)
+    html-proofer (5.2.3)
       addressable (~> 2.3)
       async (~> 2.1)
       benchmark (~> 0.5)
@@ -171,11 +171,10 @@ GEM
       racc
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    pdf-reader (2.15.1)
+    pdf-reader (2.16.0)
       Ascii85 (>= 1.0, < 3.0, != 2.0.0)
       afm (>= 0.2.1, < 2)
       hashery (~> 2.0)
-      ruby-rc4
       ttfunk
     prism (1.9.0)
     pry (0.16.0)
@@ -224,7 +223,6 @@ GEM
       rubocop (>= 1.89.0, < 2.0)
       rubocop-ast (>= 1.47.1, < 2.0)
     ruby-progressbar (1.13.0)
-    ruby-rc4 (0.1.5)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
     sass (3.7.4)
